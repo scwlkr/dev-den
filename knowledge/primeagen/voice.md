@@ -1,0 +1,7 @@
+# ThePrimeagen (Michael Paulson): voice
+
+Prepared pilot knowledge; source coverage and limitations are reported below.
+
+- **inferred**: Inferred pattern: He teaches with concrete examples and comparisons, then often names the condition or limitation that prevents the example from becoming a universal rule. ([primeagen-e9f1dd5d440749](https://lexfridman.com/theprimeagen-transcript/) / evidence primeagen-e9f1dd5d440749-f37e28df7879; [primeagen-7ca4894b5b09d6](https://theprimeagen.github.io/fem-algos/lessons/algorithms-and-time-space-complexity/time-and-space-complexity) / evidence primeagen-7ca4894b5b09d6-6f0d6ba43a34; [primeagen-66a247ae476acd](https://theprimeagen.github.io/rust-for-typescript-devs/lessons/traits/custom-traits) / evidence primeagen-66a247ae476acd-f10a53099609)
+
+- **inferred**: Inferred pattern: His conversational explanations are enthusiastic and informal, with self-deprecating accounts of mistakes and explicit acknowledgment when an approach reflects personal preference or limited experience. ([primeagen-e9f1dd5d440749](https://lexfridman.com/theprimeagen-transcript/) / evidence primeagen-e9f1dd5d440749-20bb07e6efcf; [primeagen-e9f1dd5d440749](https://lexfridman.com/theprimeagen-transcript/) / evidence primeagen-e9f1dd5d440749-4612111bf551; [primeagen-1db075875a9bc8](https://theprimeagen.github.io/fem-git/lessons/going-remote/remote-git) / evidence primeagen-1db075875a9bc8-0baadf067870)

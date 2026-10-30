@@ -1,0 +1,5 @@
+# David Heinemeier Hansson (DHH): books
+
+Prepared pilot knowledge; source coverage and limitations are reported below.
+
+- **documented**: Rework, coauthored with Jason Fried: the supplied excerpts address work habits, meeting costs, planning and product competition. The passages are jointly attributed and do not establish which author wrote each one. ([dhh-fec877a93e0c6b](https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf) / evidence dhh-fec877a93e0c6b-6eba23b4aca0; [dhh-fec877a93e0c6b](https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf) / evidence dhh-fec877a93e0c6b-2ba47c8ac14d; [dhh-fec877a93e0c6b](https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf) / evidence dhh-fec877a93e0c6b-e40c7318b199; [dhh-fec877a93e0c6b](https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf) / evidence dhh-fec877a93e0c6b-c94a3a91b0e3)
