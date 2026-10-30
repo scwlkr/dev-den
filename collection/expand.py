@@ -527,6 +527,7 @@ class Expansion(Pilot):
         lines=['# Full roster source collection','',f"Status: {status}",'',f"Cumulative estimated API usage, INCLUDING the pilot: **${self.ledger.exposure():.4f} / $25.00**.",'',
                'Roast-room deep benchmark: 80+ distinct works and 500,000+ words per advisor. Standard: 30-50 works and 250,000+ words. Counts are evidence targets, not permission to pad.','',
                '| Advisor | Works | Source words | Matched passages | Captioned videos | Talk/interview works | Source tier |','| --- | ---: | ---: | ---: | ---: | ---: | --- |']
+        result['budget_status']='exceeded' if self.ledger.exposure()>self.ledger.cap else 'within ceiling'
         details=[]
         for dev in self.config['developers']:
             all_rows=self.records(dev);rs=[r for r in all_rows if r['status']=='accepted'];works,words=work_coverage(rs)
@@ -557,6 +558,8 @@ class Expansion(Pilot):
         totals=result['totals']
         deep=sum(d['source_tier']=='deep' for d in result['developers'])
         lines[6:6]=[f"Prepared {totals['advisors']} advisors from {totals['works']:,} distinct works, {totals['words']:,} scoped source words and {totals['matched_passages']:,} text-matched evidence passages. All have seven compiled sections plus a source index. {deep} advisors meet both deep source thresholds.",'']
+        if result['budget_status']=='exceeded':
+            lines[6:6]=[f"**Budget correction:** the earlier $23.724864 estimate omitted cache-write premiums. Repricing saved usage under documented default 30-minute cache rates gives ${self.ledger.exposure():.6f}, ${self.ledger.exposure()-self.ledger.cap:.6f} above the original cap. Prior per-request estimates are preserved in the ledger. Further paid requests are blocked; no additional allowance has been authorized. This remains an estimate, not an account invoice.",'']
         lines+=details+['','## Evidence and budget notes','','Source words count retained primary works, including interview questions and coauthored text. Explicit source scopes exclude unrelated archive messages and reader comments; original full snapshots remain local for audit. They are not a count of words spoken exclusively by the advisor. Alternate uploads, keynote parts and republications share a work identity and contribute only the largest scoped representation to word coverage; their cited passages remain retained. Talk/interview works and captioned videos also count unique work identities. Quotation checks establish normalized text membership and source identity. Attribution and semantic support are model-assessed. Course chapters are one work. Video-caption text is not audio-verified; missing visual/code context remains a limitation.','',
                                         'The original pilot ledger is reused, including all prior charges and any unresolved reservations. No extra allowance was created. Costs are conservative token/tool estimates, not invoices. Raw source text, metadata, model outputs and passage evidence remain local and Git-ignored.']
         lines+=['','Principle corroboration is computed from cited distinct work identities: high for three or more, medium for two, low for one. It measures repeat support, not factual truth. The depth and structure comparisons come from [roast-room’s workflow](https://github.com/nateherkai/roast-room/blob/main/.claude/skills/newroaster/SKILL.md) and [brain specification](https://github.com/nateherkai/roast-room/blob/main/.claude/skills/newroaster/references/brain-spec.md). The installed summarize tool was evaluated in five extraction-only cases and not adopted; see [the evaluation](README.md#summarize-evaluation).']
@@ -627,6 +630,7 @@ def main():
         client=OpenAI(load_key(project/'.env'));client.preflight(cfg['model'])
         collector=Expansion(project,cfg,client)
         collector.ledger.reconcile_tool_fees()
+        collector.ledger.reconcile_cache_prices()
         collector.repair_work_identities()
         collector.repair_caption_evidence()
         report=collector.run_full(args.catalog_only)

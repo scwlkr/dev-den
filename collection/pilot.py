@@ -297,6 +297,21 @@ class UncertainCharge(RuntimeError):
     pass
 
 
+def usage_cost(usage,pricing,search_calls=0):
+    n_in,n_out=usage['input_tokens'],usage['output_tokens']
+    details=usage.get('input_tokens_details',{})
+    cached=details.get('cached_tokens',0);writes=details.get('cache_write_tokens',0)
+    lifetimes=details.get('cache_write_tokens_details',{})
+    long_writes=lifetimes.get('ttl_12h_tokens',0)
+    ordinary=n_in-cached-writes
+    if min(ordinary,cached,writes,long_writes)<0 or long_writes>writes:
+        raise UncertainCharge('Inconsistent cache usage; paid work stopped for review')
+    rate=pricing['input_per_million']
+    weighted=ordinary*rate+cached*pricing.get('cached_input_per_million',rate*.05)
+    weighted+=(writes-long_writes)*rate*1.25+long_writes*rate*2.5
+    return (weighted*(2 if n_in>272000 else 1)+n_out*pricing['output_per_million']*(1.5 if n_in>272000 else 1))/1e6+search_calls*pricing['web_search_per_call']
+
+
 class Ledger:
     """Persist reservations BEFORE requests; never retry an uncertain paid POST."""
     def __init__(self, root, cap, pricing, compilation_margin=3):
@@ -322,6 +337,15 @@ class Ledger:
                 changed=True
         if changed:write_json(self.path,self.data)
 
+    def reconcile_cache_prices(self):
+        """Reprice retained usage under the run lock, preserving the prior estimate."""
+        for job in self.data['jobs'].values():
+            if job['status']!='recorded' or not job.get('usage'):continue
+            cost=usage_cost(job['usage'],self.pricing,job.get('search_calls',0))
+            job.setdefault('cost_before_cache_write_reconciliation_usd',job['cost_usd'])
+            job.update(cost_usd=cost,cost_basis_version='cache-aware-v2')
+        write_json(self.path,self.data)
+
     def exposure(self):
         return sum(j.get("cost_usd", j["reserved_usd"]) for j in self.data["jobs"].values())
 
@@ -334,7 +358,8 @@ class Ledger:
         if searches:
             input_bound += (searches + 1) * MODEL_CONTEXT
         # Use long-context input/output multipliers for reservation regardless of actual tier.
-        reservation = input_bound * self.pricing["input_per_million"] * 2 / 1e6
+        ttl=request.get('prompt_cache_options',{}).get('ttl','30m')
+        reservation = input_bound * self.pricing["input_per_million"] * (5 if ttl=='12h' else 2.5) / 1e6
         reservation += request["max_output_tokens"] * self.pricing["output_per_million"] * 1.5 / 1e6
         reservation += searches * self.pricing["web_search_per_call"]
         # Preserve the configured compilation allowance instead of exhausting the cap on extraction.
@@ -348,12 +373,8 @@ class Ledger:
         usage = response.get("usage")
         if not usage or not isinstance(usage.get("input_tokens"), int) or not isinstance(usage.get("output_tokens"), int):
             raise UncertainCharge("Usage missing; reservation retained and paid work stopped")
-        n_in, n_out = usage["input_tokens"], usage["output_tokens"]
-        long = n_in > 272000
         calls = sum(x.get("type") == "web_search_call" for x in response.get("output", []))
-        cost = n_in * self.pricing["input_per_million"] * (2 if long else 1) / 1e6
-        cost += n_out * self.pricing["output_per_million"] * (1.5 if long else 1) / 1e6
-        cost += calls * self.pricing["web_search_per_call"]
+        cost = usage_cost(usage,self.pricing,calls)
         job = self.data["jobs"][key]
         job.update(status="recorded", cost_usd=cost, usage=usage, search_calls=calls, response_id=response.get("id"), completed_at=now())
         write_json(self.path, self.data)

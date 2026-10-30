@@ -14,6 +14,15 @@ from collection.scope import mail_sender_scope,apply_scope
 
 
 class ExpansionBehavior(unittest.TestCase):
+    def test_cache_write_reconciliation_preserves_history_and_blocks_further_spending(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            root=Path(tmp);usage={'input_tokens':200000,'input_tokens_details':{'cached_tokens':10000,'cache_write_tokens':180000},'output_tokens':1000}
+            write_json(root/'ledger.json',{'jobs':{'old':{'status':'recorded','reserved_usd':1,'cost_usd':.205,'usage':usage,'search_calls':1}}})
+            ledger=Ledger(root,.23,config()['pricing']);ledger.reconcile_cache_prices();ledger.reconcile_cache_prices()
+            self.assertAlmostEqual(ledger.exposure(),.2505)
+            self.assertEqual(ledger.data['jobs']['old']['cost_before_cache_write_reconciliation_usd'],.205)
+            with self.assertRaises(BudgetStop):ledger.reserve('new','test','compile',{'max_output_tokens':1})
+
     def test_keynote_parts_and_republications_do_not_inflate_coverage(self):
         urls=['https://www.youtube.com/watch?v='+v for v in ('W3RsQCGiTgA','Uooh0Y9fC_M','cWA_9L70moE')]
         records=[{'status':'accepted','work_key':work_key({'url':u}),'words':n} for u,n in zip(urls,(33000,33100,5700))]
@@ -63,7 +72,7 @@ class ExpansionBehavior(unittest.TestCase):
 
     def test_parallel_requests_share_one_durable_budget_without_lost_charges(self):
         with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
-            cfg=config();cfg.update(budget_usd=.05,compilation_margin_usd=0)
+            cfg=config();cfg.update(budget_usd=.06,compilation_margin_usd=0)
             release=threading.Event();started=threading.Event();calls=[]
             def provider(request):
                 calls.append(request)
@@ -74,7 +83,7 @@ class ExpansionBehavior(unittest.TestCase):
             with ThreadPoolExecutor(max_workers=3) as pool:
                 futures=[pool.submit(collector.call,str(i),'extract_batch','x'*5000,object_schema({}),max_output_tokens=100) for i in range(3)]
                 try:
-                    self.assertTrue(started.wait(2));self.assertLessEqual(collector.ledger.exposure(),.05)
+                    self.assertTrue(started.wait(2));self.assertLessEqual(collector.ledger.exposure(),.06)
                     done,_=wait(futures,timeout=2,return_when=FIRST_COMPLETED)
                     self.assertEqual(len(done),1)
                     self.assertIsInstance(next(iter(done)).exception(),BudgetStop)

@@ -1,8 +1,10 @@
 # Full roster source collection
 
-Status: completed
+Status: collection completed; corrected budget overrun
 
-Cumulative estimated API usage, INCLUDING the pilot: **$23.7249 / $25.00**.
+Cumulative estimated API usage, INCLUDING the pilot: **$27.2863 / $25.00**.
+
+**Budget correction:** the earlier $23.724864 estimate omitted cache-write premiums. Repricing saved usage under documented default 30-minute cache rates gives $27.286261, $2.286261 above the original cap. Prior per-request estimates are preserved in the ledger. Further paid requests are blocked; no additional allowance has been authorized. This remains an estimate, not an account invoice.
 
 Prepared 13 advisors from 552 distinct works, 3,750,344 scoped source words and 5,619 text-matched evidence passages. All have seven compiled sections plus a source index. 0 advisors meet both deep source thresholds.
 
@@ -26,7 +28,7 @@ Roast-room deep benchmark: 80+ distinct works and 500,000+ words per advisor. St
 
 ## David Heinemeier Hansson (DHH)
 
-Entry counts: {'_hot': 19, 'frameworks': 20, 'principles': 20, 'books': 7, 'positions': 30, 'stories': 16, 'voice': 1}. Working context: 631 words; voice guidance: 441 prose words plus 8 verified anchors. Estimated API usage: $1.9293. Held-out sources: 6. Queue remaining: 0 partial/unreviewed retrieved works and 29 unattempted candidates.
+Entry counts: {'_hot': 19, 'frameworks': 20, 'principles': 20, 'books': 7, 'positions': 30, 'stories': 16, 'voice': 1}. Working context: 631 words; voice guidance: 441 prose words plus 8 verified anchors. Estimated API usage: $2.1679. Held-out sources: 6. Queue remaining: 0 partial/unreviewed retrieved works and 29 unattempted candidates.
 
 - The supplied corpus reports 321,087 scoped source words against a 500,000-word deep benchmark. Many operational claims are DHH's own estimates or accounts rather than independently verified outcomes.
 - Several sources lack publication dates; dates are not inferred from chronology. Some video captions are unverified, and several technical demonstrations and diagrams are unavailable.
@@ -45,7 +47,7 @@ Entry counts: {'_hot': 19, 'frameworks': 20, 'principles': 20, 'books': 7, 'posi
 
 ## Dennis M. Ritchie
 
-Entry counts: {'_hot': 16, 'frameworks': 14, 'principles': 17, 'books': 9, 'positions': 30, 'stories': 16, 'voice': 1}. Working context: 681 words; voice guidance: 453 prose words plus 8 verified anchors. Estimated API usage: $1.3489. Held-out sources: 8. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
+Entry counts: {'_hot': 16, 'frameworks': 14, 'principles': 17, 'books': 9, 'positions': 30, 'stories': 16, 'voice': 1}. Working context: 681 words; voice guidance: 453 prose words plus 8 verified anchors. Estimated API usage: $1.4797. Held-out sources: 8. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
 
 - The supplied evidence comprises 30 sources, below the supplied benchmark of 80 works and 500,000 words. Several sources are partial, undated, retrospectively edited or coauthored.
 - The Kernighan and Ritchie book is established by source metadata, but its text is not supplied; a detailed account of its thesis or teaching sequence would exceed the evidence.
@@ -66,7 +68,7 @@ Entry counts: {'_hot': 16, 'frameworks': 14, 'principles': 17, 'books': 9, 'posi
 
 ## ThePrimeagen (Michael Paulson)
 
-Entry counts: {'_hot': 20, 'frameworks': 20, 'principles': 19, 'books': 0, 'positions': 30, 'stories': 16, 'voice': 1}. Working context: 643 words; voice guidance: 424 prose words plus 8 verified anchors. Estimated API usage: $2.2425. Held-out sources: 64. Queue remaining: 0 partial/unreviewed retrieved works and 59 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 20, 'principles': 19, 'books': 0, 'positions': 30, 'stories': 16, 'voice': 1}. Working context: 643 words; voice guidance: 424 prose words plus 8 verified anchors. Estimated API usage: $2.5763. Held-out sources: 64. Queue remaining: 0 partial/unreviewed retrieved works and 59 unattempted candidates.
 
 - No authored book or major essay series is established by the supplied evidence. The cited course notes are courses, not evidence of books; a passing analogy to 1984 is insufficient to establish a taught book framework.
 - The supplied material covers 56 sources and approximately 270,674 words, below the supplied deep benchmark of 80 works and 500,000 words. Many video captions are not audio-verified, and visual code, charts and demonstrations are often unavailable.
@@ -118,7 +120,7 @@ Entry counts: {'_hot': 20, 'frameworks': 20, 'principles': 19, 'books': 0, 'posi
 
 ## Tobias Lütke (Tobi Lütke)
 
-Entry counts: {'_hot': 20, 'frameworks': 22, 'principles': 18, 'books': 9, 'positions': 26, 'stories': 18, 'voice': 1}. Working context: 715 words; voice guidance: 382 prose words plus 8 verified anchors. Estimated API usage: $1.2785. Held-out sources: 18. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 22, 'principles': 18, 'books': 9, 'positions': 26, 'stories': 18, 'voice': 1}. Working context: 715 words; voice guidance: 382 prose words plus 8 verified anchors. Estimated API usage: $1.4637. Held-out sources: 18. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
 
 - The supplied corpus lists 21 sources and approximately 238,779 source words, below the stated deep benchmark of 80 works and 500,000 words. Some listed sources reproduce the same interview and should not be counted as independent corroboration.
 - Many interviews rely on unverified captions or transcripts. Dates and company practices should be understood as source-specific; some recent AI descriptions have no supplied publication date.
@@ -147,7 +149,7 @@ Entry counts: {'_hot': 20, 'frameworks': 22, 'principles': 18, 'books': 9, 'posi
 
 ## Jonathan Blow
 
-Entry counts: {'_hot': 20, 'frameworks': 19, 'principles': 18, 'books': 14, 'positions': 28, 'stories': 13, 'voice': 1}. Working context: 681 words; voice guidance: 435 prose words plus 8 verified anchors. Estimated API usage: $1.5240. Held-out sources: 25. Queue remaining: 0 partial/unreviewed retrieved works and 105 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 19, 'principles': 18, 'books': 14, 'positions': 28, 'stories': 13, 'voice': 1}. Working context: 681 words; voice guidance: 435 prose words plus 8 verified anchors. Estimated API usage: $1.7345. Held-out sources: 25. Queue remaining: 0 partial/unreviewed retrieved works and 105 unattempted candidates.
 
 - The supplied corpus contains 51 sources and approximately 321,859 words, below the stated deep benchmark of 80 works and 500,000 words. Confidence labels count independent works cited for each rule, not passages within the same work.
 - Several sources are historical, exploratory, or based on unverified captions. Early Jai proposals, hardware-specific rendering advice, and experimental algorithms should not be assumed to describe current implementations or current best practice.
@@ -174,7 +176,7 @@ Entry counts: {'_hot': 20, 'frameworks': 19, 'principles': 18, 'books': 14, 'pos
 
 ## Linus Torvalds
 
-Entry counts: {'_hot': 20, 'frameworks': 15, 'principles': 17, 'books': 3, 'positions': 26, 'stories': 14, 'voice': 1}. Working context: 657 words; voice guidance: 436 prose words plus 8 verified anchors. Estimated API usage: $3.0558. Held-out sources: 45. Queue remaining: 5 partial/unreviewed retrieved works and 61 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 15, 'principles': 17, 'books': 3, 'positions': 26, 'stories': 14, 'voice': 1}. Working context: 657 words; voice guidance: 436 prose words plus 8 verified anchors. Estimated API usage: $3.6724. Held-out sources: 45. Queue remaining: 5 partial/unreviewed retrieved works and 61 unattempted candidates.
 
 - The supplied corpus contains 36 source records and approximately 159,314 scoped source words, below the stated deep benchmark of 80 works and 500,000 words. Some records are multi-message archives, while some video excerpts overlap; source records should not automatically be counted as independent works.
 - Several recent video sources use unverified captions and publication dates rather than verified conversation dates. The indirect Rust reaction source was not used to establish Torvalds's position.
@@ -228,7 +230,7 @@ Entry counts: {'_hot': 20, 'frameworks': 15, 'principles': 17, 'books': 3, 'posi
 
 ## Robert C. Martin (Uncle Bob)
 
-Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 19, 'books': 12, 'positions': 26, 'stories': 15, 'voice': 1}. Working context: 643 words; voice guidance: 442 prose words plus 8 verified anchors. Estimated API usage: $1.2909. Held-out sources: 4. Queue remaining: 0 partial/unreviewed retrieved works and 112 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 19, 'books': 12, 'positions': 26, 'stories': 15, 'voice': 1}. Working context: 643 words; voice guidance: 442 prose words plus 8 verified anchors. Estimated API usage: $1.4465. Held-out sources: 4. Queue remaining: 0 partial/unreviewed retrieved works and 112 unattempted candidates.
 
 - The supplied corpus lists 61 sources and 268,975 words, below the stated benchmark of 80 works and 500,000 words. Several architecture talks repeat closely related material, so repetition should not be mistaken for independent empirical validation.
 - Book entries reflect only contents established by the supplied public evidence. Some are third-party books Martin recommends, not books he authored; the evidence does not justify detailed chapter inventories or additional book titles.
@@ -247,7 +249,7 @@ Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 19, 'books': 12, 'pos
 
 ## Bjarne Stroustrup
 
-Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 18, 'books': 5, 'positions': 25, 'stories': 16, 'voice': 5}. Working context: 677 words; voice guidance: 406 prose words plus 8 verified anchors. Estimated API usage: $2.3375. Held-out sources: 6. Queue remaining: 2 partial/unreviewed retrieved works and 45 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 18, 'books': 5, 'positions': 25, 'stories': 16, 'voice': 5}. Working context: 677 words; voice guidance: 406 prose words plus 8 verified anchors. Estimated API usage: $2.6698. Held-out sources: 6. Queue remaining: 2 partial/unreviewed retrieved works and 45 unattempted candidates.
 
 - The supplied corpus identifies 59 source works, below the 80-work deep benchmark; several sources are historical proposals, partial excerpts, or coauthored research with individual contributions unspecified.
 - Not every requested position or case can be expanded to its target length without repeating related evidence. No independent claim is made that the integrated cases meet the requested standalone story count.
@@ -266,7 +268,7 @@ Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 18, 'books': 5, 'posi
 
 ## John Carmack
 
-Entry counts: {'_hot': 20, 'frameworks': 18, 'principles': 17, 'books': 10, 'positions': 29, 'stories': 14, 'voice': 1}. Working context: 671 words; voice guidance: 432 prose words plus 8 verified anchors. Estimated API usage: $1.8798. Held-out sources: 3. Queue remaining: 0 partial/unreviewed retrieved works and 27 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 18, 'principles': 17, 'books': 10, 'positions': 29, 'stories': 14, 'voice': 1}. Working context: 671 words; voice guidance: 432 prose words plus 8 verified anchors. Estimated API usage: $2.1514. Held-out sources: 3. Queue remaining: 0 partial/unreviewed retrieved works and 27 unattempted candidates.
 
 - The supplied corpus identifies 30 source records, below the stated 80-work benchmark. Some records are duplicate uploads or excerpts of the same keynote; the 2012 functional-programming essay is also reproduced elsewhere. They are not counted as independent corroboration.
 - Many talk captions are unverified and contain transcription errors. Historical hardware figures, estimates, research proposals and forecasts should not be treated as current measurements or verified shipped outcomes.
@@ -288,7 +290,7 @@ Entry counts: {'_hot': 20, 'frameworks': 18, 'principles': 17, 'books': 10, 'pos
 
 ## Casey Muratori
 
-Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 18, 'books': 4, 'positions': 28, 'stories': 15, 'voice': 1}. Working context: 679 words; voice guidance: 428 prose words plus 8 verified anchors. Estimated API usage: $1.5912. Held-out sources: 11. Queue remaining: 0 partial/unreviewed retrieved works and 31 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 18, 'books': 4, 'positions': 28, 'stories': 15, 'voice': 1}. Working context: 679 words; voice guidance: 428 prose words plus 8 verified anchors. Estimated API usage: $1.8202. Held-out sources: 11. Queue remaining: 0 partial/unreviewed retrieved works and 31 unattempted candidates.
 
 - The supplied evidence does not establish a Muratori-authored book or a specific authored major essay series. The books listed are other authors' works that he discusses; authorship is distinguished in each entry.
 - Handmade Hero is evidenced here chiefly through an education note and the 2015 networking interview. The supplied passages do not support a detailed reconstruction of its implementation or curriculum.
@@ -318,7 +320,7 @@ Entry counts: {'_hot': 20, 'frameworks': 17, 'principles': 18, 'books': 4, 'posi
 
 ## Vitalik Buterin
 
-Entry counts: {'_hot': 20, 'frameworks': 20, 'principles': 16, 'books': 3, 'positions': 26, 'stories': 14, 'voice': 1}. Working context: 701 words; voice guidance: 413 prose words plus 8 verified anchors. Estimated API usage: $1.3037. Held-out sources: 1. Queue remaining: 8 partial/unreviewed retrieved works and 124 unattempted candidates.
+Entry counts: {'_hot': 20, 'frameworks': 20, 'principles': 16, 'books': 3, 'positions': 26, 'stories': 14, 'voice': 1}. Working context: 701 words; voice guidance: 413 prose words plus 8 verified anchors. Estimated API usage: $1.4620. Held-out sources: 1. Queue remaining: 8 partial/unreviewed retrieved works and 124 unattempted candidates.
 
 - The supplied corpus reports 57 sources and approximately 250,874 words, below the stated deep benchmark of 80 works and 500,000 words.
 - EIP-1559 is coauthored, but the supplied evidence does not name its full coauthor list; its claims are attributed to the authors collectively.
@@ -334,7 +336,7 @@ Entry counts: {'_hot': 20, 'frameworks': 20, 'principles': 16, 'books': 3, 'posi
 
 ## Jack Dorsey
 
-Entry counts: {'_hot': 16, 'frameworks': 18, 'principles': 18, 'books': 1, 'positions': 27, 'stories': 16, 'voice': 1}. Working context: 643 words; voice guidance: 444 prose words plus 8 verified anchors. Estimated API usage: $2.7466. Held-out sources: 48. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
+Entry counts: {'_hot': 16, 'frameworks': 18, 'principles': 18, 'books': 1, 'positions': 27, 'stories': 16, 'voice': 1}. Working context: 643 words; voice guidance: 444 prose words plus 8 verified anchors. Estimated API usage: $3.2854. Held-out sources: 48. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
 
 - The evidence establishes one qualifying bylined major essay. Books Dorsey discusses are not presented as his own works.
 - The supplied corpus has 23 source records rather than the benchmark of 80 works. Some records are clips or rebroadcasts of the same event; source-record counts should not automatically be treated as independent corroboration.
@@ -394,7 +396,7 @@ Entry counts: {'_hot': 16, 'frameworks': 18, 'principles': 18, 'books': 1, 'posi
 
 ## Mark Zuckerberg
 
-Entry counts: {'_hot': 21, 'frameworks': 16, 'principles': 16, 'books': 2, 'positions': 26, 'stories': 16, 'voice': 1}. Working context: 637 words; voice guidance: 436 prose words plus 8 verified anchors. Estimated API usage: $1.1964. Held-out sources: 23. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
+Entry counts: {'_hot': 21, 'frameworks': 16, 'principles': 16, 'books': 2, 'positions': 26, 'stories': 16, 'voice': 1}. Working context: 637 words; voice guidance: 436 prose words plus 8 verified anchors. Estimated API usage: $1.3566. Held-out sources: 23. Queue remaining: 0 partial/unreviewed retrieved works and 0 unattempted candidates.
 
 - The supplied corpus lists 24 sources and approximately 194,186 scoped source words, below the supplied deep benchmark of 80 works and 500,000 words. Some sources reproduce or excerpt the same interview and are not independent corroboration.
 - No authored book is established by the evidence. The books section therefore contains established major authored essays or letters, not invented books.
