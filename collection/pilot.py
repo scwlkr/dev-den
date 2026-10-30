@@ -16,6 +16,7 @@ import re
 import socket
 import subprocess
 import tempfile
+import threading
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -105,9 +106,19 @@ class PageText(HTMLParser):
         self.metadata = {}
         self.href = None
         self.anchor = []
+        self.comment_depths=[]
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        classes=a.get('class','')+' '+a.get('id','')
+        if tag in ('article','section','div','ol','ul') and re.search(r'(?:^|\s)(?:comments?|comments-area|comment-list|commentlist|comment-body|comment-\d+|disqus_thread)(?:\s|$)',classes,re.I):
+            self.comment_depths.append(len(self.stack)+1)
+        if tag == 'iframe' and a.get('src'):
+            embed=urllib.parse.urlsplit(urllib.parse.urljoin('https://example.invalid/',a['src']))
+            if embed.hostname in ('www.youtube.com','youtube.com','www.youtube-nocookie.com','youtube-nocookie.com') and embed.path.startswith('/embed/'):
+                video=embed.path.split('/')[2]
+                if re.fullmatch(r'[A-Za-z0-9_-]+',video):
+                    self.links.append({'url':'https://www.youtube.com/watch?v='+video,'title':a.get('title','Embedded full video; speaker not yet verified')})
         if tag == "time" and a.get("datetime"):
             self.metadata.setdefault("time_elements", []).append({"datetime": a["datetime"], "itemprop": a.get("itemprop", "")})
         if tag == "meta":
@@ -134,9 +145,10 @@ class PageText(HTMLParser):
             self.add("\n")
         if tag in self.stack:
             self.stack = self.stack[:len(self.stack) - 1 - self.stack[::-1].index(tag)]
+        self.comment_depths=[d for d in self.comment_depths if d<=len(self.stack)]
 
     def add(self, value):
-        if any(t in self.ignored for t in self.stack):
+        if self.comment_depths or any(t in self.ignored for t in self.stack):
             return
         self.parts.append(value)
         if "article" in self.stack:
@@ -248,14 +260,21 @@ def get_source(url):
         return get_page(url)
     with tempfile.TemporaryDirectory(prefix="dod-captions-") as tmp:
         result = subprocess.run([
-            "yt-dlp", "--ignore-config", "--skip-download", "--no-playlist", "--write-subs", "--write-auto-subs", "--sub-langs", "en,en-orig", "--sub-format", "json3",
+            "yt-dlp", "--ignore-config", "--no-cache-dir", "--no-simulate", "--skip-download", "--no-playlist", "--write-subs", "--write-auto-subs", "--sub-langs", "en-orig,en", "--sub-format", "json3",
             "--paths", tmp, "--output", "source.%(ext)s", "--dump-json", url,
         ], text=True, capture_output=True, timeout=90)
         tracks = list(Path(tmp).glob("*.json3"))
-        if result.returncode or not tracks:
+        if not tracks:
             raise ValueError("No usable existing English captions/transcript; additional transcription deferred")
         data = json.loads(result.stdout.splitlines()[-1])
-        captions = json.loads(tracks[0].read_text())
+        selected=sorted(tracks,key=lambda p:("en-orig" not in p.name,p.name))[0]
+        language='en-orig' if '.en-orig.' in selected.name else 'en'
+        track=data.get('requested_subtitles',{}).get(language,{})
+        query=urllib.parse.parse_qs(urllib.parse.urlsplit(track.get('url','')).query)
+        base=query.get('lang',[''])[0].lower()
+        if not (base=='en' or base.startswith('en-')) or query.get('tlang'):
+            raise ValueError('Original English caption track not established; translated or unverifiable tracks are not promoted')
+        captions = json.loads(selected.read_text())
         lines = []
         for event in captions.get("events", []):
             text = "".join(s.get("utf8", "") for s in event.get("segs", [])).strip()
@@ -264,7 +283,8 @@ def get_source(url):
                 lines.append(f"[{seconds // 3600:02}:{seconds // 60 % 60:02}:{seconds % 60:02}] {text}")
         return {"text": "\n".join(lines), "links": [], "metadata": {
             "requested_url": url, "url": canonical(url), "title": data.get("title"), "channel": data.get("channel"),
-            "channel_url": data.get("channel_url"), "date": data.get("upload_date"), "retrieved_at": now(),
+            "channel_url": data.get("channel_url"), "date": data.get("upload_date"), "duration_seconds": data.get("duration"), "description": data.get("description", "")[:10000], "retrieved_at": now(),
+            "caption_track":language,"caption_base_language":base,"caption_is_translation":False,
             "extraction": "existing English captions; not audio-verified; speaker labels may be absent",
         }}
 
@@ -279,11 +299,28 @@ class UncertainCharge(RuntimeError):
 
 class Ledger:
     """Persist reservations BEFORE requests; never retry an uncertain paid POST."""
-    def __init__(self, root, cap, pricing):
+    def __init__(self, root, cap, pricing, compilation_margin=3):
         self.path = Path(root) / "ledger.json"
         self.cap = min(float(cap), 25.0)
         self.pricing = pricing
+        self.compilation_margin = compilation_margin
         self.data = read_json(self.path, {"created_at": now(), "jobs": {}})
+
+    def reconcile_tool_fees(self):
+        """Reconcile legacy discovery charges while the caller owns the run lock."""
+        changed=False
+        for key,job in self.data['jobs'].items():
+            if job['status']!='recorded' or job.get('stage')!='discover':continue
+            response=read_json(self.path.parent/'responses'/(key+'.json'))
+            if response is None:continue
+            calls=sum(o.get('type')=='web_search_call' for o in response.get('output',[]))
+            extra=max(0,calls-job.get('search_calls',0))
+            if extra:
+                job['cost_usd']+=extra*self.pricing['web_search_per_call']
+                job['search_calls']=calls
+                job['tool_fee_basis']='Conservatively count every hosted web-search action, including page opens and finds'
+                changed=True
+        if changed:write_json(self.path,self.data)
 
     def exposure(self):
         return sum(j.get("cost_usd", j["reserved_usd"]) for j in self.data["jobs"].values())
@@ -300,8 +337,8 @@ class Ledger:
         reservation = input_bound * self.pricing["input_per_million"] * 2 / 1e6
         reservation += request["max_output_tokens"] * self.pricing["output_per_million"] * 1.5 / 1e6
         reservation += searches * self.pricing["web_search_per_call"]
-        # Preserve room for the three final compilations instead of exhausting the cap on extraction.
-        limit = max(0, self.cap - 3) if stage == "extract" else self.cap
+        # Preserve the configured compilation allowance instead of exhausting the cap on extraction.
+        limit = max(0, self.cap - self.compilation_margin) if stage.startswith("extract") else self.cap
         if self.exposure() + reservation > limit:
             raise BudgetStop("Insufficient budget for a conservative next-request reservation")
         self.data["jobs"][key] = {"developer": developer, "stage": stage, "status": "reserved", "reserved_usd": reservation, "started_at": now()}
@@ -313,7 +350,7 @@ class Ledger:
             raise UncertainCharge("Usage missing; reservation retained and paid work stopped")
         n_in, n_out = usage["input_tokens"], usage["output_tokens"]
         long = n_in > 272000
-        calls = sum(x.get("type") == "web_search_call" and x.get("action", {}).get("type") == "search" for x in response.get("output", []))
+        calls = sum(x.get("type") == "web_search_call" for x in response.get("output", []))
         cost = n_in * self.pricing["input_per_million"] * (2 if long else 1) / 1e6
         cost += n_out * self.pricing["output_per_million"] * (1.5 if long else 1) / 1e6
         cost += calls * self.pricing["web_search_per_call"]
@@ -356,7 +393,7 @@ class OpenAI:
     def __call__(self, request):
         req = urllib.request.Request("https://api.openai.com/v1/responses", data=json.dumps(request).encode(), headers={"Authorization": "Bearer " + self.key, "Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=240) as response:
+            with urllib.request.urlopen(req, timeout=600) as response:
                 return json.load(response)
         except urllib.error.HTTPError as exc:
             # Do not dump provider errors or request contents into logs.
@@ -370,6 +407,35 @@ class OpenAI:
 
 def normalize(text):
     return re.sub(r"\s+", " ", unicodedata.normalize("NFC", text)).strip()
+
+
+def source_words(record):
+    return record.get('coverage_words',record.get('words',0))
+
+
+def work_coverage(records):
+    """Count a work once even when several caption tracks or excerpts are retained."""
+    groups={}
+    for record in records:
+        if record.get('status')!='accepted':continue
+        key=record.get('work_key') or record.get('url') or record['source_id']
+        groups[key]=max(groups.get(key,0),source_words(record))
+    return len(groups),sum(groups.values())
+
+
+def caption_view(text):
+    """Exact caption words without cue-format markers, plus normalized cue offsets."""
+    markers=list(re.finditer(r'\[(\d{2}:\d{2}:\d{2})\]',text))
+    if not markers:return normalize(text),[]
+    pieces=[];cues=[];length=0
+    segments=[(None,0,markers[0].start())]+[(m.group(1),m.end(),markers[i+1].start() if i+1<len(markers) else len(text)) for i,m in enumerate(markers)]
+    for stamp,start,end in segments:
+        words=normalize(text[start:end])
+        if not words:continue
+        if pieces:length+=1
+        if stamp:cues.append((length,stamp))
+        pieces.append(words);length+=len(words)
+    return ' '.join(pieces),cues
 
 
 def speaker_allowed(speaker, aliases):
@@ -405,27 +471,47 @@ class Pilot:
         self.root = self.project / ".collection" / "pilot"
         self.root.mkdir(parents=True, exist_ok=True)
         self.provider, self.fetcher = provider, fetcher
-        self.ledger = Ledger(self.root, config["budget_usd"], config["pricing"])
+        self.ledger = Ledger(self.root, config["budget_usd"], config["pricing"], config.get("compilation_margin_usd", 3))
+        prior=[]
+        for name in ('PILOT-REPORT.md','FULL-REPORT.md'):
+            report=self.project/'collection'/name
+            if report.exists():prior += [float(x) for x in re.findall(r'\*\*\$(\d+(?:\.\d+)?)\s*/\s*\$25(?:\.00)?\*\*',report.read_text())]
+        if prior and max(prior)>.01 and not self.ledger.data['jobs']:
+            raise UncertainCharge('A charged collection report exists but its original ledger is missing or empty; restore it before any paid work')
+        self._ledger_lock=threading.RLock()
+        self._active=set()
+        self._paid_stopped=False
 
-    def call(self, developer, stage, prompt, schema, *, search=False):
+    def call(self, developer, stage, prompt, schema, *, search=False, max_output_tokens=None, reasoning="medium"):
         request = {"model": self.config["model"], "store": False, "service_tier": "default", "instructions": UNTRUSTED,
-                   "input": prompt, "reasoning": {"effort": "medium"}, "max_output_tokens": 10000 if stage == "compile" else 6500,
+                   "input": prompt, "reasoning": {"effort": reasoning}, "max_output_tokens": max_output_tokens or (10000 if stage == "compile" else 6500),
                    "text": {"format": {"type": "json_schema", "name": "dod_" + stage, "strict": True, "schema": schema}}}
         if search:
             request.update(tools=[{"type": "web_search", "search_context_size": "medium"}], max_tool_calls=self.config["discovery_tool_calls"], include=["web_search_call.action.sources"])
         key = digest({"version": VERSION, "developer": developer, "stage": stage, "request": request})
         response_path = self.root / "responses" / (key + ".json")
-        response = read_json(response_path)
+        with self._ledger_lock:
+            response = read_json(response_path)
+            if response is None:
+                unknown=any(j['status']=='reserved' and k not in self._active for k,j in self.ledger.data['jobs'].items())
+                if self._paid_stopped or unknown or key in self._active:
+                    raise UncertainCharge("A previous request may have been billed or this request is already active; no new paid request will run")
+                self.ledger.reserve(key, developer, stage, request)
+                self._active.add(key)
+                print(f"{developer}: {stage}; usage plus reservation ${self.ledger.exposure():.4f}", flush=True)
+            elif self.ledger.data["jobs"].get(key, {}).get("status") == "reserved":
+                self.ledger.finish(key, response)
         if response is None:
-            if any(j["status"] == "reserved" for j in self.ledger.data["jobs"].values()):
-                raise UncertainCharge("A previous request may have been billed; no new paid requests will run")
-            self.ledger.reserve(key, developer, stage, request)
-            print(f"{developer}: {stage}; usage plus reservation ${self.ledger.exposure():.4f}", flush=True)
-            response = self.provider(request)
-            write_json(response_path, response)
-            self.ledger.finish(key, response)
-        elif self.ledger.data["jobs"].get(key, {}).get("status") == "reserved":
-            self.ledger.finish(key, response)
+            try:
+                response = self.provider(request)
+                with self._ledger_lock:
+                    write_json(response_path, response)
+                    self.ledger.finish(key, response)
+            except BaseException:
+                with self._ledger_lock:self._paid_stopped=True
+                raise
+            finally:
+                with self._ledger_lock:self._active.discard(key)
         if response.get("status") != "completed":
             raise ValueError("Model response incomplete; retained with usage, not automatically repeated")
         outputs = [c["text"] for o in response.get("output", []) if o.get("type") == "message" for c in o.get("content", []) if c.get("type") == "output_text"]
@@ -606,6 +692,14 @@ class Pilot:
                           "source_context": [{"source_id": r["source_id"], "metadata": r.get("metadata", {}), "source_dates": sorted({x["date"] for x in r.get("extractions", []) if x.get("date")}), "attribution": sorted({x["attribution"] for x in r.get("extractions", []) if x.get("eligible")})} for r in records if r["status"] == "accepted"]}, ensure_ascii=False)
         )
         compiled = self.call(dev["id"], "compile", prompt, COMPILATION)
+        return self.export(dev, records, compiled)
+
+    def export(self, dev, records, compiled):
+        evidence = {e["id"]: e for r in records for e in r["evidence"]}
+        identities={r['source_id']:r.get('work_key') or r.get('url') or r['source_id'] for r in records}
+        works,words=work_coverage(records)
+        quoted_sources=set()
+        quoted_works=set()
         if sorted(s["name"] for s in compiled["sections"]) != sorted(SECTIONS):
             raise ValueError("Compilation omitted or duplicated a knowledge section")
         for section in compiled["sections"]:
@@ -617,26 +711,51 @@ class Pilot:
         out = self.project / "knowledge" / dev["id"]
         out.mkdir(parents=True, exist_ok=True)
         for section in compiled["sections"]:
-            lines = [f"# {dev['name']}: {section['name']}", "", "Prepared pilot knowledge; source coverage and limitations are reported below.", ""]
+            lines = [f"# {dev['name']}: {section['name']}", "", f"Built from {works} accepted distinct works and {words:,} source words. Compiled reasoning with source support and limits below.", ""]
             for item in section["items"]:
                 refs = "; ".join(f"[{evidence[i]['source_id']}]({evidence[i].get('source_url') or next(r['metadata']['url'] for r in records if r['source_id'] == evidence[i]['source_id'])}) / evidence {i}" for i in item["evidence_ids"])
-                lines.extend([f"- **{item['basis']}**: {item['text']} ({refs})", ""])
+                support=len({identities[evidence[i]['source_id']] for i in item['evidence_ids']})
+                text=item['text']
+                if section['name']=='principles':
+                    # Corroboration is measured from work identities, not guessed by a writer.
+                    text=re.sub(r'\bConfidence:\s*(?:high|medium|low)[^.]*\.', '',text,flags=re.I).strip()
+                    level='high' if support>=3 else 'medium' if support==2 else 'low'
+                    text+=f' Corroboration: {level} ({support} distinct works; this measures source count, not truth).'
+                lines.extend([f"- **{item['basis']}**: {text} ({refs}; {support} independent supporting works)", ""])
             if not section["items"]:
                 lines += ["No supported material in the collected sources.", ""]
             if section["name"] == "_hot":
                 lines += ["## Coverage gaps", ""] + ["- " + g for g in compiled["gaps"]]
+            if section["name"] == "voice":
+                lines += ["## Verified voice anchors", ""]
+                voice_ids=list(dict.fromkeys(i for item in section['items'] for i in item['evidence_ids']))
+                for ident in voice_ids:
+                    ev=evidence[ident]
+                    if ev['attribution']=='coauthored':continue
+                    identity=identities[ev['source_id']]
+                    if identity in quoted_works:continue
+                    lines += ['> '+' '.join(ev['quote'].split()[:12]),'',f"Evidence {ident}; source {ev['source_id']}; {ev['attribution']}. Full context is retained locally.",'']
+                    quoted_sources.add(ev['source_id'])
+                    quoted_works.add(identity)
+                    if len(quoted_works)>=8:break
             (out / (section["name"] + ".md")).write_text("\n".join(lines).rstrip() + "\n")
         sources = [f"# {dev['name']}: sources", "", "Quotations were matched against retained normalized source text; attribution and context were assessed by Terra, not independently certified.", ""]
         for record in records:
             if record["status"] == "accepted":
-                sources += [f"## {record['source_id']}", "", record["metadata"]["url"], "", f"Text SHA-256: {record['text_sha256']}", ""]
+                title=normalize(record.get('metadata',{}).get('title') or record.get('candidate',{}).get('title') or 'Title not established')
+                sources += [f"## {record['source_id']}: {title}", "", record["metadata"]["url"], "", f"Independent work identity: {identities[record['source_id']]}. Alternate representations share this identity and contribute only their largest scoped word count to coverage.", "", f"Source words in scope: {source_words(record):,}; full retrieved text: {record.get('words',0):,}. Text SHA-256: {record['text_sha256']}", ""]
+                if record.get('source_scope'):sources += [record['source_scope']['note'],'']
                 dates = sorted({x["date"] for x in record.get("extractions", []) if x.get("date")})
                 sources += ["Source dates reported in the collected material: " + ("; ".join(dates) or "not established"), ""]
-                for ev in record["evidence"][:1]:
-                    excerpt = " ".join(ev["quote"].split()[:22])
+                identity=identities[record['source_id']]
+                for ev in (record["evidence"][:1] if identity not in quoted_works else []):
+                    excerpt = " ".join(ev["quote"].split()[:12])
                     sources += [f"> {excerpt}", "", f"Short excerpt of {ev['id']}; {ev['attribution']}. Full passage and context retained locally.", ""]
+                    quoted_works.add(identity)
+                if record['source_id'] in quoted_sources:
+                    sources += ['A short verified excerpt from this work is in voice.md; complete passages remain local.','']
                 for ev in record["evidence"]:
-                    sources += [f"- {ev['id']}: {ev['kind']}; {ev['attribution']}; normalized offset {ev['passage_offset']}; chunk {ev['chunk_index']}; {ev.get('source_url', record['metadata']['url'])}"]
+                    sources += [f"- {ev['id']}: {ev['kind']}; {ev['attribution']}; {ev.get('passage_view','normalized source')} offset {ev['passage_offset']}; chunk {ev['chunk_index']}; {ev.get('source_url', record['metadata']['url'])}"]
         (out / "sources.md").write_text("\n".join(sources).rstrip() + "\n")
         write_json(self.root / dev["id"] / "compiled.json", compiled)
         return compiled
@@ -726,6 +845,8 @@ def main():
         raise RuntimeError("Pilot requires the selected Terra model and a ceiling no greater than $25")
     root = project / ".collection" / "pilot"
     root.mkdir(parents=True, exist_ok=True)
+    if not (args.preflight or args.report_only) and (project/'collection/FULL-REPORT.md').exists():
+        raise RuntimeError('The all-13 expansion supersedes the pilot runner. Resume with python3 -B -m collection.expand to preserve the full advisor knowledge and original budget.')
     with (root / "run.lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         if args.report_only:

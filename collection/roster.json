@@ -1,0 +1,214 @@
+{
+  "model": "gpt-6.1-terra",
+  "budget_usd": 25,
+  "target_sources": 80,
+  "max_candidates": 190,
+  "discovery_tool_calls": 3,
+  "pricing": {
+    "input_per_million": 1,
+    "output_per_million": 5,
+    "web_search_per_call": 0.01
+  },
+  "developers": [
+    {
+      "id": "dhh",
+      "name": "David Heinemeier Hansson (DHH)",
+      "seeds": [
+        "https://dhh.dk/",
+        "https://world.hey.com/dhh/"
+      ],
+      "focus": "Software architecture, Rails, simplicity, monoliths, databases, operations, developer productivity, teams and software product trade-offs.",
+      "aliases": [
+        "David Heinemeier Hansson",
+        "DHH",
+        "David Heinemeier Hansson (DHH)"
+      ],
+      "video_query": "DHH David Heinemeier Hansson Rails keynote software architecture"
+    },
+    {
+      "id": "ritchie",
+      "name": "Dennis M. Ritchie",
+      "seeds": [
+        "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/",
+        "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
+        "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cacm.html"
+      ],
+      "focus": "C, Unix, programming language design, portability, interfaces, implementation, operating systems, software history and design trade-offs. Distinguish sole authorship from coauthored papers and other authors' works. Original Nokia archive links often need their current Nokia URLs rather than obsolete Bell Labs hosts.",
+      "aliases": [
+        "Dennis Ritchie",
+        "Dennis M. Ritchie",
+        "D. M. Ritchie"
+      ]
+    },
+    {
+      "id": "primeagen",
+      "name": "ThePrimeagen (Michael Paulson)",
+      "seeds": [
+        "https://github.com/ThePrimeagen/ThePrimeagen",
+        "https://lexfridman.com/theprimeagen-transcript/",
+        "https://theprimeagen.github.io/fem-git/",
+        "https://theprimeagen.github.io/rust-for-typescript-devs/"
+      ],
+      "focus": "Programming languages, developer tools, performance, learning, software architecture, AI coding tools and engineering practice. Distinguish his speech from interviewers and authors whose material he reads or reacts to. Authored course notes are eligible; Boot.dev team contributions must remain identified. Preserve source license metadata (course notes may be CC-BY-NC-4.0).",
+      "aliases": [
+        "ThePrimeagen",
+        "The Primeagen",
+        "Michael Paulson",
+        "Mike Paulson",
+        "ThePrimeagen (Michael Paulson)",
+        "Michael Paulson (ThePrimeagen)"
+      ]
+    },
+    {
+      "id": "tobi",
+      "name": "Tobias Lütke (Tobi Lütke)",
+      "aliases": [
+        "Tobi Lütke",
+        "Tobias Lütke",
+        "Tobi Lutke",
+        "Tobias Lutke",
+        "Tobi"
+      ],
+      "seeds": [
+        "https://tobi.lutke.com/"
+      ],
+      "focus": "Software building, tools, Ruby, systems, developer agency, product engineering, scaling, engineering leadership and technical trade-offs. Own words only, not all Shopify engineering posts.",
+      "video_query": "Tobi Lutke programming software engineering interview"
+    },
+    {
+      "id": "blow",
+      "name": "Jonathan Blow",
+      "aliases": [
+        "Jonathan Blow",
+        "Jon Blow"
+      ],
+      "seeds": [
+        "https://number-none.com/blow/",
+        "https://number-none.com/blow/blog/"
+      ],
+      "focus": "Game engines, programming languages, Jai, correctness, performance, abstraction, complexity, software quality, debugging and building ambitious software. Do not confuse his quotes of Carmack or other developers with his own stance.",
+      "video_query": "Jonathan Blow Jai programming language technical talk",
+      "video_channel": "https://www.youtube.com/@jblow888/videos"
+    },
+    {
+      "id": "linus",
+      "name": "Linus Torvalds",
+      "aliases": [
+        "Linus Torvalds",
+        "Linus"
+      ],
+      "seeds": [
+        "https://www.kernel.org/doc/html/latest/process/handling-regressions.html",
+        "https://lore.kernel.org/lkml/"
+      ],
+      "focus": "Kernel engineering, C and Rust, interfaces, regressions, compatibility, version control, maintainership, review, complexity, performance and practical engineering. Prefer original authored messages with From/Date; distinguish quoted replies and surrounding docs authored by others.",
+      "video_query": "Linus Torvalds kernel programming technical interview"
+    },
+    {
+      "id": "unclebob",
+      "name": "Robert C. Martin (Uncle Bob)",
+      "aliases": [
+        "Robert C. Martin",
+        "Robert Martin",
+        "Uncle Bob",
+        "Bob Martin",
+        "Robert Cecil Martin",
+        "Bob"
+      ],
+      "seeds": [
+        "https://blog.cleancoder.com/"
+      ],
+      "focus": "Clean code, TDD, SOLID, architecture, modularity, testing, professionalism, languages, refactoring and software engineering trade-offs. Public lawful writings/talks; no paywalled book downloads.",
+      "video_query": "Robert C Martin Uncle Bob architecture programming keynote"
+    },
+    {
+      "id": "bjarne",
+      "name": "Bjarne Stroustrup",
+      "aliases": [
+        "Bjarne Stroustrup",
+        "Bjarne"
+      ],
+      "seeds": [
+        "https://www.stroustrup.com/",
+        "https://www.stroustrup.com/papers.html"
+      ],
+      "focus": "C++ language design and evolution, zero-overhead abstractions, resource management, safety, teaching, libraries, generic programming and systems. Preserve coauthors, historical standards, and corrected views."
+    },
+    {
+      "id": "carmack",
+      "name": "John Carmack",
+      "aliases": [
+        "John Carmack",
+        "Carmack"
+      ],
+      "seeds": [
+        "https://lexfridman.com/john-carmack/",
+        "https://lexfridman.com/john-carmack-transcript/"
+      ],
+      "focus": "Game engines, graphics, optimization, debugging, architecture, simplicity, VR, systems, AI and pragmatic engineering. Identify the id Software/Oculus developer; johncarmack.com is another person. Prioritize full talks, QuakeCon keynotes, plan files and own essays.",
+      "video_query": "John Carmack technical keynote programming"
+    },
+    {
+      "id": "casey",
+      "name": "Casey Muratori",
+      "aliases": [
+        "Casey Muratori",
+        "Casey"
+      ],
+      "seeds": [
+        "https://caseymuratori.com/",
+        "https://caseymuratori.com/talks"
+      ],
+      "focus": "Data-oriented design, performance, software complexity, API design, debugging, game development, Handmade Hero and programming education. Distinguish demonstration code not present in captions; use available authored Computer Enhance/public notes without bypassing paywalls.",
+      "video_query": "Casey Muratori software performance programming talk",
+      "video_channel": "https://www.youtube.com/@caseymuratori/videos"
+    },
+    {
+      "id": "vitalik",
+      "name": "Vitalik Buterin",
+      "aliases": [
+        "Vitalik Buterin",
+        "Vitalik"
+      ],
+      "seeds": [
+        "https://vitalik.eth.limo/",
+        "https://github.com/vbuterin/blog"
+      ],
+      "focus": "Distributed systems, cryptography, protocols, Ethereum, scalability, consensus, security, mechanism design, decentralization and engineering trade-offs. Preserve coauthors, dates, protocol versions, and deduplicate translations."
+    },
+    {
+      "id": "dorsey",
+      "name": "Jack Dorsey",
+      "aliases": [
+        "Jack Dorsey",
+        "Jack"
+      ],
+      "seeds": [
+        "https://lexfridman.com/?p=4223",
+        "https://www.block.xyz/"
+      ],
+      "focus": "Engineering, developer platforms, protocols, decentralization, open source, security, payments architecture, product simplicity and technical leadership. Only his own bylined work or identifiable speech, not all Block/Twitter company material.",
+      "video_query": "Jack Dorsey bitcoin protocols technology interview"
+    },
+    {
+      "id": "zuckerberg",
+      "name": "Mark Zuckerberg",
+      "aliases": [
+        "Mark Zuckerberg",
+        "Zuckerberg",
+        "Mark"
+      ],
+      "seeds": [
+        "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
+        "https://developers.meta.com/resources/videos/meta-connect-keynote/"
+      ],
+      "focus": "Engineering at scale, platforms, open source AI, developer ecosystems, product iteration, infrastructure, technical leadership and trade-offs. Only personal authored work or identifiable speech; Meta engineering posts by others are not his opinions.",
+      "video_query": "Mark Zuckerberg engineering open source AI technical interview"
+    }
+  ],
+  "target_words": 500000,
+  "compilation_margin_usd": 6,
+  "discovery_rounds": 2,
+  "batch_chars": 230000,
+  "batch_sources": 8
+}
