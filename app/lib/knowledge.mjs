@@ -181,7 +181,7 @@ export function packet(id, brief, root = ROOT) {
   result.fingerprint = hash(JSON.stringify(result));
   return result;
 }
-export function recommend(brief, root = ROOT) {
+export function recommend(brief, root = ROOT, mode = "normal") {
   const text = JSON.stringify(brief).toLowerCase();
   let ids = ["dhh", "tobi", "primeagen", "carmack", "linus"];
   if (/game|graphics|engine|render|latency|performance/.test(text))
@@ -213,5 +213,8 @@ export function recommend(brief, root = ROOT) {
     unclebob:
       "Stress testing, modular boundaries and the cost of future changes.",
   };
-  return ids.map((id) => ({ id, weight: 1, reason: reasons[id] }));
+  const result = ids.map((id) => ({ id, weight: 1, reason: reasons[id] }));
+  if (mode === "quick") return result.slice(0, 4);
+  if (mode === "consult") return result.slice(0, 1);
+  return result;
 }

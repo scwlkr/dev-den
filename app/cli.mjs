@@ -49,6 +49,28 @@ try {
       };
       break;
     }
+    case "quick": {
+      const brief = json(args[0]);
+      const board = args[1] && args[1] !== "auto" ? json(args[1]) : recommend(brief, ROOT, "quick");
+      const s = store.create(brief, board, "quick");
+      result = { id: s.id, mode: "quick", board: s.board, room: "http://127.0.0.1:4731/#" + s.id, next: nextStep(s) };
+      break;
+    }
+    case "consult": {
+      const brief = json(args[0]);
+      const id = args[1];
+      const board = [{ id, weight: 3, reason: "Single-advisor consultation requested." }];
+      const s = store.create(brief, board, "consult");
+      result = { id: s.id, mode: "consult", board: s.board, room: "http://127.0.0.1:4731/#" + s.id, next: nextStep(s) };
+      break;
+    }
+    case "all": {
+      const brief = json(args[0]);
+      const all = metadata().map((a) => ({ id: a.id, weight: 1, reason: "Included in all-advisors review." }));
+      const s = store.create(brief, all, "all");
+      result = { id: s.id, mode: "all", board: s.board, room: "http://127.0.0.1:4731/#" + s.id, next: nextStep(s) };
+      break;
+    }
     case "list":
       result = store.list();
       break;

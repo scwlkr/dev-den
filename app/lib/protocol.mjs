@@ -43,14 +43,21 @@ export function validateBrief(b) {
     contextFiles: b.contextFiles || [],
   };
 }
-export function validateBoard(board, packets) {
+export function allowedBoardSize(mode = "normal") {
+  if (mode === "consult") return [1, 1];
+  if (mode === "quick") return [4, 4];
+  if (mode === "all" || mode === "selected") return [1, 13];
+  return [5, 7];
+}
+export function validateBoard(board, packets, mode = "normal") {
+  const [min, max] = allowedBoardSize(mode);
   if (
     !Array.isArray(board) ||
-    board.length < 5 ||
-    board.length > 7 ||
+    board.length < min ||
+    board.length > max ||
     new Set(board.map((s) => s.id)).size !== board.length
   )
-    throw Error("Choose 5–7 distinct advisors");
+    throw Error("Choose " + min + "–" + max + " distinct advisors");
   for (const s of board)
     if (
       !packets[s.id] ||

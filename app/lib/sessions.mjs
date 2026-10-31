@@ -5,6 +5,7 @@ import { ROOT, packet, recommend } from "./knowledge.mjs";
 import {
   validateBrief,
   validateBoard,
+  allowedBoardSize,
   nextStep,
   validateCard,
   weightedScores,
@@ -50,12 +51,13 @@ export class Store {
   create(brief, board, mode = "agent") {
     brief = validateBrief(brief);
     board = board || recommend(brief, this.root);
-    if (!Array.isArray(board) || board.length < 5 || board.length > 7)
-      throw Error("Choose 5–7 advisors");
+    const [min, max] = allowedBoardSize(mode);
+    if (!Array.isArray(board) || board.length < min || board.length > max)
+      throw Error("Choose " + min + "–" + max + " advisors");
     const packets = {};
     for (const seat of board)
       packets[seat.id] = packet(seat.id, brief, this.root);
-    validateBoard(board, packets);
+    validateBoard(board, packets, mode);
     const id =
       new Date()
         .toISOString()
