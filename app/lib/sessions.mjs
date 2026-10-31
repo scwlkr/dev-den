@@ -11,6 +11,7 @@ import {
   weightedScores,
 } from "./protocol.mjs";
 import { markdown } from "./report.mjs";
+import { loadBoardPrefs, resolveBoard } from "./board.mjs";
 export class Store {
   constructor(dir = path.join(ROOT, "sessions"), root = ROOT) {
     this.dir = dir;
@@ -60,7 +61,12 @@ export class Store {
   }
   create(brief, board, mode = "agent") {
     brief = validateBrief(brief);
-    board = board || recommend(brief, this.root);
+    if (!board) {
+      const prefs = loadBoardPrefs(this.root);
+      const resolved = resolveBoard({ brief, prefs, explicit: undefined, mode, root: this.root });
+      if (resolved) board = resolved;
+      else board = recommend(brief, this.root, mode);
+    }
     const [min, max] = allowedBoardSize(mode);
     if (!Array.isArray(board) || board.length < min || board.length > max)
       throw Error("Choose " + min + "–" + max + " advisors");

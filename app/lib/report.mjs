@@ -9,6 +9,12 @@ export function report(s) {
     mode: s.mode,
     reviewMode: s.reviewMode || "normal",
     provider: s.provider || s.mode,
+    ratification:
+      s.reviewMode === "consult"
+        ? "not_applicable"
+        : Object.keys(s.cards).some((k) => k.startsWith("ratification:"))
+          ? "completed"
+          : "skipped",
     notice:
       "Simulated advisors applying documented first-hand principles. These developers did not participate or endorse this review. Applied reasoning is not a historical quotation. Caption matches verify text, not audio or truth.",
     brief: s.brief,
@@ -18,7 +24,14 @@ export function report(s) {
       coverage: s.packets[a.id].coverage,
       gaps: s.packets[a.id].gaps,
     })),
-    scores: weightedScores(s, (s.reviewMode === "consult" ? "opening" : (s.reviewMode === "quick" ? "debate" : "ratification"))),
+    scores: weightedScores(
+      s,
+      s.reviewMode === "consult"
+        ? "opening"
+        : Object.keys(s.cards).some((k) => k.startsWith("ratification:"))
+          ? "ratification"
+          : "debate",
+    ),
     verdict: verdict || null,
     dissent: s.board
       .filter((a) => s.cards["ratification:" + a.id]?.vote === "dissent")
