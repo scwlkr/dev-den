@@ -4,6 +4,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { ROOT, metadata, recommend } from "./lib/knowledge.mjs";
+import { loadBoardPrefs, saveBoardPrefs, validateBoardPrefs } from "./lib/board.mjs";
 import { Store, publicSession } from "./lib/sessions.mjs";
 import { Council } from "./lib/council.mjs";
 import { nextStep, prompt } from "./lib/protocol.mjs";
@@ -64,6 +65,12 @@ export function createServer({
       }
       if (url.pathname === "/api/recommend" && req.method === "POST")
         return send(recommend(body, store.root));
+      if (url.pathname === "/api/board" && req.method === "GET")
+        return send(loadBoardPrefs(store.root));
+      if (url.pathname === "/api/board" && req.method === "POST") {
+        saveBoardPrefs(body, store.root);
+        return send(loadBoardPrefs(store.root));
+      }
       if (url.pathname === "/api/sessions" && req.method === "POST") {
         const mode = body.reviewMode || body.mode || "normal";
         return send(
