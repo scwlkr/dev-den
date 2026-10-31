@@ -37,3 +37,16 @@ test('board settings are isolated, validated and returned by the API',async t=>{
 });
 test('HTTP all mode explicitly rejects this over-nine roster',async t=>{const f=await fixture(t);const r=await f.post('/api/sessions',{brief,reviewMode:'all'},400);assert.match(r.error,/9|nine|selected/i);});
 test('CLI usage advertises implemented review modes',()=>{const r=spawnSync(process.execPath,['app/cli.mjs'],{cwd:ROOT,encoding:'utf8'});assert.equal(r.status,0,r.stderr);const d=JSON.parse(r.stdout);assert.ok(d.usage.some(x=>x.includes('consult')));assert.ok(d.usage.some(x=>x.includes('selected')));});
+test('selected nine-seat review completes through verdict and rejects a tenth seat',async t=>{
+ const f=await fixture(t),board=f.boot.roster.slice(0,9).map(a=>({id:a.id,weight:1,reason:'Explicit selected council'}));
+ let s=await f.post('/api/sessions',{brief,board,reviewMode:'selected'},201);s=await complete(f,s);assert.equal(s.status,'complete');assert.equal(s.board.length,9);
+ const error=await f.post('/api/sessions',{brief,board:[...board,{id:f.boot.roster[9].id,weight:1,reason:'Too many'}],reviewMode:'selected'},400);assert.match(error.error,/9/);
+});
+test('saved policy affects actual creation, with explicit seats taking precedence',async t=>{
+ const f=await fixture(t);
+ await f.post('/api/board',{board:'default',default:['dhh','carmack']});
+ let s=await f.post('/api/sessions',{brief},201);assert.deepEqual(s.board.map(a=>a.id),['dhh','carmack']);assert.equal(s.reviewMode,'selected');
+ await f.post('/api/board',{board:'ask',default:['dhh','carmack']});await f.post('/api/sessions',{brief},400);
+ s=await f.post('/api/sessions',{brief,reviewMode:'consult',board:[{id:'tobi',weight:2,reason:'Explicit consultation'}]},201);assert.equal(s.board[0].id,'tobi');
+ await f.post('/api/board',{board:'auto',default:['dhh','carmack']});s=await f.post('/api/sessions',{brief},201);assert.equal(s.reviewMode,'normal');assert.equal(s.board.length,5);
+});

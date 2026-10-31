@@ -11,6 +11,7 @@ let boot,
   replay = -1,
   tab = "debate",
   files = [];
+let selectionSerial=0;
 const esc = (s) =>
   String(s ?? "").replace(
     /[&<>"']/g,
@@ -20,12 +21,12 @@ const esc = (s) =>
       ],
   );
 const brief = () =>
-  Object.fromEntries(
+  ({...Object.fromEntries(
     ["question", "context", "constraints", "success", "lean"].map((k) => [
       k,
       form.elements[k].value,
     ]),
-  );
+  ),reversibility:$("reversibility").value});
 const notify = (text) => {
   $("message").textContent = text;
   $("message").hidden = false;
@@ -52,8 +53,12 @@ async function api(url, data) {
 }
 function showBrief() {
   session = null;
+  $("search-results").replaceChildren();
+  $("evidence-query").value="";
+  $("refine-evidence").open=false;
   form.reset();
   files = [];
+  selectionSerial++;
   board = [];
   renderRoster();
   stream?.close();
@@ -72,6 +77,7 @@ function showBrief() {
   room.set(board);
   $("room-caption").textContent = "Assemble your council";
   renderHistory();
+  if(boot?.board?.board==='default')useSavedBoard();
 }
 function renderRoster() {
   const chosen = new Map(board.map((a) => [a.id, a]));
@@ -81,8 +87,11 @@ function renderRoster() {
         `<div class="advisor-row"><input type="checkbox" id="seat-${a.id}" data-seat="${a.id}" ${chosen.has(a.id) ? "checked" : ""} aria-label="Include ${esc(a.name)}"><label for="seat-${a.id}">${esc(a.name)}<small>${a.works} works · ${Math.round(a.words / 1000)}k words</small></label><select data-weight="${a.id}" aria-label="Relevance weight for ${esc(a.name)}" ${!chosen.has(a.id) ? "disabled" : ""}>${[1, 2, 3].map((w) => `<option ${chosen.get(a.id)?.weight === w ? "selected" : ""}>${w}</option>`).join("")}</select><details><summary>Lens & coverage</summary><p>${esc(a.focus)}</p>${(a.gaps || []).map((g) => `<p>${esc(typeof g === "string" ? g : JSON.stringify(g))}</p>`).join("")}</details></div>`,
     )
     .join("");
-  $("seat-count").textContent = board.length + " selected";
-  room.set(board);
+  const [min,max]=modeLimits();
+  $("seat-count").textContent = board.length + " selected · " + (min===max?min:`${min}–${max}`) + " required";
+  document.querySelector('.board-heading h3').textContent=mode()==='consult'?'Choose your advisor':`Choose ${min===max?min:min+'–'+max} advisors`;
+  form.querySelector('button[type=submit]').disabled=mode()==='all'&&boot.roster.length>9;
+  room.set(board.map(a=>({...a,name:boot.roster.find(d=>d.id===a.id)?.name})));
 }
 function renderHistory() {
   const rows = boot.sessions || [];
@@ -104,6 +113,9 @@ async function refreshArchive() {
   renderHistory();
 }
 async function open(id) {
+  $("search-results").replaceChildren();
+  $("evidence-query").value="";
+  $("refine-evidence").open=false;
   $("evidence-panel").hidden = true;
   $("close-evidence").hidden = true;
   clearInterval(playTimer);
@@ -113,6 +125,7 @@ async function open(id) {
   session = await api("/api/sessions/" + id);
   location.hash = id;
   renderSession();
+  if(session.status==='complete')return;
   stream = new EventSource(
     "/api/sessions/" + id + "/events?after=" + session.events.length,
   );
@@ -122,6 +135,7 @@ async function open(id) {
     if (session?.id !== id) return;
     session = updated;
     renderSession();
+    if(session.status==='complete')stream?.close();
     if (event.type === "complete" || event.type === "error")
       void refreshArchive();
   };
@@ -159,13 +173,17 @@ function renderSession() {
     )
     .join("");
   $("usage").textContent =
-    `API cost: $${s.usage.usd.toFixed(5)} · reserved: $${s.usage.reserved.toFixed(5)} · ${s.usage.calls} calls.`;
+    `${s.reviewMode || "normal"} · ${s.provider || "host-agent"} · API cost: $${s.usage.usd.toFixed(5)} · reserved: $${s.usage.reserved.toFixed(5)} · ${s.usage.calls} calls.`;
   $("run").disabled =
     s.status === "running" || s.status === "complete" || !!s.pending;
   $("pause").disabled = s.status !== "running";
   $("demo").hidden = !boot.demo || Object.keys(s.cards).length > 0;
   $("packet").disabled = s.status === "complete";
   $("cap").max = boot.runtime.cap;
+  const oldAdvisor=$("search-advisor").value;
+  $("search-advisor").innerHTML=s.board.map(a=>`<option value="${esc(a.id)}">${esc(s.packets[a.id].name)}</option>`).join('');
+  if(s.board.some(a=>a.id===oldAdvisor))$("search-advisor").value=oldAdvisor;
+  $("search-evidence").disabled=s.status==='running'||s.status==='complete'||!!s.pending;
   if (s.error) notify(s.error);
   renderCards();
   renderDecision();
@@ -178,7 +196,7 @@ function renderSession() {
         : s.status === "running"
           ? thinking?.advisor
           : last?.[0].split(":")[1];
-  room.set(s.board, active || "", !!playTimer);
+  room.set(s.board.map(a=>({...a,name:s.packets[a.id].name})), active || "", !!playTimer);
   $("room-caption").textContent =
     s.mode === "workflow-demo"
       ? "Workflow demonstration · fixture contributions"
@@ -191,7 +209,7 @@ function renderSession() {
 function renderCards() {
   const entries = allCards();
   $("progress").textContent =
-    `${entries.length} / ${session.board.length * 3 + 3} contributions`;
+    `${entries.length} contributions · ${session.status === "complete" ? "complete" : session.progress?.next?.stage || "prepared"} · ${session.reviewMode || "normal"}`;
   $("replay-position").textContent =
     replay >= 0 ? `${replay + 1} / ${entries.length}` : "";
   $("play").textContent = playTimer ? "Ⅱ Pause replay" : "▶ Replay";
@@ -202,11 +220,12 @@ function renderCards() {
         .map(([key, c], index) => {
           const [stage, id] = key.split(":"),
             name = id ? session.packets[id].name : "Council chair";
-          return `<article class="contribution ${replay === index ? "active-card" : ""}" id="card-${index}" ${replay >= 0 && index > replay ? "hidden" : ""}><div class="card-heading"><span class="avatar-dot">${esc(id?.slice(0, 2).toUpperCase() || "CH")}</span><h3>${esc(name)}</h3><small>${esc(stage)} · applied reasoning</small></div><p>${esc(c.argument || c.summary || c.rationale)}</p>${c.recommendation ? `<div class="detail"><b>Recommendation:</b> ${esc(c.recommendation)}${c.vote && c.vote !== "not_applicable" ? " · " + esc(c.vote) : ""}</div>` : ""}${c.scores ? `<div class="detail"><b>Option fit:</b> ${c.scores.map((x) => esc(x.option) + " " + x.score + "/10").join(" · ")}<br>Confidence ${c.confidence}/5 · risk ${esc(c.risk)}</div>` : ""}${c.cruxes ? c.cruxes.map((x) => `<div class="detail"><b>${esc(x.question)}</b> ${esc(x.why)} (${x.advisors.map(esc).join(", ")})</div>`).join("") : ""}${[
+          return `<article class="contribution ${replay === index ? "active-card" : ""}" id="card-${index}" ${replay >= 0 && index > replay ? "hidden" : ""}><div class="card-heading"><span class="avatar-dot">${esc(id?.slice(0, 2).toUpperCase() || "CH")}</span><h3>${esc(name)}</h3><small>${esc(stage)} · applied reasoning</small></div><p>${esc(c.argument || c.summary || c.rationale)}</p>${c.recommendation ? `<div class="detail"><b>Recommendation:</b> ${esc(c.recommendation)}${c.vote && c.vote !== "not_applicable" ? " · " + esc(c.vote) : ""}</div>` : ""}${c.scores ? `<div class="detail"><b>Option fit:</b> ${c.scores.map((x) => esc(x.option) + " " + x.score + "/10").join(" · ")}<br>Confidence ${c.confidence}/5 · risk ${esc(c.risk)}</div>` : ""}${c.alternative_test?.steelman?`<div class="detail"><b>Alternative: ${esc(c.alternative_test.option)}</b> ${esc(c.alternative_test.steelman)}<br>Test: ${esc(c.alternative_test.disconfirming)}</div>`:""}${c.cruxes ? c.cruxes.map((x) => `<div class="detail"><b>${esc(x.question)}</b> ${esc(x.why)} (${x.advisors.map(esc).join(", ")})</div>`).join("") : ""}${[
             "concern",
             "change_mind",
             "next_action",
             "concession",
+            "alternative_argument",
             "amendment",
           ]
             .filter((k) => c[k])
@@ -228,25 +247,16 @@ function renderDecision() {
       '<p class="field-note">The council has not recorded a final decision yet.</p>';
     return;
   }
-  const scores = session.brief.options.map((option) => {
-    let n = 0,
-      d = 0;
-    for (const seat of session.board) {
-      const c = session.cards["ratification:" + seat.id];
-      if (c) {
-        n += c.scores.find((x) => x.option === option).score * seat.weight;
-        d += seat.weight;
-      }
-    }
-    return { option, score: d ? (n / d).toFixed(1) : "—" };
-  });
+  const m=session.decisionMetrics;
+  const scores=(m?.fitScores||[]).map(x=>({...x,score:x.score===null?'—':Number(x.score).toFixed(1)}));
   const section = (title, items) =>
     `<section class="decision-section"><h3>${esc(title)}</h3><ul>${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></section>`;
   const dissent = session.board
     .filter((a) => session.cards["ratification:" + a.id]?.vote === "dissent")
     .map((a) => a.id + ": " + session.cards["ratification:" + a.id].amendment);
+  const checks=m?`<div class="computed-decision ${m.disposition==='RESHAPE'?'blocked':''}"><b>${esc(m.disposition.replaceAll('_',' '))}</b><p>Spread ${m.spread} · confidence ${m.confidence}/10 · resolution support ${m.resolutionSupport??'not applicable'}</p>${m.blockingRisks.length?`<p>Unresolved material risk: ${m.blockingRisks.map(x=>esc(x.advisor)).join(', ')}. A named mitigation must be endorsed by the advisor who raised it.</p>`:''}${m.precondition?`<p>Before committing: ${esc(m.precondition)}</p>`:''}</div>`:'';
   $("decision").innerHTML =
-    `<p class="eyebrow">${session.mode === "workflow-demo" ? "Workflow fixture / " : ""}The council’s call</p><div class="recommendation">${esc(v.recommendation)}</div><p class="decision-body">${esc(v.rationale)}</p><div class="scores">${scores.map((x) => `<div class="score">${esc(x.option)}<strong>${x.score}</strong></div>`).join("")}</div><p class="field-note">Weighted fit to this brief, 0–10. These are judgments, not probabilities.</p>${section("Trade-offs", v.tradeoffs)}${section("Conditions", v.conditions)}${section("Next steps", v.next_steps)}${section("Test the decision", [v.experiment])}${section("Revisit when", v.revisit)}${section("Unknowns", v.unknowns)}${section("Dissent", dissent.length ? dissent : ["No advisor recorded dissent."])}${section(
+    `${checks}<p class="eyebrow">${session.mode === "workflow-demo" ? "Workflow fixture / " : ""}The council’s call</p><div class="recommendation">${esc(v.recommendation)}</div><p class="decision-body">${esc(v.rationale)}</p><div class="scores">${scores.map((x) => `<div class="score">${esc(x.option)}<strong>${x.score}</strong></div>`).join("")}</div><p class="field-note">Weighted fit to this brief, 0–10. These are judgments, not probabilities.</p>${section("Trade-offs", v.tradeoffs)}${section("Conditions", v.conditions)}${section("Next steps", v.next_steps)}${section("Test the decision", [v.experiment])}${section("Revisit when", v.revisit)}${section("Unknowns", v.unknowns)}${m?.lowDimensions?.length?section("Weak dimensions and fixes",m.lowDimensions.map(x=>x.advisor+": "+x.fix)):""}${section("Dissent", dissent.length ? dissent : ["No advisor recorded dissent."])}${section(
       "Amendments",
       v.amendments.map(
         (a) =>
@@ -299,6 +309,10 @@ function toggleReplay() {
   setTab();
   if (replay === allCards().length - 1) replay = -1;
   replayStep(1);
+  setReplayTimer();
+  renderSession();
+}
+function setReplayTimer(){
   playTimer = setInterval(
     () => {
       if (replay >= allCards().length - 1) {
@@ -311,7 +325,6 @@ function toggleReplay() {
     },
     6000 / Number($("speed").value),
   );
-  renderSession();
 }
 function setTab() {
   $("tab-debate").setAttribute("aria-selected", String(tab === "debate"));
@@ -322,14 +335,16 @@ function setTab() {
   }
 }
 $("roster").addEventListener("change", (e) => {
+  selectionSerial++;
   if (e.target.dataset.seat) {
     const id = e.target.dataset.seat;
     if (e.target.checked) {
-      if (board.length === 7) {
+      if (board.length >= modeLimits()[1] && mode()!=="consult") {
         e.target.checked = false;
-        notify("Choose at most seven advisors.");
+        notify("Choose at most "+modeLimits()[1]+" advisors for this mode.");
         return;
       }
+      if(mode()==="consult")board=[];
       board.push({
         id,
         weight: 1,
@@ -358,16 +373,11 @@ $("example").onclick = async () => {
   for (const k of ["question", "context", "constraints", "success", "lean"])
     form.elements[k].value = example[k];
   form.elements.options.value = example.options.join("\n");
-  board = await api("/api/recommend", example);
-  renderRoster();
+  await suggestCouncil(example);
 };
 $("recommend").onclick = async () => {
   try {
-    board = await api("/api/recommend", {
-      ...brief(),
-      options: form.elements.options.value.split("\n").filter(Boolean),
-    });
-    renderRoster();
+    await suggestCouncil({...brief(),options:form.elements.options.value.split("\n").filter(Boolean)});
   } catch (e) {
     notify(e.message);
   }
@@ -398,6 +408,9 @@ $("context-files").onchange = async (e) => {
 form.onsubmit = async (e) => {
   e.preventDefault();
   try {
+    if(!board.length && boot.board?.board==="auto" && ["normal","quick","consult"].includes(mode()))
+      await suggestCouncil({...brief(),options:form.elements.options.value.split("\n").map(s=>s.trim()).filter(Boolean)});
+    form.querySelector("button[type=submit]").disabled=true;
     const s = await api("/api/sessions", {
       brief: {
         ...brief(),
@@ -414,6 +427,8 @@ form.onsubmit = async (e) => {
     await open(s.id);
   } catch (e) {
     notify(e.message);
+  } finally {
+    renderRoster();
   }
 };
 $("new").onclick = $("new-brief").onclick = showBrief;
@@ -447,8 +462,9 @@ $("next").onclick = () => replayStep(1);
 $("prev").onclick = () => replayStep(-1);
 $("speed").onchange = () => {
   if (playTimer) {
-    toggleReplay();
-    toggleReplay();
+    clearInterval(playTimer);
+    setReplayTimer();
+    renderSession();
   }
 };
 $("tab-debate").onclick = () => {
@@ -508,6 +524,10 @@ $("export-pdf").onclick = async () => {
 async function init() {
   try {
     boot = await api("/api/bootstrap");
+    $("brief-fields").disabled=false;
+    $("example").disabled=false;
+    renderSettings();
+    if(boot.board?.board==='default')useSavedBoard();
     renderRoster();
     renderHistory();
     if (location.hash) await open(location.hash.slice(1));
@@ -521,3 +541,14 @@ window.addEventListener("hashchange", () => {
   else if (!id && session) showBrief();
 });
 void init();
+
+function mode(){return $('review-mode').value;}
+function modeLimits(){return mode()==='consult'?[1,1]:mode()==='quick'?[4,4]:mode()==='normal'?[5,7]:[1,9];}
+function renderSettings(){const prefs=boot.board||{board:'default',default:[]};$('board-policy').value=prefs.board;$('default-roster').innerHTML=boot.roster.map(a=>`<label class="default-seat"><input type="checkbox" data-default-seat="${esc(a.id)}" ${prefs.default.includes(a.id)?'checked':''}>${esc(a.name)}</label>`).join('');}
+function useSavedBoard(){const prefs=boot.board;if(!prefs)return;board=prefs.default.map(id=>({id,weight:1,reason:'Saved default council.'}));$('review-mode').value=board.length===1?'consult':board.length<5||board.length>7?'selected':'normal';renderRoster();}
+$('save-board').onclick=async()=>{try{boot.board=await api('/api/board',{board:$('board-policy').value,default:[...document.querySelectorAll('[data-default-seat]:checked')].map(x=>x.dataset.defaultSeat)});renderSettings();notify('Council preferences saved. Explicit choices still take precedence.');}catch(e){notify(e.message);}};
+$('use-board').onclick=useSavedBoard;
+$('review-mode').onchange=async()=>{try{if(mode()==='all'){selectionSerial++;if(boot.roster.length>9){notify('This roster has '+boot.roster.length+' advisors. Use Selected to explicitly choose up to nine.');renderRoster();return;}board=boot.roster.map(a=>({id:a.id,weight:1,reason:'All registered advisors.'}));renderRoster();}else if(mode()!=='selected'){await suggestCouncil({...brief(),options:form.elements.options.value.split('\n').filter(Boolean)});}else{selectionSerial++;renderRoster();}}catch(e){notify(e.message);}};
+async function suggestCouncil(b){const serial=++selectionSerial,requested=mode();form.querySelector('button[type=submit]').disabled=true;try{const proposed=await api('/api/recommend',{brief:b,reviewMode:requested});if(serial!==selectionSerial||requested!==mode())return;board=proposed;renderRoster();}finally{if(serial===selectionSerial)renderRoster();}}
+$('search-evidence').onclick=async()=>{try{const r=await api('/api/sessions/'+session.id+'/evidence',{advisor:$('search-advisor').value,query:$('evidence-query').value,limit:6});session=r.session;renderSession();$('search-results').innerHTML=r.no_match?'<p class="field-note">No relevant passage found in this prepared snapshot. This is a coverage gap, not support for a new claim.</p>':`<p class="field-note">${r.added.length} new passages added to the next advisor packet.</p>`+r.results.map(e=>`<button class="evidence-chip" data-evidence="${esc(e.id)}">${esc(e.title||e.source_id)}</button>`).join('');}catch(e){notify(e.message);}};
+$('search-results').onclick=e=>{const b=e.target.closest('[data-evidence]');if(b)evidence(b.dataset.evidence);};

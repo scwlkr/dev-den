@@ -7,8 +7,10 @@ import { ROOT, metadata, recommend } from "./lib/knowledge.mjs";
 import { loadBoardPrefs, saveBoardPrefs, validateBoardPrefs } from "./lib/board.mjs";
 import { Store, publicSession } from "./lib/sessions.mjs";
 import { Council } from "./lib/council.mjs";
-import { nextStep, prompt } from "./lib/protocol.mjs";
+import { nextStep, prompt, steps, decisionMetrics, decisionChecks } from "./lib/protocol.mjs";
 import { report, markdown } from "./lib/report.mjs";
+import { retrieveEvidence } from "./lib/evidence.mjs";
+const view = s => ({...publicSession(s), decisionMetrics:decisionMetrics(s), decisionChecks:decisionChecks(s), progress:{next:nextStep(s)||null, steps:steps(s)}});
 export function createServer({
   store = new Store(),
   council = new Council(store),
@@ -53,6 +55,7 @@ export function createServer({
             exposure: council.ledger.exposure(),
           },
           demo: allowDemo,
+          board: loadBoardPrefs(store.root),
         });
       let body = {};
       if (req.method === "POST") {
@@ -64,7 +67,7 @@ export function createServer({
         body = raw ? JSON.parse(raw) : {};
       }
       if (url.pathname === "/api/recommend" && req.method === "POST")
-        return send(recommend(body, store.root));
+        return send(recommend(body.brief || body, store.root, body.reviewMode || "normal"));
       if (url.pathname === "/api/board" && req.method === "GET")
         return send(loadBoardPrefs(store.root));
       if (url.pathname === "/api/board" && req.method === "POST") {
@@ -74,7 +77,7 @@ export function createServer({
       if (url.pathname === "/api/sessions" && req.method === "POST") {
         const mode = body.reviewMode || body.mode || "normal";
         return send(
-          publicSession(store.create(body.brief, body.board, mode)),
+          view(store.create(body.brief, body.board, mode)),
           201,
         );
       }
@@ -82,7 +85,7 @@ export function createServer({
         const id = parts[2],
           s = store.read(id),
           action = parts[3];
-        if (!action && req.method === "GET") return send(publicSession(s));
+        if (!action && req.method === "GET") return send(view(s));
         if (action === "events" && req.method === "GET") {
           // Durable ordinal replay follows roast-room's session/event stream; file polling also observes CLI submissions.
           res.writeHead(200, {
@@ -118,6 +121,10 @@ export function createServer({
             streams.delete(res);
           });
           return;
+        }
+        if (action === "evidence" && req.method === "POST") {
+          const result=retrieveEvidence(store,id,body.advisor,body.query,body.limit??6);
+          return send({...result,session:view(result.session),results:result.results.map(e=>({...e,quote:e.quote.split(/\s+/).slice(0,12).join(' ')+'…'}))});
         }
         if (action === "packet" && req.method === "GET") {
           const step = nextStep(s);
@@ -161,7 +168,7 @@ export function createServer({
           return send({ paused: true });
         }
         if (action === "submit" && req.method === "POST")
-          return send(publicSession(store.submit(id, body.key, body.card)));
+          return send(view(store.submit(id, body.key, body.card)));
         if (action === "demo" && req.method === "POST" && allowDemo) {
           if (Object.keys(s.cards).length || council.running.size)
             throw Error("Workflow demo needs an empty session");
@@ -174,7 +181,7 @@ export function createServer({
           store.mutate(id, (s) => {
             s.mode = "workflow-demo";
           });
-          return send(publicSession(store.read(id)));
+          return send(view(store.read(id)));
         }
       }
       if (req.method !== "GET") return send({ error: "Unknown action" }, 404);

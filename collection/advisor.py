@@ -7,11 +7,14 @@ import re
 import shutil
 import subprocess
 import sys
+import uuid
+import urllib.parse
+import ipaddress
 from pathlib import Path
 
 from .pilot import (read_json, write_json, digest, canonical, get_source, normalize,
                     verify_evidence, SECTIONS, EXTRACTION, COMPILATION, now, Pilot,
-                    work_coverage, collection_fingerprint)
+                    work_coverage, collection_fingerprint, speaker_allowed)
 
 SLUG_RE = re.compile(r"^[a-z][a-z0-9-]*$")
 SOURCE_ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
@@ -61,6 +64,8 @@ def cmd_prepare(args):
     roster_path = root / "collection" / "roster.json"
     roster = read_json(roster_path, {"developers": []})
     existing = [d for d in roster.get("developers", []) if d["id"] == aid]
+    if existing and not mpath.exists():
+        raise SystemExit("Existing advisors without a builder manifest must be maintained through the original collection pipeline")
     if existing and not args.update:
         raise SystemExit(f"advisor {aid} already registered in roster")
     if mpath.exists() and args.update:
@@ -77,6 +82,7 @@ def cmd_prepare(args):
         return
     manifest = {
         "advisor_id": aid,
+        "build_id": uuid.uuid4().hex,
         "name": args.name,
         "aliases": args.alias or [args.name],
         "focus": args.focus,
@@ -99,6 +105,15 @@ def cmd_import(args):
     validate_id(aid)
     m = load_manifest(root, aid)
     url = args.url
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.scheme not in ('http','https') or not parsed.hostname or parsed.username or parsed.password:
+        raise SystemExit('Only public HTTP(S) source URLs are allowed')
+    hostname=parsed.hostname.lower()
+    if hostname=='localhost' or hostname.endswith(('.localhost','.local')):
+        raise SystemExit('Nonpublic source URL')
+    try:
+        if not ipaddress.ip_address(hostname).is_global:raise SystemExit('Nonpublic source URL')
+    except ValueError:pass
     if args.text_file:
         text = Path(args.text_file).read_text()
         meta = {"url": url, "title": args.title or url, "author": args.author, "date": args.date}
@@ -184,6 +199,11 @@ def cmd_extraction_submit(args):
     if part < 1 or part > total:
         print(json.dumps({"status": "rejected", "errors": ["invalid part"]}))
         return
+    chunk_norm=normalize(chunks[part-1])
+    valid=[e for e in valid if normalize(e['quote']) in chunk_norm]
+    if not valid:
+        print(json.dumps({'status':'rejected','errors':['Quote does not belong to the requested source chunk']}))
+        return
     ext_path = folder / "extraction.json"
     existing = read_json(ext_path, {"parts_done": [], "evidence": [], "total_chunks": total})
     if part in existing.get("parts_done", []):
@@ -192,7 +212,7 @@ def cmd_extraction_submit(args):
     # generate canonical evidence ids already from verify_evidence
     existing.setdefault("parts_done", []).append(part)
     existing.setdefault("evidence", []).extend(valid)
-    existing.setdefault("extractions", []).append({"part": part, "chunk_index": part-1})
+    existing.setdefault("extractions", []).append({**data,"part":part,"chunk_index":part-1})
     existing["total_chunks"] = total
     existing["source_id"] = sid
     existing["developer"] = aid
@@ -334,6 +354,9 @@ def validate_build(root, aid, allow_gaps=False):
     # integrity: recompute hashes/quotes
     errors = []
     for r in records:
+        origin=next((x for x in m['sources'] if x['source_id']==r.get('source_id')),None)
+        if not origin or r.get('url')!=origin.get('url') or r.get('metadata',{}).get('url')!=origin.get('metadata',{}).get('url'):
+            errors.append('source URL ownership mismatch')
         folder = build_root(root, aid) / "sources" / r["source_id"]
         text = (folder / "source.txt").read_text()
         if digest(normalize(text)) != r.get("text_sha256"):
@@ -349,12 +372,16 @@ def validate_build(root, aid, allow_gaps=False):
                 errors.append("quote offset mismatch")
             if e.get("attribution") == "speaker":
                 aliases = m.get("aliases", [])
-                if not any(a.lower() in (e.get("speaker") or "").lower() for a in aliases):
+                if not speaker_allowed(e.get("speaker", ""), aliases):
                     errors.append("speaker mismatch")
             # metadata url
             if not r.get("metadata", {}).get("url"):
                 errors.append("missing metadata url")
-    # full integrity checks
+        if r.get('developer')!=aid or not r.get('source_id','').startswith(aid+'-'):errors.append('source ownership mismatch')
+        if set(r.get('parts_done',[]))!=set(range(1,r.get('total_chunks',0)+1)):errors.append('incomplete chunks')
+        for ev in r.get('evidence',[]):
+            if r.get('source_scope') and not any(a<=ev['passage_offset'] and ev['passage_offset']+len(ev['quote'])<=b for a,b in r['source_scope']['normalized_ranges']):errors.append('evidence outside source scope')
+    # Compilation validation is independent of any requested source-depth override.
     cp = build_root(root, aid) / "compiled.json"
     if not cp.exists():
         errors.append("not compiled")
@@ -423,7 +450,10 @@ def cmd_register(args):
 
     roster_path = root / "collection" / "roster.json"
     roster = read_json(roster_path, {"developers": []})
-    existing_entry = any(d["id"] == aid for d in roster.get("developers", []))
+    prior_entry=next((d for d in roster.get('developers',[]) if d['id']==aid),None)
+    existing_entry=prior_entry is not None
+    if existing_entry and (not m.get('build_id') or prior_entry.get('advisor_build_id')!=m['build_id']):
+        raise SystemExit('Refusing to replace an advisor not owned by this builder')
     if existing_entry and not update:
         raise SystemExit("collision: advisor already registered")
     # protect initial advisors without manifest? if update and no manifest? manifest exists by load.
@@ -437,9 +467,30 @@ def cmd_register(args):
     if knowledge_dir.exists() and not update and not knowledge_dir.is_dir():
         raise SystemExit("destination exists")
 
+    if update and existing_entry:
+        old_sources=dst_base/'sources'
+        for old_text in old_sources.glob('*/source.txt'):
+            proposed=build_root(root,aid)/'sources'/old_text.parent.name/'source.txt'
+            if not proposed.exists() or proposed.read_bytes()!=old_text.read_bytes():
+                raise SystemExit('Update would replace or remove historical source text')
     # staging
     import tempfile, fcntl, os, shutil
+    prefs_path=root/'.den'/'board.json'
+    prefs_original=prefs_path.read_bytes() if prefs_path.exists() else None
+    prefs_new=None
+    if m.get('default_board'):
+        prefs_new=read_json(prefs_path,{'board':'default','default':[d['id'] for d in roster.get('developers',[])][:5]})
+        chosen=list(prefs_new.get('default',[]))
+        if aid not in chosen:chosen.append(aid)
+        known={d['id'] for d in roster.get('developers',[])}|{aid}
+        if not 1<=len(chosen)<=9 or len(set(chosen))!=len(chosen) or any(x not in known for x in chosen):
+            raise SystemExit('Default-board intent would create an invalid or over-nine board')
+        prefs_new['default']=chosen
+        if 'seats' in prefs_new and aid not in prefs_new['seats']:prefs_new['seats'].append(aid)
     stage = Path(tempfile.mkdtemp(prefix="adv-stage-", dir=str(root)))
+    published_corpus=False
+    published_knowledge=False
+    roster_bytes=roster_path.read_bytes() if roster_path.exists() else b''
     try:
         stage_corpus = stage / "corpus"
         stage_knowledge = stage / "knowledge"
@@ -484,6 +535,7 @@ def cmd_register(args):
                     raise SystemExit("destination exists")
             try:
                 shutil.move(str(stage_corpus / aid), str(dst_base))
+                published_corpus=True
             except Exception:
                 # restore
                 if (stage / "backup_corpus").exists():
@@ -503,12 +555,13 @@ def cmd_register(args):
                     raise SystemExit("destination exists")
             try:
                 shutil.move(str(stage_knowledge / aid), str(knowledge_dir))
+                published_knowledge=True
             except Exception:
                 if (stage / "backup_knowledge").exists():
                     (stage / "backup_knowledge").rename(knowledge_dir)
                 raise
             # roster last
-            dev = {"id": aid, "name": m["name"], "aliases": m["aliases"], "focus": m["focus"]}
+            dev = {"id": aid, "name": m["name"], "aliases": m["aliases"], "focus": m["focus"], "advisor_build_id":m["build_id"]}
             if not existing_entry:
                 roster["developers"].append(dev)
             else:
@@ -516,14 +569,23 @@ def cmd_register(args):
                     if d["id"] == aid:
                         roster["developers"][i] = dev
             write_json(roster_path, roster)
+            if prefs_new is not None:write_json(prefs_path,prefs_new)
             fcntl.flock(lf, fcntl.LOCK_UN)
         m["status"] = "registered"
         save_manifest(root, m)
         print(json.dumps({"status": "registered", "consult": f"node app/cli.mjs consult BRIEF.json {aid}"}))
-    except SystemExit as e:
-        raise
-    except Exception as e:
-        print(json.dumps({"status": "error", "errors": [str(e)]}))
+    except BaseException as e:
+        if published_knowledge and knowledge_dir.exists():shutil.rmtree(knowledge_dir)
+        if published_corpus and dst_base.exists():shutil.rmtree(dst_base)
+        for backup,dest in [(stage/'backup_corpus',dst_base),(stage/'backup_knowledge',knowledge_dir)]:
+            if backup.exists() and not dest.exists():backup.rename(dest)
+        if roster_path.exists() and roster_path.read_bytes()!=roster_bytes:
+            restored=roster_path.with_name(roster_path.name+'.restore')
+            restored.write_bytes(roster_bytes);restored.replace(roster_path)
+        if prefs_original is None and prefs_new is not None:prefs_path.unlink(missing_ok=True)
+        elif prefs_original is not None and prefs_path.read_bytes()!=prefs_original:prefs_path.write_bytes(prefs_original)
+        if isinstance(e,SystemExit):raise
+        print(json.dumps({'status':'error','errors':[str(e)]}))
         raise SystemExit(1)
     finally:
         shutil.rmtree(stage, ignore_errors=True)

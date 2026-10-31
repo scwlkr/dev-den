@@ -6,7 +6,8 @@ export function boardPrefPath(root = ROOT) {
   return path.join(root, ".den", "board.json");
 }
 export function defaultBoardPrefs(root = ROOT) {
-  return { board: "default", default: [...DEFAULT_BOARD], seats: metadata(root).map((a) => a.id) };
+  const ids=metadata(root).map(a=>a.id);const preferred=DEFAULT_BOARD.filter(id=>ids.includes(id));
+  return {board:"default",default:preferred.length?preferred:ids.slice(0,5),seats:ids};
 }
 export function loadBoardPrefs(root = ROOT) {
   const p = boardPrefPath(root);
@@ -34,8 +35,7 @@ export function saveBoardPrefs(prefs, root = ROOT) {
   fs.renameSync(tmp, p);
 }
 export function resolveBoard({ brief, prefs, explicit, mode = "normal", root = ROOT }) {
-  const rosterIds = new Set(metadata(root).map((a) => a.id));
-  validateBoardPrefs(prefs || defaultBoardPrefs(), root);
+  validateBoardPrefs(prefs || defaultBoardPrefs(root), root);
   if (explicit) {
     if (!Array.isArray(explicit)) throw Error("Explicit board must be an array");
     if (explicit.length > 9) throw Error("Selected review cannot contain more than 9 advisors");

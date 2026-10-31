@@ -75,11 +75,11 @@ export class Room {
       c.lineTo(x2, y2);
       c.stroke();
     };
-    const text = (t, x, y, size = 5, col = "#94a9b4") => {
+    const text = (t, x, y, size = 5, col = "#94a9b4", maxWidth) => {
       c.fillStyle = col;
       c.font = `${size}px monospace`;
       c.textAlign = "center";
-      c.fillText(t, x, y);
+      c.fillText(t, x, y, maxWidth || 470);
     };
     r(0, 0, 480, 205, "#142a38");
     r(0, 0, 480, 9, "#10212e");
@@ -188,7 +188,9 @@ export class Room {
           { id: "linus" },
         ];
     const points =
-      seats.length === 5
+      seats.length === 1
+        ? [[240, 115]]
+        : seats.length === 5
         ? [
             [104, 118],
             [172, 116],
@@ -250,7 +252,7 @@ export class Room {
       r(x + 5, y + 4, 8, 4, "#c9a58b");
       r(x - 28, y + 15, 56, 10, a ? "#35576b" : "#172c38");
       if (a) r(x - 28, y + 24, 56, 1, colors.brass);
-      text((s.name || short[s.id] || s.id), x, y + 22, 5.1, a ? "#f0d8aa" : "#b5c6cd");
+      text((short[s.id] || s.name || s.id), x, y + 22, 5.1, a ? "#f0d8aa" : "#b5c6cd", Math.min(52,380/seats.length));
     });
     // Foreground plant, stacked books and ambient grain.
     r(8, 176, 16, 25, "#293c3b");

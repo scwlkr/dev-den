@@ -172,7 +172,7 @@ export function packet(id, brief, root = ROOT, options = {}) {
   const a = advisor(id, root);
   const briefText = JSON.stringify(brief || {});
   const query = briefText;
-  const BUDGET_CHARS = options.budget || 56000;
+  const BUDGET_CHARS = options.budget ?? 56000;
   if (typeof BUDGET_CHARS !== "number" || !Number.isFinite(BUDGET_CHARS) || BUDGET_CHARS < 1000) throw Error("Invalid budget");
 
   // Rank compiled nodes by question and section.
@@ -243,6 +243,7 @@ export function packet(id, brief, root = ROOT, options = {}) {
   result.omitted_sections = omittedSections;
   result.limits = [...a.compiled.gaps, ...(omittedSections.length ? ["Omitted sections: " + omittedSections.join(", ")] : [])];
   result.fingerprint = hash(JSON.stringify(result));
+  if(JSON.stringify(result).length>BUDGET_CHARS)throw Error("Packet budget is too small for its required metadata and source context");
   return result;
 }
 

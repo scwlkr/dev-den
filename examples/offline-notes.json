@@ -1,0 +1,10 @@
+{
+  "question": "Which storage should a small offline personal desktop notes app use?",
+  "options": ["Embedded SQLite", "Local PostgreSQL server", "JSON files"],
+  "context": "Hypothetical evaluation brief, not an existing owner project decision. One developer building a local desktop notes app. The first version stores up to 30,000 plain-text notes, supports title/body search, editing, tags, export and restore. No collaboration or cloud synchronization is required.",
+  "constraints": "One developer, personal use, offline operation, no operations team, limited setup and maintenance time. Data loss matters more than peak throughput. The developer is familiar with application code but no particular database expertise is assumed.",
+  "success": "A working edit/search/tag workflow within a weekend, persistent data after restart, and a demonstrated export/restore path.",
+  "lean": "Undecided. Favor a small system with recoverable data; test the alternatives against the same constraints.",
+  "reversibility": "reversible",
+  "assumptions": ["The application runs locally on one machine.", "The notes are text; attachments and multi-device sync are out of scope."]
+}

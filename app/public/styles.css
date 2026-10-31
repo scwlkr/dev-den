@@ -889,3 +889,7 @@ dialog p {
 .seat-summary details p {
   margin: 8px 0;
 }
+
+#board-settings,#refine-evidence{border-block:1px solid var(--line);padding:15px 0;margin:15px 0}#board-settings summary,#refine-evidence summary{cursor:pointer;color:var(--blue);font-size:12px;margin-bottom:12px}.inspector .default-seat{display:flex;gap:8px;align-items:center;margin:8px 0;font-size:11px}.inspector .default-seat input{display:inline;width:14px;margin:0}.computed-decision{border-left:3px solid var(--brass);background:#1b3040;padding:15px;margin:16px 0}.computed-decision.blocked{border-color:var(--ember);background:#392d2a}.computed-decision b{color:var(--brass);font-size:13px}.computed-decision p{font-size:12px;line-height:1.7;margin:8px 0 0}#search-results{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+
+#brief-fields{border:0;margin:0;padding:0;min-width:0}#brief-fields>.primary{margin-top:20px}

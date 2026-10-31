@@ -1,7 +1,5 @@
 # Den of Devs
 
-Modes: normal 5-7, quick 4, consult 1, selected 1-9, all rejects over-9 roster. Board settings validated. Evidence refinement uses prepared evidence only. Builder: `node app/cli.mjs advisor ...` delegates to `python3 -B -m collection.advisor --project ROOT ...`.
-
 A technical decision council grounded in developers' own published reasoning. Prepare advisor knowledge first, then convene five to seven relevant advisors to examine a shared decision brief and reach an opinionated, cited outcome.
 
 The product specification is [GitHub issue #2](https://github.com/scwlkr/dev-den/issues/2). The initial collection expansion is recorded in [#4](https://github.com/scwlkr/dev-den/issues/4), and continuation from existing credits in [#5](https://github.com/scwlkr/dev-den/issues/5).
@@ -13,9 +11,11 @@ npm start
 # Open http://127.0.0.1:4731
 ```
 
-Invoke `$dev-den` in Codex for a review through the current agent, or use the browser’s optional API runner. Both use the same opening → debate → ratification protocol, checked first-hand citations, saved sessions, replay, and Markdown/JSON/PDF reports. Choose 5–7 of the 13 prepared advisors. [Runtime instructions, providers, budgets and recovery](app/README.md).
+Invoke `$dev-den` in Codex for a review through the current agent, or use the browser’s optional API runner. Both use the same validated protocol, checked first-hand citations, saved sessions, replay, and Markdown/JSON/PDF reports. Normal reviews use 5–7 of the 13 prepared advisors; quick uses four, consult uses one, and selected supports 1–9. Saved board preferences and prepared-evidence search work through the browser and portable CLI. [Runtime instructions, providers, budgets and recovery](app/README.md).
 
 All advisors are simulations applying documented principles. The real developers do not participate or endorse the outcome. The pixel-art den is provisional.
+
+Build additional advisors with `$dev-den-advisor` or [the portable advisor workflow](collection/ADVISOR.md). [Parity acceptance and qualification](docs/PARITY.md) records what was verified and the remaining limits.
 
 ## Source collection and advisor knowledge
 

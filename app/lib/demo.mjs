@@ -39,6 +39,7 @@ export function fixtureCard(s, step) {
           ? "dissent"
           : "accept"
         : "not_applicable",
+    alternative_argument: step.stage === "debate" ? "Workflow fixture: the named alternative may reduce setup effort if its existing ecosystem is already familiar; measure a working slice before rejecting it." : "",
     amendment:
       step.stage === "ratification" && index === 1
         ? "Demonstrate export and recovery before committing."

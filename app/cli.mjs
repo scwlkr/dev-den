@@ -7,7 +7,9 @@ import { nextStep, prompt } from "./lib/protocol.mjs";
 import { Council } from "./lib/council.mjs";
 import { markdown, report } from "./lib/report.mjs";
 import { saveBoardPrefs, loadBoardPrefs, boardPrefPath } from "./lib/board.mjs";
-const projectRoot = process.env.DEN_PROJECT_ROOT || ROOT;
+import {spawnSync} from "node:child_process";
+import {retrieveEvidence} from "./lib/evidence.mjs";
+const projectRoot = path.resolve(process.env.DEN_PROJECT_ROOT || ROOT);
 const [command, ...args] = process.argv.slice(2),
   store = new Store(process.env.DEN_SESSION_DIR || path.join(projectRoot, "sessions"), projectRoot);
 const json = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
@@ -15,10 +17,10 @@ try {
   let result;
   switch (command) {
     case "roster":
-      result = metadata();
+      result = metadata(projectRoot);
       break;
     case "recommend":
-      result = recommend(json(args[0]));
+      result = recommend(json(args[0]),projectRoot,args[1]||"normal");
       break;
     case "prepare": {
       let brief = json(args[0]);
@@ -41,7 +43,7 @@ try {
       }
       const s = store.create(
         brief,
-        args[1] && args[1] !== "auto" ? json(args[1]) : undefined,
+        args[1] === "auto" ? recommend(brief,projectRoot,"normal") : args[1] ? json(args[1]) : undefined,
         "normal",
       );
       result = {
@@ -54,7 +56,7 @@ try {
     }
     case "quick": {
       const brief = json(args[0]);
-      const board = args[1] && args[1] !== "auto" ? json(args[1]) : recommend(brief, ROOT, "quick");
+      const board = args[1] && args[1] !== "auto" ? json(args[1]) : recommend(brief, projectRoot, "quick");
       const s = store.create(brief, board, "quick");
       result = { id: s.id, mode: "quick", board: s.board, room: "http://127.0.0.1:4731/#" + s.id, next: nextStep(s) };
       break;
@@ -92,12 +94,21 @@ try {
       result = prefs;
       break;
     }
+    case "evidence": {
+      const r=retrieveEvidence(store,args[0],args[1],args[2],Number(args[3]||6));
+      result={added:r.added,results:r.results,no_match:r.no_match,limitations:r.limitations};break;
+    }
+    case "advisor": {
+      const r=spawnSync("python3",["-B","-m","collection.advisor","--project",projectRoot,...args],{cwd:ROOT,stdio:"inherit"});
+      process.exit(r.status??1);
+    }
     case "list":
       result = store.list();
       break;
     case "acknowledge-unknown": {
       const s = store.mutate(args[0], (s) => {
         if (!s.pending) throw Error("No unresolved pending request");
+        if(s.status==="running") throw Error("Wait for the active runner to stop before acknowledging an unknown charge");
         const pending = s.pending;
         delete s.pending;
         s.status = "paused";
@@ -167,6 +178,8 @@ try {
           "node app/cli.mjs submit SESSION STAGE:ADVISOR card.json",
           "node app/cli.mjs run SESSION [review-cap-usd]",
           "node app/cli.mjs report SESSION [json]",
+          "node app/cli.mjs evidence SESSION ADVISOR QUERY [LIMIT]",
+          "node app/cli.mjs advisor prepare --id NAME --name FULL_NAME --focus DOMAIN",
           "npm start",
         ],
         notice:

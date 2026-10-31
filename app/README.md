@@ -7,7 +7,7 @@ npm start
 # http://127.0.0.1:4731
 ```
 
-Create a brief, choose 5–7 advisors with relevance weights, and convene. Preparation is free. Use `$dev-den` in Codex to conduct the review through the current agent, or select **Run / resume with API**. The skill is in `.agents/skills/dev-den/SKILL.md`; a symlink in `~/.codex/skills/dev-den` makes it available to Codex (restart/refresh skill discovery if necessary). Other platforms can read the same skill and use the CLI; native automatic skill discovery varies by platform.
+Create a brief, select a review mode and advisors with relevance weights, and convene. A normal review uses 5–7 advisors. Preparation is free. Use `$dev-den` in Codex to conduct the review through the current agent, or select **Run / resume with API**. The skill is in `.agents/skills/dev-den/SKILL.md`; a symlink in `~/.codex/skills/dev-den` makes it available to Codex (restart/refresh skill discovery if necessary). Other platforms can read the same skill and use the CLI; native automatic skill discovery varies by platform.
 
 The local browser watches durable session events, including CLI submissions. Reviews survive browser/server restarts. Pause waits for the in-flight contribution to finish; resume starts at the next uncompleted step. Replay has pause, previous/next, and speed controls. Each contribution links to a short matched evidence excerpt, original source, date when known, attribution, and context. The decision view records trade-offs, conditions, next steps, dissent, amendments, and a falsifiable experiment. Download Markdown/JSON/PDF from the side panel. PDF uses the locally vendored MIT jsPDF library.
 
@@ -58,7 +58,7 @@ The app binds only `127.0.0.1`. Mutations require a same-origin token, Host is r
 
 ## Evidence limitations
 
-All advisor text is simulated application of first-hand evidence. It is not a historical statement about your project. Text matching establishes passage integrity, not the truth of a source claim or perfect semantic support. Attribution/context were assessed during collection. Captions are not audio verified. Retrieval ranks 16 diverse passages per advisor against the locked brief; it does not stuff the entire corpus into every prompt. Weak coverage, unknown dates, and historical contexts remain visible in reports. Inferred compilation summaries are not supplied as authority.
+All advisor text is simulated application of first-hand evidence. It is not a historical statement about your project. Text matching establishes passage integrity, not the truth of a source claim or perfect semantic support. Attribution/context were assessed during collection. Captions are not audio verified. Retrieval selects source-linked working context, voice guidance and relevant compiled knowledge together with all supporting passages, under a total serialized packet budget (56,000 characters by default). Omitted sections and weak source coverage remain explicit. Prepared evidence can be refined within the original corpus snapshot; the runtime rejects changed source hashes and snapshot identities. Weak coverage, unknown dates, and historical contexts remain visible in reports. Inferred compilation summaries are not supplied as authority.
 
 ## Verification
 
@@ -73,3 +73,15 @@ Native Node tests exercise the complete protocol, citations, actual dissent, bud
 The visual room is a provisional pixel study. The final portrait/art direction remains open. Animation follows published contribution playback and respects reduced motion; it is not a claim of live human participation or token streaming.
 
 Provider references: [OpenAI structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs), [Anthropic structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs). Upstream adaptation and third-party licensing are documented in [NOTICE.md](../NOTICE.md).
+
+## Review modes and saved boards
+
+`prepare BRIEF [BOARD|auto]` conducts a normal 5–7-person review. `quick BRIEF [BOARD|auto]` uses four and conditionally skips ratification after a converged debate. `consult BRIEF ADVISOR` uses one advisor plus synthesis. `selected BRIEF BOARD` supports 1–9 explicitly selected advisors. `all BRIEF` rejects a roster larger than nine; it does not silently truncate our thirteen-person roster. Browser mode selection follows the same contracts.
+
+`node app/cli.mjs board` shows saved policy/defaults. `board set '{"board":"default","default":["dhh","tobi","primeagen","carmack","linus"]}'` saves validated preferences atomically. Policies are ask/auto/default; explicit participants win. Under ask, a host agent confirms participants while a machine CLI must pass an explicit board. The browser exposes settings and lets you use the saved board. `DEN_PROJECT_ROOT` isolates configuration/corpus for a different project.
+
+`node app/cli.mjs evidence SESSION ADVISOR 'QUERY' [LIMIT]` adds verified passages from the same prepared snapshot before the next contribution. The browser has the equivalent source search. It cannot run while a provider request is pending or alter a completed review.
+
+Computed decision safeguards are visible in the room and every export: weighted fit, spread, confidence, support for the actual draft, material-risk blockers requiring the original advisor's mitigation endorsement, weak-dimension fixes, and experiments before divided irreversible choices. These are simulated fit judgments, not probabilities. Version-2 output schemas are strict; version-1 reviews remain readable/resumable without rewriting accepted contributions.
+
+To add or deepen an advisor, use [the advisor-building workflow](../collection/ADVISOR.md) through `node app/cli.mjs advisor ...` or the dedicated host-agent skill. It uses the original validation/export machinery and refuses incomplete or corrupted registration. Depth shortfalls require explicit acknowledgement and remain in the knowledge. Final portrait style remains replaceable.

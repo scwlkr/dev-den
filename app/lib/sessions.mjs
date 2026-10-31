@@ -60,12 +60,16 @@ export class Store {
       .sort((a, b) => b.created.localeCompare(a.created));
   }
   create(brief, board, mode = "normal") {
+    if(mode==='agent')mode='normal';
+    if(!['normal','quick','consult','selected','all'].includes(mode))throw Error('Unknown review mode');
+    if(mode==='all'&&!board)board=metadata(this.root).map(a=>({id:a.id,weight:1,reason:'All registered advisors.'}));
+    if(mode==='quick'&&!board)board=recommend(brief,this.root,'quick');
     if (mode === "all" && metadata(this.root).length > 9) throw Error("Review mode 'all' is not available for rosters larger than 9; use selected with an explicit board of 1-9 advisors");
     brief = validateBrief(brief);
     if (!board) {
       const prefs = loadBoardPrefs(this.root);
       const resolved = resolveBoard({ brief, prefs, explicit: undefined, mode, root: this.root });
-      if (resolved) board = resolved;
+      if (resolved){board=resolved;if(mode==='normal'&&(board.length<5||board.length>7))mode='selected';}
       else board = recommend(brief, this.root, mode);
     }
     const [min, max] = allowedBoardSize(mode);
@@ -91,6 +95,7 @@ export class Store {
       packets,
       mode,
       reviewMode: mode,
+      provider:"host-agent",
       status: "prepared",
       cards: {},
       events: [],
@@ -197,7 +202,7 @@ export class Store {
     });
   }
   recover() {
-    for (const row of this.list())
+    for (const row of this.list().filter(r => r.status === "running"))
       this.mutate(row.id, (s) => {
         if (s.status === "running") {
           s.status = s.pending ? "needs_review" : "paused";

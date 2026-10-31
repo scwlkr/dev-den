@@ -117,10 +117,15 @@
           </button>
         </div>
         <div id="brief-panel">
-          <button id="example" class="text-button example">
+          <details id="board-settings"><summary>Saved council settings</summary>
+            <label>Board selection<select id="board-policy"><option value="ask">Ask me each time</option><option value="auto">Recommend automatically</option><option value="default">Use my saved board</option></select></label>
+            <p class="field-note">Save 1–9 advisors. Your explicit selection always wins.</p><div id="default-roster"></div>
+            <button type="button" id="save-board" class="subtle">Save settings</button><button type="button" id="use-board" class="subtle">Use saved board</button>
+          </details>
+          <button id="example" class="text-button example" disabled>
             Try the to-do app question ↗
           </button>
-          <form id="brief-form">
+          <form id="brief-form"><fieldset id="brief-fields" disabled>
             <label>Review mode
               <select id="review-mode" name="reviewMode">
                 <option value="normal">Normal (5-7 advisors)</option>
@@ -170,7 +175,8 @@
                 required
                 minlength="5"
               ></textarea></label
-            ><label
+            ><label>Reversibility<select id="reversibility"><option value="unknown">Unknown / needs discussion</option><option value="reversible">Easy to reverse</option><option value="irreversible">Hard or costly to reverse</option></select></label>
+            <label
               >Current lean <small>optional</small
               ><input
                 name="lean"
@@ -199,13 +205,13 @@
             <p class="field-note">
               Preparing is free. Choose agent or API after the brief is locked.
             </p>
-          </form>
+          </fieldset></form>
         </div>
         <div id="session-panel" hidden>
           <div id="brief-summary"></div>
           <h3>At the table</h3>
           <div id="council-list"></div>
-          <div class="run-controls">
+          <details id="refine-evidence"><summary>Search prepared evidence</summary><p class="field-note">Search the existing source snapshot. This does not collect new sources.</p><label>Advisor<select id="search-advisor"></select></label><label>Question or concept<input id="evidence-query" placeholder="e.g. monolith deployment trade-offs"></label><button type="button" id="search-evidence" class="subtle full">Find supporting passages</button><div id="search-results" aria-live="polite"></div></details><div class="run-controls">
             <h3>Run this review</h3>
             <p class="field-note">
               Use <code>$dev-den</code> in Codex, or run the configured API
