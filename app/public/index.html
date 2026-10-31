@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101d2b" />
+    <link rel="icon" href="/favicon.svg" />
+    <title>Den of Devs — Technical council</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/vendor/jspdf.umd.min.js" defer></script>
+    <script src="/app.js" type="module"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Den of Devs home"
+        ><span class="sigil">D<span>\</span>D</span> Den of Devs</a
+      ><span class="tagline">Good decisions survive a good argument.</span
+      ><button id="inspector-jump" class="text-button">Brief & reports ↓</button
+      ><span class="local"><i></i> Local den</span>
+    </header>
+    <div class="workspace">
+      <aside class="history">
+        <div class="section-top">
+          <h2>Decision archive</h2>
+          <button id="new" class="icon" aria-label="New decision">＋</button>
+        </div>
+        <button id="new-brief" class="subtle">＋ New decision</button>
+        <nav id="sessions" aria-label="Saved decisions"></nav>
+        <div class="archive-foot">
+          <p>13 perspectives.<br />One decision that holds up.</p>
+          <small id="budget">Runtime budget loading…</small>
+        </div>
+      </aside>
+      <main>
+        <div class="main-heading">
+          <div>
+            <p class="eyebrow">The council chamber</p>
+            <h1 id="title">Bring a hard technical decision.</h1>
+          </div>
+          <span id="status" class="status">Ready when you are</span>
+        </div>
+        <div class="room-shell">
+          <canvas
+            id="room"
+            width="960"
+            height="410"
+            role="img"
+            aria-label="Provisional pixel-art developer council, around a meeting table"
+          ></canvas>
+          <div class="room-caption">
+            <span
+              ><i class="live-dot"></i>
+              <span id="room-caption">Assemble your council</span></span
+            ><span>Provisional pixel study</span>
+          </div>
+        </div>
+        <div class="simulation">
+          <span class="spark">✦</span> Simulated advisors. First-hand sources.
+          Applied reasoning.<button id="about" class="text-button">
+            How it works
+          </button>
+        </div>
+        <section id="review" hidden>
+          <div class="review-toolbar">
+            <div class="tabs" role="tablist" aria-label="Review views">
+              <button id="tab-debate" role="tab" aria-selected="true">
+                Deliberation</button
+              ><button id="tab-decision" role="tab" aria-selected="false">
+                Decision
+              </button>
+            </div>
+            <span id="progress"></span>
+          </div>
+          <div class="playback">
+            <button id="play" class="subtle">▶ Replay</button
+            ><button id="prev" class="icon" aria-label="Previous contribution">
+              ←</button
+            ><button id="next" class="icon" aria-label="Next contribution">
+              →</button
+            ><label
+              >Speed
+              <select id="speed">
+                <option value="1">1×</option>
+                <option value="2">2×</option>
+                <option value="4">4×</option>
+              </select></label
+            ><span id="replay-position"></span>
+          </div>
+          <div id="transcript" aria-live="polite"></div>
+          <div id="decision" hidden></div>
+        </section>
+        <section id="empty">
+          <h2>A room for the trade-offs.</h2>
+          <p>
+            Bring the constraints, the options, and the thing you’re unsure
+            about. The council will open independently, challenge each other,
+            and leave you with a call you can test.
+          </p>
+          <div class="process">
+            <span>01 / Opening positions</span
+            ><span>02 / Cross-examination</span
+            ><span>03 / Decision & dissent</span>
+          </div>
+        </section>
+        <div id="message" role="status" hidden></div>
+      </main>
+      <aside class="inspector">
+        <div class="section-top">
+          <h2 id="inspector-title">Your decision brief</h2>
+          <button
+            id="close-evidence"
+            class="icon"
+            hidden
+            aria-label="Close evidence"
+          >
+            ×
+          </button>
+        </div>
+        <div id="brief-panel">
+          <button id="example" class="text-button example">
+            Try the to-do app question ↗
+          </button>
+          <form id="brief-form">
+            <label
+              >The decision<textarea
+                name="question"
+                rows="2"
+                placeholder="Should we rewrite this service in Rust?"
+                required
+                minlength="5"
+              ></textarea></label
+            ><label
+              >Options <small>2–4, one per line</small
+              ><textarea
+                name="options"
+                rows="3"
+                placeholder="Keep the current stack&#10;Rewrite in Rust"
+                required
+              ></textarea></label
+            ><label
+              >Project context<textarea
+                name="context"
+                rows="3"
+                placeholder="What exists, who builds it, and what matters?"
+                required
+                minlength="5"
+              ></textarea></label
+            ><label
+              >Constraints<textarea
+                name="constraints"
+                rows="2"
+                placeholder="Time, team, platform, operational limits…"
+                required
+                minlength="5"
+              ></textarea></label
+            ><label
+              >Success looks like<textarea
+                name="success"
+                rows="2"
+                placeholder="A concrete outcome to measure"
+                required
+                minlength="5"
+              ></textarea></label
+            ><label
+              >Current lean <small>optional</small
+              ><input
+                name="lean"
+                placeholder="What you’re leaning toward, and why" /></label
+            ><label
+              >Project evidence <small>optional text/code, 80 KB total</small
+              ><input
+                id="context-files"
+                type="file"
+                multiple
+                accept=".txt,.md,.json,.js,.ts,.tsx,.rs,.py,.go,.c,.cpp,.yaml,.yml,.toml" /></label
+            ><button type="button" id="recommend" class="subtle full">
+              Suggest a council ↓
+            </button>
+            <div class="section-top board-heading">
+              <h3>Choose 5–7 advisors</h3>
+              <span id="seat-count">0 selected</span>
+            </div>
+            <p class="field-note">
+              Weights reflect relevance (1–3), not authority.
+            </p>
+            <div id="roster"></div>
+            <button class="primary full" type="submit">
+              Convene the council <span>→</span>
+            </button>
+            <p class="field-note">
+              Preparing is free. Choose agent or API after the brief is locked.
+            </p>
+          </form>
+        </div>
+        <div id="session-panel" hidden>
+          <div id="brief-summary"></div>
+          <h3>At the table</h3>
+          <div id="council-list"></div>
+          <div class="run-controls">
+            <h3>Run this review</h3>
+            <p class="field-note">
+              Use <code>$dev-den</code> in Codex, or run the configured API
+              provider.
+            </p>
+            <label
+              >API review cap (USD)<input
+                id="cap"
+                type="number"
+                min="0.01"
+                step="0.01"
+                value="0.75" /></label
+            ><button id="run" class="primary full">
+              Run / resume with API →</button
+            ><button id="pause" class="subtle full">
+              Pause after this contribution</button
+            ><button id="packet" class="subtle full">
+              Copy next agent packet</button
+            ><button id="demo" class="subtle full" hidden>
+              Run workflow demonstration
+            </button>
+            <p id="usage" class="field-note"></p>
+          </div>
+          <div class="exports">
+            <h3>Take the decision with you</h3>
+            <button id="export-md" class="subtle">Markdown ↓</button
+            ><button id="export-json" class="subtle">JSON ↓</button
+            ><button id="export-pdf" class="subtle">PDF ↓</button>
+          </div>
+        </div>
+        <div id="evidence-panel" hidden></div>
+      </aside>
+    </div>
+    <dialog id="about-dialog">
+      <button id="close-about" class="icon" aria-label="Close explanation">
+        ×
+      </button>
+      <p class="eyebrow">A council, grounded in work</p>
+      <h2>Argue from the evidence.</h2>
+      <p>
+        Each advisor uses a frozen selection from their prepared first-hand
+        sources. No source hunting happens during a review. Opening positions
+        are independent; debate engages actual arguments; the chair drafts a
+        call and advisors ratify, amend, or dissent.
+      </p>
+      <p>
+        Every contribution is simulated applied reasoning. Evidence excerpts are
+        matched to retained text; attribution is model-assessed, and captions
+        are not audio verified. Source dates and coverage gaps remain visible.
+        The actual developers did not participate.
+      </p>
+      <p>
+        Weighted scores describe fit to your brief. The chair weighs the reasons
+        and leaves you with an experiment that can change the decision.
+      </p>
+    </dialog>
+  </body>
+</html>
