@@ -161,11 +161,11 @@ export function searchEvidence(id, query, opts = {}, root = ROOT) {
   return result;
 }
 
-export function packet(id, brief, root = ROOT) {
+export function packet(id, brief, root = ROOT, options = {}) {
   const a = advisor(id, root);
   const briefText = JSON.stringify(brief || {});
   const query = briefText;
-  const BUDGET_CHARS = 12000;
+  const BUDGET_CHARS = options.budget || 56000;
 
   // Rank compiled nodes by question and section.
   const sections = a.compiled.sections || [];
@@ -188,7 +188,11 @@ export function packet(id, brief, root = ROOT) {
     for (const n of rankedNodes) {
       if (n.section !== name) continue;
       if (selectedNodes.includes(n)) continue;
-      const c = n.item.text.length;
+      const supportCost = (n.item.evidence_ids || []).reduce((acc, eid) => {
+        const ev = a.evidence.find((e) => e.id === eid);
+        return acc + (ev ? ev.quote.length + ev.claim.length + 200 : 0);
+      }, 0);
+      const c = n.item.text.length + supportCost;
       if (chars + c > BUDGET_CHARS) continue;
       selectedNodes.push(n);
       chars += c;
@@ -198,7 +202,11 @@ export function packet(id, brief, root = ROOT) {
   includeSection("voice");
   for (const n of rankedNodes) {
     if (selectedNodes.includes(n)) continue;
-    const c = n.item.text.length;
+    const sc = (n.item.evidence_ids || []).reduce((acc, eid) => {
+      const ev = a.evidence.find((e) => e.id === eid);
+      return acc + (ev ? ev.quote.length + ev.claim.length + 200 : 0);
+    }, 0);
+    const c = n.item.text.length + sc;
     if (chars + c > BUDGET_CHARS) continue;
     selectedNodes.push(n);
     chars += c;
@@ -248,38 +256,30 @@ export function packet(id, brief, root = ROOT) {
   return result;
 }
 export function recommend(brief, root = ROOT, mode = "normal") {
-  const text = JSON.stringify(brief).toLowerCase();
-  let ids = ["dhh", "tobi", "primeagen", "carmack", "linus"];
-  if (/game|graphics|engine|render|latency|performance/.test(text))
-    ids = ["carmack", "casey", "blow", "bjarne", "linus"];
-  if (/crypto|blockchain|protocol|decentrali/.test(text))
-    ids = ["vitalik", "dorsey", "linus", "ritchie", "zuckerberg"];
-  if (/architecture|testing|refactor/.test(text))
-    ids = ["dhh", "unclebob", "casey", "carmack", "tobi"];
-  const reasons = {
-    dhh: "Challenge infrastructure and complexity against this team’s product scope.",
-    tobi: "Examine tools, developer agency and the shortest path to user value.",
-    primeagen:
-      "Test learning costs, language ergonomics and the developer workflow.",
-    carmack:
-      "Demand a working experiment, a maintenance argument and measured results.",
-    linus:
-      "Stress practical interfaces, compatibility and long-term maintainability.",
-    casey: "Challenge abstraction overhead and require performance evidence.",
-    blow: "Examine complexity, correctness and whether the tools serve the actual work.",
-    bjarne: "Stress resource management, safety and the cost of abstractions.",
-    vitalik:
-      "Examine protocol assumptions, security and distributed trade-offs.",
-    dorsey:
-      "Challenge centralization and platform dependencies against product simplicity.",
-    ritchie:
-      "Examine interface design, portability and implementation constraints.",
-    zuckerberg:
-      "Examine iteration, ecosystem leverage and scaling assumptions.",
-    unclebob:
-      "Stress testing, modular boundaries and the cost of future changes.",
-  };
-  const result = ids.map((id) => ({ id, weight: 1, reason: reasons[id] }));
+  const rosterList = roster(root);
+  const q = JSON.stringify(brief || {}).toLowerCase();
+  const qTokens = new Set(q.match(/[a-z]{3,}/g) || []);
+  const scored = rosterList.map((d) => {
+    const a = advisor(d.id, root);
+    const text = (d.focus + " " + (a.compiled.sections || []).map((s) => s.items.map((i) => i.text).join(" ")).join(" ")).toLowerCase();
+    let score = 0;
+    for (const t of qTokens) if (text.includes(t)) score += 1;
+    return { d, a, score };
+  }).sort((x, y) => y.score - x.score);
+  const pick = (arr, n) => arr.slice(0, n);
+  const top = scored.filter((s) => s.score > 0).slice(0, 5);
+  const fallback = scored.slice(0, 5);
+  const chosen = (top.length ? top : fallback).slice(0, 5);
+  const ids = chosen.map((c) => c.d.id);
+  // ensure downside/general lens and differing perspective: append a lower-scored advisor if not present
+  if (chosen.length < 5) {
+    for (const s of scored) {
+      if (!ids.includes(s.d.id)) { chosen.push(s); ids.push(s.d.id); if (chosen.length >= 5) break; }
+    }
+  }
+  const reasons = {};
+  for (const c of chosen) reasons[c.d.id] = "Relevant documented focus: " + c.d.focus;
+  const result = chosen.map((c, i) => ({ id: c.d.id, weight: Math.max(1, Math.min(3, Math.ceil((c.score || 1) / 2) || 1)), reason: reasons[c.d.id] }));
   if (mode === "quick") return result.slice(0, 4);
   if (mode === "consult") return result.slice(0, 1);
   return result;
