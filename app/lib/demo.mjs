@@ -56,6 +56,12 @@ export function fixtureCard(s, step) {
           why: "The brief requires local persistence.",
         },
       ],
+      alternative_test: {
+        option: options[1],
+        advisors: ids.slice(0, 2),
+        steelman: "A different stack could satisfy the same constraints.",
+        disconfirming: "A persistence failure in the chosen stack.",
+      },
       unanimous: true,
       evidence_ids,
     };

@@ -40,6 +40,10 @@ export function validateBrief(b) {
     success: b.success.trim(),
     lean: String(b.lean || "Undecided").slice(0, 2000),
     assumptions: (b.assumptions || []).map(String).slice(0, 20),
+    reversibility:
+      ["reversible", "irreversible", "unknown"].includes(b.reversibility)
+        ? b.reversibility
+        : "unknown",
     contextFiles: b.contextFiles || [],
   };
 }
@@ -77,7 +81,7 @@ const obj = (properties, required = Object.keys(properties)) => ({
   required,
   additionalProperties: false,
 });
-export function schema(stage, options, board) {
+export function schema(stage, options, board, legacy = false) {
   const option = { type: "string", enum: options },
     seat = { type: "string", enum: board.map((s) => s.id) };
   const evidence = { type: "array", minItems: 1, items: str };
@@ -94,10 +98,10 @@ export function schema(stage, options, board) {
       },
       confidence: { type: "integer", minimum: 1, maximum: 5 },
       risk: { type: "string", enum: ["none", "possible", "likely"] },
-      risk_option: { type: "string" },
+      risk_option: { type: "string", enum: [...options, "none"] },
       resolution_support: { type: "number", minimum: 0, maximum: 10 },
       mitigation: { type: "string" },
-      mitigation_for_option: { type: "string" },
+      mitigation_for_option: { type: "string", enum: options },
       mitigation_endorsed: { type: "boolean" },
       concern: str,
       change_mind: str,
@@ -113,15 +117,13 @@ export function schema(stage, options, board) {
         enum: ["not_applicable", "accept", "amend", "dissent"],
       },
       amendment: str,
-      risk_option: { type: "string" },
-      resolution_support: { type: "number", minimum: 0, maximum: 10 },
-      mitigation: { type: "string" },
-      mitigation_for_option: { type: "string" },
-      mitigation_endorsed: { type: "boolean" },
-    }, [
+    }, legacy ? [
       "recommendation","argument","scores","confidence","risk","concern","change_mind","next_action","evidence_ids",
       "challenge","concession","vote","amendment"
-    ]);
+    ] : Object.keys({
+      recommendation:1,argument:1,scores:1,confidence:1,risk:1,risk_option:1,concern:1,change_mind:1,next_action:1,evidence_ids:1,
+      challenge:1,concession:1,vote:1,amendment:1,resolution_support:1,mitigation:1,mitigation_for_option:1,mitigation_endorsed:1
+    }));
   if (stage === "cruxes")
     return obj({
       summary: str,
@@ -134,6 +136,12 @@ export function schema(stage, options, board) {
         }),
       },
       unanimous: { type: "boolean" },
+      alternative_test: obj({
+        option: { type: "string" },
+        advisors: { type: "array", items: seat },
+        steelman: str,
+        disconfirming: str,
+      }, ["option","advisors","steelman","disconfirming"]),
       evidence_ids: evidence,
     });
   if (stage === "draft")
@@ -240,7 +248,7 @@ export function nextStep(s) {
   return steps(s).find((step) => !s.cards[step.key]);
 }
 export function validateCard(s, step, card) {
-  shape(card, schema(step.stage, s.brief.options, s.board));
+  shape(card, schema(step.stage, s.brief.options, s.board, s.version === 1));
   const allowed = new Map(
     (step.advisor === "chair"
       ? Object.values(s.packets).flatMap((p) => p.evidence)
@@ -290,6 +298,7 @@ export function validateCard(s, step, card) {
       throw Error("Explain reasoning, concern, change of mind and next action");
     if (
       step.stage === "debate" &&
+      s.board.length > 1 &&
       (card.challenge.advisor === "none" ||
         card.challenge.advisor === step.advisor ||
         !card.challenge.point.trim() ||
@@ -317,6 +326,13 @@ export function validateCard(s, step, card) {
     );
     if (card.unanimous !== (new Set(recommendations).size === 1))
       throw Error("Unanimity must match actual opening recommendations");
+    if (card.unanimous) {
+      const at = card.alternative_test;
+      if (!at || !at.option || !options.includes(at.option) || at.option === recommendations[0])
+        throw Error("Unanimous crux must test a different alternative");
+      if (!at.advisors?.length || !at.steelman?.trim() || !at.disconfirming?.trim())
+        throw Error("Unanimous crux needs named advisors and a steelman");
+    }
   }
   if (step.stage === "verdict") {
     const votes = s.board.filter((seat) =>
@@ -377,12 +393,16 @@ export function decisionMetrics(s) {
   // blocking risks
   const blocking = [];
   for (const seat of s.board) {
-    for (const st of ["opening", "debate"]) {
+    for (const st of ["opening", "debate", "ratification"]) {
       const c = s.cards[st + ":" + seat.id];
       if (c && c.risk === "likely" && (c.risk_option === topOption || !c.risk_option || c.risk_option === "none")) {
-        // check mitigation endorsement by same advisor in ratification
-        const rat = s.cards["ratification:" + seat.id];
-        const mitigated = rat && rat.mitigation_endorsed === true && rat.mitigation && rat.mitigation_for_option === topOption;
+        let mitigated = false;
+        if (st === "ratification") {
+          mitigated = c.mitigation_endorsed === true && !!c.mitigation && c.mitigation_for_option === topOption;
+        } else {
+          const rat = s.cards["ratification:" + seat.id];
+          mitigated = !!rat && rat.mitigation_endorsed === true && !!rat.mitigation && rat.mitigation_for_option === topOption;
+        }
         if (!mitigated) blocking.push({ advisor: seat.id, option: topOption, stage: st });
       }
     }
@@ -393,13 +413,13 @@ export function decisionMetrics(s) {
   for (const b of blocking) if (!seen.has(b.advisor)) { seen.add(b.advisor); uniq.push(b); }
   let disposition = "GO";
   if (uniq.length) disposition = "RESHAPE";
-  const irreversible = s.brief?.constraints?.toLowerCase?.().includes("irreversible") || s.brief?.success?.toLowerCase?.().includes("one-way");
+  const irreversible = s.brief?.reversibility === "irreversible" || /irreversible|one-way/i.test(s.brief?.constraints || "") || /irreversible|one-way/i.test(s.brief?.success || "");
   if (disposition === "GO" && irreversible && spread >= 4) disposition = "GO_WITH_CONDITIONS";
   const lowDimensions = s.board
     .map((seat) => {
       const c = s.cards[stage + ":" + seat.id];
       const sc = c?.scores?.find((x) => x.option === topOption)?.score;
-      return sc !== undefined && sc <= 4 ? { advisor: seat.id, score: sc, concern: c.concern } : null;
+      return sc !== undefined && sc <= 4 ? { advisor: seat.id, score: sc, concern: c.concern, fix: c.next_action } : null;
     })
     .filter(Boolean);
   return {
@@ -413,7 +433,7 @@ export function decisionMetrics(s) {
     lowDimensions,
     disposition,
     irreversible,
-    precondition: disposition === "GO_WITH_CONDITIONS" ? "Run the stated experiment before committing." : null,
+    precondition: disposition === "GO_WITH_CONDITIONS" ? (s.cards?.verdict?.experiment || "Run the stated experiment before committing.") : null,
   };
 }
 export function decisionChecks(s) {

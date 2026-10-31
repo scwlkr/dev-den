@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { ROOT, packet, recommend } from "./knowledge.mjs";
+import { ROOT, packet, recommend, metadata } from "./knowledge.mjs";
 import {
   validateBrief,
   validateBoard,
@@ -59,7 +59,8 @@ export class Store {
       })
       .sort((a, b) => b.created.localeCompare(a.created));
   }
-  create(brief, board, mode = "agent") {
+  create(brief, board, mode = "normal") {
+    if (mode === "all" && metadata(this.root).length > 9) throw Error("Review mode 'all' is not available for rosters larger than 9; use selected with an explicit board of 1-9 advisors");
     brief = validateBrief(brief);
     if (!board) {
       const prefs = loadBoardPrefs(this.root);
@@ -82,7 +83,7 @@ export class Store {
       "-" +
       crypto.randomBytes(4).toString("hex");
     const s = {
-      version: 1,
+      version: 2,
       id,
       created: new Date().toISOString(),
       brief,

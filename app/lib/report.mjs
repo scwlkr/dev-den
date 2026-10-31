@@ -146,7 +146,7 @@ export function markdown(s) {
     `- Resolution support: ${r.decisionMetrics.resolutionSupport ?? "not applicable"}`,
     `- Disposition: ${r.decisionMetrics.disposition}`,
     `- Blocking risks: ${r.decisionMetrics.blockingRisks.map((x) => x.advisor).join(", ") || "none"}`,
-    `- Low dimensions: ${r.decisionMetrics.lowDimensions.map((x) => x.advisor).join(", ") || "none"}`,
+    `- Low dimensions: ${r.decisionMetrics.lowDimensions.map((x) => x.advisor + (x.fix ? " - " + x.fix : "")).join("; ") || "none"}`,
     ...(r.decisionMetrics.precondition ? ["- Precondition: " + safe(r.decisionMetrics.precondition)] : []),
     "",
     "## Dissent",
