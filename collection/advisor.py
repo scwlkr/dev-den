@@ -331,8 +331,30 @@ def canonical_records(root, aid):
 
 def validate_build(root, aid, allow_gaps=False):
     m, records = canonical_records(root, aid)
-    # full integrity checks
+    # integrity: recompute hashes/quotes
     errors = []
+    for r in records:
+        folder = build_root(root, aid) / "sources" / r["source_id"]
+        text = (folder / "source.txt").read_text()
+        if digest(normalize(text)) != r.get("text_sha256"):
+            errors.append("hash mismatch " + r["source_id"])
+        # quote offsets
+        for e in r.get("evidence", []):
+            if e.get("developer") != aid or e.get("source_id") != r["source_id"]:
+                errors.append("ownership mismatch")
+            view = text
+            norm = normalize(view)
+            q = normalize(e.get("quote",""))
+            if norm[e.get("passage_offset",0):e.get("passage_offset",0)+len(q)] != q:
+                errors.append("quote offset mismatch")
+            if e.get("attribution") == "speaker":
+                aliases = m.get("aliases", [])
+                if not any(a.lower() in (e.get("speaker") or "").lower() for a in aliases):
+                    errors.append("speaker mismatch")
+            # metadata url
+            if not r.get("metadata", {}).get("url"):
+                errors.append("missing metadata url")
+    # full integrity checks
     cp = build_root(root, aid) / "compiled.json"
     if not cp.exists():
         errors.append("not compiled")
