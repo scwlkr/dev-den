@@ -11,9 +11,142 @@ from collection.expand import Expansion,source_id,work_key,collection_gaps
 from collection.pilot import Ledger,BudgetStop,UncertainCharge,get_source,write_json,digest,normalize,PageText,object_schema,caption_view,work_coverage
 from test_collection import config,QUOTE,TEXT
 from collection.scope import mail_sender_scope,apply_scope
+from collection.deepen import Deepening,useful_lead
 
 
 class ExpansionBehavior(unittest.TestCase):
+    def test_later_archived_blog_route_and_timed_byline_keep_the_article_scope(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=dict(cfg['developers'][0],id='tobi');collector=Deepening(Path(tmp),cfg,None)
+            folder=collector.root/'tobi'/'sources'/'post';folder.mkdir(parents=True)
+            raw='Archive toolbar\nExample post\nPosted by tobi — 10:31 AM\nMar 06\n'+TEXT+'\nComments\nUnrelated readers\n'
+            (folder/'source.txt').write_text(raw)
+            r={'source_id':'post','url':'https://web.archive.org/web/20080309132615/http://blog.leetsoft.com:80/2008/3/6/example-post','metadata':{'title':'Example post - Too-biased'},'candidate':{},'text_sha256':digest(normalize(raw)),'words':len(raw.split()),'evidence':[],'rejected_evidence':[]}
+            collector.scope_archived_blog(dev,r);a,b=r['source_scope']['normalized_ranges'][0];owned=normalize(raw)[a:b]
+            self.assertEqual(r['status'],'pending');self.assertIn(QUOTE,owned);self.assertNotIn('Unrelated readers',owned)
+
+    def test_members_only_video_is_an_access_gap_not_a_transcription_gap(self):
+        result=subprocess.CompletedProcess([],0,stdout='{}',stderr='Join this channel to get access to members-only content like this video')
+        with patch('collection.pilot.subprocess.run',return_value=result):
+            with self.assertRaisesRegex(ValueError,'Members-only source'):get_source('https://www.youtube.com/watch?v=privatevideo')
+
+    def test_react_framework_tutorial_is_not_a_reaction_video(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=cfg['developers'][0];collector=Deepening(Path(tmp),cfg,None)
+            write_json(collector.root/dev['id']/'continuation-media-metadata.json',{'kind':'channel','entries':[
+                {'id':'tutorial','title':'Learning React through profiling','duration':1800,'channel':'Original developer'},
+                {'id':'reaction','title':'Developer reacts to another article','duration':1800,'channel':'Original developer'}]})
+            result=collector.add_actual_media(dev,{'sources':[]})
+            self.assertEqual([r['url'] for r in result['sources']],['https://www.youtube.com/watch?v=tutorial'])
+
+    def test_archived_blog_scope_excludes_toolbar_comments_and_navigation(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=dict(cfg['developers'][0],id='tobi');collector=Deepening(Path(tmp),cfg,None)
+            folder=collector.root/'tobi'/'sources'/'post';folder.mkdir(parents=True)
+            raw='Archive toolbar\nExample post\nPosted by tobi\nFriday 21 January 2005\n'+TEXT+'\nComments\nOther readers say unrelated things.\nNavigation\n'
+            (folder/'source.txt').write_text(raw)
+            r={'source_id':'post','url':'https://web.archive.org/web/20050905223533/http://blog.leetsoft.com/articles/2005/01/20/example-post',
+               'metadata':{'title':'Example post'},'candidate':{},'text_sha256':digest(normalize(raw)),'words':len(raw.split()),'evidence':[],'rejected_evidence':[]}
+            collector.scope_archived_blog(dev,r)
+            a,b=r['source_scope']['normalized_ranges'][0];owned=normalize(raw)[a:b]
+            self.assertIn(QUOTE,owned);self.assertNotIn('Archive toolbar',owned);self.assertNotIn('Other readers',owned)
+            self.assertEqual(r['coverage_words'],len(owned.split()));self.assertEqual(r['status'],'pending')
+            r.pop('source_scope');r['metadata']['title']='Different reflected post'
+            with self.assertRaisesRegex(ValueError,'requested original post'):collector.scope_archived_blog(dev,r)
+
+    def test_syndication_feed_is_not_counted_as_an_independent_work(self):
+        page={'text':TEXT,'metadata':{'content_type':'application/atom+xml'},'links':[]}
+        with patch('collection.pilot.get_page',return_value=page):
+            with self.assertRaisesRegex(ValueError,'syndication feed'):get_source('https://example.org/feed.atom')
+
+    def test_unrelated_publisher_sidebar_is_not_a_source_candidate(self):
+        dev={'id':'dorsey','name':'Jack Dorsey','seeds':['https://lexfridman.com/jack-dorsey/']}
+        self.assertFalse(useful_lead(dev,{'url':'https://lexfridman.com/kyle-vogt-transcript/'}))
+        self.assertTrue(useful_lead(dev,{'url':'https://lexfridman.com/jack-dorsey-transcript/'}))
+
+    def test_overlapping_caption_uploads_preserve_passages_but_count_one_work(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=cfg['developers'][0];collector=Deepening(Path(tmp),cfg,None);records=[]
+            prose=' '.join('term'+str(i) for i in range(1200))
+            for sid,text in [('first','[00:00:00] '+prose),('copy','[00:00:02] '+prose),('different','[00:00:00] '+' '.join('other'+str(i) for i in range(1200)))]:
+                folder=collector.root/'test'/'sources'/sid;folder.mkdir(parents=True);(folder/'source.txt').write_text(text)
+                r={'source_id':sid,'status':'accepted','metadata':{'duration_seconds':600},'text_sha256':digest(normalize(text)),
+                   'url':'https://example.org/'+sid,'candidate':{'url':'https://example.org/'+sid},'work_key':sid,'words':1200,'evidence':[{'id':sid+'-passage'}]}
+                write_json(folder/'evidence.json',r);records.append(r)
+            collector.group_video_overlap(dev,records[1]);collector.group_video_overlap(dev,records[2])
+            saved=collector.records(dev)
+            self.assertEqual(work_coverage(saved),(2,2400))
+            self.assertEqual(sum(len(r['evidence']) for r in saved),3)
+
+    def test_publisher_transcript_link_is_followed_with_its_actual_source_url(self):
+        source='https://cheekypint.transistor.fm/13';target=source+'/transcript'
+        def fetch(url):
+            if url==source:return {'text':'Episode summary','metadata':{'url':url,'title':'Interview'},'links':[{'title':'Transcript','url':target}]}
+            self.assertEqual(url,target)
+            return {'text':TEXT,'metadata':{'url':url},'links':[]}
+        with patch('collection.pilot.get_page',side_effect=fetch):result=get_source(source)
+        self.assertEqual(result['text'],TEXT)
+        self.assertEqual(result['metadata']['url'],target)
+
+    def test_short_video_is_held_out_when_reached_through_an_archive_record(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=cfg['developers'][0];collector=Expansion(Path(tmp),cfg,None)
+            page={'text':TEXT,'metadata':{'url':'https://www.youtube.com/watch?v=original','duration_seconds':60}}
+            with patch('collection.expand.get_source',return_value=page):
+                record=collector.prepare(dev,{'url':'https://epublications.marquette.edu/zuckerberg_files_transcripts/149/','title':'Archive transcript'})
+            self.assertEqual(record['status'],'held_out')
+            self.assertIn('Video shorter',record['issues'][0])
+
+    def test_overlap_merges_entire_existing_work_families(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=cfg['developers'][0];collector=Deepening(Path(tmp),cfg,None)
+            for sid,identity in [('a','old-family'),('b','old-family'),('c','new-upload'),('d','earlier-family')]:
+                folder=collector.root/'test'/'sources'/sid;folder.mkdir(parents=True)
+                write_json(folder/'evidence.json',{'source_id':sid,'status':'accepted','metadata':{'duration_seconds':600},
+                           'text_sha256':sid,'candidate':{'url':'https://example.org/'+sid},'url':'https://example.org/'+sid,
+                           'work_key':identity,'words':1200,'evidence':[]})
+            signatures={'a':set(range(100)),'b':set(range(200,300)),'c':set(range(100)),'d':set(range(100))}
+            with patch.object(collector,'video_signature',side_effect=lambda dev,r:signatures[r['source_id']]):
+                collector.group_video_overlap(dev,next(r for r in collector.records(dev) if r['source_id']=='c'))
+            self.assertEqual({r['work_key'] for r in collector.records(dev)},{'earlier-family'})
+
+    def test_mail_parts_only_send_owned_ranges_and_keep_original_quote_offsets(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            cfg=config();dev=cfg['developers'][0];collector=Expansion(Path(tmp),cfg,None)
+            folder=collector.root/'test'/'sources'/'mail';folder.mkdir(parents=True)
+            raw='From: Other Developer @ 2026-10-01 10:00 UTC\nOther author material.\n^ permalink raw reply\nFrom: Test Developer @ 2026-10-02 10:00 UTC\n'+TEXT+'\n^ permalink raw reply\n'
+            (folder/'source.txt').write_text(raw)
+            r={'source_id':'mail','url':'https://lore.kernel.org/lkml/example/','candidate':{'url':'https://lore.kernel.org/lkml/example/'},'metadata':{'url':'https://lore.kernel.org/lkml/example/'},'text_sha256':digest(normalize(raw)),
+               'words':len(raw.split()),'evidence':[],'rejected_evidence':[],'status':'pending','parts_done':[]}
+            collector.scope_mail(dev,r);parts=collector.parts(dev,r)
+            self.assertNotIn('Other author material',' '.join(p['text'] for p in parts))
+            self.assertIn('From: Test Developer',parts[0]['source_opening_for_attribution_only'])
+            x={'eligible':True,'attribution':'sole_author','evidence':[{'kind':'principle','claim':'Simplicity','quote':QUOTE,'speaker':'Test Developer','context':'Requirements'}]}
+            good,bad=collector.verified_part(dev,r,parts[0],x)
+            self.assertEqual(len(good),1);self.assertFalse(bad)
+            self.assertEqual(normalize(raw)[good[0]['passage_offset']:good[0]['passage_offset']+len(QUOTE)],QUOTE)
+
+    def test_authorized_budget_expansion_keeps_prior_charges(self):
+        with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
+            root=Path(tmp);write_json(root/'ledger.json',{'jobs':{'initial':{'status':'recorded','cost_usd':27.286261,'reserved_usd':30}}})
+            ledger=Ledger(root,51.5,config()['pricing'])
+            ledger.reserve('next','test','compile',{'max_output_tokens':100})
+            self.assertEqual(ledger.cap,51.5)
+            self.assertGreater(ledger.exposure(),27.286261)
+            self.assertEqual(ledger.data['jobs']['initial']['cost_usd'],27.286261)
+
+    def test_archive_record_follows_actual_transcript_link_not_unrelated_download(self):
+        archive='https://epublications.marquette.edu/zuckerberg_files_transcripts/149/'
+        target='https://epublications.marquette.edu/cgi/viewcontent.cgi?article=1149&context=zuckerberg_files_transcripts'
+        def fetch(url):
+            if url==archive:return {'text':'Mark Zuckerberg transcript record','metadata':{'url':url,'title':'F8'},'links':[{'title':'Download','url':'https://unrelated.example/file.pdf'},{'title':'Download','url':target}]}
+            self.assertEqual(url,target)
+            return {'text':TEXT,'metadata':{'url':target,'content_type':'application/pdf'},'links':[]}
+        with patch('collection.pilot.get_page',side_effect=fetch):page=get_source(archive)
+        self.assertEqual(page['text'],TEXT)
+        self.assertEqual(page['metadata']['archive_record_url'],archive)
+        self.assertEqual(page['metadata']['url'],target)
+
     def test_cache_write_reconciliation_preserves_history_and_blocks_further_spending(self):
         with tempfile.TemporaryDirectory(prefix='dod-expand-test-') as tmp:
             root=Path(tmp);usage={'input_tokens':200000,'input_tokens_details':{'cached_tokens':10000,'cache_write_tokens':180000},'output_tokens':1000}

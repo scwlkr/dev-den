@@ -27,7 +27,7 @@ Short excerpt of linus-05353192da10a1-01c8fb3e222e; speaker. Full passage and co
 
 https://www.youtube.com/watch?v=s4wlrxFf2lM
 
-Independent work identity: torvalds-vienna-kernel-conversation-2024. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-s4wlrxFf2lM. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 7,719; full retrieved text: 7,719. Text SHA-256: 4ae0ddfceef30c8eeb57becfc62330b7504a653bb956aa9cb328210cdba961b1
 
@@ -75,7 +75,9 @@ Source words in scope: 10,522; full retrieved text: 10,522. Text SHA-256: 0d70b5
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> we try to keep code churn due to _just_ coding style issues
+
+Short excerpt of linus-0c0acf43d8adcd-2c904a10d21d; sole_author. Full passage and context retained locally.
 
 - linus-0c0acf43d8adcd-2c904a10d21d: principle; sole_author; normalized source offset 24098; chunk 0; https://yarchive.net/comp/linux/coding_style.html
 - linus-0c0acf43d8adcd-7fab6b349365: framework; sole_author; normalized source offset 25707; chunk 0; https://yarchive.net/comp/linux/coding_style.html
@@ -109,6 +111,25 @@ Short excerpt of linus-10d31f031745b3-ddf76a5cf164; speaker. Full passage and co
 - linus-10d31f031745b3-197d3169cf8b: position; speaker; normalized source offset 3125; chunk 0; https://lwn.net/Articles/37719/
 - linus-10d31f031745b3-7238dd44f167: framework; speaker; normalized source offset 7731; chunk 0; https://lwn.net/Articles/37719/
 - linus-10d31f031745b3-bf142ad17b86: position; speaker; normalized source offset 8362; chunk 0; https://lwn.net/Articles/37719/
+## linus-13f9fd772b4e8a: git branches (Linus Torvalds)
+
+https://yarchive.net/comp/linux/git_branches.html
+
+Independent work identity: torvalds-pat-branches-reply-2008-10-10. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,285; full retrieved text: 2,285. Text SHA-256: ffc2169465103fa171cc9c6f9eff4f2a2fa8ae22fdca58c1c39206b298c766ab
+
+Source dates reported in the collected material: 2008-10-10
+
+> leaving the old one around, but simply never _using_ it for anything
+
+Short excerpt of linus-13f9fd772b4e8a-f9a1a58697ed; sole_author. Full passage and context retained locally.
+
+- linus-13f9fd772b4e8a-f9a1a58697ed: framework; sole_author; normalized source offset 9317; chunk 0; https://yarchive.net/comp/linux/git_branches.html
+- linus-13f9fd772b4e8a-c91070052afc: story; sole_author; normalized source offset 9783; chunk 0; https://yarchive.net/comp/linux/git_branches.html
+- linus-13f9fd772b4e8a-5dd28e219f70: framework; sole_author; normalized source offset 10314; chunk 0; https://yarchive.net/comp/linux/git_branches.html
+- linus-13f9fd772b4e8a-b9a441e7577e: position; sole_author; normalized source offset 11154; chunk 0; https://yarchive.net/comp/linux/git_branches.html
+- linus-13f9fd772b4e8a-6a8419d98f4c: framework; sole_author; normalized source offset 12439; chunk 0; https://yarchive.net/comp/linux/git_branches.html
 ## linus-169e2539c1a323: Interview With Linus Torvalds – OSnews
 
 https://www.osnews.com/story/161/interview-with-linus-torvalds/
@@ -149,6 +170,64 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - linus-1b5c4554df6af6-ee167993c723: story; sole_author; normalized source offset 7763; chunk 0; https://yarchive.net/comp/linux/locking.html
 - linus-1b5c4554df6af6-8492024e164b: principle; sole_author; normalized source offset 10949; chunk 0; https://yarchive.net/comp/linux/locking.html
 - linus-1b5c4554df6af6-f9655cf7dda1: framework; sole_author; normalized source offset 17341; chunk 0; https://yarchive.net/comp/linux/locking.html
+## linus-24bd0aa6d5cbc3: x86-64 (Linus Torvalds)
+
+https://yarchive.net/comp/linux/x86-64.html
+
+Independent work identity: torvalds-x86-64-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 831; full retrieved text: 831. Text SHA-256: d9b9d4d97fdd8ffa9ee3b37f031df800a056f29d80b2992c2fca2c9a6a3cb0c1
+
+Source dates reported in the collected material: 2009-10-10
+
+> you don't spend 25% of your system time playing with k[un]map()
+
+Short excerpt of linus-24bd0aa6d5cbc3-45ea620883f4; sole_author. Full passage and context retained locally.
+
+- linus-24bd0aa6d5cbc3-45ea620883f4: position; sole_author; normalized source offset 2420; chunk 0; https://yarchive.net/comp/linux/x86-64.html
+- linus-24bd0aa6d5cbc3-4f99123385d7: story; sole_author; normalized source offset 4321; chunk 0; https://yarchive.net/comp/linux/x86-64.html
+- linus-24bd0aa6d5cbc3-061c345dedb4: position; sole_author; normalized source offset 3113; chunk 0; https://yarchive.net/comp/linux/x86-64.html
+## linus-2e2cf7bfa6efe9: An Interview With Linus Torvalds | TechCrunch
+
+https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+
+Independent work identity: torvalds-techcrunch-interview-2012-04-19. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,777; full retrieved text: 4,777. Text SHA-256: 9acb391485a37f9a60ffe6be4b1d7e5d892e1ac8de8bca97764af9eab63fe221
+
+Source dates reported in the collected material: 2012-04-19
+
+> I trust them, and they in turn trust the people they work
+
+Short excerpt of linus-2e2cf7bfa6efe9-391a225dee4b; speaker. Full passage and context retained locally.
+
+- linus-2e2cf7bfa6efe9-391a225dee4b: framework; speaker; normalized source offset 24584; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+- linus-2e2cf7bfa6efe9-9d77d9fb816a: story; speaker; normalized source offset 25198; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+- linus-2e2cf7bfa6efe9-b73fb31a859d: principle; speaker; normalized source offset 20906; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+- linus-2e2cf7bfa6efe9-39d01b2a7c9c: position; speaker; normalized source offset 19947; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+- linus-2e2cf7bfa6efe9-47267d977955: framework; speaker; normalized source offset 22584; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+- linus-2e2cf7bfa6efe9-f97ad37c60d4: principle; speaker; normalized source offset 14355; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+- linus-2e2cf7bfa6efe9-ea52d8b51cfa: position; speaker; normalized source offset 15912; chunk 0; https://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/
+## linus-2ebac3ff7df379: git basic usage (Linus Torvalds)
+
+https://yarchive.net/comp/linux/git_basic.html
+
+Independent work identity: torvalds-git-basics-reply-2009-06-23. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,475; full retrieved text: 1,475. Text SHA-256: ab7aabdf38c37108eef570ccb268e7f65bf73df0d787ef0cb72d98e0537b0be9
+
+Source dates reported in the collected material: 2009-06-22 and 2009-06-23
+
+> It's a much weaker model, and not at all as capable, but
+
+Short excerpt of linus-2ebac3ff7df379-9cd44adab18c; sole_author. Full passage and context retained locally.
+
+- linus-2ebac3ff7df379-9cd44adab18c: framework; sole_author; normalized source offset 5306; chunk 0; https://yarchive.net/comp/linux/git_basic.html
+- linus-2ebac3ff7df379-8a4b585f61cd: framework; sole_author; normalized source offset 3462; chunk 0; https://yarchive.net/comp/linux/git_basic.html
+- linus-2ebac3ff7df379-ccc5eda17771: position; sole_author; normalized source offset 5717; chunk 0; https://yarchive.net/comp/linux/git_basic.html
+- linus-2ebac3ff7df379-10bf3eca7824: position; sole_author; normalized source offset 7228; chunk 0; https://yarchive.net/comp/linux/git_basic.html
+- linus-2ebac3ff7df379-7727689b7db4: principle; sole_author; normalized source offset 7898; chunk 0; https://yarchive.net/comp/linux/git_basic.html
+- linus-2ebac3ff7df379-2e33414c7e47: position; sole_author; normalized source offset 881; chunk 0; https://yarchive.net/comp/linux/git_basic.html
 ## linus-304b9f77dac0a3: LKML: Linus Torvalds: Linux 5.3
 
 https://lkml.org/lkml/2019/9/15/241
@@ -159,7 +238,9 @@ Source words in scope: 1,785; full retrieved text: 1,785. Text SHA-256: dd2fefde
 
 Source dates reported in the collected material: 2019-09-15
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> I reverted a commit that wasn't actually buggy.
+
+Short excerpt of linus-304b9f77dac0a3-ee78e066c175; sole_author. Full passage and context retained locally.
 
 - linus-304b9f77dac0a3-ee78e066c175: story; sole_author; normalized source offset 951; chunk 0; https://lkml.org/lkml/2019/9/15/241
 - linus-304b9f77dac0a3-bebbf837b86a: principle; sole_author; normalized source offset 2918; chunk 0; https://lkml.org/lkml/2019/9/15/241
@@ -177,19 +258,37 @@ Coverage counts the unquoted material in 6 explicitly attributed sender blocks, 
 
 Source dates reported in the collected material: 2020-12-21 18:45 UTC; 2024-03-15; 2024-09-23; 2026-04-21; 2026-08-26
 
-> Of 134 non-merge commits, 22 were committed in the last 48 hours.
-
-Short excerpt of linus-375e3883627248-2c969f6ae19a; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - linus-375e3883627248-2c969f6ae19a: position; sole_author; normalized source offset 275855; chunk 2; https://lore.kernel.org/lkml/179338320614.1671436.10546377232510425224.pr-tracker-bot@kernel.org/T/
 - linus-375e3883627248-fd674acea504: position; sole_author; normalized source offset 820619; chunk 8; https://lore.kernel.org/lkml/179338320614.1671436.10546377232510425224.pr-tracker-bot@kernel.org/T/
 - linus-375e3883627248-a0622ba3e0bb: principle; sole_author; normalized source offset 930646; chunk 9; https://lore.kernel.org/lkml/179338320614.1671436.10546377232510425224.pr-tracker-bot@kernel.org/T/
 - linus-375e3883627248-fd8b669d7f09: story; sole_author; normalized source offset 1203970; chunk 12; https://lore.kernel.org/lkml/179338320614.1671436.10546377232510425224.pr-tracker-bot@kernel.org/T/
+## linus-3f0355fb73006d: User-space filesystems (Linus Torvalds)
+
+https://yarchive.net/comp/linux/user_space_filesystems.html
+
+Independent work identity: torvalds-user-space-filesystems-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,773; full retrieved text: 1,773. Text SHA-256: 14753cd471938df19233697dac9b02a3f686fdf098aae78dbed171106fee39ef
+
+Source dates reported in the collected material: 2004-11-18
+
+> a fuse process that needs to do IO is _not_ protected from
+
+Short excerpt of linus-3f0355fb73006d-bf563b80f2dc; sole_author. Full passage and context retained locally.
+
+- linus-3f0355fb73006d-bf563b80f2dc: position; sole_author; normalized source offset 2180; chunk 0; https://yarchive.net/comp/linux/user_space_filesystems.html
+- linus-3f0355fb73006d-0afdabab817c: position; sole_author; normalized source offset 3289; chunk 0; https://yarchive.net/comp/linux/user_space_filesystems.html
+- linus-3f0355fb73006d-d14333989bed: framework; sole_author; normalized source offset 4791; chunk 0; https://yarchive.net/comp/linux/user_space_filesystems.html
+- linus-3f0355fb73006d-48fa10454a87: position; sole_author; normalized source offset 6375; chunk 0; https://yarchive.net/comp/linux/user_space_filesystems.html
+- linus-3f0355fb73006d-e70b50923301: framework; sole_author; normalized source offset 8032; chunk 0; https://yarchive.net/comp/linux/user_space_filesystems.html
+- linus-3f0355fb73006d-d76f792c1348: position; sole_author; normalized source offset 9875; chunk 0; https://yarchive.net/comp/linux/user_space_filesystems.html
 ## linus-403284294e7bd8: Tech Talk: Linus Torvalds on git
 
 https://www.youtube.com/watch?v=4XpnKHJAok8
 
-Independent work identity: torvalds-google-git-talk-2007-05-03. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-4XpnKHJAok8. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 11,040; full retrieved text: 11,040. Text SHA-256: 3e11caa23311085baaea26e3e97f157294226c82e7a1ad7e5004b262807b10ae
 
@@ -206,6 +305,27 @@ Short excerpt of linus-403284294e7bd8-5bfb3e4403b9; speaker. Full passage and co
 - linus-403284294e7bd8-150661c73b73: position; speaker; caption-prose-v1 offset 31350; chunk 0; https://www.youtube.com/watch?v=4XpnKHJAok8&t=2319
 - linus-403284294e7bd8-8dbb623184fa: framework; speaker; caption-prose-v1 offset 38794; chunk 0; https://www.youtube.com/watch?v=4XpnKHJAok8&t=2848
 - linus-403284294e7bd8-66a27114b4b6: position; speaker; caption-prose-v1 offset 56378; chunk 0; https://www.youtube.com/watch?v=4XpnKHJAok8&t=4130
+## linus-414fed225795f2: Keynote: Linus Torvalds, Creator of Linux & Git, in Conversation with Dirk Hohndel
+
+https://www.youtube.com/watch?v=OvuEYtkOH88
+
+Independent work identity: youtube-OvuEYtkOH88. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,792; full retrieved text: 4,792. Text SHA-256: 42567827f4aedd6589d7b34a4fd06616eb046f14dcb53078688398bd4006171a
+
+Source dates reported in the collected material: 2023-12-07
+
+> we don't have any part of the kernel that really depends on
+
+Short excerpt of linus-414fed225795f2-2644ba0cd035; speaker. Full passage and context retained locally.
+
+- linus-414fed225795f2-2644ba0cd035: position; speaker; caption-prose-v1 offset 4491; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=360
+- linus-414fed225795f2-1d5f2f2c3d7f: position; speaker; caption-prose-v1 offset 6577; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=523
+- linus-414fed225795f2-9e7eb9a8c281: framework; speaker; caption-prose-v1 offset 9834; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=758
+- linus-414fed225795f2-b3af3a61275f: principle; speaker; caption-prose-v1 offset 11646; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=892
+- linus-414fed225795f2-81c3592ec41b: position; speaker; caption-prose-v1 offset 17091; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=1308
+- linus-414fed225795f2-204e68fd23c7: principle; speaker; caption-prose-v1 offset 23418; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=1796
+- linus-414fed225795f2-8277ab0f5d80: framework; speaker; caption-prose-v1 offset 2774; chunk 0; https://www.youtube.com/watch?v=OvuEYtkOH88&t=218
 ## linus-546ff318d2ab76: Re: [GIT PULL] sound updates for 6.17-rc1 - Linus Torvalds
 
 https://lore.kernel.org/all/CAHk-=wgO0Rx2LcYT4f75Xs46orbJ4JxO2jbAFQnVKDYAjV5HeQ@mail.gmail.com/
@@ -245,6 +365,23 @@ Short excerpt of linus-5b89eaae184ee3-3d0b180e780a; speaker. Full passage and co
 - linus-5b89eaae184ee3-dbad84f3f0b8: principle; speaker; caption-prose-v1 offset 6961; chunk 0; https://www.youtube.com/watch?v=3NSSGt9bZag&t=520
 - linus-5b89eaae184ee3-cd3b66df4e58: principle; speaker; caption-prose-v1 offset 7955; chunk 0; https://www.youtube.com/watch?v=3NSSGt9bZag&t=591
 - linus-5b89eaae184ee3-b7e59f511507: position; speaker; caption-prose-v1 offset 2844; chunk 0; https://www.youtube.com/watch?v=3NSSGt9bZag&t=198
+## linus-656d0637f78f7e: git (Linus Torvalds; Theodore Ts'o)
+
+https://yarchive.net/comp/linux/git.html
+
+Independent work identity: torvalds-git-howto-reply-2005-06-23. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 14,898; full retrieved text: 14,898. Text SHA-256: 5fc92988a0da2de27198bb2242e97b395bfaa76c8c9ee43a71029a08a30d61e3
+
+Source dates reported in the collected material: 2005-06-23
+
+> "all tags" is a nonsensical statement in a distributed system.
+
+Short excerpt of linus-656d0637f78f7e-1e4c1379eec7; sole_author. Full passage and context retained locally.
+
+- linus-656d0637f78f7e-1e4c1379eec7: principle; sole_author; normalized source offset 19287; chunk 0; https://yarchive.net/comp/linux/git.html
+- linus-656d0637f78f7e-e1e0cf4e4908: framework; sole_author; normalized source offset 19457; chunk 0; https://yarchive.net/comp/linux/git.html
+- linus-656d0637f78f7e-584edfc91914: position; sole_author; normalized source offset 18715; chunk 0; https://yarchive.net/comp/linux/git.html
 ## linus-6578a80cdda3fc: 25 Years Later: Interview with Linus Torvalds | Linux Journal
 
 https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds
@@ -255,9 +392,7 @@ Source words in scope: 4,128; full retrieved text: 4,128. Text SHA-256: ae8125d6
 
 Source dates reported in the collected material: 2019-04-02
 
-> if they are out of tree, they don't matter for development
-
-Short excerpt of linus-6578a80cdda3fc-0e4adc26648e; speaker. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - linus-6578a80cdda3fc-0e4adc26648e: position; speaker; normalized source offset 6039; chunk 0; https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds
 - linus-6578a80cdda3fc-d1f0156a032b: position; speaker; normalized source offset 6748; chunk 0; https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds
@@ -265,6 +400,22 @@ Short excerpt of linus-6578a80cdda3fc-0e4adc26648e; speaker. Full passage and co
 - linus-6578a80cdda3fc-a3c724818e00: position; speaker; normalized source offset 4527; chunk 0; https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds
 - linus-6578a80cdda3fc-49b0dde5d6b5: framework; speaker; normalized source offset 15368; chunk 0; https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds
 - linus-6578a80cdda3fc-f3ad322670fb: voice; speaker; normalized source offset 17170; chunk 0; https://www.linuxjournal.com/content/25-years-later-interview-linus-torvalds
+## linus-6bdb5d73366062: Interview: Linus Torvalds | Linux Journal
+
+https://www.linuxjournal.com/article/3655
+
+Independent work identity: linux-journal-1999-interview-linus-torvalds. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,807; full retrieved text: 4,807. Text SHA-256: bb8658a23510bfe4d128f134fbf587359aadbeea3217648522770dee48f84130
+
+Source dates reported in the collected material: 1999-11-01
+
+> You can glance and tell it's important and put it aside or
+
+Short excerpt of linus-6bdb5d73366062-4c73ac3934d7; speaker. Full passage and context retained locally.
+
+- linus-6bdb5d73366062-4c73ac3934d7: story; speaker; normalized source offset 23036; chunk 0; https://www.linuxjournal.com/article/3655
+- linus-6bdb5d73366062-3e22f70afba1: story; speaker; normalized source offset 9461; chunk 0; https://www.linuxjournal.com/article/3655
 ## linus-6dc86ad458a6f3: Lookup tables (Linus Torvalds)
 
 https://yarchive.net/comp/linux/lookup_tables.html
@@ -308,13 +459,34 @@ Source words in scope: 1,904; full retrieved text: 1,904. Text SHA-256: c9a1eb9a
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> if you use a predicated instruction, ALL of it is on the
+
+Short excerpt of linus-7482471cf1a5ae-0e3c9babe467; sole_author. Full passage and context retained locally.
 
 - linus-7482471cf1a5ae-0e3c9babe467: framework; sole_author; normalized source offset 2116; chunk 0; https://yarchive.net/comp/linux/cmov.html
 - linus-7482471cf1a5ae-f831fb567888: position; sole_author; normalized source offset 2637; chunk 0; https://yarchive.net/comp/linux/cmov.html
 - linus-7482471cf1a5ae-9aaff36f14ed: position; sole_author; normalized source offset 9043; chunk 0; https://yarchive.net/comp/linux/cmov.html
 - linus-7482471cf1a5ae-d2fd71a200c8: position; sole_author; normalized source offset 9424; chunk 0; https://yarchive.net/comp/linux/cmov.html
 - linus-7482471cf1a5ae-d888598520c7: position; sole_author; normalized source offset 8022; chunk 0; https://yarchive.net/comp/linux/cmov.html
+## linus-7a5e4bc6b5d93b: The page cache (Linus Torvalds)
+
+https://yarchive.net/comp/linux/page_cache.html
+
+Independent work identity: torvalds-page-cache-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 981; full retrieved text: 981. Text SHA-256: 13a385c863c98c3f21591fb6b1c712a768cc3baa1162328bcf27d72880eec8b1
+
+Source dates reported in the collected material: not established
+
+> add the page atomically with the lookup if the lookup failed
+
+Short excerpt of linus-7a5e4bc6b5d93b-8f26703c4fe0; sole_author. Full passage and context retained locally.
+
+- linus-7a5e4bc6b5d93b-8f26703c4fe0: framework; sole_author; normalized source offset 1011; chunk 0; https://yarchive.net/comp/linux/page_cache.html
+- linus-7a5e4bc6b5d93b-0d6ecfacda95: framework; sole_author; normalized source offset 1272; chunk 0; https://yarchive.net/comp/linux/page_cache.html
+- linus-7a5e4bc6b5d93b-03556dbd6b3a: position; sole_author; normalized source offset 2853; chunk 0; https://yarchive.net/comp/linux/page_cache.html
+- linus-7a5e4bc6b5d93b-184d9dc193a8: position; sole_author; normalized source offset 3962; chunk 0; https://yarchive.net/comp/linux/page_cache.html
+- linus-7a5e4bc6b5d93b-bc168e0a4369: position; sole_author; normalized source offset 5146; chunk 0; https://yarchive.net/comp/linux/page_cache.html
 ## linus-7bbc785cf8b52c: Interview with Linus, the Author of Linux | Linux Journal
 
 https://www.linuxjournal.com/content/interview-linus-author-linux
@@ -367,7 +539,9 @@ Source words in scope: 3,957; full retrieved text: 3,957. Text SHA-256: 0ac6a599
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> massive undirected parallel development ("trial and error")
+
+Short excerpt of linus-8caa9a10c48a5d-a540e1bc537d; sole_author. Full passage and context retained locally.
 
 - linus-8caa9a10c48a5d-a540e1bc537d: framework; sole_author; normalized source offset 1095; chunk 0; https://yarchive.net/comp/evolution.html
 - linus-8caa9a10c48a5d-d1c58def0ab6: position; sole_author; normalized source offset 6249; chunk 0; https://yarchive.net/comp/evolution.html
@@ -395,6 +569,26 @@ Short excerpt of linus-8cd5bc945e2517-03e1c60bc5f4; speaker. Full passage and co
 - linus-8cd5bc945e2517-e0627eb234ec: framework; speaker; normalized source offset 19913; chunk 0; https://www.linuxjournal.com/article/5027
 - linus-8cd5bc945e2517-4df2822c5ffa: position; speaker; normalized source offset 7197; chunk 0; https://www.linuxjournal.com/article/5027
 - linus-8cd5bc945e2517-ee2c24e16675: position; speaker; normalized source offset 23878; chunk 0; https://www.linuxjournal.com/article/5027
+## linus-8d3470fe28fc23: BUG() (Linus Torvalds)
+
+https://yarchive.net/comp/linux/BUG.html
+
+Independent work identity: torvalds-2002-09-10-usb-bug-debuggability. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,171; full retrieved text: 3,171. Text SHA-256: 4248725aa819990112307a7353edee2e33da3bf98fda711c5e7d0bdb257b7c58
+
+Source dates reported in the collected material: 2002-09-10
+
+> in order to even be able to debug the dang thing, then
+
+Short excerpt of linus-8d3470fe28fc23-63a68f2f0541; sole_author. Full passage and context retained locally.
+
+- linus-8d3470fe28fc23-63a68f2f0541: story; sole_author; normalized source offset 5392; chunk 0; https://yarchive.net/comp/linux/BUG.html
+- linus-8d3470fe28fc23-b06025be8efd: framework; sole_author; normalized source offset 5847; chunk 0; https://yarchive.net/comp/linux/BUG.html
+- linus-8d3470fe28fc23-bc840ef0a586: principle; sole_author; normalized source offset 6702; chunk 0; https://yarchive.net/comp/linux/BUG.html
+- linus-8d3470fe28fc23-ece795f10f3f: position; sole_author; normalized source offset 7338; chunk 0; https://yarchive.net/comp/linux/BUG.html
+- linus-8d3470fe28fc23-ac8d9ba5a257: position; sole_author; normalized source offset 7643; chunk 0; https://yarchive.net/comp/linux/BUG.html
+- linus-8d3470fe28fc23-9a102e89774a: principle; sole_author; normalized source offset 8028; chunk 0; https://yarchive.net/comp/linux/BUG.html
 ## linus-8d5e5ae7254bad: An Interview With Linus Torvalds: Linux and Git - Part 1 - Tag1 Insights
 
 https://www.tag1.com/blog/interview-linus-torvalds-linux-and-git/
@@ -501,6 +695,27 @@ Short excerpt of linus-a5dcea3d70ab99-436a3705f8ed; speaker. Full passage and co
 - linus-a5dcea3d70ab99-c506e5783cdd: principle; speaker; caption-prose-v1 offset 10503; chunk 0; https://www.youtube.com/watch?v=actgZVvs_Jk&t=692
 - linus-a5dcea3d70ab99-1bc1ba054ea2: position; speaker; caption-prose-v1 offset 12513; chunk 0; https://www.youtube.com/watch?v=actgZVvs_Jk&t=815
 - linus-a5dcea3d70ab99-e4252106fe2f: position; speaker; caption-prose-v1 offset 13699; chunk 0; https://www.youtube.com/watch?v=actgZVvs_Jk&t=880
+## linus-a6ff273818db5f: Page sizes (Linus Torvalds)
+
+https://yarchive.net/comp/linux/page_sizes.html
+
+Independent work identity: torvalds-page-sizes-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 5,153; full retrieved text: 5,153. Text SHA-256: 4a5475e1b4d3ffb4d2fb8096c13f1e5daaf24d95808421b4b0754a6d878c9b4e
+
+Source dates reported in the collected material: not established
+
+> The 4kB thing is encoded in mmap() semantics.
+
+Short excerpt of linus-a6ff273818db5f-ae369c4ab9e2; sole_author. Full passage and context retained locally.
+
+- linus-a6ff273818db5f-ae369c4ab9e2: position; sole_author; normalized source offset 2044; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
+- linus-a6ff273818db5f-76fc9056f90f: framework; sole_author; normalized source offset 4215; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
+- linus-a6ff273818db5f-8c18a1ec5298: position; sole_author; normalized source offset 7469; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
+- linus-a6ff273818db5f-ab84081a19b5: position; sole_author; normalized source offset 10886; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
+- linus-a6ff273818db5f-8dc96f99cc6d: framework; sole_author; normalized source offset 11455; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
+- linus-a6ff273818db5f-e190049383c6: position; sole_author; normalized source offset 16538; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
+- linus-a6ff273818db5f-2d5ce98ad716: framework; sole_author; normalized source offset 21881; chunk 0; https://yarchive.net/comp/linux/page_sizes.html
 ## linus-a8bb54066c8b4f: Two decades of Git: A conversation with creator Linus Torvalds
 
 https://www.youtube.com/watch?v=sCr_gb8rdEI
@@ -545,6 +760,21 @@ Short excerpt of linus-afd2746598daa0-43561305801d; speaker. Full passage and co
 - linus-afd2746598daa0-191e66a45afc: position; speaker; caption-prose-v1 offset 6902; chunk 0; https://www.youtube.com/watch?v=Nn-SGblUhi4&t=495
 - linus-afd2746598daa0-92c7cc110362: framework; speaker; caption-prose-v1 offset 9629; chunk 0; https://www.youtube.com/watch?v=Nn-SGblUhi4&t=702
 - linus-afd2746598daa0-16041f205bb3: position; speaker; caption-prose-v1 offset 10617; chunk 0; https://www.youtube.com/watch?v=Nn-SGblUhi4&t=800
+## linus-b523a1fcec4f83: Benchmarks (Linus Torvalds)
+
+https://yarchive.net/comp/linux/benchmarks.html
+
+Independent work identity: torvalds-tbench-profiling-reply-2008-11-17. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,175; full retrieved text: 1,175. Text SHA-256: f1ab81448a5e2fdc28f902fa2a9e46c4d487694bba497052b4e2cc62836c6f03
+
+Source dates reported in the collected material: 2008-11-17
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- linus-b523a1fcec4f83-59792e70d50a: position; sole_author; normalized source offset 4723; chunk 0; https://yarchive.net/comp/linux/benchmarks.html
+- linus-b523a1fcec4f83-151d116d00ce: framework; sole_author; normalized source offset 4928; chunk 0; https://yarchive.net/comp/linux/benchmarks.html
+- linus-b523a1fcec4f83-c4230a9fc1c4: position; sole_author; normalized source offset 5791; chunk 0; https://yarchive.net/comp/linux/benchmarks.html
 ## linus-b6d2497d71a413: Linux at 25: Linus Torvalds on the evolution and future of Linux | InfoWorld
 
 https://www.infoworld.com/article/2247741/linux-at-25-linus-torvalds-on-the-evolution-and-future-of-linux-2.html
@@ -602,6 +832,58 @@ Short excerpt of linus-b84c7a5bad786d-e6fc5274a3e1; sole_author. Full passage an
 - linus-b84c7a5bad786d-2bb82426821b: position; sole_author; normalized source offset 3554; chunk 0; https://yarchive.net/comp/linux/development_speed.html
 - linus-b84c7a5bad786d-677ac592b593: position; sole_author; normalized source offset 7028; chunk 0; https://yarchive.net/comp/linux/development_speed.html
 - linus-b84c7a5bad786d-534d75c4a6d8: position; sole_author; normalized source offset 9100; chunk 0; https://yarchive.net/comp/linux/development_speed.html
+## linus-bc3350d7a86cc7: User-space I/O (Linus Torvalds)
+
+https://yarchive.net/comp/linux/userspace_io.html
+
+Independent work identity: torvalds-2006-12-13-userspace-io-interrupts. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,977; full retrieved text: 1,977. Text SHA-256: bb0fffb79fdb22b7d3960f6bcdfbabd2a0e850ba49f240c7f72d6eac3f4781ee
+
+Source dates reported in the collected material: 2006-12-13
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- linus-bc3350d7a86cc7-16875ca12e45: principle; sole_author; normalized source offset 6310; chunk 0; https://yarchive.net/comp/linux/userspace_io.html
+- linus-bc3350d7a86cc7-bb5a7f87b6b8: framework; sole_author; normalized source offset 6906; chunk 0; https://yarchive.net/comp/linux/userspace_io.html
+- linus-bc3350d7a86cc7-b6b6d5832c84: position; sole_author; normalized source offset 6699; chunk 0; https://yarchive.net/comp/linux/userspace_io.html
+## linus-bd03dce03d41ae: Regression tracking (Linus Torvalds)
+
+https://yarchive.net/comp/linux/regression_tracking.html
+
+Independent work identity: torvalds-2007-04-26-linux-2-6-21-release-cycles. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,602; full retrieved text: 4,602. Text SHA-256: cbaf9da44693b5419dbd75c0ed7c815166762ba614a50e1e4db143ab3d19ae4b
+
+Source dates reported in the collected material: 2007-04-26
+
+> There's no way to even track the regressions, because things just change
+
+Short excerpt of linus-bd03dce03d41ae-8283d284b214; sole_author. Full passage and context retained locally.
+
+- linus-bd03dce03d41ae-8283d284b214: framework; sole_author; normalized source offset 4325; chunk 0; https://yarchive.net/comp/linux/regression_tracking.html
+- linus-bd03dce03d41ae-0f8328084b99: position; sole_author; normalized source offset 4818; chunk 0; https://yarchive.net/comp/linux/regression_tracking.html
+- linus-bd03dce03d41ae-dd807e8617bc: principle; sole_author; normalized source offset 7152; chunk 0; https://yarchive.net/comp/linux/regression_tracking.html
+- linus-bd03dce03d41ae-2ec64cb3338f: framework; sole_author; normalized source offset 7869; chunk 0; https://yarchive.net/comp/linux/regression_tracking.html
+## linus-c25299d35015fd: Crash dumps (Linus Torvalds)
+
+https://yarchive.net/comp/linux/crash_dumps.html
+
+Independent work identity: torvalds-crash-dumps-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,839; full retrieved text: 1,839. Text SHA-256: 607b8f9d4dc80d1914544a82793ddeeeb9b88ef7237ad6499c7d5b5a4798e85b
+
+Source dates reported in the collected material: 1 Nov 2002–25 May 2007
+
+> it's a huge risk to play with the disk when the system
+
+Short excerpt of linus-c25299d35015fd-ffb6420ebf1c; sole_author. Full passage and context retained locally.
+
+- linus-c25299d35015fd-ffb6420ebf1c: principle; sole_author; normalized source offset 2062; chunk 0; https://yarchive.net/comp/linux/crash_dumps.html
+- linus-c25299d35015fd-c0de351daa45: principle; sole_author; normalized source offset 2280; chunk 0; https://yarchive.net/comp/linux/crash_dumps.html
+- linus-c25299d35015fd-1eb2db547edb: position; sole_author; normalized source offset 4914; chunk 0; https://yarchive.net/comp/linux/crash_dumps.html
+- linus-c25299d35015fd-9e7aa32b1d66: position; sole_author; normalized source offset 7959; chunk 0; https://yarchive.net/comp/linux/crash_dumps.html
+- linus-c25299d35015fd-c96d8c5f17e8: framework; sole_author; normalized source offset 10040; chunk 0; https://yarchive.net/comp/linux/crash_dumps.html
 ## linus-c42c4ae1ed99a9: Video: Linus Torvalds on How to Build a Successful Open Source Project - Linux.com
 
 https://www.linux.com/news/video-linus-torvalds-how-build-successful-open-source-project/
@@ -644,7 +926,7 @@ Short excerpt of linus-c4aaf9a0e2371c-673e523247fd; speaker. Full passage and co
 
 https://www.youtube.com/watch?v=OM_8UOPFpqE
 
-Independent work identity: torvalds-hohndel-open-source-summit-europe-2024. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-OM_8UOPFpqE. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 4,700; full retrieved text: 4,700. Text SHA-256: 3b491654617873abaa6c3b03e3ef63fb0b37a3f1ac00c0dd0d7506faab9fd1fc
 
@@ -661,6 +943,22 @@ Short excerpt of linus-caebe7efd979f4-e7c815a00f54; speaker. Full passage and co
 - linus-caebe7efd979f4-b588ff2508e7: position; speaker; caption-prose-v1 offset 10735; chunk 0; https://www.youtube.com/watch?v=OM_8UOPFpqE&t=835
 - linus-caebe7efd979f4-1a62bc61b8c0: position; speaker; caption-prose-v1 offset 9741; chunk 0; https://www.youtube.com/watch?v=OM_8UOPFpqE&t=758
 - linus-caebe7efd979f4-59e88bbce88b: framework; speaker; caption-prose-v1 offset 17492; chunk 0; https://www.youtube.com/watch?v=OM_8UOPFpqE&t=1361
+## linus-ce33675b4fde25: Memory pressure code (Linus Torvalds)
+
+https://yarchive.net/comp/linux/memory_pressure_code.html
+
+Independent work identity: torvalds-memory-pressure-reply-2009-06-28. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,249; full retrieved text: 2,249. Text SHA-256: 007433d4f14375b9d309abd325788a88cd78db12ecafeaefb92882cde6b0af6f
+
+Source dates reported in the collected material: 2009-06-28
+
+> It's still pretty easy to have lots of dirty anonymous memory, no
+
+Short excerpt of linus-ce33675b4fde25-f630345dec30; sole_author. Full passage and context retained locally.
+
+- linus-ce33675b4fde25-f630345dec30: position; sole_author; normalized source offset 12982; chunk 0; https://yarchive.net/comp/linux/memory_pressure_code.html
+- linus-ce33675b4fde25-c5a731e3b0db: position; sole_author; normalized source offset 13549; chunk 0; https://yarchive.net/comp/linux/memory_pressure_code.html
 ## linus-d2e94cff4da2ec: Documentation (Linus Torvalds)
 
 https://yarchive.net/comp/linux/documentation.html
@@ -724,6 +1022,26 @@ Short excerpt of linus-d30f26be4ebd06-1f9607388cfd; speaker. Full passage and co
 - linus-d30f26be4ebd06-eaaa56e68433: story; speaker; normalized source offset 112803; chunk 1; https://archive.computerhistory.org/resources/access/text/2012/10/102658325-05-01-acc.pdf
 - linus-d30f26be4ebd06-483718a424f9: framework; speaker; normalized source offset 118793; chunk 1; https://archive.computerhistory.org/resources/access/text/2012/10/102658325-05-01-acc.pdf
 - linus-d30f26be4ebd06-5e81fe0a473a: position; speaker; normalized source offset 120015; chunk 1; https://archive.computerhistory.org/resources/access/text/2012/10/102658325-05-01-acc.pdf
+## linus-ea06fcd26daea6: Page zeroing strategy (Linus Torvalds)
+
+https://yarchive.net/comp/linux/page_zeroing_strategy.html
+
+Independent work identity: torvalds-page-zeroing-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,096; full retrieved text: 2,096. Text SHA-256: 08387cba3fc3e4036899b8445e7c2e01f531dc1768256a2bf8f8b8ea9cec6ab5
+
+Source dates reported in the collected material: 7–17 Dec 2000
+
+> Using the FPU or MMX for memcpy makes that go away completely.
+
+Short excerpt of linus-ea06fcd26daea6-2784d0048290; sole_author. Full passage and context retained locally.
+
+- linus-ea06fcd26daea6-2784d0048290: position; sole_author; normalized source offset 1525; chunk 0; https://yarchive.net/comp/linux/page_zeroing_strategy.html
+- linus-ea06fcd26daea6-a08ab356d9c2: framework; sole_author; normalized source offset 2309; chunk 0; https://yarchive.net/comp/linux/page_zeroing_strategy.html
+- linus-ea06fcd26daea6-748dbcb843dd: principle; sole_author; normalized source offset 3851; chunk 0; https://yarchive.net/comp/linux/page_zeroing_strategy.html
+- linus-ea06fcd26daea6-46fd9c809072: position; sole_author; normalized source offset 4787; chunk 0; https://yarchive.net/comp/linux/page_zeroing_strategy.html
+- linus-ea06fcd26daea6-ac225a8ada9b: framework; sole_author; normalized source offset 8004; chunk 0; https://yarchive.net/comp/linux/page_zeroing_strategy.html
+- linus-ea06fcd26daea6-77977c238cd6: principle; sole_author; normalized source offset 11234; chunk 0; https://yarchive.net/comp/linux/page_zeroing_strategy.html
 ## linus-f5107ddc45b2bc: Linus Torvalds: “We’re Going in the Wrong Direction”
 
 https://www.youtube.com/watch?v=kRHqRWINWFQ
@@ -739,3 +1057,23 @@ Source dates reported in the collected material: 2026-09-02
 - linus-f5107ddc45b2bc-4a596734a3da: position; speaker; caption-prose-v1 offset 9187; chunk 0; https://www.youtube.com/watch?v=kRHqRWINWFQ&t=640
 - linus-f5107ddc45b2bc-bd525f34c60f: position; speaker; caption-prose-v1 offset 8113; chunk 0; https://www.youtube.com/watch?v=kRHqRWINWFQ&t=571
 - linus-f5107ddc45b2bc-a7e2c1462382: position; speaker; caption-prose-v1 offset 11485; chunk 0; https://www.youtube.com/watch?v=kRHqRWINWFQ&t=818
+## linus-f5ef8162e58c4f: Large pages (Linus Torvalds)
+
+https://yarchive.net/comp/linux/large_pages.html
+
+Independent work identity: torvalds-large-pages-archive. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,579; full retrieved text: 2,579. Text SHA-256: dac2cc1609d4b994c8971b2314695b5c8fd417d7b1087f436e43b3307147bed9
+
+Source dates reported in the collected material: not established
+
+> the application does a special system call (or special flag to mmap)
+
+Short excerpt of linus-f5ef8162e58c4f-cf5de1400352; sole_author. Full passage and context retained locally.
+
+- linus-f5ef8162e58c4f-cf5de1400352: framework; sole_author; normalized source offset 1086; chunk 0; https://yarchive.net/comp/linux/large_pages.html
+- linus-f5ef8162e58c4f-99d183ca192a: position; sole_author; normalized source offset 1755; chunk 0; https://yarchive.net/comp/linux/large_pages.html
+- linus-f5ef8162e58c4f-c72e7efba9d2: framework; sole_author; normalized source offset 4892; chunk 0; https://yarchive.net/comp/linux/large_pages.html
+- linus-f5ef8162e58c4f-6bde9a3ed169: position; sole_author; normalized source offset 10046; chunk 0; https://yarchive.net/comp/linux/large_pages.html
+- linus-f5ef8162e58c4f-18d86f179a0d: position; sole_author; normalized source offset 10981; chunk 0; https://yarchive.net/comp/linux/large_pages.html
+- linus-f5ef8162e58c4f-cbb795bb1aee: framework; sole_author; normalized source offset 12992; chunk 0; https://yarchive.net/comp/linux/large_pages.html

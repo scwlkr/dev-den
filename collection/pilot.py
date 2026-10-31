@@ -253,18 +253,60 @@ def get_course(url, fetch=get_page):
     return root
 
 
+def is_transcript_archive(url):
+    p=urllib.parse.urlsplit(url)
+    return p.hostname=='epublications.marquette.edu' and bool(re.fullmatch(r'/zuckerberg_files_transcripts/\d+/?',p.path))
+
+
+def is_transcript_landing(url):
+    p=urllib.parse.urlsplit(url)
+    return is_transcript_archive(url) or (str(p.hostname).endswith('.transistor.fm') and bool(re.fullmatch(r'/\d+/?',p.path))) or (p.hostname=='stvp.stanford.edu' and p.path.startswith('/av/'))
+
+
 def get_source(url):
+    if urllib.parse.urlsplit(url).hostname=='guide.handmadehero.org':
+        raise ValueError('Episode-guide annotations are not verbatim advisor speech; an original video/transcript is required')
     if urllib.parse.urlsplit(url).hostname not in ("youtube.com", "www.youtube.com", "youtu.be"):
         if is_course_index(url):
             return get_course(url)
-        return get_page(url)
+        page=get_page(url)
+        if page['metadata'].get('content_type') in ('application/atom+xml','application/rss+xml'):
+            raise ValueError('A syndication feed is a discovery index, not an independent source work')
+        if is_transcript_archive(url):
+            downloads=[r['url'] for r in page['links'] if urllib.parse.urlsplit(r['url']).hostname=='epublications.marquette.edu'
+                       and urllib.parse.urlsplit(r['url']).path=='/cgi/viewcontent.cgi'
+                       and dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(r['url']).query)).get('context')=='zuckerberg_files_transcripts']
+            if not downloads:raise ValueError('Archive record has no actual public transcript download link')
+            originals=[r['url'] for r in page['links'] if urllib.parse.urlsplit(r['url']).hostname in ('youtube.com','www.youtube.com','youtu.be')]
+            try:transcript=get_page(downloads[0])
+            except urllib.error.HTTPError as exc:
+                if exc.code not in (403,404,429) or not originals:raise
+                # Use the publisher's linked original, without bypassing its PDF access controls.
+                transcript=get_source(originals[0])
+            transcript['metadata'].update(archive_record_url=canonical(url),archive_record_excerpt=page['text'][:2500],title=page['metadata'].get('title'))
+            if originals:transcript['metadata']['original_work_url']=canonical(originals[0])
+            return transcript
+        p=urllib.parse.urlsplit(url)
+        transcripts=[r['url'] for r in page['links'] if re.fullmatch(r'(?:read |full |view |complete )?transcript',normalize(r['title']),re.I)
+                     and urllib.parse.urlsplit(r['url']).hostname==p.hostname
+                     and (urllib.parse.urlsplit(r['url']).path.startswith(p.path.rstrip('/')+'/')
+                          or (p.hostname=='stvp.stanford.edu' and re.fullmatch(r'/node/\d+/printable/print',urllib.parse.urlsplit(r['url']).path)))]
+        if transcripts and len(page['text'].split())<2500:
+            transcript=get_page(transcripts[0])
+            transcript['metadata'].update(publisher_record_url=canonical(url),publisher_record_excerpt=page['text'][:2500],title=page['metadata'].get('title'))
+            return transcript
+        return page
     with tempfile.TemporaryDirectory(prefix="dod-captions-") as tmp:
         result = subprocess.run([
-            "yt-dlp", "--ignore-config", "--no-cache-dir", "--no-simulate", "--skip-download", "--no-playlist", "--write-subs", "--write-auto-subs", "--sub-langs", "en-orig,en", "--sub-format", "json3",
+            "yt-dlp", "--ignore-config", "--no-cache-dir", "--no-simulate", "--ignore-no-formats-error", "--skip-download", "--no-playlist", "--write-subs", "--write-auto-subs", "--sub-langs", "en-orig,en", "--sub-format", "json3",
             "--paths", tmp, "--output", "source.%(ext)s", "--dump-json", url,
         ], text=True, capture_output=True, timeout=90)
         tracks = list(Path(tmp).glob("*.json3"))
         if not tracks:
+            if re.search(r'members.?only|Join this channel to get access',result.stderr,re.I):
+                raise ValueError('Members-only source; no membership or authentication attempted')
+            if re.search(r'HTTP Error 429|Too Many Requests',result.stderr,re.I):
+                raise ValueError('Public caption retrieval was rate-limited; source held out without asserting captions are absent')
             raise ValueError("No usable existing English captions/transcript; additional transcription deferred")
         data = json.loads(result.stdout.splitlines()[-1])
         selected=sorted(tracks,key=lambda p:("en-orig" not in p.name,p.name))[0]
@@ -316,7 +358,8 @@ class Ledger:
     """Persist reservations BEFORE requests; never retry an uncertain paid POST."""
     def __init__(self, root, cap, pricing, compilation_margin=3):
         self.path = Path(root) / "ledger.json"
-        self.cap = min(float(cap), 25.0)
+        self.cap = float(cap)
+        if self.cap<=0:raise ValueError('A positive authorized cumulative budget is required')
         self.pricing = pricing
         self.compilation_margin = compilation_margin
         self.data = read_json(self.path, {"created_at": now(), "jobs": {}})
@@ -444,6 +487,11 @@ def work_coverage(records):
     return len(groups),sum(groups.values())
 
 
+def collection_fingerprint(records):
+    return digest([{'source_id':r['source_id'],'text_sha256':r['text_sha256'],'work_key':r.get('work_key',r['url']),
+                    'evidence_ids':sorted(e['id'] for e in r['evidence'])} for r in sorted(records,key=lambda r:r['source_id']) if r['status']=='accepted'])
+
+
 def caption_view(text):
     """Exact caption words without cue-format markers, plus normalized cue offsets."""
     markers=list(re.finditer(r'\[(\d{2}:\d{2}:\d{2})\]',text))
@@ -496,7 +544,7 @@ class Pilot:
         prior=[]
         for name in ('PILOT-REPORT.md','FULL-REPORT.md'):
             report=self.project/'collection'/name
-            if report.exists():prior += [float(x) for x in re.findall(r'\*\*\$(\d+(?:\.\d+)?)\s*/\s*\$25(?:\.00)?\*\*',report.read_text())]
+            if report.exists():prior += [float(x) for x in re.findall(r'\*\*\$(\d+(?:\.\d+)?)\s*/\s*\$\d+(?:\.\d+)?\*\*',report.read_text())]
         if prior and max(prior)>.01 and not self.ledger.data['jobs']:
             raise UncertainCharge('A charged collection report exists but its original ledger is missing or empty; restore it before any paid work')
         self._ledger_lock=threading.RLock()

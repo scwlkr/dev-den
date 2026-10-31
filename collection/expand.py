@@ -12,9 +12,10 @@ import subprocess
 import urllib.parse
 
 from .pilot import (Pilot, OpenAI, load_key, read_json, write_json, digest, normalize,
-                    canonical, get_page, get_source, is_course_index, verify_evidence,
+                    canonical, get_page, get_source, is_course_index, is_transcript_archive, is_transcript_landing, verify_evidence,
                     object_schema, STRING, STRINGS, EXTRACTION, COMPILATION,
-                    SECTIONS, BudgetStop, UncertainCharge, now,caption_view,source_words,work_coverage)
+                    SECTIONS, BudgetStop, UncertainCharge, now,caption_view,source_words,work_coverage,collection_fingerprint)
+from .scope import mail_sender_scope,apply_scope
 
 CATALOG = object_schema({"sources": {"type": "array", "items": object_schema({
     "url": STRING, "title": STRING, "work_key": STRING, "reason": STRING})}, "gaps": STRINGS})
@@ -27,8 +28,18 @@ def source_id(dev, url):
     return dev["id"] + "-" + digest(canonical(url))[:14]
 
 
+def wrong_podcast_guest(dev,record):
+    meta=record.get('metadata',{})
+    channel=re.sub(r'[^a-z0-9]','',(meta.get('channel') or '').lower())
+    if channel not in ('lexfridman','lexfridmanpodcast'):return False
+    title=re.sub(r'[^a-z0-9]','',str(meta.get('title','')).lower())
+    aliases=[re.sub(r'[^a-z0-9]','',a.lower()) for a in dev.get('aliases',[dev['name']]) if len(a)>=7 or a=='DHH']
+    return not any(a and a in title for a in aliases)
+
+
 def work_key(candidate):
-    url = canonical(candidate["url"])
+    if candidate.get('verified_work_key'):return candidate['verified_work_key']
+    url = canonical(candidate.get('original_work_url') or candidate["url"])
     if url in ("https://www.youtube.com/watch?v=tNZnLkRBYA8", "https://lexfridman.com/theprimeagen-transcript/", "https://lexfridman.com/theprimeagen/"):
         return "primeagen-lex-461"
     groups={
@@ -48,6 +59,9 @@ def work_key(candidate):
     for course in ('fem-git','fem-algos','ts-go-rust','rust-for-typescript-devs'):
         if (p.hostname=='theprimeagen.github.io' and (p.path.rstrip('/')=='/'+course or p.path.startswith('/'+course+'/'))) or (p.hostname=='github.com' and (p.path.rstrip('/').lower()=='/theprimeagen/'+course or p.path.lower().startswith('/theprimeagen/'+course+'/'))):
             return 'primeagen-course-'+course
+    if p.hostname in ('youtube.com','www.youtube.com','youtu.be'):
+        video=dict(urllib.parse.parse_qsl(p.query)).get('v')
+        if video:return 'youtube-'+video
     return candidate.get("work_key") or url
 
 
@@ -59,6 +73,7 @@ def valid_lead(url):
         return False
     if re.search(r"\.(?:png|jpg|jpeg|gif|svg|css|js|woff|zip|tar|gz|mp3|mp4|webm)$",p.path,re.I):
         return False
+    if re.search(r'(?:^|/)(?:feed|rss)(?:[./]|$)|\.(?:atom|rss)$',p.path,re.I):return False
     return not re.search(r"/(?:tags?|categories|search|login|privacy|terms|contact|subscribe|signup|feed)(?:/|$)",p.path,re.I)
 
 
@@ -278,30 +293,56 @@ class Expansion(Pilot):
         refresh_video=bool(record and record['status']=='held_out' and video and not record.get('caption_fix_attempted'))
         refresh_tutorial=bool(record and record['status']=='held_out' and 300<=record.get('metadata',{}).get('duration_seconds',0)<540 and record.get('words',0)>=800
                               and any('Video shorter' in issue for issue in record.get('issues',[])))
-        if record and record['status'] in ('accepted','duplicate','held_out') and not (refresh_video or refresh_tutorial):
+        refresh_archive=bool(record and record['status']=='held_out' and is_transcript_landing(candidate['url']) and not record.get('transcript_fix_attempted'))
+        if record and record['status'] in ('accepted','duplicate','held_out') and not (refresh_video or refresh_tutorial or refresh_archive):
             return record
         folder.mkdir(parents=True,exist_ok=True)
         record=record or {"source_id":sid,"developer":dev['id'],"url":candidate['url'],"candidate":candidate,"evidence":[],"rejected_evidence":[],"issues":[],"parts_done":[],"extractions":[]}
         try:
-            if (folder/'source.txt').exists() and (folder/'source.json').exists() and not refresh_video:
+            if (folder/'source.txt').exists() and (folder/'source.json').exists() and not (refresh_video or refresh_archive):
                 text=(folder/'source.txt').read_text();meta=read_json(folder/'source.json')
             else:
                 page=get_source(candidate['url']);text,meta=page['text'],page['metadata']
                 if len(text.split())<80: raise ValueError('Source extraction is too short to establish substantial first-hand reasoning')
                 (folder/'source.txt').write_text(text);write_json(folder/'source.json',meta)
+            if refresh_archive:
+                record.setdefault('prior_archive_extractions',[]).extend(record.get('extractions',[]))
+                record.update(evidence=[],rejected_evidence=[],issues=[],parts_done=[],extractions=[],transcript_fix_attempted=True)
+            if meta.get('original_work_url'):candidate['original_work_url']=meta['original_work_url']
             words=len(caption_view(text)[0].split()) if meta.get('duration_seconds') else len(text.split())
+            record['candidate']=candidate
             record.update(metadata=meta,words=words,text_sha256=digest(normalize(text)),work_key=work_key(candidate),status='pending',caption_fix_attempted=video)
-            if video and (meta.get('duration_seconds',0)<300 or (meta.get('duration_seconds',0)<540 and words<800)):
+            if wrong_podcast_guest(dev,record):raise ValueError('Publisher metadata identifies a different podcast guest, not the requested advisor')
+            self.scope_mail(dev,record)
+            if meta.get('duration_seconds') and (meta['duration_seconds']<300 or (meta['duration_seconds']<540 and words<800)):
                 raise ValueError('Video shorter than five minutes, or a short item with fewer than 800 caption words; held out in favor of substantial full works')
             write_json(folder/'evidence.json',record)
             return record
         except Exception as exc:
-            record.update(status='held_out',caption_fix_attempted=video,issues=[str(exc)[:300]])
+            record.update(status='held_out',caption_fix_attempted=video,transcript_fix_attempted=is_transcript_landing(candidate['url']),issues=[str(exc)[:300]])
             write_json(folder/'evidence.json',record)
             return record
 
+    def scope_mail(self,dev,record):
+        if urllib.parse.urlsplit(record['url']).hostname!='lore.kernel.org' or record.get('source_scope'):return
+        raw=(self.root/dev['id']/'sources'/record['source_id']/'source.txt').read_text()
+        if not re.search(r'(?m)^From:.* @ \d{4}-\d{2}-\d{2}',raw):
+            if record['words']>10000:raise ValueError('Large thread archive has no verifiable target-sender scope')
+            return
+        ranges,note=mail_sender_scope(raw,dev.get('aliases',[dev['name']]))
+        apply_scope(record,raw,ranges,note)
+        if record['coverage_words']<80:raise ValueError('Too little unquoted target-author material in the thread for a substantial source')
+        record.update(status='pending',parts_done=[],scope_partition_version='normalized-ranges-v1')
+
     def parts(self, dev, record):
         text=(self.root/dev['id']/'sources'/record['source_id']/'source.txt').read_text()
+        if record.get('source_scope'):
+            full=normalize(text);pieces=[(full[a:min(a+115000,b)],a) for start,b in record['source_scope']['normalized_ranges'] for a in range(start,b,115000)]
+            record['total_chunks']=len(pieces);done=set(record.get('parts_done',[]))
+            opening=pieces[0][0][:2000] if pieces else ''
+            return [{'source_id':record['source_id'],'part':i,'developer':dev['id'],'candidate':record['candidate'],'metadata':record['metadata'],
+                     'source_opening_for_attribution_only':opening,'text':chunk,'normalized_start':start,'evidence_budget':min(28,max(6,len(chunk.split())//650))}
+                    for i,(chunk,start) in enumerate(pieces) if i not in done]
         chunks=[text[i:i+115000] for i in range(0,len(text),115000)]
         record['total_chunks']=len(chunks)
         done=set(record.get('parts_done',[]))
@@ -314,7 +355,9 @@ class Expansion(Pilot):
     def verified_part(self,dev,r,part,x):
         raw=(self.root/dev['id']/'sources'/r['source_id']/'source.txt').read_text()
         video=bool(r['metadata'].get('duration_seconds'))
-        if video:
+        if 'normalized_start' in part:
+            full=normalize(raw);cues=[];text=part['text'];base=part['normalized_start']
+        elif video:
             full,cues=caption_view(raw)
             text=caption_view(part['text'])[0]
             x=dict(x,evidence=[dict(e,quote=caption_view(e['quote'])[0]) for e in x.get('evidence',[])])
@@ -334,6 +377,8 @@ class Expansion(Pilot):
                 if offset<0:
                     bad.append({'reason':'Quote not located inside its actual source part after formatting normalization','claim':ev['claim']});continue
             ev.update(chunk_index=part['part'],passage_offset=offset,source_url=r['metadata']['url'])
+            if r.get('source_scope') and not any(a<=offset and offset+len(ev['quote'])<=b for a,b in r['source_scope']['normalized_ranges']):
+                bad.append({'reason':'Passage outside verified primary-author scope','claim':ev['claim']});continue
             if video:ev['passage_view']='caption-prose-v1'
             sections=re.findall(r'SOURCE SECTION: (https?://\S+)',full[:offset])
             if sections and sections[-1] in {p['url'] for p in r['metadata'].get('parts',[])}:ev['source_url']=sections[-1]
@@ -372,6 +417,7 @@ class Expansion(Pilot):
                 "For each part return up to its evidence_budget diverse, substantive evidence items: named/unnamed frameworks and their steps, decision rules, technical positions, thresholds/conditions, cases and lessons, books discussed and distinctive voice. Preserve distinct reasoning across the full part, without padding. "
                 "Prioritize useful reasoning over isolated facts. Copy short exact contiguous quotations from that part's text, with actual author/speaker and context. Do not quote the attribution-only opening as evidence for another part. "
                 "No claims from other speakers, quoted critics, third-party summaries or merely nearby company material. Distinguish coauthored positions. "
+                "A third-party reaction, recap, compilation or reading of quotations is not an eligible primary work merely because it contains a short target-speaker clip. Prefer the original full work. "
                 "Unlabelled captions require a clearly established target speaker; note transcription uncertainty and missing diagrams/code. "
                 "A home/index/navigation page is not evidence of a position. Mark ineligible when attribution or substantive support is absent. "
                 "Preserve dates only when actually supplied, changes of mind, exceptions, self-criticism and disagreement. Never invent to meet counts.\n"
@@ -403,19 +449,30 @@ class Expansion(Pilot):
         pending=[]
         for r in current:
             if r['status']!='pending':continue
+            if wrong_podcast_guest(dev,r):
+                r.update(status='held_out',issues=['Publisher metadata identifies a different podcast guest; remaining parts are not mapped.'])
+                write_json(self.root/dev['id']/'sources'/r['source_id']/'evidence.json',r);continue
+            try:self.scope_mail(dev,r)
+            except ValueError as exc:
+                r.update(status='held_out',issues=[str(exc)]);write_json(self.root/dev['id']/'sources'/r['source_id']/'evidence.json',r);continue
             if r['text_sha256'] in fingerprints or r['work_key'] in works:
                 r.update(status='duplicate',issues=['Same work or source text already retained for this advisor'])
                 write_json(self.root/dev['id']/'sources'/r['source_id']/'evidence.json',r)
                 continue
             fingerprints.add(r['text_sha256']);works.add(r['work_key']);pending.append(r)
+        # Drain prepared archives in bounded groups so one prolific advisor does
+        # not monopolize the shared worker pool or source allowance.
+        pending=pending[:self.config.get('batch_sources',8)]
         candidates=[]
         for c in catalog['sources']:
             p=self.root/dev['id']/'sources'/source_id(dev,c['url'])/'evidence.json'
             old=read_json(p)
             is_old_video=bool(old and old['status']=='held_out' and urllib.parse.urlsplit(c['url']).hostname in ('youtube.com','www.youtube.com','youtu.be') and not old.get('caption_fix_attempted'))
-            if old is None or is_old_video:candidates.append(c)
+            is_old_archive=bool(old and old['status']=='held_out' and is_transcript_landing(c['url']) and not old.get('transcript_fix_attempted'))
+            if work_key(c) in works:continue
+            if old is None or is_old_video or is_old_archive:candidates.append(c)
         # Retrieval is free and bounded; model work remains serialized under the common ledger.
-        slots=max(1,self.config.get('batch_sources',8)-len(pending))
+        slots=max(0,self.config.get('batch_sources',8)-len(pending))
         with ThreadPoolExecutor(max_workers=4) as pool:
             fetched=list(pool.map(lambda c:self.prepare(dev,c),candidates[:slots]))
         records={r['source_id']:r for r in pending}
@@ -438,14 +495,17 @@ class Expansion(Pilot):
 
     def deep_compile(self, dev):
         records=[r for r in self.records(dev) if r['status']=='accepted']
+        previous=read_json(self.root/dev['id']/'compiled.json',{})
+        if previous.get('source_fingerprint')==collection_fingerprint(records):
+            self.export(dev,records,previous);return
         evidence={e['id']:e for r in records for e in r['evidence']}
         if not evidence:
             write_json(self.root/dev['id']/'compiled.json',{'sections':[], 'gaps':['No accepted first-hand evidence; advisor is unavailable']})
             return
-        context={"evidence":list(evidence.values()),"source_count":len(records),"source_words":sum(r['words'] for r in records),
+        works,coverage=work_coverage(records)
+        context={"evidence":list(evidence.values()),"source_count":works,"source_words":coverage,
                  "deep_benchmark":{"works":80,"words":500000},"sources":[{'source_id':r['source_id'],'title':r.get('metadata',{}).get('title') or r['candidate'].get('title'),
                       'dates':sorted({x['date'] for x in r.get('extractions',[]) if x.get('date')}),'limitations':list(dict.fromkeys(r.get('issues',[])))[:6]} for r in records]}
-        works,coverage=work_coverage(records)
         if works!=len(records):
             context.update(source_count=works,source_words=coverage,
                            work_identity={r['source_id']:r['work_key'] for r in records},
@@ -468,15 +528,20 @@ class Expansion(Pilot):
                 for r in records:
                     for e in r['evidence'][:2]:selected.setdefault(e['id'],e)
             if not selected:selected=evidence
-            writer_context=dict(context,evidence=list(selected.values()))
+            # Writers need the claim, exact passage, context and attribution.
+            # Keep mechanical audit/location fields in the retained records and
+            # renderer instead of repeating them in every compilation request.
+            audit_fields={'developer','source_url','passage_offset','verification','chunk_index','passage_view','timestamp'}
+            writer_context=dict(context,evidence=[{k:v for k,v in e.items() if k not in audit_fields} for e in selected.values()])
+            group_budgets=("voice: 400-550 words on cadence, vocabulary, analogies, arguing, disagreeing and conceding, with evidence IDs from at least 8 independent works when available as voice anchors. The renderer adds exact short quotations from these IDs. Return only one voice section. " if group==('voice',) else budgets)
             prompt=(f"Write a DEEP, operational advisor brain for {dev['name']}. Technical lens: {dev['focus']}\n"
-                    f"Write ONLY these sections exactly once: {', '.join(group)}. " +budgets+
+                    f"Write ONLY these sections exactly once: {', '.join(group)}. " +group_budgets+
                     "These are roast-room's structural targets, not permission to pad or invent. Where evidence is insufficient, produce fewer and explicitly record that gap. "
                     "Capture how this person decides, including trade-offs, disagreements, mistakes and when their experience does not transfer. This is not a biography. "
                     "Every item needs valid existing evidence_ids. Each paragraph is paraphrase: do not introduce direct quotation marks. Actual quotations will be supplied from verified passages. "
                     "Label synthesis inferred; do not assign unsupported historical positions. Merge duplicate ideas across works and cite independent corroboration. "
                     "Use plain English. Make entries rich enough for a council agent to apply, not slogans or one-line generalities. Do not guess support counts; citations are counted by code.\n"+json.dumps(writer_context,ensure_ascii=False))
-            result=self.call(dev['id'],'compile_deep',prompt,COMPILATION,max_output_tokens=18000)
+            result=self.call(dev['id'],'compile_deep',prompt,COMPILATION,max_output_tokens=4500 if group==('voice',) else 18000)
             assigned=[s for s in result['sections'] if s['name'] in group]
             if sorted(s['name'] for s in assigned)!=sorted(group):raise ValueError('Deep writer omitted or duplicated an assigned section')
             extra=len(assigned)!=len(result['sections'])
@@ -490,7 +555,7 @@ class Expansion(Pilot):
             sections+=assigned
             gaps += ([g for g in result['gaps'] if re.search(r'voice|speaker|transcript|audio|cadence|style|tone|vocabulary|communication|humou?r',g,re.I)] if extra and group==('voice',) else result['gaps'])
         hot=self.compile_hot(dev,records,sections)
-        compiled={'sections':hot['sections']+sections,'gaps':coverage_gaps(gaps+hot['gaps'],records)}
+        compiled={'sections':hot['sections']+sections,'gaps':coverage_gaps(gaps+hot['gaps'],records),'source_fingerprint':collection_fingerprint(records)}
         if works<80 or coverage<500000:
             compiled['gaps'].append(f"Deep source benchmark not met: {works} works and {coverage:,} words versus 80+ works / 500,000+ words.")
         for s in sections:
@@ -523,15 +588,15 @@ class Expansion(Pilot):
 
     def full_report(self,status):
         ledger=self.ledger.data['jobs']
-        result={'status':status,'generated_at':now(),'cumulative_estimated_usd':self.ledger.exposure(),'budget_usd':25,'developers':[]}
-        lines=['# Full roster source collection','',f"Status: {status}",'',f"Cumulative estimated API usage, INCLUDING the pilot: **${self.ledger.exposure():.4f} / $25.00**.",'',
+        result={'status':status,'generated_at':now(),'cumulative_estimated_usd':self.ledger.exposure(),'budget_usd':self.ledger.cap,'original_pilot_ceiling_usd':25,'developers':[]}
+        lines=['# Full roster source collection','',f"Status: {status}",'',f"Cumulative estimated API usage, INCLUDING the pilot: **${self.ledger.exposure():.4f} / ${self.ledger.cap:.2f}**.",'',
                'Roast-room deep benchmark: 80+ distinct works and 500,000+ words per advisor. Standard: 30-50 works and 250,000+ words. Counts are evidence targets, not permission to pad.','',
                '| Advisor | Works | Source words | Matched passages | Captioned videos | Talk/interview works | Source tier |','| --- | ---: | ---: | ---: | ---: | ---: | --- |']
         result['budget_status']='exceeded' if self.ledger.exposure()>self.ledger.cap else 'within ceiling'
         details=[]
         for dev in self.config['developers']:
             all_rows=self.records(dev);rs=[r for r in all_rows if r['status']=='accepted'];works,words=work_coverage(rs)
-            video=len({r.get('work_key',r['url']) for r in rs if r.get('metadata',{}).get('duration_seconds',0)>0 and urllib.parse.urlsplit(r['url']).hostname in ('youtube.com','www.youtube.com','youtu.be')})
+            video=len({r.get('work_key',r['url']) for r in rs if r.get('metadata',{}).get('duration_seconds',0)>0 and urllib.parse.urlsplit(r.get('metadata',{}).get('url',r['url'])).hostname in ('youtube.com','www.youtube.com','youtu.be')})
             spoken=len({r.get('work_key',r['url']) for r in rs if any(x.get('eligible') and x.get('attribution')=='speaker' for x in r.get('extractions',[]))})
             compiled=read_json(self.root/dev['id']/'compiled.json',{})
             catalog=read_json(self.root/dev['id']/'catalog-all.json',{'sources':[]})
@@ -542,6 +607,7 @@ class Expansion(Pilot):
             voice_anchors=len(re.findall(r'^> ',voice_path.read_text(),re.M)) if voice_path.exists() else 0
             tier='deep' if works>=80 and words>=500000 else 'standard' if works>=30 and words>=250000 else 'quick' if works>=12 and words>=80000 else 'limited'
             record={'id':dev['id'],'name':dev['name'],'works':works,'source_representations':len(rs),'words':words,'full_retrieved_words':sum(r['words'] for r in rs),'matched_passages':sum(len(r['evidence']) for r in rs),'captioned_videos':video,'talk_or_interview_works':spoken,'source_tier':tier,'entries':entries,
+                    'compilation_current':compiled.get('source_fingerprint')==collection_fingerprint(rs),
                     'cost_usd':sum(j.get('cost_usd',j['reserved_usd']) for j in ledger.values() if j['developer']==dev['id']),
                     'compiled_words':compiled_words,
                     'voice_anchors':voice_anchors,
@@ -557,11 +623,20 @@ class Expansion(Pilot):
         result['totals']['advisors']=len(result['developers'])
         totals=result['totals']
         deep=sum(d['source_tier']=='deep' for d in result['developers'])
-        lines[6:6]=[f"Prepared {totals['advisors']} advisors from {totals['works']:,} distinct works, {totals['words']:,} scoped source words and {totals['matched_passages']:,} text-matched evidence passages. All have seven compiled sections plus a source index. {deep} advisors meet both deep source thresholds.",'']
-        if result['budget_status']=='exceeded':
+        result['totals']['current_compilations']=sum(d['compilation_current'] for d in result['developers'])
+        lines[6:6]=[f"Prepared {totals['advisors']} advisors from {totals['works']:,} advisor/work counts, {totals['words']:,} scoped source words and {totals['matched_passages']:,} text-matched evidence passages. {totals['current_compilations']} of {totals['advisors']} compilations match the current accepted evidence. {deep} advisors meet both deep source thresholds.",'']
+        baseline=read_json(self.root/'continuation-baseline.json',{})
+        if baseline:
+            result['continuation']={'estimated_usd':round(self.ledger.exposure()-baseline['cumulative_estimated_usd'],8),
+                                    **{key:totals[key]-baseline['totals'][key] for key in ('works','words','matched_passages','captioned_videos')}}
+            delta=result['continuation']
+            lines[6:6]=[f"Net change during this existing-credit continuation: {delta['works']:,} advisor/work counts, {delta['words']:,} scoped source words and {delta['matched_passages']:,} matched passages for an estimated additional ${delta['estimated_usd']:.4f}. These figures include the effect of correcting earlier duplicate groupings.",'']
+        if self.ledger.cap>25:
+            lines[6:6]=['The owner subsequently authorized continuation using existing API credits. The current cumulative allocation includes all prior charges; it does not reset the ledger. The initial $23.724864 estimate was corrected to $27.286261 after including cache-write premiums, exceeding the original $25 ceiling by $2.286261. That historical overrun remains recorded.','']
+        elif result['budget_status']=='exceeded':
             lines[6:6]=[f"**Budget correction:** the earlier $23.724864 estimate omitted cache-write premiums. Repricing saved usage under documented default 30-minute cache rates gives ${self.ledger.exposure():.6f}, ${self.ledger.exposure()-self.ledger.cap:.6f} above the original cap. Prior per-request estimates are preserved in the ledger. Further paid requests are blocked; no additional allowance has been authorized. This remains an estimate, not an account invoice.",'']
-        lines+=details+['','## Evidence and budget notes','','Source words count retained primary works, including interview questions and coauthored text. Explicit source scopes exclude unrelated archive messages and reader comments; original full snapshots remain local for audit. They are not a count of words spoken exclusively by the advisor. Alternate uploads, keynote parts and republications share a work identity and contribute only the largest scoped representation to word coverage; their cited passages remain retained. Talk/interview works and captioned videos also count unique work identities. Quotation checks establish normalized text membership and source identity. Attribution and semantic support are model-assessed. Course chapters are one work. Video-caption text is not audio-verified; missing visual/code context remains a limitation.','',
-                                        'The original pilot ledger is reused, including all prior charges and any unresolved reservations. No extra allowance was created. Costs are conservative token/tool estimates, not invoices. Raw source text, metadata, model outputs and passage evidence remain local and Git-ignored.']
+        lines+=details+['','## Evidence and budget notes','','Totals sum each advisor’s collection; a shared panel can appear in more than one advisor’s count. Source words count retained primary works, including interview questions and coauthored text. Explicit source scopes exclude unrelated archive messages and reader comments; original full snapshots remain local for audit. They are not a count of words spoken exclusively by the advisor. Alternate uploads, keynote parts and republications share a work identity and contribute only the largest scoped representation to word coverage; their cited passages remain retained. Talk/interview works and captioned videos also count unique work identities. Quotation checks establish normalized text membership and source identity. Attribution and semantic support are model-assessed. Course chapters are one work. Video-caption text is not audio-verified; missing visual/code context remains a limitation.','',
+                                        'The original pilot ledger is reused, including all prior charges and any unresolved reservations. The current allocation reflects the owner’s latest authorization to use existing credits. Costs are token/tool estimates, not invoices. Raw source text, metadata, model outputs and passage evidence remain local and Git-ignored.']
         lines+=['','Principle corroboration is computed from cited distinct work identities: high for three or more, medium for two, low for one. It measures repeat support, not factual truth. The depth and structure comparisons come from [roast-room’s workflow](https://github.com/nateherkai/roast-room/blob/main/.claude/skills/newroaster/SKILL.md) and [brain specification](https://github.com/nateherkai/roast-room/blob/main/.claude/skills/newroaster/references/brain-spec.md). The installed summarize tool was evaluated in five extraction-only cases and not adopted; see [the evaluation](README.md#summarize-evaluation).']
         lines+=['','New retrieval rejects translated English caption tracks and retains the selected underlying language. Earlier caption snapshots did not retain track-level language metadata; their original-language provenance cannot be certified retrospectively from the local records. No claim of audio verification is made.']
         write_json(self.root/'full-report.json',result)
@@ -599,7 +674,15 @@ class Expansion(Pilot):
                         try:
                             if not future.result():exhausted.add(dev['id'])
                         except BudgetStop:budget_stop=True
+                        except ValueError as exc:
+                            exhausted.add(dev['id'])
+                            print(f"{dev['id']}: mapping paused after an invalid model result; completed evidence retained: {exc}",flush=True)
                     if budget_stop:
+                        # A parallel reservation may fit after the other workers
+                        # record their actual costs. Try once without competition.
+                        try:
+                            if self.map_work(chosen[0][1],catalogs[chosen[0][1]['id']]):continue
+                        except BudgetStop:pass
                         print('Source budget reserve reached; compiling retained evidence.',flush=True);break
                 # One task per advisor keeps its writers and source state ordered.
                 futures=[(d,pool.submit(self.deep_compile,d)) for d in self.config['developers']]
@@ -620,7 +703,7 @@ class Expansion(Pilot):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--catalog-only',action='store_true');p.add_argument('--report-only',action='store_true');args=p.parse_args()
     project=Path(__file__).resolve().parents[1];cfg=read_json(project/'collection/roster.json')
-    if len(cfg['developers'])!=13 or cfg['budget_usd']>25 or cfg['model']!='gpt-6.1-terra':raise ValueError('Original all-13 Terra scope and $25 ceiling required')
+    if len(cfg['developers'])!=13 or not 0<cfg['budget_usd']<=51.5 or cfg['model']!='gpt-6.1-terra':raise ValueError('All-13 Terra scope and the currently authorized $51.50 cumulative allocation required')
     root=project/'.collection/pilot';root.mkdir(parents=True,exist_ok=True)
     with (root/'run.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)

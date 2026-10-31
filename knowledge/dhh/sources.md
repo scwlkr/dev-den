@@ -2,6 +2,72 @@
 
 Quotations were matched against retained normalized source text; attribution and context were assessed by Terra, not independently certified.
 
+## dhh-013ca8b83e8ef7: Always provide a way out
+
+https://world.hey.com/dhh/always-provide-a-way-out-2d5d8efb
+
+Independent work identity: https://world.hey.com/dhh/always-provide-a-way-out-2d5d8efb. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 506; full retrieved text: 506. Text SHA-256: 38fa407d3f001aa767ca79d9267ed9eb6d742507a79c089d69b950b963a9ec83
+
+Source dates reported in the collected material: not established
+
+> We should all seek to lower the price for those who wish
+
+Short excerpt of dhh-013ca8b83e8ef7-26e75448345f; sole_author. Full passage and context retained locally.
+
+- dhh-013ca8b83e8ef7-26e75448345f: principle; sole_author; normalized source offset 2449; chunk 0; https://world.hey.com/dhh/always-provide-a-way-out-2d5d8efb
+- dhh-013ca8b83e8ef7-d890a02c9dee: position; sole_author; normalized source offset 1974; chunk 0; https://world.hey.com/dhh/always-provide-a-way-out-2d5d8efb
+## dhh-0347273f1e07d5: Enough problems to go around
+
+https://world.hey.com/dhh/enough-problems-to-go-around-c10b887d
+
+Independent work identity: https://world.hey.com/dhh/enough-problems-to-go-around-c10b887d. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 388; full retrieved text: 388. Text SHA-256: 8095084d155470c6baaeaef99a25642e6ca0b16e51899126161d531797460262
+
+Source dates reported in the collected material: not established
+
+> don't slice the few, meaningful problems you have at work too thin
+
+Short excerpt of dhh-0347273f1e07d5-bcf3fb616283; sole_author. Full passage and context retained locally.
+
+- dhh-0347273f1e07d5-bcf3fb616283: principle; sole_author; normalized source offset 1814; chunk 0; https://world.hey.com/dhh/enough-problems-to-go-around-c10b887d
+- dhh-0347273f1e07d5-09d1e5da701b: position; sole_author; normalized source offset 1361; chunk 0; https://world.hey.com/dhh/enough-problems-to-go-around-c10b887d
+## dhh-066f01e8af4475: Japan bends Apple another inch on the App Store
+
+https://world.hey.com/dhh/japan-bends-apple-another-inch-on-the-app-store-9692d1c9
+
+Independent work identity: https://world.hey.com/dhh/japan-bends-apple-another-inch-on-the-app-store-9692d1c9. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 905; full retrieved text: 905. Text SHA-256: 1b4435196e5edfa327d961fa40db043dd044f2c9b24a33da90cc9e12012fdbf1
+
+Source dates reported in the collected material: not established
+
+> users who won't have to decode oblique statements as to why the
+
+Short excerpt of dhh-066f01e8af4475-ae1bb5d82603; sole_author. Full passage and context retained locally.
+
+- dhh-066f01e8af4475-ae1bb5d82603: position; sole_author; normalized source offset 624; chunk 0; https://world.hey.com/dhh/japan-bends-apple-another-inch-on-the-app-store-9692d1c9
+- dhh-066f01e8af4475-35fe240a47ea: position; sole_author; normalized source offset 2696; chunk 0; https://world.hey.com/dhh/japan-bends-apple-another-inch-on-the-app-store-9692d1c9
+- dhh-066f01e8af4475-a736dee41e2e: principle; sole_author; normalized source offset 3536; chunk 0; https://world.hey.com/dhh/japan-bends-apple-another-inch-on-the-app-store-9692d1c9
+- dhh-066f01e8af4475-56a5d8a3bbfb: position; sole_author; normalized source offset 4261; chunk 0; https://world.hey.com/dhh/japan-bends-apple-another-inch-on-the-app-store-9692d1c9
+## dhh-067df10461d545: That underdog DNA
+
+https://world.hey.com/dhh/that-underdog-dna-62795a00
+
+Independent work identity: https://world.hey.com/dhh/that-underdog-dna-62795a00. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 323; full retrieved text: 323. Text SHA-256: 8ecb22ab8ad7d37b07f8c82473459b683bef17b33389d8dd83611967ed115d3d
+
+Source dates reported in the collected material: not established
+
+> We've often thought of ourselves as being in the corner of the
+
+Short excerpt of dhh-067df10461d545-5d278acf58aa; sole_author. Full passage and context retained locally.
+
+- dhh-067df10461d545-5d278acf58aa: position; sole_author; normalized source offset 151; chunk 0; https://world.hey.com/dhh/that-underdog-dna-62795a00
+- dhh-067df10461d545-3bd7d49d8a69: principle; sole_author; normalized source offset 601; chunk 0; https://world.hey.com/dhh/that-underdog-dna-62795a00
 ## dhh-07051c605cd3a2: The O'Saasy License
 
 https://world.hey.com/dhh/the-o-saasy-license-336c5c8f
@@ -20,6 +86,52 @@ Short excerpt of dhh-07051c605cd3a2-e59911462c6e; sole_author. Full passage and 
 - dhh-07051c605cd3a2-a6c36fc4df16: framework; sole_author; normalized source offset 703; chunk 0; https://world.hey.com/dhh/the-o-saasy-license-336c5c8f
 - dhh-07051c605cd3a2-469731655564: position; sole_author; normalized source offset 1076; chunk 0; https://world.hey.com/dhh/the-o-saasy-license-336c5c8f
 - dhh-07051c605cd3a2-1cd0fa1c0121: position; sole_author; normalized source offset 98; chunk 0; https://world.hey.com/dhh/the-o-saasy-license-336c5c8f
+## dhh-0839525d753b25: Move the needle or move on
+
+https://world.hey.com/dhh/move-the-needle-or-move-on-7102cc0e
+
+Independent work identity: https://world.hey.com/dhh/move-the-needle-or-move-on-7102cc0e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 234; full retrieved text: 234. Text SHA-256: 51b210c019388d32dc932eac7abe7c8e6d3d8b7729f90dcaa684362abb91d86a
+
+Source dates reported in the collected material: not established
+
+> The more sophisticated you have to be to tell whether there's a
+
+Short excerpt of dhh-0839525d753b25-0fc3c5d34cfd; sole_author. Full passage and context retained locally.
+
+- dhh-0839525d753b25-0fc3c5d34cfd: framework; sole_author; normalized source offset 100; chunk 0; https://world.hey.com/dhh/move-the-needle-or-move-on-7102cc0e
+- dhh-0839525d753b25-50dcee45f052: framework; sole_author; normalized source offset 505; chunk 0; https://world.hey.com/dhh/move-the-needle-or-move-on-7102cc0e
+## dhh-0db54816438140: David Heinemeier Hansson Interview (Ruby on Rails, Basecamp & HEY) | The Craft of Open Source Podcast
+
+https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+
+Independent work identity: craft-of-open-source-dhh-rails-basecamp-hey. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,580; full retrieved text: 11,580. Text SHA-256: 9093f58c897b930097995152685143e28d46fe175902cb050bb07c80e93ec3c0
+
+Source dates reported in the collected material: March 30, 2021
+
+> Can I talk to a database? Can I put something on the
+
+Short excerpt of dhh-0db54816438140-94f0fac78721; speaker. Full passage and context retained locally.
+
+- dhh-0db54816438140-94f0fac78721: story; speaker; normalized source offset 5529; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-6e58d0305d14: principle; speaker; normalized source offset 10095; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-cd735e923cd7: position; speaker; normalized source offset 11099; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-c1eea30a4f64: position; speaker; normalized source offset 14289; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-d2c39b46e07a: story; speaker; normalized source offset 19063; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-0c04edff2626: principle; speaker; normalized source offset 23761; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-6aa6ffcc5999: story; speaker; normalized source offset 24528; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-7abfce70ee3f: framework; speaker; normalized source offset 27658; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-7db6b8fee1f0: principle; speaker; normalized source offset 28436; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-800d7facb366: story; speaker; normalized source offset 33703; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-30c6f27b5c08: framework; speaker; normalized source offset 36633; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-714bf2974bce: principle; speaker; normalized source offset 40860; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-ddeff1f9814b: position; speaker; normalized source offset 43552; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-33626efe385d: position; speaker; normalized source offset 50690; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-367e5db0f36c: book; speaker; normalized source offset 2960; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
+- dhh-0db54816438140-bd739cc06ee8: story; speaker; normalized source offset 54149; chunk 0; https://www.flagsmith.com/podcast/ruby-on-rails-basecamp-hey
 ## dhh-0eb221e774062d: Get in losers, we're moving to Linux!
 
 https://world.hey.com/dhh/get-in-losers-we-re-moving-to-linux-5e1b93cd
@@ -37,6 +149,154 @@ Short excerpt of dhh-0eb221e774062d-90ff1b8d0521; sole_author. Full passage and 
 - dhh-0eb221e774062d-90ff1b8d0521: story; sole_author; normalized source offset 1458; chunk 0; https://world.hey.com/dhh/get-in-losers-we-re-moving-to-linux-5e1b93cd
 - dhh-0eb221e774062d-34bb94b9cc9d: position; sole_author; normalized source offset 1807; chunk 0; https://world.hey.com/dhh/get-in-losers-we-re-moving-to-linux-5e1b93cd
 - dhh-0eb221e774062d-519cc24e978f: principle; sole_author; normalized source offset 2172; chunk 0; https://world.hey.com/dhh/get-in-losers-we-re-moving-to-linux-5e1b93cd
+## dhh-10734ef41ea41e: Software as art — REWORK
+
+https://37signals.com/podcast/software-as-art/
+
+Independent work identity: rework-software-as-art. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,906; full retrieved text: 4,906. Text SHA-256: dd6bd0483d41b6d10660eb12c714a691c5d64edf473b5b46973004d0a11acbfe
+
+Source dates reported in the collected material: 2025-08-06
+
+> It does not fit within that initial premise of project management is
+
+Short excerpt of dhh-10734ef41ea41e-18ad3ffa0fe3; speaker. Full passage and context retained locally.
+
+- dhh-10734ef41ea41e-18ad3ffa0fe3: position; speaker; normalized source offset 3504; chunk 0; https://37signals.com/podcast/software-as-art/
+- dhh-10734ef41ea41e-ccf9df34e5cb: book; speaker; normalized source offset 14335; chunk 0; https://37signals.com/podcast/software-as-art/
+- dhh-10734ef41ea41e-8981ec156a83: framework; speaker; normalized source offset 20100; chunk 0; https://37signals.com/podcast/software-as-art/
+- dhh-10734ef41ea41e-8690cb7894b0: framework; speaker; normalized source offset 24815; chunk 0; https://37signals.com/podcast/software-as-art/
+- dhh-10734ef41ea41e-1de74161b1b5: book; speaker; normalized source offset 25838; chunk 0; https://37signals.com/podcast/software-as-art/
+## dhh-15c74bbc0eb0fd: Don't be fooled by serverless
+
+https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730
+
+Independent work identity: https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 554; full retrieved text: 554. Text SHA-256: 7cd14f1a9f2b868f2c520cefb03daa6a40bc4894bec3c8b0197eddd59d22e0f7
+
+Source dates reported in the collected material: not established
+
+> if the seven customers aren't too taxing on the equipment or if
+
+Short excerpt of dhh-15c74bbc0eb0fd-6cdb695dc338; sole_author. Full passage and context retained locally.
+
+- dhh-15c74bbc0eb0fd-6cdb695dc338: framework; sole_author; normalized source offset 761; chunk 0; https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730
+- dhh-15c74bbc0eb0fd-d40706491ead: position; sole_author; normalized source offset 1330; chunk 0; https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730
+- dhh-15c74bbc0eb0fd-a0da92b5a746: framework; sole_author; normalized source offset 1458; chunk 0; https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730
+- dhh-15c74bbc0eb0fd-1982359634ab: position; sole_author; normalized source offset 2703; chunk 0; https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730
+- dhh-15c74bbc0eb0fd-2edf2daa8ba0: position; sole_author; normalized source offset 2828; chunk 0; https://world.hey.com/dhh/don-t-be-fooled-by-serverless-776cd730
+## dhh-173e83f27d6b8c: This just wouldn't happen on Twitter
+
+https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06
+
+Independent work identity: https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 698; full retrieved text: 698. Text SHA-256: 0b2c467d9417c40dd38a7ea0a2e8dbbb84c3b698ae50ac56186cee24bd8c1a9a
+
+Source dates reported in the collected material: not established
+
+> the change in environment prompts them to flip
+
+Short excerpt of dhh-173e83f27d6b8c-643838c9298c; sole_author. Full passage and context retained locally.
+
+- dhh-173e83f27d6b8c-643838c9298c: position; sole_author; normalized source offset 1393; chunk 0; https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06
+- dhh-173e83f27d6b8c-6acdda78eaea: framework; sole_author; normalized source offset 3668; chunk 0; https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06
+- dhh-173e83f27d6b8c-3dca66eb0155: story; sole_author; normalized source offset 3218; chunk 0; https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06
+## dhh-19f4d89c1e2302: In defense of the office
+
+https://world.hey.com/dhh/in-defense-of-the-office-450fc177
+
+Independent work identity: https://world.hey.com/dhh/in-defense-of-the-office-450fc177. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 369; full retrieved text: 369. Text SHA-256: 2a025c5f4879744f864a925b03706ab9acdb0eca3d15ebf0bf805e02f9903d69
+
+Source dates reported in the collected material: not established
+
+> It wasn't until I found the prolonged solitude of working from home
+
+Short excerpt of dhh-19f4d89c1e2302-ad54a4310386; sole_author. Full passage and context retained locally.
+
+- dhh-19f4d89c1e2302-ad54a4310386: story; sole_author; normalized source offset 115; chunk 0; https://world.hey.com/dhh/in-defense-of-the-office-450fc177
+- dhh-19f4d89c1e2302-c82c9352d41d: position; sole_author; normalized source offset 684; chunk 0; https://world.hey.com/dhh/in-defense-of-the-office-450fc177
+- dhh-19f4d89c1e2302-f4e7439b79b0: position; sole_author; normalized source offset 1488; chunk 0; https://world.hey.com/dhh/in-defense-of-the-office-450fc177
+## dhh-1c832e72fb5bec: ACM ByteCast: David Heinemeier Hansson
+
+https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+
+Independent work identity: acm-bytecast-dhh-2021. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 9,085; full retrieved text: 9,085. Text SHA-256: aafc6366cb2ffa114790580f374bb21c16e884bce4e1af8de511df070e401053
+
+Source dates reported in the collected material: 2021-12-23
+
+> I realized that I needed to build these things myself.
+
+Short excerpt of dhh-1c832e72fb5bec-581eb153571d; speaker. Full passage and context retained locally.
+
+- dhh-1c832e72fb5bec-581eb153571d: story; speaker; normalized source offset 2375; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-0aee415033a1: story; speaker; normalized source offset 12183; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-67920d712092: framework; speaker; normalized source offset 16850; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-4b94d2a49f2a: story; speaker; normalized source offset 17660; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-b43712387cbf: position; speaker; normalized source offset 21598; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-bb7f75de661c: framework; speaker; normalized source offset 24480; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-674982b11091: book; speaker; normalized source offset 32351; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-971786ffa09a: position; speaker; normalized source offset 34457; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-8b38ad968bcf: position; speaker; normalized source offset 38913; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-ae17bcaaddca: framework; speaker; normalized source offset 47126; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+- dhh-1c832e72fb5bec-fb85c61f8af3: position; speaker; normalized source offset 47945; chunk 0; https://learning.acm.org/binaries/content/assets/leaning-center/bytecast-transcripts/acm_byte_cast_david_heinemeier_hansson_episode_23_mix---transcript.pdf
+## dhh-1dff34b6db36bc: Introducing Omakub
+
+https://world.hey.com/dhh/introducing-omakub-354db366
+
+Independent work identity: https://world.hey.com/dhh/introducing-omakub-354db366. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 487; full retrieved text: 487. Text SHA-256: f8251341e5c80762b2460e071b4cc5e7c8eb039dfe0fae23a6dcea4371e6de65
+
+Source dates reported in the collected material: not established
+
+> No need to write bespoke configs for every essential tool just to
+
+Short excerpt of dhh-1dff34b6db36bc-6be330123e99; sole_author. Full passage and context retained locally.
+
+- dhh-1dff34b6db36bc-6be330123e99: position; sole_author; normalized source offset 500; chunk 0; https://world.hey.com/dhh/introducing-omakub-354db366
+- dhh-1dff34b6db36bc-2e69f63a0013: framework; sole_author; normalized source offset 1384; chunk 0; https://world.hey.com/dhh/introducing-omakub-354db366
+- dhh-1dff34b6db36bc-bc5397b7cd2f: principle; sole_author; normalized source offset 1795; chunk 0; https://world.hey.com/dhh/introducing-omakub-354db366
+- dhh-1dff34b6db36bc-1174f7a7df14: framework; sole_author; normalized source offset 2421; chunk 0; https://world.hey.com/dhh/introducing-omakub-354db366
+## dhh-1f359868e8ab17: A world without trust is not better
+
+https://world.hey.com/dhh/a-world-without-trust-is-not-better-93d1c7b5
+
+Independent work identity: https://world.hey.com/dhh/a-world-without-trust-is-not-better-93d1c7b5. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 378; full retrieved text: 378. Text SHA-256: 41e71dac84b41d57a597cc5b98feb3791473748787092bfe56ff127d504f5be7
+
+Source dates reported in the collected material: not established
+
+> turning these transactions into pure computing always struck me as a regression.
+
+Short excerpt of dhh-1f359868e8ab17-79b9933f2520; sole_author. Full passage and context retained locally.
+
+- dhh-1f359868e8ab17-79b9933f2520: position; sole_author; normalized source offset 237; chunk 0; https://world.hey.com/dhh/a-world-without-trust-is-not-better-93d1c7b5
+- dhh-1f359868e8ab17-5e8ee8c9ed8f: principle; sole_author; normalized source offset 1087; chunk 0; https://world.hey.com/dhh/a-world-without-trust-is-not-better-93d1c7b5
+- dhh-1f359868e8ab17-444a431d8653: story; sole_author; normalized source offset 1312; chunk 0; https://world.hey.com/dhh/a-world-without-trust-is-not-better-93d1c7b5
+## dhh-1fe5d9ed156320: Organic food used to be niche like privacy is today
+
+https://world.hey.com/dhh/organic-food-used-to-be-niche-like-privacy-is-today-7f7a968b
+
+Independent work identity: https://world.hey.com/dhh/organic-food-used-to-be-niche-like-privacy-is-today-7f7a968b. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 425; full retrieved text: 425. Text SHA-256: 1baf878758a930fd6482795459e4433a8087aee57860fe8a5ed482a365e2df64
+
+Source dates reported in the collected material: not established
+
+> one that's on the cusp of going mainstream. When it does, it
+
+Short excerpt of dhh-1fe5d9ed156320-c4650d537dcb; sole_author. Full passage and context retained locally.
+
+- dhh-1fe5d9ed156320-c4650d537dcb: position; sole_author; normalized source offset 1272; chunk 0; https://world.hey.com/dhh/organic-food-used-to-be-niche-like-privacy-is-today-7f7a968b
+- dhh-1fe5d9ed156320-4e1e52bcafd3: principle; sole_author; normalized source offset 1752; chunk 0; https://world.hey.com/dhh/organic-food-used-to-be-niche-like-privacy-is-today-7f7a968b
 ## dhh-2077549712371a: Transcript for DHH: Future of Programming, AI, Ruby on Rails, Productivity & Parenting | Lex Fridman Podcast #474 - Lex Fridman
 
 https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/
@@ -131,6 +391,22 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - dhh-2077549712371a-839d988e607e: story; speaker; normalized source offset 349249; chunk 3; https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/
 - dhh-2077549712371a-8a063d880848: position; speaker; normalized source offset 350362; chunk 3; https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/
 - dhh-2077549712371a-567a48f418c5: position; speaker; normalized source offset 352882; chunk 3; https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/
+## dhh-213a63b6f42e40: Omarchy 2.0
+
+https://world.hey.com/dhh/omarchy-2-0-16fefc15
+
+Independent work identity: https://world.hey.com/dhh/omarchy-2-0-16fefc15. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 249; full retrieved text: 249. Text SHA-256: 88fa78edd852513bdd3489e5318964af84bd6d8b8dfbdbd503cfac5641c0f37f
+
+Source dates reported in the collected material: not established
+
+> The Linux of 2025 is not the Linux of the 90s or
+
+Short excerpt of dhh-213a63b6f42e40-a22d9039f829; sole_author. Full passage and context retained locally.
+
+- dhh-213a63b6f42e40-a22d9039f829: story; sole_author; normalized source offset 475; chunk 0; https://world.hey.com/dhh/omarchy-2-0-16fefc15
+- dhh-213a63b6f42e40-5d026b225e1b: position; sole_author; normalized source offset 780; chunk 0; https://world.hey.com/dhh/omarchy-2-0-16fefc15
 ## dhh-2179ca74533a0b: RailsConf 2017: Opening Keynote by David Heinemeier Hansson
 
 https://www.youtube.com/watch?v=Cx6aGMC6MjU
@@ -159,6 +435,23 @@ Short excerpt of dhh-2179ca74533a0b-fffac95dad60; speaker. Full passage and cont
 - dhh-2179ca74533a0b-51cd39538cdf: position; speaker; caption-prose-v1 offset 40208; chunk 0; https://www.youtube.com/watch?v=Cx6aGMC6MjU&t=2779
 - dhh-2179ca74533a0b-025c73fe8f4a: story; speaker; caption-prose-v1 offset 41745; chunk 0; https://www.youtube.com/watch?v=Cx6aGMC6MjU&t=2890
 - dhh-2179ca74533a0b-090a35463098: position; speaker; caption-prose-v1 offset 44610; chunk 0; https://www.youtube.com/watch?v=Cx6aGMC6MjU&t=3090
+## dhh-222e0fd107d288: Developers are on edge
+
+https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1
+
+Independent work identity: https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 625; full retrieved text: 625. Text SHA-256: 9a9e57d1376193b9999289b6c18af55faf3ddbcf9ea2ed9d0a77ba70817d7910
+
+Source dates reported in the collected material: not established
+
+> It's hard to tell how real that pressure actually is, though.
+
+Short excerpt of dhh-222e0fd107d288-43b470bb0c27; sole_author. Full passage and context retained locally.
+
+- dhh-222e0fd107d288-43b470bb0c27: position; sole_author; normalized source offset 1758; chunk 0; https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1
+- dhh-222e0fd107d288-3a3800fff839: position; sole_author; normalized source offset 2603; chunk 0; https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1
+- dhh-222e0fd107d288-c95dbda82f1c: principle; sole_author; normalized source offset 1608; chunk 0; https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1
 ## dhh-223d94218730eb: Rails 7.0: Fulfilling a vision
 
 https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision
@@ -183,6 +476,42 @@ Short excerpt of dhh-223d94218730eb-d96af5e5759d; sole_author. Full passage and 
 - dhh-223d94218730eb-b6fc6bec351d: position; sole_author; normalized source offset 4926; chunk 0; https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision
 - dhh-223d94218730eb-eee2dad00f87: position; sole_author; normalized source offset 5259; chunk 0; https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision
 - dhh-223d94218730eb-5759323898d5: framework; sole_author; normalized source offset 5507; chunk 0; https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision
+## dhh-2534b3e7fcedc1: Targeted ads are staggeringly unpopular so we should ban them
+
+https://world.hey.com/dhh/targeted-ads-are-staggeringly-unpopular-so-we-should-ban-them-01c13a9c
+
+Independent work identity: https://world.hey.com/dhh/targeted-ads-are-staggeringly-unpopular-so-we-should-ban-them-01c13a9c. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 351; full retrieved text: 351. Text SHA-256: f0453333e5bb0ce19f46d32bda340dc494d420ce3c3593389975fb5ce52ed75f
+
+Source dates reported in the collected material: not established
+
+> ban targeted ads entirely. Not just as a feature of one of
+
+Short excerpt of dhh-2534b3e7fcedc1-60afba0a6956; sole_author. Full passage and context retained locally.
+
+- dhh-2534b3e7fcedc1-60afba0a6956: position; sole_author; normalized source offset 449; chunk 0; https://world.hey.com/dhh/targeted-ads-are-staggeringly-unpopular-so-we-should-ban-them-01c13a9c
+- dhh-2534b3e7fcedc1-cf231fc20476: position; sole_author; normalized source offset 1169; chunk 0; https://world.hey.com/dhh/targeted-ads-are-staggeringly-unpopular-so-we-should-ban-them-01c13a9c
+- dhh-2534b3e7fcedc1-715790e6bb50: position; sole_author; normalized source offset 632; chunk 0; https://world.hey.com/dhh/targeted-ads-are-staggeringly-unpopular-so-we-should-ban-them-01c13a9c
+## dhh-25767680c1b828: Here comes the law
+
+https://world.hey.com/dhh/here-comes-the-law-eb302a46
+
+Independent work identity: https://world.hey.com/dhh/here-comes-the-law-eb302a46. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,538; full retrieved text: 1,538. Text SHA-256: 5edb52a7d2f8be214114b3c6125b27d04fddd04a266c71b1de4fcde40ead07d5
+
+Source dates reported in the collected material: not established
+
+> You can already export all your emails from Gmail, yet barely anyone
+
+Short excerpt of dhh-25767680c1b828-0898f5685cef; sole_author. Full passage and context retained locally.
+
+- dhh-25767680c1b828-0898f5685cef: position; sole_author; normalized source offset 1806; chunk 0; https://world.hey.com/dhh/here-comes-the-law-eb302a46
+- dhh-25767680c1b828-7102098ad044: position; sole_author; normalized source offset 4316; chunk 0; https://world.hey.com/dhh/here-comes-the-law-eb302a46
+- dhh-25767680c1b828-48a7e26b0c2c: position; sole_author; normalized source offset 4088; chunk 0; https://world.hey.com/dhh/here-comes-the-law-eb302a46
+- dhh-25767680c1b828-c8da9028eaea: position; sole_author; normalized source offset 3623; chunk 0; https://world.hey.com/dhh/here-comes-the-law-eb302a46
+- dhh-25767680c1b828-84bf4532e587: position; sole_author; normalized source offset 4905; chunk 0; https://world.hey.com/dhh/here-comes-the-law-eb302a46
 ## dhh-25e96f6d8772b3: Great AI Steals
 
 https://world.hey.com/dhh/great-ai-steals-280615be
@@ -199,6 +528,25 @@ Short excerpt of dhh-25e96f6d8772b3-254ce926e097; sole_author. Full passage and 
 
 - dhh-25e96f6d8772b3-254ce926e097: story; sole_author; normalized source offset 571; chunk 0; https://world.hey.com/dhh/great-ai-steals-280615be
 - dhh-25e96f6d8772b3-50fb6bbd8fe4: framework; sole_author; normalized source offset 1015; chunk 0; https://world.hey.com/dhh/great-ai-steals-280615be
+## dhh-2654ca679f0f3b: Passwords have problems, but passkeys have more
+
+https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9
+
+Independent work identity: https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 587; full retrieved text: 587. Text SHA-256: 87b46d58b8273f5bfca6cd4eda5085593348bef8ca2524cb4a8453c1c3e69177
+
+Source dates reported in the collected material: not established
+
+> the user experience kinda sucked, so we ended up ripping it all
+
+Short excerpt of dhh-2654ca679f0f3b-8a1a4002d546; sole_author. Full passage and context retained locally.
+
+- dhh-2654ca679f0f3b-8a1a4002d546: story; sole_author; normalized source offset 270; chunk 0; https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9
+- dhh-2654ca679f0f3b-cc59559fc445: position; sole_author; normalized source offset 1047; chunk 0; https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9
+- dhh-2654ca679f0f3b-63aed76f4d37: position; sole_author; normalized source offset 1543; chunk 0; https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9
+- dhh-2654ca679f0f3b-fbcb2b3cc2ff: position; sole_author; normalized source offset 2156; chunk 0; https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9
+- dhh-2654ca679f0f3b-07d0faa4b39d: position; sole_author; normalized source offset 2724; chunk 0; https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9
 ## dhh-2729bf20d2ffbf: HEY is finally for sale on the iPhone!
 
 https://world.hey.com/dhh/hey-is-finally-for-sale-on-the-iphone-a08cb218
@@ -217,6 +565,70 @@ Short excerpt of dhh-2729bf20d2ffbf-1117f50b1445; sole_author. Full passage and 
 - dhh-2729bf20d2ffbf-ce1f6d9b66f5: story; sole_author; normalized source offset 2369; chunk 0; https://world.hey.com/dhh/hey-is-finally-for-sale-on-the-iphone-a08cb218
 - dhh-2729bf20d2ffbf-c3c78562ff92: position; sole_author; normalized source offset 4053; chunk 0; https://world.hey.com/dhh/hey-is-finally-for-sale-on-the-iphone-a08cb218
 - dhh-2729bf20d2ffbf-073d8d5d3604: position; sole_author; normalized source offset 4664; chunk 0; https://world.hey.com/dhh/hey-is-finally-for-sale-on-the-iphone-a08cb218
+## dhh-28902d30f282c8: Commit to competence in this coming year
+
+https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+
+Independent work identity: https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,218; full retrieved text: 1,218. Text SHA-256: 2674be70144b4e3c5a426cd484c700f50da2aea2084cf70c789ca798f7c4e8dc
+
+Source dates reported in the collected material: not established
+
+> Imagine if you spent just 10% of that dedicated to actually getting
+
+Short excerpt of dhh-28902d30f282c8-15a5d090d507; sole_author. Full passage and context retained locally.
+
+- dhh-28902d30f282c8-15a5d090d507: framework; sole_author; normalized source offset 852; chunk 0; https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+- dhh-28902d30f282c8-50c1c9a025c2: principle; sole_author; normalized source offset 1827; chunk 0; https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+- dhh-28902d30f282c8-56795f63ff91: framework; sole_author; normalized source offset 2504; chunk 0; https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+- dhh-28902d30f282c8-e29bc58f6072: framework; sole_author; normalized source offset 3794; chunk 0; https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+- dhh-28902d30f282c8-6a9f2213d9ac: framework; sole_author; normalized source offset 4588; chunk 0; https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+- dhh-28902d30f282c8-076679c8d7f2: position; sole_author; normalized source offset 4760; chunk 0; https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5
+## dhh-2a86f6e005b2cb: SE Radio 261: David Heinemeier Hansson on the State of Rails, Monoliths, and More – Software Engineering Radio
+
+https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+
+Independent work identity: se-radio-261-dhh-state-of-rails-monoliths. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 10,211; full retrieved text: 10,211. Text SHA-256: 3106ef9ab5325efc103e2a71f4fe6b264f0de20b8fc147e6c1d500d5c840db8c
+
+Source dates reported in the collected material: 2016
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- dhh-2a86f6e005b2cb-b0a82990e589: position; speaker; normalized source offset 10473; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-db473e8a8992: position; speaker; normalized source offset 18405; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-bcfb2c9d0e63: framework; speaker; normalized source offset 23955; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-10f7654bdd53: principle; speaker; normalized source offset 27804; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-f7934d73e911: position; speaker; normalized source offset 30478; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-bba2f4213520: framework; speaker; normalized source offset 35029; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-a372dbef4f58: story; speaker; normalized source offset 36772; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-74f30954a2fc: framework; speaker; normalized source offset 42539; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-94f91aecb27f: position; speaker; normalized source offset 43647; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-02db82abcf4f: framework; speaker; normalized source offset 47173; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-b560d69317cd: position; speaker; normalized source offset 48551; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-a8e5dfeada53: principle; speaker; normalized source offset 52296; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+- dhh-2a86f6e005b2cb-4788bd8bcaab: framework; speaker; normalized source offset 56042; chunk 0; https://se-radio.net/2016/06/se-radio-episode-261-david-heinemeier-hansson-on-the-state-of-rails-monoliths-and-more/
+## dhh-2acc95cbf67f76: How we manage programming projects in Basecamp
+
+https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c
+
+Independent work identity: https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 714; full retrieved text: 714. Text SHA-256: a8d6eb9064064887c2d1586d207a4c9694a4e1485d2c96184ad8a5e23ec1ecb6
+
+Source dates reported in the collected material: not established
+
+> You don't need to string every todo to every commit.
+
+Short excerpt of dhh-2acc95cbf67f76-0d528be37ed4; sole_author. Full passage and context retained locally.
+
+- dhh-2acc95cbf67f76-0d528be37ed4: principle; sole_author; normalized source offset 468; chunk 0; https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c
+- dhh-2acc95cbf67f76-3164ee20dfb6: framework; sole_author; normalized source offset 1239; chunk 0; https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c
+- dhh-2acc95cbf67f76-bfa6c8101574: story; sole_author; normalized source offset 1802; chunk 0; https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c
+- dhh-2acc95cbf67f76-152bc45dd8db: principle; sole_author; normalized source offset 2808; chunk 0; https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c
+- dhh-2acc95cbf67f76-ee71ba3d0f9e: position; sole_author; normalized source offset 2969; chunk 0; https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c
 ## dhh-2bcf31faaa3cdf: Our cloud exit has already yielded $1m/year in savings
 
 https://world.hey.com/dhh/our-cloud-exit-has-already-yielded-1m-year-in-savings-db358dea
@@ -234,6 +646,23 @@ Short excerpt of dhh-2bcf31faaa3cdf-2fb4d0217fd7; sole_author. Full passage and 
 - dhh-2bcf31faaa3cdf-2fb4d0217fd7: story; sole_author; normalized source offset 346; chunk 0; https://world.hey.com/dhh/our-cloud-exit-has-already-yielded-1m-year-in-savings-db358dea
 - dhh-2bcf31faaa3cdf-fad9a67a3f60: framework; sole_author; normalized source offset 1035; chunk 0; https://world.hey.com/dhh/our-cloud-exit-has-already-yielded-1m-year-in-savings-db358dea
 - dhh-2bcf31faaa3cdf-ecaa00c7a942: position; sole_author; normalized source offset 1554; chunk 0; https://world.hey.com/dhh/our-cloud-exit-has-already-yielded-1m-year-in-savings-db358dea
+## dhh-2fe0375b31e92c: HEY will soon let you recycle your emails
+
+https://world.hey.com/dhh/hey-will-soon-let-you-recycle-your-emails-9ea2890d
+
+Independent work identity: https://world.hey.com/dhh/hey-will-soon-let-you-recycle-your-emails-9ea2890d. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 579; full retrieved text: 579. Text SHA-256: 77994dd0b4dccd0ae3b1b791a5f0a18b6591a413c30f26449cc328b0537e4097
+
+Source dates reported in the collected material: not established
+
+> Storing all those emails that are only ever going to be read
+
+Short excerpt of dhh-2fe0375b31e92c-52204f5e1e32; sole_author. Full passage and context retained locally.
+
+- dhh-2fe0375b31e92c-52204f5e1e32: position; sole_author; normalized source offset 609; chunk 0; https://world.hey.com/dhh/hey-will-soon-let-you-recycle-your-emails-9ea2890d
+- dhh-2fe0375b31e92c-71f705b28f41: framework; sole_author; normalized source offset 1611; chunk 0; https://world.hey.com/dhh/hey-will-soon-let-you-recycle-your-emails-9ea2890d
+- dhh-2fe0375b31e92c-40e1487c30ac: principle; sole_author; normalized source offset 2336; chunk 0; https://world.hey.com/dhh/hey-will-soon-let-you-recycle-your-emails-9ea2890d
 ## dhh-30a38caf1f6b70: One-way Doors — REWORK
 
 https://37signals.com/podcast/one-way-doors/
@@ -270,6 +699,24 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - dhh-3477b65ab60e6a-10bb4859089f: position; sole_author; normalized source offset 788; chunk 0; https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53
 - dhh-3477b65ab60e6a-1f95d38889ac: position; sole_author; normalized source offset 1800; chunk 0; https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53
 - dhh-3477b65ab60e6a-92670d42f170: principle; sole_author; normalized source offset 2028; chunk 0; https://world.hey.com/dhh/why-don-t-more-people-use-linux-33b75f53
+## dhh-3588115a38df78: The luxury of working without metrics
+
+https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac
+
+Independent work identity: https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 486; full retrieved text: 486. Text SHA-256: 2b903b3ffb331400774a89492c461b3a1fd8178cc41b76b46eda2d5a40a570d3
+
+Source dates reported in the collected material: not established
+
+> Making decisions without needing to rationalize every call with a depth of
+
+Short excerpt of dhh-3588115a38df78-872bcc467954; sole_author. Full passage and context retained locally.
+
+- dhh-3588115a38df78-872bcc467954: principle; sole_author; normalized source offset 1135; chunk 0; https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac
+- dhh-3588115a38df78-c5458b0ab1cd: position; sole_author; normalized source offset 1255; chunk 0; https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac
+- dhh-3588115a38df78-5f79e6de8549: principle; sole_author; normalized source offset 1953; chunk 0; https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac
+- dhh-3588115a38df78-f13935eb5684: position; sole_author; normalized source offset 2344; chunk 0; https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac
 ## dhh-35ba162860a468: Fizzy is our fun, modern take on Kanban (and we made it open source!)
 
 https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-open-source-54ac41b6
@@ -290,6 +737,57 @@ Short excerpt of dhh-35ba162860a468-fec60dc34da0; sole_author. Full passage and 
 - dhh-35ba162860a468-626f022263b0: position; sole_author; normalized source offset 1874; chunk 0; https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-open-source-54ac41b6
 - dhh-35ba162860a468-b3089afcba16: position; sole_author; normalized source offset 2510; chunk 0; https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-open-source-54ac41b6
 - dhh-35ba162860a468-3f152361eb2e: position; sole_author; normalized source offset 2927; chunk 0; https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-open-source-54ac41b6
+## dhh-35f6b82bb4867c: What you read is none of their business
+
+https://world.hey.com/dhh/what-you-read-is-none-of-their-business-fc9be7d0
+
+Independent work identity: https://world.hey.com/dhh/what-you-read-is-none-of-their-business-fc9be7d0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 864; full retrieved text: 864. Text SHA-256: 271087d90fadd8d09287efedbc8b61cdead462d3c2811bfdb4bbb2b509cac0fb
+
+Source dates reported in the collected material: not established
+
+> You either have to hack the system with private lists, turn your
+
+Short excerpt of dhh-35f6b82bb4867c-129a4a11d351; sole_author. Full passage and context retained locally.
+
+- dhh-35f6b82bb4867c-129a4a11d351: position; sole_author; normalized source offset 2927; chunk 0; https://world.hey.com/dhh/what-you-read-is-none-of-their-business-fc9be7d0
+- dhh-35f6b82bb4867c-da420fa80a91: principle; sole_author; normalized source offset 4605; chunk 0; https://world.hey.com/dhh/what-you-read-is-none-of-their-business-fc9be7d0
+- dhh-35f6b82bb4867c-c95609ad7faf: position; sole_author; normalized source offset 4189; chunk 0; https://world.hey.com/dhh/what-you-read-is-none-of-their-business-fc9be7d0
+## dhh-36b81e7fee26ff: The waning days of DEI's dominance
+
+https://world.hey.com/dhh/the-waning-days-of-dei-s-dominance-9a5b656c
+
+Independent work identity: https://world.hey.com/dhh/the-waning-days-of-dei-s-dominance-9a5b656c. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,003; full retrieved text: 1,003. Text SHA-256: 180918f073a7c6e64005959637756bcbfecb191cb997042d14819d4f34d7dfb9
+
+Source dates reported in the collected material: not established
+
+> Give everyone a fair chance to advance in the world on the
+
+Short excerpt of dhh-36b81e7fee26ff-d775a7662cfb; sole_author. Full passage and context retained locally.
+
+- dhh-36b81e7fee26ff-d775a7662cfb: position; sole_author; normalized source offset 4887; chunk 0; https://world.hey.com/dhh/the-waning-days-of-dei-s-dominance-9a5b656c
+- dhh-36b81e7fee26ff-cccfdb05b507: position; sole_author; normalized source offset 5442; chunk 0; https://world.hey.com/dhh/the-waning-days-of-dei-s-dominance-9a5b656c
+## dhh-36fa953622ef9b: Magic machines
+
+https://world.hey.com/dhh/magic-machines-10c534bd
+
+Independent work identity: https://world.hey.com/dhh/magic-machines-10c534bd. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 433; full retrieved text: 433. Text SHA-256: 0732d18ccf35d0b2338f7c92b52c1b9d1b15024a66af474449105459517318c0
+
+Source dates reported in the collected material: not established
+
+> It isn't magical, and it's no less prone to be reliant on
+
+Short excerpt of dhh-36fa953622ef9b-cbebfdcdb50a; sole_author. Full passage and context retained locally.
+
+- dhh-36fa953622ef9b-cbebfdcdb50a: position; sole_author; normalized source offset 912; chunk 0; https://world.hey.com/dhh/magic-machines-10c534bd
+- dhh-36fa953622ef9b-bcec9033ca54: principle; sole_author; normalized source offset 1129; chunk 0; https://world.hey.com/dhh/magic-machines-10c534bd
+- dhh-36fa953622ef9b-bac0c32aa8cf: principle; sole_author; normalized source offset 1455; chunk 0; https://world.hey.com/dhh/magic-machines-10c534bd
+- dhh-36fa953622ef9b-bce338c78f47: position; sole_author; normalized source offset 2122; chunk 0; https://world.hey.com/dhh/magic-machines-10c534bd
 ## dhh-37e8721ebb6b23: Leaving the Cloud: The Finale — REWORK
 
 https://37signals.com/podcast/leaving-the-cloud-the-finale/
@@ -314,6 +812,144 @@ Short excerpt of dhh-37e8721ebb6b23-3796d0db143f; speaker. Full passage and cont
 - dhh-37e8721ebb6b23-93603d207d85: position; speaker; normalized source offset 26923; chunk 0; https://37signals.com/podcast/leaving-the-cloud-the-finale/
 - dhh-37e8721ebb6b23-32de435b7b51: position; speaker; normalized source offset 30720; chunk 0; https://37signals.com/podcast/leaving-the-cloud-the-finale/
 - dhh-37e8721ebb6b23-c14ce8687b38: principle; speaker; normalized source offset 35163; chunk 0; https://37signals.com/podcast/leaving-the-cloud-the-finale/
+## dhh-380016e7b22bc2: A petabyte worth of Omarchy in a month
+
+https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+
+Independent work identity: https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 699; full retrieved text: 699. Text SHA-256: 9d3555d535c26707628c4cdf4baa0aa09cf39a1e73ba377fc80036aeeab143e7
+
+Source dates reported in the collected material: not established
+
+> Doesn't matter if the product is free or not. The fit is
+
+Short excerpt of dhh-380016e7b22bc2-e130dc302c32; sole_author. Full passage and context retained locally.
+
+- dhh-380016e7b22bc2-e130dc302c32: story; sole_author; normalized source offset 637; chunk 0; https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+- dhh-380016e7b22bc2-f0d068f528d0: position; sole_author; normalized source offset 2392; chunk 0; https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+- dhh-380016e7b22bc2-3ca69680591b: position; sole_author; normalized source offset 2906; chunk 0; https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+- dhh-380016e7b22bc2-eb6f72bb4f98: principle; sole_author; normalized source offset 3533; chunk 0; https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+- dhh-380016e7b22bc2-257368193dd5: position; sole_author; normalized source offset 1980; chunk 0; https://world.hey.com/dhh/a-petabyte-worth-of-omarchy-in-a-month-a1fc538e
+## dhh-38b66677ed882f: You can always go faster (if you know where to risk it)
+
+https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+
+Independent work identity: https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,072; full retrieved text: 1,072. Text SHA-256: 7c43cf7a7ff5468a91c6c88562729b2c0879b4829592cd9dcb44652d5be65459
+
+Source dates reported in the collected material: not established
+
+> The criticality ladder keeps going down from there.
+
+Short excerpt of dhh-38b66677ed882f-12633773b1bf; sole_author. Full passage and context retained locally.
+
+- dhh-38b66677ed882f-12633773b1bf: framework; sole_author; normalized source offset 787; chunk 0; https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+- dhh-38b66677ed882f-bdf4c0bad2f1: position; sole_author; normalized source offset 1397; chunk 0; https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+- dhh-38b66677ed882f-fcbd24452c95: story; sole_author; normalized source offset 2977; chunk 0; https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+- dhh-38b66677ed882f-bb86d0015d7b: principle; sole_author; normalized source offset 3185; chunk 0; https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+- dhh-38b66677ed882f-85110f55d188: principle; sole_author; normalized source offset 3954; chunk 0; https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+- dhh-38b66677ed882f-de6e45b8f948: position; sole_author; normalized source offset 5832; chunk 0; https://world.hey.com/dhh/you-can-always-go-faster-if-you-know-where-to-risk-it-f62fcca4
+## dhh-39894fbc6dd78d: DHH: Basecamp 5, Vibe Coding, and the Future of Rails
+
+https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+
+Independent work identity: on-rails-dhh-basecamp-5-vibe-coding. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,370; full retrieved text: 11,370. Text SHA-256: 1a338cd91fa2d5c83b0ba75dab888832c606562781c832a1838c73ceb2140b21
+
+Source dates reported in the collected material: June 12, 2026
+
+> ActiveRecord has maintained the core of its DSL since basically the beginning.
+
+Short excerpt of dhh-39894fbc6dd78d-ba666092d977; speaker. Full passage and context retained locally.
+
+- dhh-39894fbc6dd78d-ba666092d977: position; speaker; normalized source offset 6716; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-8b94b82caa6c: story; speaker; normalized source offset 19730; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-60d18438eda8: position; speaker; normalized source offset 10654; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-1ef5901ceb4d: story; speaker; normalized source offset 11945; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-eab4d0971137: position; speaker; normalized source offset 13296; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-7e7e8375d59a: story; speaker; normalized source offset 22718; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-ee4888307f57: position; speaker; normalized source offset 23890; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-48f8081354bc: principle; speaker; normalized source offset 27994; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-7b383fe13b08: story; speaker; normalized source offset 31922; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-ab9f2f4a1f49: framework; speaker; normalized source offset 34186; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-b89a419056cd: position; speaker; normalized source offset 36135; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-41228ef7b2cf: principle; speaker; normalized source offset 37514; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-1ec4a9220ed4: story; speaker; normalized source offset 40874; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-7e01effb0432: framework; speaker; normalized source offset 44113; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-92170e21cf25: story; speaker; normalized source offset 49067; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-1517f77d7933: principle; speaker; normalized source offset 51835; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+- dhh-39894fbc6dd78d-ee6c382286eb: position; speaker; normalized source offset 55962; chunk 0; https://podcast.rubyonrails.org/2462975/episodes/19335416-dhh-basecamp-5-vibe-coding-and-the-future-of-rails
+## dhh-3cb4cfa9d60dae: Built on Intuition — REWORK
+
+https://37signals.com/podcast/built-on-intuition/
+
+Independent work identity: rework-built-on-intuition. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 6,092; full retrieved text: 6,092. Text SHA-256: f57c34a014e6d5f0286620f066eac7bc426ce2183c0bd3f79bd538128df57a94
+
+Source dates reported in the collected material: 2026-03-11
+
+> You’re not going to be able to convert any of that input
+
+Short excerpt of dhh-3cb4cfa9d60dae-86e04a145f0f; speaker. Full passage and context retained locally.
+
+- dhh-3cb4cfa9d60dae-86e04a145f0f: framework; speaker; normalized source offset 4059; chunk 0; https://37signals.com/podcast/built-on-intuition/
+- dhh-3cb4cfa9d60dae-5093f76ffe88: book; speaker; normalized source offset 7535; chunk 0; https://37signals.com/podcast/built-on-intuition/
+- dhh-3cb4cfa9d60dae-850570dc267c: framework; speaker; normalized source offset 12511; chunk 0; https://37signals.com/podcast/built-on-intuition/
+- dhh-3cb4cfa9d60dae-041a68ceb4f1: story; speaker; normalized source offset 15522; chunk 0; https://37signals.com/podcast/built-on-intuition/
+- dhh-3cb4cfa9d60dae-3a18993c7f91: principle; speaker; normalized source offset 25729; chunk 0; https://37signals.com/podcast/built-on-intuition/
+- dhh-3cb4cfa9d60dae-cf20f6d101f9: framework; speaker; normalized source offset 27401; chunk 0; https://37signals.com/podcast/built-on-intuition/
+- dhh-3cb4cfa9d60dae-67d9a9d37f37: position; speaker; normalized source offset 24695; chunk 0; https://37signals.com/podcast/built-on-intuition/
+## dhh-3e1c91474f61d0: Big Think Interview With David Heinemeier Hansson - Big Think
+
+https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+
+Independent work identity: big-think-dhh-interview. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 16,114; full retrieved text: 16,114. Text SHA-256: c00dd136ed9e38ccd4a3de29bc6c75c2d236c96518f1e9f12ccdf4e80bb69a61
+
+Source dates reported in the collected material: July 22, 2010
+
+> I’d been building all these little things that I needed as I
+
+Short excerpt of dhh-3e1c91474f61d0-355c323cffbf; speaker. Full passage and context retained locally.
+
+- dhh-3e1c91474f61d0-355c323cffbf: story; speaker; normalized source offset 8372; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-100f29115a70: story; speaker; normalized source offset 9892; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-13cdcddefbbf: position; speaker; normalized source offset 11831; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-f55170b97b6f: principle; speaker; normalized source offset 13390; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-e5d360145855: position; speaker; normalized source offset 16911; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-27bd99a00f19: principle; speaker; normalized source offset 20616; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-5a4d83506a88: position; speaker; normalized source offset 21237; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-37511b80ab40: principle; speaker; normalized source offset 25224; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-d7125feea1d0: position; speaker; normalized source offset 26455; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-3dd6e806fd03: position; speaker; normalized source offset 29909; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-0703660f58c9: principle; speaker; normalized source offset 33212; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-1d00b98289b1: position; speaker; normalized source offset 35684; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-013e25129778: position; speaker; normalized source offset 37692; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-d55e027538e3: position; speaker; normalized source offset 48575; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-a7bda48969f3: position; speaker; normalized source offset 44958; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+- dhh-3e1c91474f61d0-83be0b286164: position; speaker; normalized source offset 40747; chunk 0; https://bigthink.com/videos/big-think-interview-with-david-heinemeier-hansson/
+## dhh-40c2785d67beef: Have you tried the exact opposite?
+
+https://world.hey.com/dhh/have-you-tried-the-exact-opposite-1d55b7b5
+
+Independent work identity: https://world.hey.com/dhh/have-you-tried-the-exact-opposite-1d55b7b5. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 231; full retrieved text: 231. Text SHA-256: 0bed829e0e64614e0057782b9612453d6ed59f8bdf757ba8d30a29b1e3ec0214
+
+Source dates reported in the collected material: not established
+
+> What does the opposite look like, how would it work?
+
+Short excerpt of dhh-40c2785d67beef-0518c306d39f; sole_author. Full passage and context retained locally.
+
+- dhh-40c2785d67beef-0518c306d39f: framework; sole_author; normalized source offset 151; chunk 0; https://world.hey.com/dhh/have-you-tried-the-exact-opposite-1d55b7b5
+- dhh-40c2785d67beef-0967521c298a: story; sole_author; normalized source offset 1064; chunk 0; https://world.hey.com/dhh/have-you-tried-the-exact-opposite-1d55b7b5
+- dhh-40c2785d67beef-c067b4a7785d: principle; sole_author; normalized source offset 1160; chunk 0; https://world.hey.com/dhh/have-you-tried-the-exact-opposite-1d55b7b5
 ## dhh-422126e7779ed6: The Evolution of Rails with David Heinemeier Hansson
 
 https://www.youtube.com/watch?v=6m_cz5hHf8Y
@@ -324,7 +960,9 @@ Source words in scope: 10,262; full retrieved text: 10,262. Text SHA-256: eca136
 
 Source dates reported in the collected material: 2018-02-17
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> rails from the beginning has been driven by extraction by making real
+
+Short excerpt of dhh-422126e7779ed6-4510ea283c8f; speaker. Full passage and context retained locally.
 
 - dhh-422126e7779ed6-4510ea283c8f: framework; speaker; caption-prose-v1 offset 3285; chunk 0; https://www.youtube.com/watch?v=6m_cz5hHf8Y&t=238
 - dhh-422126e7779ed6-6657e577d61c: framework; speaker; caption-prose-v1 offset 17378; chunk 0; https://www.youtube.com/watch?v=6m_cz5hHf8Y&t=1157
@@ -340,6 +978,24 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - dhh-422126e7779ed6-02e1293555cc: position; speaker; caption-prose-v1 offset 37128; chunk 0; https://www.youtube.com/watch?v=6m_cz5hHf8Y&t=2471
 - dhh-422126e7779ed6-b7c803396014: position; speaker; caption-prose-v1 offset 41000; chunk 0; https://www.youtube.com/watch?v=6m_cz5hHf8Y&t=2738
 - dhh-422126e7779ed6-e2fd71ed3f9a: book; speaker; caption-prose-v1 offset 49520; chunk 0; https://www.youtube.com/watch?v=6m_cz5hHf8Y&t=3303
+## dhh-425157b49a8f72: Here's how to fix Twitter
+
+https://world.hey.com/dhh/here-s-how-to-fix-twitter-79632ecb
+
+Independent work identity: https://world.hey.com/dhh/here-s-how-to-fix-twitter-79632ecb. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 764; full retrieved text: 764. Text SHA-256: 8faf8fb648caf6ce202a5c5c33096de8d779b7325424769677e9aba8429c14bc
+
+Source dates reported in the collected material: not established
+
+> Twitter should embrace these features, and accept its role as a fundamental
+
+Short excerpt of dhh-425157b49a8f72-43ef1aadbe24; sole_author. Full passage and context retained locally.
+
+- dhh-425157b49a8f72-43ef1aadbe24: framework; sole_author; normalized source offset 1045; chunk 0; https://world.hey.com/dhh/here-s-how-to-fix-twitter-79632ecb
+- dhh-425157b49a8f72-dabc97586f6c: framework; sole_author; normalized source offset 2549; chunk 0; https://world.hey.com/dhh/here-s-how-to-fix-twitter-79632ecb
+- dhh-425157b49a8f72-db3cc67403b4: position; sole_author; normalized source offset 3466; chunk 0; https://world.hey.com/dhh/here-s-how-to-fix-twitter-79632ecb
+- dhh-425157b49a8f72-da3de561f6ea: position; sole_author; normalized source offset 3774; chunk 0; https://world.hey.com/dhh/here-s-how-to-fix-twitter-79632ecb
 ## dhh-432d5008e08018: Five values guiding our cloud exit
 
 https://world.hey.com/dhh/five-values-guiding-our-cloud-exit-638add47
@@ -359,6 +1015,22 @@ Short excerpt of dhh-432d5008e08018-5232f7d915c7; sole_author. Full passage and 
 - dhh-432d5008e08018-826751bacfc0: principle; sole_author; normalized source offset 1159; chunk 0; https://world.hey.com/dhh/five-values-guiding-our-cloud-exit-638add47
 - dhh-432d5008e08018-8666918fc6d6: story; sole_author; normalized source offset 1496; chunk 0; https://world.hey.com/dhh/five-values-guiding-our-cloud-exit-638add47
 - dhh-432d5008e08018-92986a484bdf: principle; sole_author; normalized source offset 2366; chunk 0; https://world.hey.com/dhh/five-values-guiding-our-cloud-exit-638add47
+## dhh-453ae7b0310c08: We can't have good faith on a flat social battery
+
+https://world.hey.com/dhh/we-can-t-have-good-faith-on-a-flat-social-battery-6bd0d4ef
+
+Independent work identity: https://world.hey.com/dhh/we-can-t-have-good-faith-on-a-flat-social-battery-6bd0d4ef. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 400; full retrieved text: 400. Text SHA-256: 363de90b53b82156c6cf7d56ad8d9ae81b949d718b86c6c5ff7564a6a75f391b
+
+Source dates reported in the collected material: not established
+
+> these industry events recharge social and intellectual batteries.
+
+Short excerpt of dhh-453ae7b0310c08-8d372c5a6e1c; sole_author. Full passage and context retained locally.
+
+- dhh-453ae7b0310c08-8d372c5a6e1c: position; sole_author; normalized source offset 1487; chunk 0; https://world.hey.com/dhh/we-can-t-have-good-faith-on-a-flat-social-battery-6bd0d4ef
+- dhh-453ae7b0310c08-53ed2a71c47c: position; sole_author; normalized source offset 1947; chunk 0; https://world.hey.com/dhh/we-can-t-have-good-faith-on-a-flat-social-battery-6bd0d4ef
 ## dhh-461d2e74ffac9a: The Ruby on Rails Doctrine
 
 https://rubyonrails.org/doctrine
@@ -369,9 +1041,7 @@ Source words in scope: 5,970; full retrieved text: 5,970. Text SHA-256: acf4f0aa
 
 Source dates reported in the collected material: not established
 
-> Unlike, say, optimizing for performance, it’s tough to measure optimizing for happiness.
-
-Short excerpt of dhh-461d2e74ffac9a-3321c4866f33; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - dhh-461d2e74ffac9a-3321c4866f33: principle; sole_author; normalized source offset 8156; chunk 0; https://rubyonrails.org/doctrine
 - dhh-461d2e74ffac9a-5a9a2495b2ec: framework; sole_author; normalized source offset 9781; chunk 0; https://rubyonrails.org/doctrine
@@ -426,6 +1096,61 @@ Short excerpt of dhh-495a8f6902eb08-3839c525248a; sole_author. Full passage and 
 - dhh-495a8f6902eb08-4317db52aa76: principle; sole_author; normalized source offset 1812; chunk 0; https://world.hey.com/dhh/living-with-linux-and-android-after-two-decades-of-apple-4f730084
 - dhh-495a8f6902eb08-6e9d37df41b3: story; sole_author; normalized source offset 2108; chunk 0; https://world.hey.com/dhh/living-with-linux-and-android-after-two-decades-of-apple-4f730084
 - dhh-495a8f6902eb08-bddfd0d5e86b: principle; sole_author; normalized source offset 3919; chunk 0; https://world.hey.com/dhh/living-with-linux-and-android-after-two-decades-of-apple-4f730084
+## dhh-499fccc4f75714: Even Amazon can't make sense of serverless or microservices
+
+https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
+
+Independent work identity: https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 554; full retrieved text: 554. Text SHA-256: 0ab05b6fb3a4f30ba213268a116d2cf09fa47711a8f263efdd8354180735a6ed
+
+Source dates reported in the collected material: not established
+
+> This move saved them a staggering 90%(!!) on operating costs, and simplified
+
+Short excerpt of dhh-499fccc4f75714-ee904f9973ec; sole_author. Full passage and context retained locally.
+
+- dhh-499fccc4f75714-ee904f9973ec: story; sole_author; normalized source offset 187; chunk 0; https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
+- dhh-499fccc4f75714-75154edec3fb: position; sole_author; normalized source offset 1512; chunk 0; https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
+- dhh-499fccc4f75714-926b923702ac: principle; sole_author; normalized source offset 2791; chunk 0; https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
+- dhh-499fccc4f75714-5e8bdcfd6d75: position; sole_author; normalized source offset 929; chunk 0; https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580
+## dhh-4aadcdc04219e9: We can't thrive without friction
+
+https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3
+
+Independent work identity: https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,795; full retrieved text: 1,795. Text SHA-256: 87e212d0dccaf600760927de5017894dbeaab03942dbaf57ca0a8b63da5f0bbc
+
+Source dates reported in the collected material: not established
+
+> This friction serves as a high-grade filter.
+
+Short excerpt of dhh-4aadcdc04219e9-7f0cb8776a33; sole_author. Full passage and context retained locally.
+
+- dhh-4aadcdc04219e9-7f0cb8776a33: principle; sole_author; normalized source offset 5122; chunk 0; https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3
+- dhh-4aadcdc04219e9-ae8114c11c0f: story; sole_author; normalized source offset 3933; chunk 0; https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3
+- dhh-4aadcdc04219e9-347b313549b8: framework; sole_author; normalized source offset 8750; chunk 0; https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3
+- dhh-4aadcdc04219e9-bda4b8422fa5: position; sole_author; normalized source offset 9202; chunk 0; https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3
+- dhh-4aadcdc04219e9-a7700ece05ac: story; sole_author; normalized source offset 2612; chunk 0; https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3
+## dhh-4d155d2d58091b: Hardware is fun again
+
+https://world.hey.com/dhh/hardware-is-fun-again-b819d0b4
+
+Independent work identity: https://world.hey.com/dhh/hardware-is-fun-again-b819d0b4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 502; full retrieved text: 502. Text SHA-256: 1a00011b7b9ed212ba347b30c0bdf6101ce022dec2f5753ba4637977adc405d7
+
+Source dates reported in the collected material: not established
+
+> all that complexity of maintaining separate builds has long since washed away.
+
+Short excerpt of dhh-4d155d2d58091b-92246e91d3ea; sole_author. Full passage and context retained locally.
+
+- dhh-4d155d2d58091b-92246e91d3ea: principle; sole_author; normalized source offset 1157; chunk 0; https://world.hey.com/dhh/hardware-is-fun-again-b819d0b4
+- dhh-4d155d2d58091b-76f14ce7c3f6: position; sole_author; normalized source offset 1638; chunk 0; https://world.hey.com/dhh/hardware-is-fun-again-b819d0b4
+- dhh-4d155d2d58091b-8c9c7c19ab39: principle; sole_author; normalized source offset 2210; chunk 0; https://world.hey.com/dhh/hardware-is-fun-again-b819d0b4
+- dhh-4d155d2d58091b-b76ad613ba1d: position; sole_author; normalized source offset 2515; chunk 0; https://world.hey.com/dhh/hardware-is-fun-again-b819d0b4
 ## dhh-4d3866a3b6e934: DHH keynote RailsConf 2019
 
 https://www.youtube.com/watch?v=_bQ1p8P2qHM
@@ -444,6 +1169,51 @@ Short excerpt of dhh-4d3866a3b6e934-0db10725443d; speaker. Full passage and cont
 - dhh-4d3866a3b6e934-ffb09759771e: position; speaker; caption-prose-v1 offset 3096; chunk 0; https://www.youtube.com/watch?v=_bQ1p8P2qHM&t=483
 - dhh-4d3866a3b6e934-be0eaadb9607: position; speaker; caption-prose-v1 offset 14224; chunk 0; https://www.youtube.com/watch?v=_bQ1p8P2qHM&t=2598
 - dhh-4d3866a3b6e934-9d84f86e60e6: principle; speaker; caption-prose-v1 offset 15698; chunk 0; https://www.youtube.com/watch?v=_bQ1p8P2qHM&t=2889
+## dhh-4f48bd7df1be07: Coffee with Developers: David Heinemeier Hansson
+
+https://www.youtube.com/watch?v=bvNonifIKRg
+
+Independent work identity: youtube-bvNonifIKRg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,017; full retrieved text: 12,017. Text SHA-256: 8cfb2f2079ea554bcff7495f837de10b24151fd5c8be06d83be0cfb0c497ba49
+
+Source dates reported in the collected material: 2024-03-11
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- dhh-4f48bd7df1be07-7720908d79e2: position; speaker; caption-prose-v1 offset 4742; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=326
+- dhh-4f48bd7df1be07-35987a2e83e0: framework; speaker; caption-prose-v1 offset 8543; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=588
+- dhh-4f48bd7df1be07-b64c9fec5280: position; speaker; caption-prose-v1 offset 9258; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=633
+- dhh-4f48bd7df1be07-d0e9e475d96b: position; speaker; caption-prose-v1 offset 16246; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=1089
+- dhh-4f48bd7df1be07-961b169820cd: framework; speaker; caption-prose-v1 offset 19147; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=1285
+- dhh-4f48bd7df1be07-4f47821b6a54: framework; speaker; caption-prose-v1 offset 20193; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=1358
+- dhh-4f48bd7df1be07-b3697dfae3d7: story; speaker; caption-prose-v1 offset 21257; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=1438
+- dhh-4f48bd7df1be07-ca06432fd03d: position; speaker; caption-prose-v1 offset 24871; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=1659
+- dhh-4f48bd7df1be07-708fffa8be51: principle; speaker; caption-prose-v1 offset 26671; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=1767
+- dhh-4f48bd7df1be07-3ef604b60b3e: position; speaker; caption-prose-v1 offset 30250; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=2023
+- dhh-4f48bd7df1be07-12f8843437ce: story; speaker; caption-prose-v1 offset 32724; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=2171
+- dhh-4f48bd7df1be07-39c33e7db857: position; speaker; caption-prose-v1 offset 36061; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=2394
+- dhh-4f48bd7df1be07-65be2cb186d4: framework; speaker; caption-prose-v1 offset 54098; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=3651
+- dhh-4f48bd7df1be07-c5d2ed6c9043: position; speaker; caption-prose-v1 offset 55249; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=3722
+- dhh-4f48bd7df1be07-a46bd9c3d8ab: story; speaker; caption-prose-v1 offset 61530; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=4125
+- dhh-4f48bd7df1be07-14e74009751b: position; speaker; caption-prose-v1 offset 62944; chunk 0; https://www.youtube.com/watch?v=bvNonifIKRg&t=4207
+## dhh-51f283d62955ed: Apple is in its Ballmer era
+
+https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713
+
+Independent work identity: https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 741; full retrieved text: 741. Text SHA-256: 537257ff753709f0cfbee7db875466b2f45514a9159d090f0125c83104956e9c
+
+Source dates reported in the collected material: not established
+
+> finding everything so beautifully integrated and super fast.
+
+Short excerpt of dhh-51f283d62955ed-337c2ae78cb6; sole_author. Full passage and context retained locally.
+
+- dhh-51f283d62955ed-337c2ae78cb6: position; sole_author; normalized source offset 1293; chunk 0; https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713
+- dhh-51f283d62955ed-38e0f30d0b19: position; sole_author; normalized source offset 1400; chunk 0; https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713
+- dhh-51f283d62955ed-eb355ccf1856: position; sole_author; normalized source offset 3712; chunk 0; https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713
 ## dhh-531b8bf3cb2827: The End of Ruby on Rails!!
 
 https://www.youtube.com/watch?v=cMX-u9ltG5Q
@@ -474,6 +1244,38 @@ Short excerpt of dhh-531b8bf3cb2827-621d533cde30; speaker. Full passage and cont
 - dhh-531b8bf3cb2827-c26444f17f11: story; speaker; caption-prose-v1 offset 19979; chunk 0; https://www.youtube.com/watch?v=cMX-u9ltG5Q&t=1585
 - dhh-531b8bf3cb2827-20dd616162c6: position; speaker; caption-prose-v1 offset 45707; chunk 0; https://www.youtube.com/watch?v=cMX-u9ltG5Q&t=3210
 - dhh-531b8bf3cb2827-f2cc75cc664b: position; speaker; caption-prose-v1 offset 47254; chunk 0; https://www.youtube.com/watch?v=cMX-u9ltG5Q&t=3298
+## dhh-542a3b917a3f76: Don't keep all your digital services with one company
+
+https://world.hey.com/dhh/don-t-keep-all-your-digital-services-with-one-company-6de8bdbd
+
+Independent work identity: https://world.hey.com/dhh/don-t-keep-all-your-digital-services-with-one-company-6de8bdbd. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 215; full retrieved text: 215. Text SHA-256: 0ca8a276f84110e606a7f16fa07b23e2c2f4d71066dd12eb10f3446084777924
+
+Source dates reported in the collected material: not established
+
+> Do you have some separation of your critical digital services?
+
+Short excerpt of dhh-542a3b917a3f76-01d49cdd9676; sole_author. Full passage and context retained locally.
+
+- dhh-542a3b917a3f76-01d49cdd9676: principle; sole_author; normalized source offset 1159; chunk 0; https://world.hey.com/dhh/don-t-keep-all-your-digital-services-with-one-company-6de8bdbd
+- dhh-542a3b917a3f76-30b38626f605: position; sole_author; normalized source offset 684; chunk 0; https://world.hey.com/dhh/don-t-keep-all-your-digital-services-with-one-company-6de8bdbd
+## dhh-58a8d728c17be4: Antitrust comes slowly then all at once
+
+https://world.hey.com/dhh/antitrust-comes-slowly-then-all-at-once-5f5eb129
+
+Independent work identity: https://world.hey.com/dhh/antitrust-comes-slowly-then-all-at-once-5f5eb129. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,324; full retrieved text: 1,324. Text SHA-256: 98f81c15445a9a6e8a9a9b51dcbe9aa6ef369bebe24697732d9a233cd963b2eb
+
+Source dates reported in the collected material: not established
+
+> we'd be allowed to let Arizona residents signup directly in the app,
+
+Short excerpt of dhh-58a8d728c17be4-e6b5f8fecc3f; sole_author. Full passage and context retained locally.
+
+- dhh-58a8d728c17be4-e6b5f8fecc3f: position; sole_author; normalized source offset 2522; chunk 0; https://world.hey.com/dhh/antitrust-comes-slowly-then-all-at-once-5f5eb129
+- dhh-58a8d728c17be4-85928e87810f: story; sole_author; normalized source offset 2964; chunk 0; https://world.hey.com/dhh/antitrust-comes-slowly-then-all-at-once-5f5eb129
 ## dhh-59a526ad83efef: RailsConf 2011, David Heinemeier Hansson
 
 https://www.youtube.com/watch?v=cGdCI2HhfAU
@@ -498,6 +1300,22 @@ Short excerpt of dhh-59a526ad83efef-f13775f690b5; speaker. Full passage and cont
 - dhh-59a526ad83efef-325f508a6a40: story; speaker; caption-prose-v1 offset 39754; chunk 0; https://www.youtube.com/watch?v=cGdCI2HhfAU&t=2816
 - dhh-59a526ad83efef-91c62886bef0: framework; speaker; caption-prose-v1 offset 45725; chunk 0; https://www.youtube.com/watch?v=cGdCI2HhfAU&t=3210
 - dhh-59a526ad83efef-ef19e4578eee: position; speaker; caption-prose-v1 offset 47309; chunk 0; https://www.youtube.com/watch?v=cGdCI2HhfAU&t=3312
+## dhh-5ed1c3a98e1109: How to continue making kerosene lamps on the eve of electricity
+
+https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a
+
+Independent work identity: https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 481; full retrieved text: 481. Text SHA-256: ce00a048692a255efb3f38b6795ef84daebf743dac8c363ecb6783b57df90353
+
+Source dates reported in the collected material: not established
+
+> AI generating code is different from it evolving existing systems. But I
+
+Short excerpt of dhh-5ed1c3a98e1109-6fc223524151; sole_author. Full passage and context retained locally.
+
+- dhh-5ed1c3a98e1109-6fc223524151: position; sole_author; normalized source offset 279; chunk 0; https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a
+- dhh-5ed1c3a98e1109-8184c8f1b520: framework; sole_author; normalized source offset 2450; chunk 0; https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a
 ## dhh-5f976bac42bd4b: Illusions of Agreement — REWORK
 
 https://37signals.com/podcast/illusions-of-agreement/
@@ -522,6 +1340,24 @@ Short excerpt of dhh-5f976bac42bd4b-0005e4e88a75; speaker. Full passage and cont
 - dhh-5f976bac42bd4b-bb0f3eaf7433: principle; speaker; normalized source offset 21714; chunk 0; https://37signals.com/podcast/illusions-of-agreement/
 - dhh-5f976bac42bd4b-362e01df9115: position; speaker; normalized source offset 23144; chunk 0; https://37signals.com/podcast/illusions-of-agreement/
 - dhh-5f976bac42bd4b-0c139c1aa384: principle; speaker; normalized source offset 23946; chunk 0; https://37signals.com/podcast/illusions-of-agreement/
+## dhh-61a2d6112fb809: Apple approves the HEY Calendar
+
+https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c
+
+Independent work identity: https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 662; full retrieved text: 662. Text SHA-256: 7bd40dc4991b51e081553dc15ce8156be136781ea68c615eb37b5a05f10acabc
+
+Source dates reported in the collected material: not established
+
+> including Apple’s own history as a preview for people who don’t have
+
+Short excerpt of dhh-61a2d6112fb809-c1ce7d275ab4; sole_author. Full passage and context retained locally.
+
+- dhh-61a2d6112fb809-c1ce7d275ab4: story; sole_author; normalized source offset 82; chunk 0; https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c
+- dhh-61a2d6112fb809-44c4f7c54334: position; sole_author; normalized source offset 544; chunk 0; https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c
+- dhh-61a2d6112fb809-6e32d884eae4: position; sole_author; normalized source offset 2548; chunk 0; https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c
+- dhh-61a2d6112fb809-0e83cab82e53: position; sole_author; normalized source offset 3596; chunk 0; https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c
 ## dhh-622aa92ab8485d: The malleable computer
 
 https://world.hey.com/dhh/the-malleable-computer-7c187a9b
@@ -539,6 +1375,23 @@ Short excerpt of dhh-622aa92ab8485d-90d7dc012220; sole_author. Full passage and 
 - dhh-622aa92ab8485d-90d7dc012220: position; sole_author; normalized source offset 658; chunk 0; https://world.hey.com/dhh/the-malleable-computer-7c187a9b
 - dhh-622aa92ab8485d-405da4f56e6c: position; sole_author; normalized source offset 1155; chunk 0; https://world.hey.com/dhh/the-malleable-computer-7c187a9b
 - dhh-622aa92ab8485d-a028c0fee49f: story; sole_author; normalized source offset 1326; chunk 0; https://world.hey.com/dhh/the-malleable-computer-7c187a9b
+## dhh-65cd0362b524c0: Too much therapy at work
+
+https://world.hey.com/dhh/too-much-therapy-at-work-f79ac95c
+
+Independent work identity: https://world.hey.com/dhh/too-much-therapy-at-work-f79ac95c. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 557; full retrieved text: 557. Text SHA-256: 9b4d2e9fc4a4a366df2387fde487c37d5486dfc382919f6ebc2ad557390bdc95
+
+Source dates reported in the collected material: not established
+
+> The session turned into a group therapy session lasting hours
+
+Short excerpt of dhh-65cd0362b524c0-20369ed66d3a; sole_author. Full passage and context retained locally.
+
+- dhh-65cd0362b524c0-20369ed66d3a: story; sole_author; normalized source offset 265; chunk 0; https://world.hey.com/dhh/too-much-therapy-at-work-f79ac95c
+- dhh-65cd0362b524c0-c449fbf9ea84: principle; sole_author; normalized source offset 868; chunk 0; https://world.hey.com/dhh/too-much-therapy-at-work-f79ac95c
+- dhh-65cd0362b524c0-6aa404adb6ed: position; sole_author; normalized source offset 2184; chunk 0; https://world.hey.com/dhh/too-much-therapy-at-work-f79ac95c
 ## dhh-65d1842800c364: David Heinemeier Hansson & Peldi Guilizzoni AMA | Rewrite! | DHH | Business of Software Hangout |...
 
 https://www.youtube.com/watch?v=wxoGSdn7ek4
@@ -644,6 +1497,22 @@ Short excerpt of dhh-673bb9e77abe69-d55ce5daa1c3; speaker. Full passage and cont
 - dhh-673bb9e77abe69-948fa1806450: framework; speaker; caption-prose-v1 offset 56746; chunk 0; https://www.youtube.com/watch?v=GFhoSMD6idk&t=4032
 - dhh-673bb9e77abe69-53ac4901f2b7: story; speaker; caption-prose-v1 offset 59589; chunk 0; https://www.youtube.com/watch?v=GFhoSMD6idk&t=4216
 - dhh-673bb9e77abe69-5f42dc2d155a: position; speaker; caption-prose-v1 offset 68385; chunk 0; https://www.youtube.com/watch?v=GFhoSMD6idk&t=4786
+## dhh-6757abdb866c38: Clear the barnacles
+
+https://world.hey.com/dhh/clear-the-barnacles-b9558830
+
+Independent work identity: https://world.hey.com/dhh/clear-the-barnacles-b9558830. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 249; full retrieved text: 249. Text SHA-256: 768a41f2e3e739e5d47b32d289e8d4f009de460ec0fd23fb6e17ba8cc3d48340
+
+Source dates reported in the collected material: not established
+
+> cut at least the bottom 10% of the stuff dragging your attention
+
+Short excerpt of dhh-6757abdb866c38-ab898e700a81; sole_author. Full passage and context retained locally.
+
+- dhh-6757abdb866c38-ab898e700a81: framework; sole_author; normalized source offset 1379; chunk 0; https://world.hey.com/dhh/clear-the-barnacles-b9558830
+- dhh-6757abdb866c38-f006145e37dc: principle; sole_author; normalized source offset 1199; chunk 0; https://world.hey.com/dhh/clear-the-barnacles-b9558830
 ## dhh-6ad87ee67dc197: Celebrating computers at Omacon
 
 https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568
@@ -660,6 +1529,46 @@ Short excerpt of dhh-6ad87ee67dc197-38da0b1898e2; sole_author. Full passage and 
 
 - dhh-6ad87ee67dc197-38da0b1898e2: story; sole_author; normalized source offset 1612; chunk 0; https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568
 - dhh-6ad87ee67dc197-443e30075bdc: position; sole_author; normalized source offset 2127; chunk 0; https://world.hey.com/dhh/celebrating-computers-at-omacon-163eb568
+## dhh-6bff47d9b6c535: Thinking about HEY World's potential for abuse
+
+https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+
+Independent work identity: https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,116; full retrieved text: 1,116. Text SHA-256: 110fa5075fa4e2b04bcda8299a4beabfd0730e9a4fdf07fec8786935b1abe540
+
+Source dates reported in the collected material: not established
+
+> victims can even keep using HEY, and correspond with our shield team
+
+Short excerpt of dhh-6bff47d9b6c535-9e367add563e; sole_author. Full passage and context retained locally.
+
+- dhh-6bff47d9b6c535-9e367add563e: story; sole_author; normalized source offset 1155; chunk 0; https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+- dhh-6bff47d9b6c535-0eb930bbb421: position; sole_author; normalized source offset 1598; chunk 0; https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+- dhh-6bff47d9b6c535-2e9551ed3cd6: framework; sole_author; normalized source offset 2395; chunk 0; https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+- dhh-6bff47d9b6c535-955f8dac5d98: position; sole_author; normalized source offset 2893; chunk 0; https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+- dhh-6bff47d9b6c535-ba90b06757a4: position; sole_author; normalized source offset 5026; chunk 0; https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+- dhh-6bff47d9b6c535-a95639720a38: framework; sole_author; normalized source offset 5630; chunk 0; https://world.hey.com/dhh/thinking-about-hey-world-s-potential-for-abuse-bd404998
+## dhh-6c0b32f614d1da: Working with a Business Partner — REWORK
+
+https://37signals.com/podcast/working-with-a-business-partner/
+
+Independent work identity: rework-working-with-a-business-partner. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 5,630; full retrieved text: 5,630. Text SHA-256: 837ba2ea4a94e2bde42100f679b84ceb48c96eaac7db48bb4dca49c7368f6c72
+
+Source dates reported in the collected material: 2023-12-27
+
+> it was really a full on remote working relationship.
+
+Short excerpt of dhh-6c0b32f614d1da-cbdc362e2853; speaker. Full passage and context retained locally.
+
+- dhh-6c0b32f614d1da-cbdc362e2853: story; speaker; normalized source offset 5953; chunk 0; https://37signals.com/podcast/working-with-a-business-partner/
+- dhh-6c0b32f614d1da-aa9cb588cb9b: position; speaker; normalized source offset 7123; chunk 0; https://37signals.com/podcast/working-with-a-business-partner/
+- dhh-6c0b32f614d1da-86219419c7b9: framework; speaker; normalized source offset 14778; chunk 0; https://37signals.com/podcast/working-with-a-business-partner/
+- dhh-6c0b32f614d1da-04bc7d55803a: framework; speaker; normalized source offset 22911; chunk 0; https://37signals.com/podcast/working-with-a-business-partner/
+- dhh-6c0b32f614d1da-625aaafef0e6: framework; speaker; normalized source offset 24592; chunk 0; https://37signals.com/podcast/working-with-a-business-partner/
+- dhh-6c0b32f614d1da-02e49234048d: position; speaker; normalized source offset 29205; chunk 0; https://37signals.com/podcast/working-with-a-business-partner/
 ## dhh-6c55ce99476844: Basecamp becomes agent accessible
 
 https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
@@ -677,6 +1586,40 @@ Short excerpt of dhh-6c55ce99476844-c4878a38292e; sole_author. Full passage and 
 - dhh-6c55ce99476844-c4878a38292e: position; sole_author; normalized source offset 188; chunk 0; https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
 - dhh-6c55ce99476844-566b500662a2: framework; sole_author; normalized source offset 698; chunk 0; https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
 - dhh-6c55ce99476844-d10efa3aad59: position; sole_author; normalized source offset 1583; chunk 0; https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949
+## dhh-6e5fba07aa0325: Redundancy is the engine of progress
+
+https://world.hey.com/dhh/redundancy-is-the-engine-of-progress-76499402
+
+Independent work identity: https://world.hey.com/dhh/redundancy-is-the-engine-of-progress-76499402. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 399; full retrieved text: 399. Text SHA-256: 0e0d83372d752f6940cca59de0d8a4739febbcbba98f7bda53daa8f309ea39ee
+
+Source dates reported in the collected material: not established
+
+> we're likely to see an unprecedented bloom in apps and services
+
+Short excerpt of dhh-6e5fba07aa0325-f16b9c948f07; sole_author. Full passage and context retained locally.
+
+- dhh-6e5fba07aa0325-f16b9c948f07: position; sole_author; normalized source offset 1464; chunk 0; https://world.hey.com/dhh/redundancy-is-the-engine-of-progress-76499402
+- dhh-6e5fba07aa0325-463c58a7fd13: position; sole_author; normalized source offset 1705; chunk 0; https://world.hey.com/dhh/redundancy-is-the-engine-of-progress-76499402
+## dhh-6ec2738f3af95f: David Heinemeier Hansson Interview for Evrone
+
+https://evrone.com/blog/dhh-interview
+
+Independent work identity: evrone-dhh-interview-ruby-code. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,552; full retrieved text: 1,552. Text SHA-256: 3c215ecfd562d65dcd0530a60c54ed91a45849a312397edcafe36df6c33be499
+
+Source dates reported in the collected material: June 2020
+
+> if you don't change the little stuff that got you there in
+
+Short excerpt of dhh-6ec2738f3af95f-b1e3332b9699; speaker. Full passage and context retained locally.
+
+- dhh-6ec2738f3af95f-b1e3332b9699: position; speaker; normalized source offset 3295; chunk 0; https://evrone.com/blog/dhh-interview
+- dhh-6ec2738f3af95f-3559bbc5fc27: principle; speaker; normalized source offset 4393; chunk 0; https://evrone.com/blog/dhh-interview
+- dhh-6ec2738f3af95f-56cbb382d9af: framework; speaker; normalized source offset 5540; chunk 0; https://evrone.com/blog/dhh-interview
+- dhh-6ec2738f3af95f-8f05705bf4ef: position; speaker; normalized source offset 6301; chunk 0; https://evrone.com/blog/dhh-interview
 ## dhh-6f9a6112405ccd: Why we're leaving the cloud
 
 https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
@@ -687,13 +1630,30 @@ Source words in scope: 1,015; full retrieved text: 1,015. Text SHA-256: d0293067
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> The cloud excels at two ends of the spectrum
+
+Short excerpt of dhh-6f9a6112405ccd-0d2722bd4bb6; sole_author. Full passage and context retained locally.
 
 - dhh-6f9a6112405ccd-0d2722bd4bb6: framework; sole_author; normalized source offset 558; chunk 0; https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
 - dhh-6f9a6112405ccd-f74cc5340393: story; sole_author; normalized source offset 1493; chunk 0; https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
 - dhh-6f9a6112405ccd-18545b86abfe: position; sole_author; normalized source offset 2798; chunk 0; https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
 - dhh-6f9a6112405ccd-2d5b2e1c50f1: principle; sole_author; normalized source offset 4725; chunk 0; https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
 - dhh-6f9a6112405ccd-82652f9c86d9: position; sole_author; normalized source offset 4348; chunk 0; https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
+## dhh-719837709be429: Apple is an accomplice to fraud
+
+https://world.hey.com/dhh/apple-is-an-accomplice-to-fraud-b4197da7
+
+Independent work identity: https://world.hey.com/dhh/apple-is-an-accomplice-to-fraud-b4197da7. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 512; full retrieved text: 512. Text SHA-256: 110ea257ddcdb8b4241a6cf264d868976380ffca01a4b2bfd765e0fd32db995c
+
+Source dates reported in the collected material: not established
+
+> Apple has been putting on a security theater with the App Store
+
+Short excerpt of dhh-719837709be429-60d1d910286b; sole_author. Full passage and context retained locally.
+
+- dhh-719837709be429-60d1d910286b: position; sole_author; normalized source offset 2765; chunk 0; https://world.hey.com/dhh/apple-is-an-accomplice-to-fraud-b4197da7
 ## dhh-719cf3797c501e: They're rebuilding the Death Star of complexity
 
 https://world.hey.com/dhh/they-re-rebuilding-the-death-star-of-complexity-4fb5d08d
@@ -711,6 +1671,22 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - dhh-719cf3797c501e-327e01f29937: principle; sole_author; normalized source offset 684; chunk 0; https://world.hey.com/dhh/they-re-rebuilding-the-death-star-of-complexity-4fb5d08d
 - dhh-719cf3797c501e-71253ee2294a: position; sole_author; normalized source offset 4766; chunk 0; https://world.hey.com/dhh/they-re-rebuilding-the-death-star-of-complexity-4fb5d08d
 - dhh-719cf3797c501e-36e36e9bac97: voice; sole_author; normalized source offset 3815; chunk 0; https://world.hey.com/dhh/they-re-rebuilding-the-death-star-of-complexity-4fb5d08d
+## dhh-72a4217900906b: Celebrating the end of The Good Times
+
+https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2
+
+Independent work identity: https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 403; full retrieved text: 403. Text SHA-256: 0ace57e621011f9ffb1f7ab63fc0babac52550b81a335acf828d548481aa3eed
+
+Source dates reported in the collected material: not established
+
+> selling products and services for more than it cost you to make
+
+Short excerpt of dhh-72a4217900906b-028116d456aa; sole_author. Full passage and context retained locally.
+
+- dhh-72a4217900906b-028116d456aa: principle; sole_author; normalized source offset 633; chunk 0; https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2
+- dhh-72a4217900906b-eae662a9223f: position; sole_author; normalized source offset 1703; chunk 0; https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2
 ## dhh-75e3fe1f34d794: Let the agents democratize open source
 
 https://world.hey.com/dhh/let-the-agents-democratize-open-source-9fd630a9
@@ -750,6 +1726,23 @@ Short excerpt of dhh-76b95022293426-9a8c98dc3ad1; speaker. Full passage and cont
 - dhh-76b95022293426-f8ab13dd055c: position; speaker; caption-prose-v1 offset 19068; chunk 0; https://www.youtube.com/watch?v=I0LJTMgEomM&t=1309
 - dhh-76b95022293426-b617c0b9c1e4: framework; speaker; caption-prose-v1 offset 23107; chunk 0; https://www.youtube.com/watch?v=I0LJTMgEomM&t=1578
 - dhh-76b95022293426-173783da2e05: position; speaker; caption-prose-v1 offset 26793; chunk 0; https://www.youtube.com/watch?v=I0LJTMgEomM&t=1805
+## dhh-77c0614a8cd78c: Cloud exit pays off in performance too
+
+https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697
+
+Independent work identity: https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 478; full retrieved text: 478. Text SHA-256: 6d19e64680c3937ee4f13351977ad21a0a66007b0684aca1d0cfeb8e000a165e
+
+Source dates reported in the collected material: not established
+
+> It's not exactly a clean-room, scientific test.
+
+Short excerpt of dhh-77c0614a8cd78c-b9b4f7da8b56; sole_author. Full passage and context retained locally.
+
+- dhh-77c0614a8cd78c-b9b4f7da8b56: story; sole_author; normalized source offset 679; chunk 0; https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697
+- dhh-77c0614a8cd78c-bbe280f15835: position; sole_author; normalized source offset 1616; chunk 0; https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697
+- dhh-77c0614a8cd78c-e8ebacf5bff1: position; sole_author; normalized source offset 1955; chunk 0; https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697
 ## dhh-797a7479811ebb: Why I retired from the tech crusades
 
 https://world.hey.com/dhh/why-i-retired-from-the-tech-crusades-107a51ea
@@ -768,6 +1761,58 @@ Short excerpt of dhh-797a7479811ebb-6bdc080ccd4a; sole_author. Full passage and 
 - dhh-797a7479811ebb-577a3bfd5ff7: position; sole_author; normalized source offset 1751; chunk 0; https://world.hey.com/dhh/why-i-retired-from-the-tech-crusades-107a51ea
 - dhh-797a7479811ebb-c20efc859487: position; sole_author; normalized source offset 2895; chunk 0; https://world.hey.com/dhh/why-i-retired-from-the-tech-crusades-107a51ea
 - dhh-797a7479811ebb-ab2937bd8d3c: framework; sole_author; normalized source offset 3326; chunk 0; https://world.hey.com/dhh/why-i-retired-from-the-tech-crusades-107a51ea
+## dhh-7a4d2b159b7f6e: One happy Rails World
+
+https://world.hey.com/dhh/one-happy-rails-world-96c46506
+
+Independent work identity: https://world.hey.com/dhh/one-happy-rails-world-96c46506. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 829; full retrieved text: 829. Text SHA-256: 5338a520c099947627823f572bbfc6e6b809a5907463649f33c2ebc15a06b95b
+
+Source dates reported in the collected material: not established
+
+> Until customers put their credit card in the form, you don't actually
+
+Short excerpt of dhh-7a4d2b159b7f6e-4ba2bcbb88c6; sole_author. Full passage and context retained locally.
+
+- dhh-7a4d2b159b7f6e-4ba2bcbb88c6: principle; sole_author; normalized source offset 525; chunk 0; https://world.hey.com/dhh/one-happy-rails-world-96c46506
+- dhh-7a4d2b159b7f6e-1559e3b98673: story; sole_author; normalized source offset 2510; chunk 0; https://world.hey.com/dhh/one-happy-rails-world-96c46506
+## dhh-7b5f0016194722: The merit of hiring by merit
+
+https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af
+
+Independent work identity: https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,161; full retrieved text: 1,161. Text SHA-256: 1fae860cf675c5ebe756998e6e30b223025615e2a719d60832a2590fcfed9f7d
+
+Source dates reported in the collected material: not established
+
+> being a good programmer isn't alone sufficient to be hired at Basecamp,
+
+Short excerpt of dhh-7b5f0016194722-45767ce996bb; sole_author. Full passage and context retained locally.
+
+- dhh-7b5f0016194722-45767ce996bb: position; sole_author; normalized source offset 376; chunk 0; https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af
+- dhh-7b5f0016194722-96219a4914bf: framework; sole_author; normalized source offset 4854; chunk 0; https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af
+- dhh-7b5f0016194722-cefdd2ae46a0: position; sole_author; normalized source offset 5540; chunk 0; https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af
+- dhh-7b5f0016194722-4c5a32d9f9c8: position; sole_author; normalized source offset 3406; chunk 0; https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af
+- dhh-7b5f0016194722-384080319eb9: position; sole_author; normalized source offset 1470; chunk 0; https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af
+## dhh-7b6be8168582af: Patek levels of finishing
+
+https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0
+
+Independent work identity: https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 366; full retrieved text: 366. Text SHA-256: e43a704d2a1df0d5683524830be5f024e1f96f8714490c674d9d4b755bc2337f
+
+Source dates reported in the collected material: not established
+
+> One that gets you to release quicker than the frantic thrashing you
+
+Short excerpt of dhh-7b6be8168582af-4a450bc4e144; sole_author. Full passage and context retained locally.
+
+- dhh-7b6be8168582af-4a450bc4e144: principle; sole_author; normalized source offset 1021; chunk 0; https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0
+- dhh-7b6be8168582af-edaac999832b: story; sole_author; normalized source offset 1192; chunk 0; https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0
+- dhh-7b6be8168582af-ac3c65093044: framework; sole_author; normalized source offset 289; chunk 0; https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0
 ## dhh-7c6a38497d627f: It's five grand a day to miss our S3 exit
 
 https://world.hey.com/dhh/it-s-five-grand-a-day-to-miss-our-s3-exit-b8293563
@@ -786,6 +1831,54 @@ Short excerpt of dhh-7c6a38497d627f-fbd96122364f; sole_author. Full passage and 
 - dhh-7c6a38497d627f-85d7b6781b04: story; sole_author; normalized source offset 600; chunk 0; https://world.hey.com/dhh/it-s-five-grand-a-day-to-miss-our-s3-exit-b8293563
 - dhh-7c6a38497d627f-30847f712568: framework; sole_author; normalized source offset 1322; chunk 0; https://world.hey.com/dhh/it-s-five-grand-a-day-to-miss-our-s3-exit-b8293563
 - dhh-7c6a38497d627f-8390a0eb338c: position; sole_author; normalized source offset 1847; chunk 0; https://world.hey.com/dhh/it-s-five-grand-a-day-to-miss-our-s3-exit-b8293563
+## dhh-7d8707c8180553: David Heinemeier Hansson | CoRecursive Podcast
+
+https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+
+Independent work identity: corecursive-045-software-contrarian. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,839; full retrieved text: 11,839. Text SHA-256: 4d0e15be8604831aa14b62ace45ad6bca6ace4243cbc0edba1454b1fab1bf025
+
+Source dates reported in the collected material: 2020-02-01
+
+> the builder was also the tool maker
+
+Short excerpt of dhh-7d8707c8180553-e50b1b0be26b; speaker. Full passage and context retained locally.
+
+- dhh-7d8707c8180553-e50b1b0be26b: story; speaker; normalized source offset 4251; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-74932088332c: principle; speaker; normalized source offset 6609; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-49f90e5d114d: position; speaker; normalized source offset 11466; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-df36f4207184: story; speaker; normalized source offset 14742; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-fcf9e99821cd: position; speaker; normalized source offset 15926; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-71d983c95017: principle; speaker; normalized source offset 27595; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-7edeaffefe49: position; speaker; normalized source offset 29737; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-966bbe3eecec: framework; speaker; normalized source offset 36108; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-127ea97e0bed: position; speaker; normalized source offset 37572; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-de8de62e8de0: story; speaker; normalized source offset 39505; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-dcf1b9a38fce: position; speaker; normalized source offset 40621; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-050059203c4a: principle; speaker; normalized source offset 44305; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-e45cbea721d5: position; speaker; normalized source offset 46002; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-cb2dd342cc7a: framework; speaker; normalized source offset 48515; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-a9a502dc9750: framework; speaker; normalized source offset 51068; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-920f9bf37071: book; speaker; normalized source offset 53904; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-4833d5387609: story; speaker; normalized source offset 55645; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+- dhh-7d8707c8180553-0055eca899e1: framework; speaker; normalized source offset 59077; chunk 0; https://www.corecursive.com/045-david-heinemeier-hansson-software-contrarian/
+## dhh-82dd1c1840675b: Microsoft taught Apple nothing
+
+https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d
+
+Independent work identity: https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 510; full retrieved text: 510. Text SHA-256: 6b67c095e1e729578d7c2ac100a3bf697513da17e5a7639c413ebd739ec22aa5
+
+Source dates reported in the collected material: not established
+
+> you can win the battle, say, against Epic, and end up losing
+
+Short excerpt of dhh-82dd1c1840675b-035fe74dc4bc; sole_author. Full passage and context retained locally.
+
+- dhh-82dd1c1840675b-035fe74dc4bc: position; sole_author; normalized source offset 2735; chunk 0; https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d
+- dhh-82dd1c1840675b-eee8168d022c: position; sole_author; normalized source offset 1315; chunk 0; https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d
 ## dhh-8539d470607ce1: We stand to save $7m over five years from our cloud exit
 
 https://world.hey.com/dhh/we-stand-to-save-7m-over-five-years-from-our-cloud-exit-53996caa
@@ -920,6 +2013,62 @@ Short excerpt of dhh-8ba3ba4568381a-8fcdb1cd57c4; sole_author. Full passage and 
 - dhh-8ba3ba4568381a-b7b1ea433b8b: principle; sole_author; normalized source offset 2014; chunk 0; https://world.hey.com/dhh/the-one-person-framework-711e6318
 - dhh-8ba3ba4568381a-c7a10e38e0e5: position; sole_author; normalized source offset 2269; chunk 0; https://world.hey.com/dhh/the-one-person-framework-711e6318
 - dhh-8ba3ba4568381a-525a98892f0f: position; sole_author; normalized source offset 201; chunk 0; https://world.hey.com/dhh/the-one-person-framework-711e6318
+## dhh-8baed83fe464ea: The monopoly playbook is depressingly uniform across big tech
+
+https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f
+
+Independent work identity: https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,022; full retrieved text: 1,022. Text SHA-256: e812131a7ca637d62b32ed7a6935749dc17a3b8b3b6f4a68eacb2fcfc1c5d16c
+
+Source dates reported in the collected material: not established
+
+> tying more and more overpriced-but-necessary services to its basic 15% cut
+
+Short excerpt of dhh-8baed83fe464ea-4c9f3e4b4490; sole_author. Full passage and context retained locally.
+
+- dhh-8baed83fe464ea-4c9f3e4b4490: framework; sole_author; normalized source offset 651; chunk 0; https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f
+- dhh-8baed83fe464ea-8f24b2ad7d1a: position; sole_author; normalized source offset 2639; chunk 0; https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f
+- dhh-8baed83fe464ea-c52734b75c5c: position; sole_author; normalized source offset 4152; chunk 0; https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f
+- dhh-8baed83fe464ea-8323488f6f13: story; sole_author; normalized source offset 5080; chunk 0; https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f
+- dhh-8baed83fe464ea-eb0cd51b7201: position; sole_author; normalized source offset 5726; chunk 0; https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f
+## dhh-8c5222cd9b8a13: Until the end of the internet
+
+https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce
+
+Independent work identity: https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 632; full retrieved text: 632. Text SHA-256: 4a1940a03908e48e7e0e1c1c5ff7ed9d3406c2e887d8dd8dee8276086539f3e7
+
+Source dates reported in the collected material: not established
+
+> There's the occasional security updates that need applying, the relocation to new
+
+Short excerpt of dhh-8c5222cd9b8a13-d7bf1fc2070f; sole_author. Full passage and context retained locally.
+
+- dhh-8c5222cd9b8a13-d7bf1fc2070f: position; sole_author; normalized source offset 1308; chunk 0; https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce
+- dhh-8c5222cd9b8a13-8891d062784d: story; sole_author; normalized source offset 1802; chunk 0; https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce
+- dhh-8c5222cd9b8a13-5b154a83b64b: position; sole_author; normalized source offset 1898; chunk 0; https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce
+- dhh-8c5222cd9b8a13-961010220fe7: principle; sole_author; normalized source offset 3259; chunk 0; https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce
+## dhh-8c6fe617405f23: The simplest thing that could possibly work
+
+https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43
+
+Independent work identity: https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 508; full retrieved text: 508. Text SHA-256: edf4c70c72464dba75ae37775dddf4f0b2ab21c51f8e965178e898f1ef8f945d
+
+Source dates reported in the collected material: not established
+
+> There was plenty of vision, plenty of principles, but they all lead
+
+Short excerpt of dhh-8c6fe617405f23-c6110e1a9252; sole_author. Full passage and context retained locally.
+
+- dhh-8c6fe617405f23-c6110e1a9252: book; sole_author; normalized source offset 518; chunk 0; https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43
+- dhh-8c6fe617405f23-f75a568a4990: principle; sole_author; normalized source offset 1464; chunk 0; https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43
+- dhh-8c6fe617405f23-18ef89750895: framework; sole_author; normalized source offset 1995; chunk 0; https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43
+- dhh-8c6fe617405f23-748b4248dc39: principle; sole_author; normalized source offset 2147; chunk 0; https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43
+- dhh-8c6fe617405f23-219343eb46cc: position; sole_author; normalized source offset 2687; chunk 0; https://world.hey.com/dhh/the-simplest-thing-that-could-possibly-work-8f0d8b43
 ## dhh-8ce8fe6b9afb1b: Basecamp Five
 
 https://world.hey.com/dhh/basecamp-five-8fcfd2ef
@@ -1006,6 +2155,134 @@ Short excerpt of dhh-910e21f37876ff-e4b2d75a0629; sole_author. Full passage and 
 - dhh-910e21f37876ff-2fae1556dc55: position; sole_author; normalized source offset 869; chunk 0; https://world.hey.com/dhh/the-year-on-linux-7f30279e
 - dhh-910e21f37876ff-78625be379f5: position; sole_author; normalized source offset 1669; chunk 0; https://world.hey.com/dhh/the-year-on-linux-7f30279e
 - dhh-910e21f37876ff-75c11d1f33e1: voice; sole_author; normalized source offset 639; chunk 0; https://world.hey.com/dhh/the-year-on-linux-7f30279e
+## dhh-9193d73860d27c: Merchants of complexity
+
+https://world.hey.com/dhh/merchants-of-complexity-4851301b
+
+Independent work identity: https://world.hey.com/dhh/merchants-of-complexity-4851301b. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 306; full retrieved text: 306. Text SHA-256: 14dfcaf1fdfb6826a6035401644704e254a09bf71362f503e8823eb4a0636ca8
+
+Source dates reported in the collected material: not established
+
+> That clever and sophisticated beats basic and straightforward most days in the
+
+Short excerpt of dhh-9193d73860d27c-a2fc598ed298; sole_author. Full passage and context retained locally.
+
+- dhh-9193d73860d27c-a2fc598ed298: position; sole_author; normalized source offset 272; chunk 0; https://world.hey.com/dhh/merchants-of-complexity-4851301b
+- dhh-9193d73860d27c-8e4ba4783ab6: principle; sole_author; normalized source offset 851; chunk 0; https://world.hey.com/dhh/merchants-of-complexity-4851301b
+- dhh-9193d73860d27c-52c9eaa929e3: position; sole_author; normalized source offset 1651; chunk 0; https://world.hey.com/dhh/merchants-of-complexity-4851301b
+## dhh-9411f0d003fac7: Interview with David Heinemeier Hansson - jlaine.net
+
+https://jlaine.net/2005/11/02/interview-with-david-heinemeier-hansson/
+
+Independent work identity: jlaine-dhh-euro-oscon-2005. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,900; full retrieved text: 2,900. Text SHA-256: 547626ce7d772d83dc0eff1a193485c9b9659d6a095c3ce77f2b8bc0174af1d8
+
+Source dates reported in the collected material: 2005-11-02
+
+> I then spent February through July polishing all the stuff I’d used
+
+Short excerpt of dhh-9411f0d003fac7-ff0e357de12c; speaker. Full passage and context retained locally.
+
+- dhh-9411f0d003fac7-ff0e357de12c: story; speaker; normalized source offset 1670; chunk 0; https://jlaine.net/2005/11/02/interview-with-david-heinemeier-hansson/
+- dhh-9411f0d003fac7-d5ce7a9f3435: position; speaker; normalized source offset 3529; chunk 0; https://jlaine.net/2005/11/02/interview-with-david-heinemeier-hansson/
+- dhh-9411f0d003fac7-f764388fc40c: principle; speaker; normalized source offset 7764; chunk 0; https://jlaine.net/2005/11/02/interview-with-david-heinemeier-hansson/
+- dhh-9411f0d003fac7-38950af51d28: framework; speaker; normalized source offset 9725; chunk 0; https://jlaine.net/2005/11/02/interview-with-david-heinemeier-hansson/
+- dhh-9411f0d003fac7-b4c402299533: principle; speaker; normalized source offset 11416; chunk 0; https://jlaine.net/2005/11/02/interview-with-david-heinemeier-hansson/
+## dhh-94cf6ff111a504: The bubble has popped for unprofitable software companies
+
+https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57
+
+Independent work identity: https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,258; full retrieved text: 1,258. Text SHA-256: d7b02fa1c740beb0796237e70bb2a674a7a033d35bae1b48ee264b264b0c7155
+
+Source dates reported in the collected material: not established
+
+> Operating within your means, taking profits along the way, and aiming for
+
+Short excerpt of dhh-94cf6ff111a504-7b6d8bda0a11; sole_author. Full passage and context retained locally.
+
+- dhh-94cf6ff111a504-7b6d8bda0a11: position; sole_author; normalized source offset 468; chunk 0; https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57
+- dhh-94cf6ff111a504-a1217372a446: framework; sole_author; normalized source offset 4075; chunk 0; https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57
+- dhh-94cf6ff111a504-17e1431612fc: position; sole_author; normalized source offset 2406; chunk 0; https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57
+- dhh-94cf6ff111a504-9e3f6db91bd0: position; sole_author; normalized source offset 2918; chunk 0; https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57
+- dhh-94cf6ff111a504-92795ee86a55: principle; sole_author; normalized source offset 6745; chunk 0; https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57
+## dhh-9626649018d745: Workfeed goes to America
+
+https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9
+
+Independent work identity: https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 426; full retrieved text: 426. Text SHA-256: a97536ea394b19059d52997cfc829a13dc1d33eaa0842b4cb8409726f2f64484
+
+Source dates reported in the collected material: not established
+
+> You need integrations with payroll and other employee systems to make inroads
+
+Short excerpt of dhh-9626649018d745-bebf13dc83b9; sole_author. Full passage and context retained locally.
+
+- dhh-9626649018d745-bebf13dc83b9: position; sole_author; normalized source offset 817; chunk 0; https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9
+- dhh-9626649018d745-bbf028e8ea8c: story; sole_author; normalized source offset 2093; chunk 0; https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9
+- dhh-9626649018d745-efbf9d246ad7: position; sole_author; normalized source offset 2348; chunk 0; https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9
+## dhh-99f158abe40fac: The premise trap
+
+https://world.hey.com/dhh/the-premise-trap-924b8cd9
+
+Independent work identity: https://world.hey.com/dhh/the-premise-trap-924b8cd9. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 622; full retrieved text: 622. Text SHA-256: acaf17f4b2509ad713b53aafb0cbc7c3d85f00f62f30cf2b90cb2935d3d6f77d
+
+Source dates reported in the collected material: not established
+
+> the fundamental assumptions baked into the first draft of the code aren't
+
+Short excerpt of dhh-99f158abe40fac-879633cca9db; sole_author. Full passage and context retained locally.
+
+- dhh-99f158abe40fac-879633cca9db: framework; sole_author; normalized source offset 152; chunk 0; https://world.hey.com/dhh/the-premise-trap-924b8cd9
+- dhh-99f158abe40fac-b9bc82a345c4: position; sole_author; normalized source offset 1474; chunk 0; https://world.hey.com/dhh/the-premise-trap-924b8cd9
+- dhh-99f158abe40fac-9bd37744fa31: principle; sole_author; normalized source offset 3232; chunk 0; https://world.hey.com/dhh/the-premise-trap-924b8cd9
+- dhh-99f158abe40fac-bc6bf9ac5ab3: position; sole_author; normalized source offset 2600; chunk 0; https://world.hey.com/dhh/the-premise-trap-924b8cd9
+- dhh-99f158abe40fac-cea02f396760: position; sole_author; normalized source offset 3654; chunk 0; https://world.hey.com/dhh/the-premise-trap-924b8cd9
+## dhh-9ae59693a4c5c4: Open source is neither a community nor a democracy
+
+https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab
+
+Independent work identity: https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 722; full retrieved text: 722. Text SHA-256: ec6958042d34d1189d35e2ce737defc949d3340398586f974fe9559bd8f0e007
+
+Source dates reported in the collected material: not established
+
+> Using open source software does not entitle you to a vote on
+
+Short excerpt of dhh-9ae59693a4c5c4-18b13a65fc2f; sole_author. Full passage and context retained locally.
+
+- dhh-9ae59693a4c5c4-18b13a65fc2f: position; sole_author; normalized source offset 0; chunk 0; https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab
+- dhh-9ae59693a4c5c4-08622027d151: framework; sole_author; normalized source offset 1260; chunk 0; https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab
+- dhh-9ae59693a4c5c4-f9165c30e2e0: principle; sole_author; normalized source offset 2234; chunk 0; https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab
+- dhh-9ae59693a4c5c4-2ec48cb34ee7: position; sole_author; normalized source offset 3153; chunk 0; https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab
+- dhh-9ae59693a4c5c4-779951358653: framework; sole_author; normalized source offset 3844; chunk 0; https://world.hey.com/dhh/open-source-is-neither-a-community-nor-a-democracy-606abdab
+## dhh-9b381f9a2a9612: The price of managed cloud services
+
+https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e
+
+Independent work identity: https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 520; full retrieved text: 520. Text SHA-256: 0d4b0dec9479bf41339bc36843251f5884c08ace26b84ed9409358f57e5581a0
+
+Source dates reported in the collected material: not established
+
+> our disappointment over not being able to operate the system with materially
+
+Short excerpt of dhh-9b381f9a2a9612-38511228e3c4; sole_author. Full passage and context retained locally.
+
+- dhh-9b381f9a2a9612-38511228e3c4: story; sole_author; normalized source offset 795; chunk 0; https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e
+- dhh-9b381f9a2a9612-b252078db691: story; sole_author; normalized source offset 1666; chunk 0; https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e
+- dhh-9b381f9a2a9612-01b3efc8ed2f: principle; sole_author; normalized source offset 2081; chunk 0; https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e
+- dhh-9b381f9a2a9612-e16222159ac5: story; sole_author; normalized source offset 2443; chunk 0; https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e
 ## dhh-9be8f7296b1d42: Our switch to Kamal is complete
 
 https://world.hey.com/dhh/our-switch-to-kamal-is-complete-8e0de22e
@@ -1026,6 +2303,59 @@ Short excerpt of dhh-9be8f7296b1d42-3611d4a8a726; sole_author. Full passage and 
 - dhh-9be8f7296b1d42-d247a354d106: position; sole_author; normalized source offset 1511; chunk 0; https://world.hey.com/dhh/our-switch-to-kamal-is-complete-8e0de22e
 - dhh-9be8f7296b1d42-617f8bb4a8d1: principle; sole_author; normalized source offset 1694; chunk 0; https://world.hey.com/dhh/our-switch-to-kamal-is-complete-8e0de22e
 - dhh-9be8f7296b1d42-e135d9208c97: principle; sole_author; normalized source offset 2019; chunk 0; https://world.hey.com/dhh/our-switch-to-kamal-is-complete-8e0de22e
+## dhh-9cf91bc29a7601: Turning the phone into a tool again
+
+https://world.hey.com/dhh/turning-the-phone-into-a-tool-again-ba520bd0
+
+Independent work identity: https://world.hey.com/dhh/turning-the-phone-into-a-tool-again-ba520bd0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 407; full retrieved text: 407. Text SHA-256: 03a3bf043cce3f69742bc63aeb7f39b1fd67effb086104bb84b4da2e4bec1c47
+
+Source dates reported in the collected material: not established
+
+> Any use that's actually worth doing is easily worth the friction
+
+Short excerpt of dhh-9cf91bc29a7601-c89f1a97fd3f; sole_author. Full passage and context retained locally.
+
+- dhh-9cf91bc29a7601-c89f1a97fd3f: framework; sole_author; normalized source offset 846; chunk 0; https://world.hey.com/dhh/turning-the-phone-into-a-tool-again-ba520bd0
+- dhh-9cf91bc29a7601-bc0e514abee4: story; sole_author; normalized source offset 1698; chunk 0; https://world.hey.com/dhh/turning-the-phone-into-a-tool-again-ba520bd0
+- dhh-9cf91bc29a7601-dcff8a13ba73: book; sole_author; normalized source offset 1971; chunk 0; https://world.hey.com/dhh/turning-the-phone-into-a-tool-again-ba520bd0
+## dhh-9d6d06216ad037: Sitting down with Senra
+
+https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+
+Independent work identity: https://world.hey.com/dhh/sitting-down-with-senra-69f5e368. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 580; full retrieved text: 580. Text SHA-256: 3e90bd3040c2ad31b345f6dd1619dcf726417ab12ac9dbb0cc24f8e2982407ad
+
+Source dates reported in the collected material: not established
+
+> Small teams can do incredible things when they embrace their constraints.
+
+Short excerpt of dhh-9d6d06216ad037-8ec9ecadaa88; sole_author. Full passage and context retained locally.
+
+- dhh-9d6d06216ad037-8ec9ecadaa88: framework; sole_author; normalized source offset 84; chunk 0; https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+- dhh-9d6d06216ad037-7223536e77a5: position; sole_author; normalized source offset 654; chunk 0; https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+- dhh-9d6d06216ad037-57340966cf68: position; sole_author; normalized source offset 2096; chunk 0; https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+- dhh-9d6d06216ad037-f1f9b23ea71e: position; sole_author; normalized source offset 1736; chunk 0; https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+- dhh-9d6d06216ad037-ccec6b62e745: principle; sole_author; normalized source offset 2570; chunk 0; https://world.hey.com/dhh/sitting-down-with-senra-69f5e368
+## dhh-9e98d46a094663: We need not all be connected, all the time
+
+https://world.hey.com/dhh/we-need-not-all-be-connected-all-the-time-a4633c0e
+
+Independent work identity: https://world.hey.com/dhh/we-need-not-all-be-connected-all-the-time-a4633c0e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 447; full retrieved text: 447. Text SHA-256: d0e261bc4f1a4f2c43b87c44714abef68e79c0e16cbb52bef6bcd49f5d86b7cd
+
+Source dates reported in the collected material: not established
+
+> adding IT to the parent-school relationship only made it worse
+
+Short excerpt of dhh-9e98d46a094663-a007d53646bf; sole_author. Full passage and context retained locally.
+
+- dhh-9e98d46a094663-a007d53646bf: position; sole_author; normalized source offset 682; chunk 0; https://world.hey.com/dhh/we-need-not-all-be-connected-all-the-time-a4633c0e
+- dhh-9e98d46a094663-7fec15ed5ffa: framework; sole_author; normalized source offset 1185; chunk 0; https://world.hey.com/dhh/we-need-not-all-be-connected-all-the-time-a4633c0e
+- dhh-9e98d46a094663-00c3edece901: principle; sole_author; normalized source offset 2041; chunk 0; https://world.hey.com/dhh/we-need-not-all-be-connected-all-the-time-a4633c0e
 ## dhh-9f95a8d40fb99b: Open source royalty and mad kings
 
 https://world.hey.com/dhh/open-source-royalty-and-mad-kings-a8f79d16
@@ -1093,6 +2423,23 @@ Short excerpt of dhh-a1a89c25017e53-cc35e1218b19; sole_author. Full passage and 
 - dhh-a1a89c25017e53-930a84e6d623: principle; sole_author; normalized source offset 1250; chunk 0; https://world.hey.com/dhh/linux-as-the-new-developer-default-at-37signals-ef0823b7
 - dhh-a1a89c25017e53-16a0c346381f: position; sole_author; normalized source offset 1966; chunk 0; https://world.hey.com/dhh/linux-as-the-new-developer-default-at-37signals-ef0823b7
 - dhh-a1a89c25017e53-c542afcf6581: position; sole_author; normalized source offset 2517; chunk 0; https://world.hey.com/dhh/linux-as-the-new-developer-default-at-37signals-ef0823b7
+## dhh-a1e080835a75d3: Dare to connect a server to the internet
+
+https://world.hey.com/dhh/dare-to-connect-a-server-to-the-internet-01d25a07
+
+Independent work identity: https://world.hey.com/dhh/dare-to-connect-a-server-to-the-internet-01d25a07. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 448; full retrieved text: 448. Text SHA-256: 2c0afa16899ddc0924a028f5f1b6b4dcad079c02dafc54a6526afc2cb8de70e3
+
+Source dates reported in the collected material: not established
+
+> it’s never been easier to confidently connect a computer to the internet,
+
+Short excerpt of dhh-a1e080835a75d3-2e5b762f5356; sole_author. Full passage and context retained locally.
+
+- dhh-a1e080835a75d3-2e5b762f5356: position; sole_author; normalized source offset 1119; chunk 0; https://world.hey.com/dhh/dare-to-connect-a-server-to-the-internet-01d25a07
+- dhh-a1e080835a75d3-8723ad2fac61: framework; sole_author; normalized source offset 1575; chunk 0; https://world.hey.com/dhh/dare-to-connect-a-server-to-the-internet-01d25a07
+- dhh-a1e080835a75d3-003f5cc4a393: principle; sole_author; normalized source offset 2450; chunk 0; https://world.hey.com/dhh/dare-to-connect-a-server-to-the-internet-01d25a07
 ## dhh-a53d705159ab39: Rails Conf 2013 Patterns of Basecamp's Application Architecture by David Heinemeier Hansson
 
 https://www.youtube.com/watch?v=yhseQP52yIY
@@ -1122,6 +2469,79 @@ Short excerpt of dhh-a53d705159ab39-4d824fb323f5; speaker. Full passage and cont
 - dhh-a53d705159ab39-909720407c91: framework; speaker; caption-prose-v1 offset 54369; chunk 0; https://www.youtube.com/watch?v=yhseQP52yIY&t=3710
 - dhh-a53d705159ab39-c75d4d5ba35e: position; speaker; caption-prose-v1 offset 56481; chunk 0; https://www.youtube.com/watch?v=yhseQP52yIY&t=3840
 - dhh-a53d705159ab39-11e1d16af28c: principle; speaker; caption-prose-v1 offset 37393; chunk 0; https://www.youtube.com/watch?v=yhseQP52yIY&t=2626
+## dhh-a5f94c4a9fa694: This might not be the place for you
+
+https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a
+
+Independent work identity: https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 395; full retrieved text: 395. Text SHA-256: 9543bd9c65ab50f14ba34b580549f5c6538049de28c513b8567bb4e71ea0eb9a
+
+Source dates reported in the collected material: not established
+
+> If you're not fit to perform your duties in service of that
+
+Short excerpt of dhh-a5f94c4a9fa694-a9a0c94d3172; sole_author. Full passage and context retained locally.
+
+- dhh-a5f94c4a9fa694-a9a0c94d3172: position; sole_author; normalized source offset 1005; chunk 0; https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a
+- dhh-a5f94c4a9fa694-0a283d79aad3: principle; sole_author; normalized source offset 1493; chunk 0; https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a
+## dhh-a7d1616bab08a4: Don't make Google sell Chrome
+
+https://world.hey.com/dhh/don-t-make-google-sell-chrome-93cefbc6
+
+Independent work identity: https://world.hey.com/dhh/don-t-make-google-sell-chrome-93cefbc6. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 387; full retrieved text: 387. Text SHA-256: acbcde2fd07c43f8ae833fe3552952bcad54c4b441a12b29ce521e62d2695f6c
+
+Source dates reported in the collected material: not established
+
+> The web will be far worse off if Google is forced to
+
+Short excerpt of dhh-a7d1616bab08a4-78011ac9cab2; sole_author. Full passage and context retained locally.
+
+- dhh-a7d1616bab08a4-78011ac9cab2: position; sole_author; normalized source offset 0; chunk 0; https://world.hey.com/dhh/don-t-make-google-sell-chrome-93cefbc6
+- dhh-a7d1616bab08a4-e28ef4cdbc88: framework; sole_author; normalized source offset 949; chunk 0; https://world.hey.com/dhh/don-t-make-google-sell-chrome-93cefbc6
+- dhh-a7d1616bab08a4-85747404d15a: principle; sole_author; normalized source offset 1662; chunk 0; https://world.hey.com/dhh/don-t-make-google-sell-chrome-93cefbc6
+## dhh-a81cc7361da179: Apple turns the legislative contempt up to 11
+
+https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec
+
+Independent work identity: https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 772; full retrieved text: 772. Text SHA-256: d951c52478b1134351d2a606cbe2e0573ec30e8dff34d979f667d1b5b8a0a51c
+
+Source dates reported in the collected material: not established
+
+> Allowing the buyers of thousand-dollar smartphones to install the software of their
+
+Short excerpt of dhh-a81cc7361da179-11f40a3d1306; sole_author. Full passage and context retained locally.
+
+- dhh-a81cc7361da179-11f40a3d1306: position; sole_author; normalized source offset 1561; chunk 0; https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec
+- dhh-a81cc7361da179-ad8aed321995: principle; sole_author; normalized source offset 2951; chunk 0; https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec
+## dhh-ab1e72c8163837: I won't let you pay me for my open source
+
+https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+
+Independent work identity: https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 7,447; full retrieved text: 7,447. Text SHA-256: 271239268bc86d0578d123dea1137d15dc429f064f42f9fd3763b540f3ea95f4
+
+Source dates reported in the collected material: not established
+
+> The freeloaders are free! There is no practical scarcity to worry about.
+
+Short excerpt of dhh-ab1e72c8163837-02291340f9ed; sole_author. Full passage and context retained locally.
+
+- dhh-ab1e72c8163837-02291340f9ed: framework; sole_author; normalized source offset 7141; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-c4a9482c8656: position; sole_author; normalized source offset 9625; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-2b0b05b5d306: framework; sole_author; normalized source offset 12821; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-dab3b713abfe: position; sole_author; normalized source offset 38470; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-46bb14ffd319: story; sole_author; normalized source offset 15036; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-566c0b297099: framework; sole_author; normalized source offset 18630; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-646245bcdbe3: principle; sole_author; normalized source offset 22478; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-fd14965304e8: principle; sole_author; normalized source offset 27158; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-4f52ace3e03c: story; sole_author; normalized source offset 34334; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
+- dhh-ab1e72c8163837-c251a61ea9a2: framework; sole_author; normalized source offset 37497; chunk 0; https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568
 ## dhh-acb4232733067b: Finishing Hotwire with the introduction of Strada
 
 https://world.hey.com/dhh/finishing-hotwire-with-the-introduction-of-strada-9efdf091
@@ -1160,6 +2580,179 @@ Short excerpt of dhh-acb962c938fb81-324cb02c60b8; sole_author. Full passage and 
 - dhh-acb962c938fb81-b9632610720a: position; sole_author; normalized source offset 807; chunk 0; https://world.hey.com/dhh/coding-should-be-a-vibe-50908f49
 - dhh-acb962c938fb81-2b7b1fd390d1: principle; sole_author; normalized source offset 1688; chunk 0; https://world.hey.com/dhh/coding-should-be-a-vibe-50908f49
 - dhh-acb962c938fb81-3ed1a6252208: position; sole_author; normalized source offset 2409; chunk 0; https://world.hey.com/dhh/coding-should-be-a-vibe-50908f49
+## dhh-ad14792d3d42f0: We need a Right To Compute
+
+https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df
+
+Independent work identity: https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 490; full retrieved text: 490. Text SHA-256: d3ad857647c97212e74fa6c26e3f2d1c533c617c6419f54cd37d2352ba01afe1
+
+Source dates reported in the collected material: not established
+
+> If it’s a computer, it ought to be yours, and you ought
+
+Short excerpt of dhh-ad14792d3d42f0-857739e32143; sole_author. Full passage and context retained locally.
+
+- dhh-ad14792d3d42f0-857739e32143: position; sole_author; normalized source offset 199; chunk 0; https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df
+- dhh-ad14792d3d42f0-c9a7a76d4754: principle; sole_author; normalized source offset 1043; chunk 0; https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df
+- dhh-ad14792d3d42f0-3c1c3f12720c: position; sole_author; normalized source offset 1842; chunk 0; https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df
+## dhh-ae4f843e73dc11: The curing value of creation
+
+https://world.hey.com/dhh/the-curing-value-of-creation-98736f9f
+
+Independent work identity: https://world.hey.com/dhh/the-curing-value-of-creation-98736f9f. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 295; full retrieved text: 295. Text SHA-256: 5cd42e8edc4c689e1765b7b6466c2bcb432413e6290c576df22d66a66a05e2d7
+
+Source dates reported in the collected material: not established
+
+> The appearance of collaboration. Without any thrust towards completion.
+
+Short excerpt of dhh-ae4f843e73dc11-c12f3835624a; sole_author. Full passage and context retained locally.
+
+- dhh-ae4f843e73dc11-c12f3835624a: principle; sole_author; normalized source offset 983; chunk 0; https://world.hey.com/dhh/the-curing-value-of-creation-98736f9f
+- dhh-ae4f843e73dc11-fdbdef422872: framework; sole_author; normalized source offset 1644; chunk 0; https://world.hey.com/dhh/the-curing-value-of-creation-98736f9f
+## dhh-aeb5dcdf6c7c7e: We're hiring!
+
+https://world.hey.com/dhh/we-re-hiring-ab4c9430
+
+Independent work identity: https://world.hey.com/dhh/we-re-hiring-ab4c9430. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 450; full retrieved text: 450. Text SHA-256: 8d01cc4bbf86f5cf7618afe88a23add6265087b41eda72a9d5bb2835a5e5d894
+
+Source dates reported in the collected material: not established
+
+> we no longer intend to let HEY sit while we build that
+
+Short excerpt of dhh-aeb5dcdf6c7c7e-10c904f1a137; sole_author. Full passage and context retained locally.
+
+- dhh-aeb5dcdf6c7c7e-10c904f1a137: story; sole_author; normalized source offset 1317; chunk 0; https://world.hey.com/dhh/we-re-hiring-ab4c9430
+- dhh-aeb5dcdf6c7c7e-ee80f97a450d: principle; sole_author; normalized source offset 1918; chunk 0; https://world.hey.com/dhh/we-re-hiring-ab4c9430
+- dhh-aeb5dcdf6c7c7e-6330e4198e62: story; sole_author; normalized source offset 523; chunk 0; https://world.hey.com/dhh/we-re-hiring-ab4c9430
+## dhh-b04699a5b9752d: 360 degrees of phony back-patting
+
+https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47
+
+Independent work identity: https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 531; full retrieved text: 531. Text SHA-256: 8912bb7b1c39beaf611e5267bba5e2bc9f4c886a1a2023d16aaf405d5a69cefa
+
+Source dates reported in the collected material: not established
+
+> I can think of only once when it lead to a meaningful
+
+Short excerpt of dhh-b04699a5b9752d-8598ccecd3d6; sole_author. Full passage and context retained locally.
+
+- dhh-b04699a5b9752d-8598ccecd3d6: story; sole_author; normalized source offset 144; chunk 0; https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47
+- dhh-b04699a5b9752d-068c067ba9a3: framework; sole_author; normalized source offset 835; chunk 0; https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47
+- dhh-b04699a5b9752d-a9b5cd3c585d: framework; sole_author; normalized source offset 3015; chunk 0; https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47
+## dhh-b219980c3ac5dd: Meta goes no politics at work (and nobody cares)
+
+https://world.hey.com/dhh/meta-goes-no-politics-at-work-and-nobody-cares-d6409209
+
+Independent work identity: https://world.hey.com/dhh/meta-goes-no-politics-at-work-and-nobody-cares-d6409209. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,139; full retrieved text: 1,139. Text SHA-256: b86961ef9908508d9ccb96c6ac18a457e978a4e1430f2c2a51bedcd358617d89
+
+Source dates reported in the collected material: not established
+
+> I used to think that too, but I no longer do.
+
+Short excerpt of dhh-b219980c3ac5dd-fad6b11bf53b; sole_author. Full passage and context retained locally.
+
+- dhh-b219980c3ac5dd-fad6b11bf53b: position; sole_author; normalized source offset 1144; chunk 0; https://world.hey.com/dhh/meta-goes-no-politics-at-work-and-nobody-cares-d6409209
+- dhh-b219980c3ac5dd-7361d4033cfd: framework; sole_author; normalized source offset 1539; chunk 0; https://world.hey.com/dhh/meta-goes-no-politics-at-work-and-nobody-cares-d6409209
+- dhh-b219980c3ac5dd-69274077d14f: story; sole_author; normalized source offset 2169; chunk 0; https://world.hey.com/dhh/meta-goes-no-politics-at-work-and-nobody-cares-d6409209
+## dhh-b2215b24ec6092: Equating responsibility with busyness
+
+https://world.hey.com/dhh/equating-responsibility-with-busyness-bf0a7fa0
+
+Independent work identity: https://world.hey.com/dhh/equating-responsibility-with-busyness-bf0a7fa0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 475; full retrieved text: 475. Text SHA-256: 386d17f041b7033a45882c103184dcfe29b03e4b4538576299be3f911f971498
+
+Source dates reported in the collected material: not established
+
+> Sometimes the responsibility that you hold comes with a serving of just
+
+Short excerpt of dhh-b2215b24ec6092-b8c043f394f7; sole_author. Full passage and context retained locally.
+
+- dhh-b2215b24ec6092-b8c043f394f7: principle; sole_author; normalized source offset 914; chunk 0; https://world.hey.com/dhh/equating-responsibility-with-busyness-bf0a7fa0
+- dhh-b2215b24ec6092-17258215ab9a: framework; sole_author; normalized source offset 1669; chunk 0; https://world.hey.com/dhh/equating-responsibility-with-busyness-bf0a7fa0
+- dhh-b2215b24ec6092-c01ff9ae782f: principle; sole_author; normalized source offset 2260; chunk 0; https://world.hey.com/dhh/equating-responsibility-with-busyness-bf0a7fa0
+## dhh-b2639a85fa65a3: Invest in things that don't change
+
+https://world.hey.com/dhh/invest-in-things-that-don-t-change-6f7f19e1
+
+Independent work identity: https://world.hey.com/dhh/invest-in-things-that-don-t-change-6f7f19e1. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 523; full retrieved text: 523. Text SHA-256: e228cac14f9c8a98a08323e4073fc01a24c51ee39bd30db065b5512734438a5b
+
+Source dates reported in the collected material: not established
+
+> the magic of compound interest applies to skills as well as to
+
+Short excerpt of dhh-b2639a85fa65a3-ec74cf6332e9; sole_author. Full passage and context retained locally.
+
+- dhh-b2639a85fa65a3-ec74cf6332e9: principle; sole_author; normalized source offset 2822; chunk 0; https://world.hey.com/dhh/invest-in-things-that-don-t-change-6f7f19e1
+- dhh-b2639a85fa65a3-9992597f3b5c: position; sole_author; normalized source offset 555; chunk 0; https://world.hey.com/dhh/invest-in-things-that-don-t-change-6f7f19e1
+- dhh-b2639a85fa65a3-a68570d24fe8: story; sole_author; normalized source offset 816; chunk 0; https://world.hey.com/dhh/invest-in-things-that-don-t-change-6f7f19e1
+## dhh-b2cec58d34cec6: Rails World and Rails 8 in 2024
+
+https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba
+
+Independent work identity: https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,214; full retrieved text: 1,214. Text SHA-256: 7ad96867c93d57081fc6a48f9b8b52d960ecd1570daa60bad0c83bc265ec7789
+
+Source dates reported in the collected material: not established
+
+> They’re ready for full-stack ideas again, and Rails has been honing those
+
+Short excerpt of dhh-b2cec58d34cec6-19c43bda12bb; sole_author. Full passage and context retained locally.
+
+- dhh-b2cec58d34cec6-19c43bda12bb: position; sole_author; normalized source offset 5637; chunk 0; https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba
+- dhh-b2cec58d34cec6-2da48f130466: framework; sole_author; normalized source offset 6661; chunk 0; https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba
+- dhh-b2cec58d34cec6-97d394f36258: position; sole_author; normalized source offset 4943; chunk 0; https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba
+- dhh-b2cec58d34cec6-e1fce1b844da: position; sole_author; normalized source offset 3427; chunk 0; https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba
+- dhh-b2cec58d34cec6-3cfd5dd873d1: position; sole_author; normalized source offset 959; chunk 0; https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba
+## dhh-b36ede50849e52: Stop talking about product
+
+https://world.hey.com/dhh/stop-talking-about-product-b57ab7d8
+
+Independent work identity: https://world.hey.com/dhh/stop-talking-about-product-b57ab7d8. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 378; full retrieved text: 378. Text SHA-256: 35b64eeb924f06c4157fb97b98e55e149b96006962b5191e8edb2f992637d753
+
+Source dates reported in the collected material: not established
+
+> to stay in business, you have to be able to sell "products".
+
+Short excerpt of dhh-b36ede50849e52-d73f6647262d; sole_author. Full passage and context retained locally.
+
+- dhh-b36ede50849e52-d73f6647262d: position; sole_author; normalized source offset 565; chunk 0; https://world.hey.com/dhh/stop-talking-about-product-b57ab7d8
+- dhh-b36ede50849e52-db5b24ec1b80: principle; sole_author; normalized source offset 874; chunk 0; https://world.hey.com/dhh/stop-talking-about-product-b57ab7d8
+## dhh-b4677defe377b5: Modern web apps without JavaScript bundling or transpiling
+
+https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+
+Independent work identity: https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,393; full retrieved text: 1,393. Text SHA-256: 115a87c2513d0c03f3a71021472fba8a719911c2271bfd00f6a80de757e37aa3
+
+Source dates reported in the collected material: not established
+
+> I no longer believe that this bargain is worth it for most
+
+Short excerpt of dhh-b4677defe377b5-bfc3e867ab9a; sole_author. Full passage and context retained locally.
+
+- dhh-b4677defe377b5-bfc3e867ab9a: story; sole_author; normalized source offset 1606; chunk 0; https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+- dhh-b4677defe377b5-c6d4f49b3a22: framework; sole_author; normalized source offset 3470; chunk 0; https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+- dhh-b4677defe377b5-7cc3855653c4: position; sole_author; normalized source offset 3066; chunk 0; https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+- dhh-b4677defe377b5-45349fb76d22: framework; sole_author; normalized source offset 5456; chunk 0; https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+- dhh-b4677defe377b5-18862073fe16: position; sole_author; normalized source offset 7787; chunk 0; https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
+- dhh-b4677defe377b5-202f4e5ac946: position; sole_author; normalized source offset 8037; chunk 0; https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755
 ## dhh-b5ce1f10bb62df: Promoting AI agents
 
 https://world.hey.com/dhh/promoting-ai-agents-3ee04945
@@ -1178,6 +2771,24 @@ Short excerpt of dhh-b5ce1f10bb62df-94f751f16497; sole_author. Full passage and 
 - dhh-b5ce1f10bb62df-99a0a0567a90: position; sole_author; normalized source offset 1766; chunk 0; https://world.hey.com/dhh/promoting-ai-agents-3ee04945
 - dhh-b5ce1f10bb62df-43e5ff9ec124: position; sole_author; normalized source offset 2177; chunk 0; https://world.hey.com/dhh/promoting-ai-agents-3ee04945
 - dhh-b5ce1f10bb62df-ca9f5751c3b4: position; sole_author; normalized source offset 2902; chunk 0; https://world.hey.com/dhh/promoting-ai-agents-3ee04945
+## dhh-b86f558a83c3e9: Apple's forced IAP is either dead, a joke, or illegal
+
+https://world.hey.com/dhh/apple-s-forced-iap-is-either-dead-a-joke-or-illegal-110e1c5e
+
+Independent work identity: https://world.hey.com/dhh/apple-s-forced-iap-is-either-dead-a-joke-or-illegal-110e1c5e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,257; full retrieved text: 1,257. Text SHA-256: d9ca1811fb97c1a06791ed28f46eacf0b7ea6a97a9dbb090db40f60ad4320af4
+
+Source dates reported in the collected material: not established
+
+> It can lead to cryptic, user-hostile welcome screens
+
+Short excerpt of dhh-b86f558a83c3e9-0cd1e60de76a; sole_author. Full passage and context retained locally.
+
+- dhh-b86f558a83c3e9-0cd1e60de76a: position; sole_author; normalized source offset 1814; chunk 0; https://world.hey.com/dhh/apple-s-forced-iap-is-either-dead-a-joke-or-illegal-110e1c5e
+- dhh-b86f558a83c3e9-a3de109d85de: position; sole_author; normalized source offset 3874; chunk 0; https://world.hey.com/dhh/apple-s-forced-iap-is-either-dead-a-joke-or-illegal-110e1c5e
+- dhh-b86f558a83c3e9-3bfa2f358cac: framework; sole_author; normalized source offset 5203; chunk 0; https://world.hey.com/dhh/apple-s-forced-iap-is-either-dead-a-joke-or-illegal-110e1c5e
+- dhh-b86f558a83c3e9-65a3a28e445b: position; sole_author; normalized source offset 5736; chunk 0; https://world.hey.com/dhh/apple-s-forced-iap-is-either-dead-a-joke-or-illegal-110e1c5e
 ## dhh-b901b8bde671ab: RailsConf 2015 - Opening Keynote
 
 https://www.youtube.com/watch?v=KJVTM7mE1Cc
@@ -1206,6 +2817,43 @@ Short excerpt of dhh-b901b8bde671ab-e4a36f35859f; speaker. Full passage and cont
 - dhh-b901b8bde671ab-f9b1c3cfda3f: framework; speaker; caption-prose-v1 offset 40257; chunk 0; https://www.youtube.com/watch?v=KJVTM7mE1Cc&t=2964
 - dhh-b901b8bde671ab-39414d5769f5: framework; speaker; caption-prose-v1 offset 47123; chunk 0; https://www.youtube.com/watch?v=KJVTM7mE1Cc&t=3368
 - dhh-b901b8bde671ab-13b239014651: position; speaker; caption-prose-v1 offset 49440; chunk 0; https://www.youtube.com/watch?v=KJVTM7mE1Cc&t=3508
+## dhh-bb917dd12a50bd: Speeding up HEY's The Feed
+
+https://world.hey.com/dhh/speeding-up-hey-s-the-feed-82e4d2ee
+
+Independent work identity: https://world.hey.com/dhh/speeding-up-hey-s-the-feed-82e4d2ee. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 618; full retrieved text: 618. Text SHA-256: e2ad8169888f54b05f6705e1a37c952299422c43cfc116067bb9deb653bdc352
+
+Source dates reported in the collected material: not established
+
+> It's basically like opening 8 browser tabs concurrently.
+
+Short excerpt of dhh-bb917dd12a50bd-6aaa445f9546; sole_author. Full passage and context retained locally.
+
+- dhh-bb917dd12a50bd-6aaa445f9546: story; sole_author; normalized source offset 1303; chunk 0; https://world.hey.com/dhh/speeding-up-hey-s-the-feed-82e4d2ee
+- dhh-bb917dd12a50bd-6e1d09a3bc74: framework; sole_author; normalized source offset 2155; chunk 0; https://world.hey.com/dhh/speeding-up-hey-s-the-feed-82e4d2ee
+- dhh-bb917dd12a50bd-58dffb3d19b8: framework; sole_author; normalized source offset 2984; chunk 0; https://world.hey.com/dhh/speeding-up-hey-s-the-feed-82e4d2ee
+- dhh-bb917dd12a50bd-fd9a505fb418: principle; sole_author; normalized source offset 3247; chunk 0; https://world.hey.com/dhh/speeding-up-hey-s-the-feed-82e4d2ee
+## dhh-bd7d3610c0029f: Keeping the lights on while leaving the cloud
+
+https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67
+
+Independent work identity: https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 529; full retrieved text: 529. Text SHA-256: 641ebb53b429664058e75a0a2d07d89e4322f99bf0b2e27232d5aebff6e3a76d
+
+Source dates reported in the collected material: not established
+
+> In 2023, HEY had a stellar uptime of 99.99%!
+
+Short excerpt of dhh-bd7d3610c0029f-a69202ee5b2e; sole_author. Full passage and context retained locally.
+
+- dhh-bd7d3610c0029f-a69202ee5b2e: story; sole_author; normalized source offset 310; chunk 0; https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67
+- dhh-bd7d3610c0029f-05f3daa014fa: story; sole_author; normalized source offset 996; chunk 0; https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67
+- dhh-bd7d3610c0029f-fa9fc567a6d9: story; sole_author; normalized source offset 1427; chunk 0; https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67
+- dhh-bd7d3610c0029f-3291b63d694d: position; sole_author; normalized source offset 2050; chunk 0; https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67
+- dhh-bd7d3610c0029f-34bba42aa290: principle; sole_author; normalized source offset 2937; chunk 0; https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67
 ## dhh-be6dc465e06614: Servers can last a long time
 
 https://world.hey.com/dhh/servers-can-last-a-long-time-165c955c
@@ -1224,6 +2872,71 @@ Short excerpt of dhh-be6dc465e06614-39c39bc65003; sole_author. Full passage and 
 - dhh-be6dc465e06614-d758705d8c6a: position; sole_author; normalized source offset 727; chunk 0; https://world.hey.com/dhh/servers-can-last-a-long-time-165c955c
 - dhh-be6dc465e06614-a14b062290f5: framework; sole_author; normalized source offset 1748; chunk 0; https://world.hey.com/dhh/servers-can-last-a-long-time-165c955c
 - dhh-be6dc465e06614-45fc138410ee: principle; sole_author; normalized source offset 1654; chunk 0; https://world.hey.com/dhh/servers-can-last-a-long-time-165c955c
+## dhh-bec72a1406fc7e: That shipping feeling
+
+https://world.hey.com/dhh/that-shipping-feeling-b7c8c565
+
+Independent work identity: https://world.hey.com/dhh/that-shipping-feeling-b7c8c565. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 224; full retrieved text: 224. Text SHA-256: 92dfaa30a5c1e0458af89626690b4b97438392f7270a1bec73de02ca2183afd3
+
+Source dates reported in the collected material: not established
+
+> Because a tech demo isn't shipping. And shipping is what counts.
+
+Short excerpt of dhh-bec72a1406fc7e-9074a5ccb326; sole_author. Full passage and context retained locally.
+
+- dhh-bec72a1406fc7e-9074a5ccb326: principle; sole_author; normalized source offset 326; chunk 0; https://world.hey.com/dhh/that-shipping-feeling-b7c8c565
+- dhh-bec72a1406fc7e-b78eb611c41e: story; sole_author; normalized source offset 866; chunk 0; https://world.hey.com/dhh/that-shipping-feeling-b7c8c565
+- dhh-bec72a1406fc7e-61887e7040ce: position; sole_author; normalized source offset 1027; chunk 0; https://world.hey.com/dhh/that-shipping-feeling-b7c8c565
+## dhh-bef3803e5497ba: Why is paid social media a bad idea?
+
+https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76
+
+Independent work identity: https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 582; full retrieved text: 582. Text SHA-256: dbacbe6b44040ab30a1612af97680f7e906a07a0eabf9032634d0f60134df1db
+
+Source dates reported in the collected material: not established
+
+> But Musk is now going to try the experiment on a network
+
+Short excerpt of dhh-bef3803e5497ba-7925cb22c23f; sole_author. Full passage and context retained locally.
+
+- dhh-bef3803e5497ba-7925cb22c23f: position; sole_author; normalized source offset 2085; chunk 0; https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76
+- dhh-bef3803e5497ba-dc653cb611a4: position; sole_author; normalized source offset 2736; chunk 0; https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76
+## dhh-c0bc626b9e1922: Tesla wins
+
+https://world.hey.com/dhh/tesla-wins-e2d68ff3
+
+Independent work identity: https://world.hey.com/dhh/tesla-wins-e2d68ff3. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 303; full retrieved text: 303. Text SHA-256: 5683e288fe109cf85038ba64ff08904826b1a7c2ec8c7afdf699d333571ab025
+
+Source dates reported in the collected material: not established
+
+> Most of its traditional virtues under attack by a huge portion of
+
+Short excerpt of dhh-c0bc626b9e1922-7d964a4554f7; sole_author. Full passage and context retained locally.
+
+- dhh-c0bc626b9e1922-7d964a4554f7: story; sole_author; normalized source offset 958; chunk 0; https://world.hey.com/dhh/tesla-wins-e2d68ff3
+## dhh-c1503a025ccd63: Joining the Shopify board of directors
+
+https://world.hey.com/dhh/joining-the-shopify-board-of-directors-3c351fbb
+
+Independent work identity: https://world.hey.com/dhh/joining-the-shopify-board-of-directors-3c351fbb. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 504; full retrieved text: 504. Text SHA-256: 7f7965e4427adade929b339db3e0f0d00ccdab6f57548b58f5b160fd9aa54e5b
+
+Source dates reported in the collected material: not established
+
+> killed the zombie argument that Rails couldn't scale
+
+Short excerpt of dhh-c1503a025ccd63-02e6c5ad9ac6; sole_author. Full passage and context retained locally.
+
+- dhh-c1503a025ccd63-02e6c5ad9ac6: position; sole_author; normalized source offset 700; chunk 0; https://world.hey.com/dhh/joining-the-shopify-board-of-directors-3c351fbb
+- dhh-c1503a025ccd63-09a64138623b: position; sole_author; normalized source offset 1700; chunk 0; https://world.hey.com/dhh/joining-the-shopify-board-of-directors-3c351fbb
+- dhh-c1503a025ccd63-ed261f8394da: position; sole_author; normalized source offset 2285; chunk 0; https://world.hey.com/dhh/joining-the-shopify-board-of-directors-3c351fbb
 ## dhh-c1ec7ac7a5f83c: Paranoia and desperation in the AI gold rush
 
 https://world.hey.com/dhh/paranoia-and-desperation-in-the-ai-gold-rush-33042dbc
@@ -1262,6 +2975,24 @@ Short excerpt of dhh-c2552d8a384713-ffa56f80804b; speaker. Full passage and cont
 - dhh-c2552d8a384713-2fcc5f57b028: position; speaker; normalized source offset 14429; chunk 0; https://37signals.com/podcast/embrace-constraints/
 - dhh-c2552d8a384713-ba7a5702e26a: framework; speaker; normalized source offset 20629; chunk 0; https://37signals.com/podcast/embrace-constraints/
 - dhh-c2552d8a384713-241b2bca89d3: position; speaker; normalized source offset 23777; chunk 0; https://37signals.com/podcast/embrace-constraints/
+## dhh-c4913eedd4347b: Let it slide
+
+https://world.hey.com/dhh/let-it-slide-9e40f11a
+
+Independent work identity: https://world.hey.com/dhh/let-it-slide-9e40f11a. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 338; full retrieved text: 338. Text SHA-256: b8e3947119a6f44ede567a20fcbe5525cd73b3062258c6eefe8f204dbcac6f2d
+
+Source dates reported in the collected material: not established
+
+> All you can control is what you're willing to let slide.
+
+Short excerpt of dhh-c4913eedd4347b-2b8694c593e4; sole_author. Full passage and context retained locally.
+
+- dhh-c4913eedd4347b-2b8694c593e4: framework; sole_author; normalized source offset 271; chunk 0; https://world.hey.com/dhh/let-it-slide-9e40f11a
+- dhh-c4913eedd4347b-bb15e6510d71: framework; sole_author; normalized source offset 870; chunk 0; https://world.hey.com/dhh/let-it-slide-9e40f11a
+- dhh-c4913eedd4347b-1911d303ea7e: principle; sole_author; normalized source offset 1602; chunk 0; https://world.hey.com/dhh/let-it-slide-9e40f11a
+- dhh-c4913eedd4347b-f82e6d9278a1: position; sole_author; normalized source offset 1890; chunk 0; https://world.hey.com/dhh/let-it-slide-9e40f11a
 ## dhh-c4f12d4aa30d42: The hardware we need for our cloud exit has arrived
 
 https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966
@@ -1283,6 +3014,39 @@ Short excerpt of dhh-c4f12d4aa30d42-4347f58d3cb0; sole_author. Full passage and 
 - dhh-c4f12d4aa30d42-67878a3dbf9f: position; sole_author; normalized source offset 2940; chunk 0; https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966
 - dhh-c4f12d4aa30d42-7977d9117f20: principle; sole_author; normalized source offset 3520; chunk 0; https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966
 - dhh-c4f12d4aa30d42-2cf79dd53743: story; sole_author; normalized source offset 3854; chunk 0; https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966
+## dhh-c508ff7fb13950: Capture less than you create
+
+https://world.hey.com/dhh/capture-less-than-you-create-c30e462e
+
+Independent work identity: https://world.hey.com/dhh/capture-less-than-you-create-c30e462e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 381; full retrieved text: 381. Text SHA-256: 7d7bfb61dd46fa50d7a785eab9c25c753ee27d671a07e9cd21870eb6253209db
+
+Source dates reported in the collected material: not established
+
+> To capture vanishingly less than you create.
+
+Short excerpt of dhh-c508ff7fb13950-99e090e3b214; sole_author. Full passage and context retained locally.
+
+- dhh-c508ff7fb13950-99e090e3b214: position; sole_author; normalized source offset 2033; chunk 0; https://world.hey.com/dhh/capture-less-than-you-create-c30e462e
+- dhh-c508ff7fb13950-5064e311f8af: principle; sole_author; normalized source offset 1546; chunk 0; https://world.hey.com/dhh/capture-less-than-you-create-c30e462e
+- dhh-c508ff7fb13950-5b03dd41cb93: position; sole_author; normalized source offset 1667; chunk 0; https://world.hey.com/dhh/capture-less-than-you-create-c30e462e
+## dhh-c67dea0a5be070: Singularity & Serenity
+
+https://world.hey.com/dhh/singularity-serenity-0198b8b5
+
+Independent work identity: https://world.hey.com/dhh/singularity-serenity-0198b8b5. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 878; full retrieved text: 878. Text SHA-256: 54355303f94de86d205618a35ae748be63578bbaf890555fc9e47fa8ee5f9739
+
+Source dates reported in the collected material: not established
+
+> I’ve only just come around to giving the idea consideration as something
+
+Short excerpt of dhh-c67dea0a5be070-f2e66169e5b6; sole_author. Full passage and context retained locally.
+
+- dhh-c67dea0a5be070-f2e66169e5b6: position; sole_author; normalized source offset 319; chunk 0; https://world.hey.com/dhh/singularity-serenity-0198b8b5
+- dhh-c67dea0a5be070-55fb7688a83d: position; sole_author; normalized source offset 4946; chunk 0; https://world.hey.com/dhh/singularity-serenity-0198b8b5
 ## dhh-c73cdfc749b5c0: The Framework 13 has a new high-res screen!
 
 https://world.hey.com/dhh/the-framework-13-has-a-new-high-res-screen-e1a5ebb8
@@ -1343,6 +3107,58 @@ Short excerpt of dhh-cd1010f3b52a04-b8af18e3512c; sole_author. Full passage and 
 - dhh-cd1010f3b52a04-c7dd3daf0a3a: story; sole_author; normalized source offset 3333; chunk 0; https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd
 - dhh-cd1010f3b52a04-44fdd5ca8296: position; sole_author; normalized source offset 4105; chunk 0; https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd
 - dhh-cd1010f3b52a04-6117dae83c68: framework; sole_author; normalized source offset 4424; chunk 0; https://world.hey.com/dhh/our-cloud-exit-savings-will-now-top-ten-million-over-five-years-c7d9b5bd
+## dhh-cd2fdbe06cfd39: Employee surveillance software is managerial bankruptcy
+
+https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08
+
+Independent work identity: https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 538; full retrieved text: 538. Text SHA-256: 114871fc173d0add55398214eb33fe3b1a13e1c8bea76451315c817e5e1e9d1e
+
+Source dates reported in the collected material: not established
+
+> fail to transition from the antiquated line-of-sight style of supervision to one
+
+Short excerpt of dhh-cd2fdbe06cfd39-1a37da3dc63c; sole_author. Full passage and context retained locally.
+
+- dhh-cd2fdbe06cfd39-1a37da3dc63c: principle; sole_author; normalized source offset 2610; chunk 0; https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08
+- dhh-cd2fdbe06cfd39-c78731fa864a: framework; sole_author; normalized source offset 2324; chunk 0; https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08
+- dhh-cd2fdbe06cfd39-8676f19a4afe: story; sole_author; normalized source offset 897; chunk 0; https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08
+## dhh-cda1296be5c013: Conceptual compression is lossy (and loss hurts)
+
+https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a
+
+Independent work identity: https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 201; full retrieved text: 201. Text SHA-256: 0a83a0f35cf5410566ab46357939ffe522ee7ef29a357e56f21ac17baca15fb0
+
+Source dates reported in the collected material: not established
+
+> You can't counter complexity without being willing to sacrifice.
+
+Short excerpt of dhh-cda1296be5c013-eb44f068770d; sole_author. Full passage and context retained locally.
+
+- dhh-cda1296be5c013-eb44f068770d: framework; sole_author; normalized source offset 148; chunk 0; https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a
+- dhh-cda1296be5c013-2acb3749f470: principle; sole_author; normalized source offset 936; chunk 0; https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a
+- dhh-cda1296be5c013-02c7616f3418: principle; sole_author; normalized source offset 1076; chunk 0; https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a
+## dhh-ce4b1417a07158: Finding The Last Editor
+
+https://world.hey.com/dhh/finding-the-last-editor-dae701cc
+
+Independent work identity: https://world.hey.com/dhh/finding-the-last-editor-dae701cc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 878; full retrieved text: 878. Text SHA-256: cf9cb782638cac4bf687ba18f6c49cce15a923f2a775d1d8edb1837e5ce69463
+
+Source dates reported in the collected material: not established
+
+> let that constraint force me to design programs and frameworks that require
+
+Short excerpt of dhh-ce4b1417a07158-611af46cb574; sole_author. Full passage and context retained locally.
+
+- dhh-ce4b1417a07158-611af46cb574: principle; sole_author; normalized source offset 1384; chunk 0; https://world.hey.com/dhh/finding-the-last-editor-dae701cc
+- dhh-ce4b1417a07158-3eaafc711d0b: story; sole_author; normalized source offset 957; chunk 0; https://world.hey.com/dhh/finding-the-last-editor-dae701cc
+- dhh-ce4b1417a07158-f239489a4db3: framework; sole_author; normalized source offset 2454; chunk 0; https://world.hey.com/dhh/finding-the-last-editor-dae701cc
+- dhh-ce4b1417a07158-3a159bec73f9: story; sole_author; normalized source offset 4698; chunk 0; https://world.hey.com/dhh/finding-the-last-editor-dae701cc
 ## dhh-cfe080e53aa0a5: Joined by DHH (David Heinemeier Hansson)
 
 https://www.youtube.com/watch?v=dDfvhdm0JEk
@@ -1390,6 +3206,145 @@ Short excerpt of dhh-d1432b8a664a14-53e56a34d7a7; sole_author. Full passage and 
 - dhh-d1432b8a664a14-53e56a34d7a7: position; sole_author; normalized source offset 1569; chunk 0; https://world.hey.com/dhh/wonderful-rails-world-vibes-7a6141d2
 - dhh-d1432b8a664a14-6814d62c41eb: position; sole_author; normalized source offset 1778; chunk 0; https://world.hey.com/dhh/wonderful-rails-world-vibes-7a6141d2
 - dhh-d1432b8a664a14-31a4a26a6d27: position; sole_author; normalized source offset 1091; chunk 0; https://world.hey.com/dhh/wonderful-rails-world-vibes-7a6141d2
+## dhh-d22ff9ac3df28f: American data spies will never care where the servers are
+
+https://world.hey.com/dhh/american-data-spies-will-never-care-where-the-servers-are-371d4016
+
+Independent work identity: https://world.hey.com/dhh/american-data-spies-will-never-care-where-the-servers-are-371d4016. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 989; full retrieved text: 989. Text SHA-256: 00ba27ed33455ebd5645514b72bbfb7642076e68941ba39fae4edc6900581e7b
+
+Source dates reported in the collected material: not established
+
+> They only care about who controls the data, and whether those entities
+
+Short excerpt of dhh-d22ff9ac3df28f-77544fa0b860; sole_author. Full passage and context retained locally.
+
+- dhh-d22ff9ac3df28f-77544fa0b860: principle; sole_author; normalized source offset 1324; chunk 0; https://world.hey.com/dhh/american-data-spies-will-never-care-where-the-servers-are-371d4016
+- dhh-d22ff9ac3df28f-99ce5b5f346d: position; sole_author; normalized source offset 2516; chunk 0; https://world.hey.com/dhh/american-data-spies-will-never-care-where-the-servers-are-371d4016
+- dhh-d22ff9ac3df28f-9f2fe5577df5: position; sole_author; normalized source offset 4321; chunk 0; https://world.hey.com/dhh/american-data-spies-will-never-care-where-the-servers-are-371d4016
+## dhh-d32f216fc07e65: Total transparency — REWORK
+
+https://37signals.com/podcast/total-transparency/
+
+Independent work identity: rework-total-transparency. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,930; full retrieved text: 3,930. Text SHA-256: de48e16226675b2dcfc367d02cc84cfb25e64b5cf825ac7cdb09b85a953bae46
+
+Source dates reported in the collected material: 2025-09-03
+
+> Everything you can do to be interesting is marketing.
+
+Short excerpt of dhh-d32f216fc07e65-0a6366b953db; speaker. Full passage and context retained locally.
+
+- dhh-d32f216fc07e65-0a6366b953db: book; speaker; normalized source offset 4930; chunk 0; https://37signals.com/podcast/total-transparency/
+- dhh-d32f216fc07e65-200eb69830d4: story; speaker; normalized source offset 10324; chunk 0; https://37signals.com/podcast/total-transparency/
+- dhh-d32f216fc07e65-d440068b54b3: framework; speaker; normalized source offset 19679; chunk 0; https://37signals.com/podcast/total-transparency/
+- dhh-d32f216fc07e65-cc57f88b8f86: position; speaker; normalized source offset 20716; chunk 0; https://37signals.com/podcast/total-transparency/
+- dhh-d32f216fc07e65-e14b944f450d: story; speaker; normalized source offset 9328; chunk 0; https://37signals.com/podcast/total-transparency/
+## dhh-d34b1868d38597: X celebrates 60% savings from cloud exit
+
+https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895
+
+Independent work identity: https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 408; full retrieved text: 408. Text SHA-256: f0f2239e233530698d99a89aff3abbcbc43e6642b464b8b16501589cb0a9f2d7
+
+Source dates reported in the collected material: not established
+
+> they've done it with a team a quarter the size of what
+
+Short excerpt of dhh-d34b1868d38597-767cc0947e85; sole_author. Full passage and context retained locally.
+
+- dhh-d34b1868d38597-767cc0947e85: story; sole_author; normalized source offset 1711; chunk 0; https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895
+- dhh-d34b1868d38597-368c207b762b: position; sole_author; normalized source offset 2088; chunk 0; https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895
+## dhh-d3d942be39196a: Google's sad ideological capture was exactly what we were trying to avoid
+
+https://world.hey.com/dhh/google-s-sad-ideological-capture-was-exactly-what-we-were-trying-to-avoid-67fad361
+
+Independent work identity: https://world.hey.com/dhh/google-s-sad-ideological-capture-was-exactly-what-we-were-trying-to-avoid-67fad361. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,163; full retrieved text: 1,163. Text SHA-256: 638811a049997beb2f5934c734cc2bcdae040d116d90ab4ae27534696a3f0002
+
+Source dates reported in the collected material: not established
+
+> The threat from AI will come less from "perpetuating existing biases in
+
+Short excerpt of dhh-d3d942be39196a-f336d831fbec; sole_author. Full passage and context retained locally.
+
+- dhh-d3d942be39196a-f336d831fbec: position; sole_author; normalized source offset 845; chunk 0; https://world.hey.com/dhh/google-s-sad-ideological-capture-was-exactly-what-we-were-trying-to-avoid-67fad361
+- dhh-d3d942be39196a-771e0fd933bb: principle; sole_author; normalized source offset 5453; chunk 0; https://world.hey.com/dhh/google-s-sad-ideological-capture-was-exactly-what-we-were-trying-to-avoid-67fad361
+- dhh-d3d942be39196a-ec2de3227ad0: story; sole_author; normalized source offset 4020; chunk 0; https://world.hey.com/dhh/google-s-sad-ideological-capture-was-exactly-what-we-were-trying-to-avoid-67fad361
+## dhh-d54d269674cb82: YouTube has earned its crown
+
+https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc
+
+Independent work identity: https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 424; full retrieved text: 424. Text SHA-256: 7a5ee692ab911ce07e0913a7213f69915aa0acf63f190ff4f1b915fd3bab7416
+
+Source dates reported in the collected material: not established
+
+> Decentralization is wonderful in many ways, but it's very much subject to
+
+Short excerpt of dhh-d54d269674cb82-9e5be1d16cf8; sole_author. Full passage and context retained locally.
+
+- dhh-d54d269674cb82-9e5be1d16cf8: position; sole_author; normalized source offset 1379; chunk 0; https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc
+- dhh-d54d269674cb82-63d5c922241e: principle; sole_author; normalized source offset 2284; chunk 0; https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc
+- dhh-d54d269674cb82-b10a5043e970: story; sole_author; normalized source offset 566; chunk 0; https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc
+## dhh-d9ad7c4766b112: You can't fix core competency with a stern conversation
+
+https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f
+
+Independent work identity: https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 532; full retrieved text: 532. Text SHA-256: b11566870bc5d47a0e4b51b1b56c357a70419167790252ce236fa9f10d7f2a08
+
+Source dates reported in the collected material: not established
+
+> Then make your best effort to turn around the relationship when it's
+
+Short excerpt of dhh-d9ad7c4766b112-ebc9c76736b1; sole_author. Full passage and context retained locally.
+
+- dhh-d9ad7c4766b112-ebc9c76736b1: framework; sole_author; normalized source offset 2791; chunk 0; https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f
+- dhh-d9ad7c4766b112-8e399c47556e: position; sole_author; normalized source offset 878; chunk 0; https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f
+- dhh-d9ad7c4766b112-ec634bd17d52: position; sole_author; normalized source offset 1122; chunk 0; https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f
+- dhh-d9ad7c4766b112-0ffa1dea59d5: position; sole_author; normalized source offset 2158; chunk 0; https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f
+- dhh-d9ad7c4766b112-d7758481ea72: position; sole_author; normalized source offset 2593; chunk 0; https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f
+## dhh-d9defbb496b1e9: Acting your wage will atrophy your abilities
+
+https://world.hey.com/dhh/acting-your-wage-will-atrophy-your-abilities-1ca261c4
+
+Independent work identity: https://world.hey.com/dhh/acting-your-wage-will-atrophy-your-abilities-1ca261c4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 230; full retrieved text: 230. Text SHA-256: 55e85755e639d5108c684d853dcc1dcde4acc11b82f184cd198c1ed743d769fb
+
+Source dates reported in the collected material: not established
+
+> Use the discontent to become better, then bolt to another camp when
+
+Short excerpt of dhh-d9defbb496b1e9-9d72c815ce2c; sole_author. Full passage and context retained locally.
+
+- dhh-d9defbb496b1e9-9d72c815ce2c: principle; sole_author; normalized source offset 964; chunk 0; https://world.hey.com/dhh/acting-your-wage-will-atrophy-your-abilities-1ca261c4
+## dhh-da4fd0c6ed712b: Dell is on a roll with the XPS
+
+https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
+
+Independent work identity: https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,047; full retrieved text: 1,047. Text SHA-256: c2e54858349a36a848639b1af75fc9d8264e21309db9534cab7fc25794fdd50f
+
+Source dates reported in the collected material: not established
+
+> Now I just run everything off the XPS 14, connected to an
+
+Short excerpt of dhh-da4fd0c6ed712b-f85cb0f0a9f3; sole_author. Full passage and context retained locally.
+
+- dhh-da4fd0c6ed712b-f85cb0f0a9f3: story; sole_author; normalized source offset 2282; chunk 0; https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
+- dhh-da4fd0c6ed712b-b6884371614e: position; sole_author; normalized source offset 4096; chunk 0; https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
+- dhh-da4fd0c6ed712b-310a549d8c8e: framework; sole_author; normalized source offset 4434; chunk 0; https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
+- dhh-da4fd0c6ed712b-4a17e76fe6b0: principle; sole_author; normalized source offset 2067; chunk 0; https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
+- dhh-da4fd0c6ed712b-4dfca7616dd5: position; sole_author; normalized source offset 3151; chunk 0; https://world.hey.com/dhh/dell-is-on-a-roll-with-the-xps-5a09a84e
 ## dhh-da568bb80b7edb: HEY is running its JavaScript off import maps
 
 https://world.hey.com/dhh/hey-is-running-its-javascript-off-import-maps-2abcf203
@@ -1420,7 +3375,9 @@ Source words in scope: 1,694; full retrieved text: 1,694. Text SHA-256: 794b096c
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> It’s from these real-world products and services that we extract our open
+
+Short excerpt of dhh-dac6015dd2ae7f-dc0cce1a1b15; sole_author. Full passage and context retained locally.
 
 - dhh-dac6015dd2ae7f-dc0cce1a1b15: principle; sole_author; normalized source offset 1175; chunk 0; https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b
 - dhh-dac6015dd2ae7f-40e5bfce79b6: position; sole_author; normalized source offset 2017; chunk 0; https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b
@@ -1432,6 +3389,23 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - dhh-dac6015dd2ae7f-40889a68f76b: framework; sole_author; normalized source offset 6902; chunk 0; https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b
 - dhh-dac6015dd2ae7f-fded5434fd0f: position; sole_author; normalized source offset 7612; chunk 0; https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b
 - dhh-dac6015dd2ae7f-4cda18f42ceb: position; sole_author; normalized source offset 8640; chunk 0; https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b
+## dhh-db098f0aabcbd1: A high bar is high respect
+
+https://world.hey.com/dhh/a-high-bar-is-high-respect-b2ee7862
+
+Independent work identity: https://world.hey.com/dhh/a-high-bar-is-high-respect-b2ee7862. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 298; full retrieved text: 298. Text SHA-256: 0b1f6be6921ec469a41979dc94337ea0eae86facd09809a65a12898b030e0dd1
+
+Source dates reported in the collected material: not established
+
+> keeping the bar high for all isn't the same as expecting that
+
+Short excerpt of dhh-db098f0aabcbd1-37bc105bc708; sole_author. Full passage and context retained locally.
+
+- dhh-db098f0aabcbd1-37bc105bc708: principle; sole_author; normalized source offset 333; chunk 0; https://world.hey.com/dhh/a-high-bar-is-high-respect-b2ee7862
+- dhh-db098f0aabcbd1-a4b2f14b8ea5: framework; sole_author; normalized source offset 821; chunk 0; https://world.hey.com/dhh/a-high-bar-is-high-respect-b2ee7862
+- dhh-db098f0aabcbd1-0f4746d01070: position; sole_author; normalized source offset 1296; chunk 0; https://world.hey.com/dhh/a-high-bar-is-high-respect-b2ee7862
 ## dhh-db3af119cfc2ca: David Heinemeier Hansson (DHH) on Rails Ecosystem Stewardship | RailsConf 2014
 
 https://www.youtube.com/watch?v=z94-DGthrfY
@@ -1442,7 +3416,9 @@ Source words in scope: 3,104; full retrieved text: 3,104. Text SHA-256: d69031d4
 
 Source dates reported in the collected material: 2014
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> figuring out what you want to build is very much like figuring
+
+Short excerpt of dhh-db3af119cfc2ca-b63ca7f917f3; speaker. Full passage and context retained locally.
 
 - dhh-db3af119cfc2ca-b63ca7f917f3: position; speaker; caption-prose-v1 offset 1453; chunk 0; https://www.youtube.com/watch?v=z94-DGthrfY&t=89
 - dhh-db3af119cfc2ca-bd1db82918c9: position; speaker; caption-prose-v1 offset 2845; chunk 0; https://www.youtube.com/watch?v=z94-DGthrfY&t=171
@@ -1478,6 +3454,21 @@ Short excerpt of dhh-dcdb60835ae94f-2478ff274302; speaker. Full passage and cont
 - dhh-dcdb60835ae94f-4240288ce996: framework; speaker; caption-prose-v1 offset 47922; chunk 0; https://www.youtube.com/watch?v=9LfmrkyP81M&t=3262
 - dhh-dcdb60835ae94f-e466b4fe1f8f: position; speaker; caption-prose-v1 offset 50134; chunk 0; https://www.youtube.com/watch?v=9LfmrkyP81M&t=3412
 - dhh-dcdb60835ae94f-d6e52d012750: framework; speaker; caption-prose-v1 offset 53033; chunk 0; https://www.youtube.com/watch?v=9LfmrkyP81M&t=3592
+## dhh-dd5e04416e04f0: Celebrating a million copies of REWORK
+
+https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543
+
+Independent work identity: https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 550; full retrieved text: 550. Text SHA-256: 364f4c230ccf3109a67903f6367b1e5dfd881b104314776b510df241a1f71b29
+
+Source dates reported in the collected material: not established
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- dhh-dd5e04416e04f0-441a4c9c58f9: book; sole_author; normalized source offset 708; chunk 0; https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543
+- dhh-dd5e04416e04f0-1b62423d6a66: principle; sole_author; normalized source offset 1857; chunk 0; https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543
+- dhh-dd5e04416e04f0-3d7b47dc79dc: framework; sole_author; normalized source offset 2433; chunk 0; https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543
 ## dhh-dda0dedbc7d2e9: Automattic is doing open source dirty
 
 https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128
@@ -1495,6 +3486,39 @@ Short excerpt of dhh-dda0dedbc7d2e9-d9bdfdaf3c43; sole_author. Full passage and 
 - dhh-dda0dedbc7d2e9-d9bdfdaf3c43: principle; sole_author; normalized source offset 628; chunk 0; https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128
 - dhh-dda0dedbc7d2e9-f191726ed06a: position; sole_author; normalized source offset 2456; chunk 0; https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128
 - dhh-dda0dedbc7d2e9-1fe7f9af177c: framework; sole_author; normalized source offset 2932; chunk 0; https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128
+## dhh-dfd5e5ffe3b223: There are no secrets left
+
+https://world.hey.com/dhh/there-are-no-secrets-left-c8c95de0
+
+Independent work identity: https://world.hey.com/dhh/there-are-no-secrets-left-c8c95de0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 483; full retrieved text: 483. Text SHA-256: 00c8034a1f359b26811afe215fe33eff2ab0818a7b2ce733e1151fd2fc581a6e
+
+Source dates reported in the collected material: not established
+
+> great general business ideas and concepts don’t stay private.
+
+Short excerpt of dhh-dfd5e5ffe3b223-e7fce97bdb61; sole_author. Full passage and context retained locally.
+
+- dhh-dfd5e5ffe3b223-e7fce97bdb61: position; sole_author; normalized source offset 408; chunk 0; https://world.hey.com/dhh/there-are-no-secrets-left-c8c95de0
+- dhh-dfd5e5ffe3b223-c8215c9100cb: principle; sole_author; normalized source offset 2658; chunk 0; https://world.hey.com/dhh/there-are-no-secrets-left-c8c95de0
+## dhh-e09006a9b863e9: Worrying yourself into excess
+
+https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863
+
+Independent work identity: https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 487; full retrieved text: 487. Text SHA-256: 5f17221ea9d0714570b4589ccf9abebfdc763d50249fd220accaecbb9afea0de
+
+Source dates reported in the collected material: not established
+
+> Not once has it been used to report a posting that actually
+
+Short excerpt of dhh-e09006a9b863e9-108aee8edfae; sole_author. Full passage and context retained locally.
+
+- dhh-e09006a9b863e9-108aee8edfae: story; sole_author; normalized source offset 453; chunk 0; https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863
+- dhh-e09006a9b863e9-c9da93f8bc6e: framework; sole_author; normalized source offset 2390; chunk 0; https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863
+- dhh-e09006a9b863e9-d5aebd64caf5: principle; sole_author; normalized source offset 2705; chunk 0; https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863
 ## dhh-e3434c25444f98: Rails World 2026 Opening Keynote - DHH
 
 https://www.youtube.com/watch?v=vDjW_dRyKXY
@@ -1529,6 +3553,26 @@ Short excerpt of dhh-e42be8f20d855c-a224647319b0; sole_author. Full passage and 
 
 - dhh-e42be8f20d855c-a224647319b0: position; sole_author; normalized source offset 466; chunk 0; https://world.hey.com/dhh/apple-does-ai-as-microsoft-did-mobile-df2c98ca
 - dhh-e42be8f20d855c-bda33dd00502: position; sole_author; normalized source offset 1018; chunk 0; https://world.hey.com/dhh/apple-does-ai-as-microsoft-did-mobile-df2c98ca
+## dhh-e450f41d47e387: David Heinemeier Hansson on Finding the Right Balance Between Business and Technology
+
+https://www.youtube.com/watch?v=VAyowAgjYyI
+
+Independent work identity: youtube-VAyowAgjYyI. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,873; full retrieved text: 3,873. Text SHA-256: cb6dcae2284cb2cfe7e5bbe90992837bf504ecda267679dd85374d5213a4f376
+
+Source dates reported in the collected material: 2023-10-18
+
+> we really had to come up with something that would be incredibly
+
+Short excerpt of dhh-e450f41d47e387-a1fce21430a4; speaker. Full passage and context retained locally.
+
+- dhh-e450f41d47e387-a1fce21430a4: story; speaker; caption-prose-v1 offset 3153; chunk 0; https://www.youtube.com/watch?v=VAyowAgjYyI&t=194
+- dhh-e450f41d47e387-b6c6d2ceac18: position; speaker; caption-prose-v1 offset 6574; chunk 0; https://www.youtube.com/watch?v=VAyowAgjYyI&t=392
+- dhh-e450f41d47e387-dd05d0518bab: position; speaker; caption-prose-v1 offset 8115; chunk 0; https://www.youtube.com/watch?v=VAyowAgjYyI&t=487
+- dhh-e450f41d47e387-0ea3935fad5e: framework; speaker; caption-prose-v1 offset 10432; chunk 0; https://www.youtube.com/watch?v=VAyowAgjYyI&t=632
+- dhh-e450f41d47e387-129787085f4a: position; speaker; caption-prose-v1 offset 12193; chunk 0; https://www.youtube.com/watch?v=VAyowAgjYyI&t=740
+- dhh-e450f41d47e387-62a6ca9568ad: framework; speaker; caption-prose-v1 offset 17389; chunk 0; https://www.youtube.com/watch?v=VAyowAgjYyI&t=1039
 ## dhh-e54232878275e5: RailsConf Europe 08: David Heinemeier Hansson (37signals)
 
 https://www.youtube.com/watch?v=CJkiCpPeYuI
@@ -1581,6 +3625,54 @@ Short excerpt of dhh-e5ad6ca21cd889-816a84906d98; speaker. Full passage and cont
 - dhh-e5ad6ca21cd889-8cd39be9af32: position; speaker; caption-prose-v1 offset 52819; chunk 0; https://www.youtube.com/watch?v=3Xwm2nOnN3U&t=3133
 - dhh-e5ad6ca21cd889-9dcd8807e7ca: position; speaker; caption-prose-v1 offset 56226; chunk 0; https://www.youtube.com/watch?v=3Xwm2nOnN3U&t=3354
 - dhh-e5ad6ca21cd889-4379342c1946: framework; speaker; caption-prose-v1 offset 57593; chunk 0; https://www.youtube.com/watch?v=3Xwm2nOnN3U&t=3442
+## dhh-e768f480a5fbb9: The silent majority's reply
+
+https://world.hey.com/dhh/the-silent-majority-s-reply-3dcdc03e
+
+Independent work identity: https://world.hey.com/dhh/the-silent-majority-s-reply-3dcdc03e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 761; full retrieved text: 761. Text SHA-256: a972b6028b5abfde3f7de7347365a12c72dc6a9355f629894aa22a09d0b9e8e4
+
+Source dates reported in the collected material: not established
+
+> Especially in realms dominated by monopoly power. Even if someone disliked something
+
+Short excerpt of dhh-e768f480a5fbb9-5e86197f508a; sole_author. Full passage and context retained locally.
+
+- dhh-e768f480a5fbb9-5e86197f508a: framework; sole_author; normalized source offset 3430; chunk 0; https://world.hey.com/dhh/the-silent-majority-s-reply-3dcdc03e
+- dhh-e768f480a5fbb9-6f388ca4de10: story; sole_author; normalized source offset 4001; chunk 0; https://world.hey.com/dhh/the-silent-majority-s-reply-3dcdc03e
+## dhh-e77884be4fb82a: The Mac proves Apple can safely open the iPhone
+
+https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72
+
+Independent work identity: https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 898; full retrieved text: 898. Text SHA-256: f1e80a9d1ef966f0145882f6f77480f7555629460fd0ce9cf786b8f6ef1c5a47
+
+Source dates reported in the collected material: not established
+
+> If developers think they're better off distributing their software exclusively via the
+
+Short excerpt of dhh-e77884be4fb82a-fa44b46f9b2b; sole_author. Full passage and context retained locally.
+
+- dhh-e77884be4fb82a-fa44b46f9b2b: position; sole_author; normalized source offset 1528; chunk 0; https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72
+- dhh-e77884be4fb82a-b5f15d569f9e: framework; sole_author; normalized source offset 2836; chunk 0; https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72
+- dhh-e77884be4fb82a-881ecdde6b73: position; sole_author; normalized source offset 3811; chunk 0; https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72
+## dhh-e9fe3e836f9fd6: Mosaics of positions
+
+https://world.hey.com/dhh/mosaics-of-positions-ae6d4d9e
+
+Independent work identity: https://world.hey.com/dhh/mosaics-of-positions-ae6d4d9e. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 739; full retrieved text: 739. Text SHA-256: f41b7b177fb27adf7b50e8586762663614c29e64fbd2c78cdd929dd09665043b
+
+Source dates reported in the collected material: not established
+
+> Especially because work involves all sorts of delicate power balances already.
+
+Short excerpt of dhh-e9fe3e836f9fd6-be723ee2f0ab; sole_author. Full passage and context retained locally.
+
+- dhh-e9fe3e836f9fd6-be723ee2f0ab: position; sole_author; normalized source offset 2625; chunk 0; https://world.hey.com/dhh/mosaics-of-positions-ae6d4d9e
 ## dhh-eeeb3124b3987b: Focus on What Won't Change — REWORK
 
 https://37signals.com/podcast/focus-on-what-wont-change/
@@ -1605,6 +3697,24 @@ Short excerpt of dhh-eeeb3124b3987b-3f7ca60038d7; speaker. Full passage and cont
 - dhh-eeeb3124b3987b-544c430aefb6: framework; speaker; normalized source offset 20776; chunk 0; https://37signals.com/podcast/focus-on-what-wont-change/
 - dhh-eeeb3124b3987b-3ac81de24d7e: position; speaker; normalized source offset 25476; chunk 0; https://37signals.com/podcast/focus-on-what-wont-change/
 - dhh-eeeb3124b3987b-87598f9bc988: principle; speaker; normalized source offset 27036; chunk 0; https://37signals.com/podcast/focus-on-what-wont-change/
+## dhh-ef8e6cfcf67a85: The enclosure of internet commons
+
+https://world.hey.com/dhh/the-enclosure-of-internet-commons-613ed798
+
+Independent work identity: https://world.hey.com/dhh/the-enclosure-of-internet-commons-613ed798. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 953; full retrieved text: 953. Text SHA-256: e64309b52218fd4fa255dda39f7bd3c38f754cdab5543a86e31c1be861aa06b1
+
+Source dates reported in the collected material: not established
+
+> You were free to put up your own site, on your own
+
+Short excerpt of dhh-ef8e6cfcf67a85-058d4b3ad940; sole_author. Full passage and context retained locally.
+
+- dhh-ef8e6cfcf67a85-058d4b3ad940: framework; sole_author; normalized source offset 643; chunk 0; https://world.hey.com/dhh/the-enclosure-of-internet-commons-613ed798
+- dhh-ef8e6cfcf67a85-255d8e06bf93: position; sole_author; normalized source offset 2053; chunk 0; https://world.hey.com/dhh/the-enclosure-of-internet-commons-613ed798
+- dhh-ef8e6cfcf67a85-ebec57bd70ae: position; sole_author; normalized source offset 3569; chunk 0; https://world.hey.com/dhh/the-enclosure-of-internet-commons-613ed798
+- dhh-ef8e6cfcf67a85-5748d52977ab: position; sole_author; normalized source offset 5121; chunk 0; https://world.hey.com/dhh/the-enclosure-of-internet-commons-613ed798
 ## dhh-f024b74da3ea24: The Framework Desktop is a beast
 
 https://world.hey.com/dhh/the-framework-desktop-is-a-beast-636fb4ff
@@ -1624,6 +3734,38 @@ Short excerpt of dhh-f024b74da3ea24-c17f20e83fd4; sole_author. Full passage and 
 - dhh-f024b74da3ea24-e29321f46897: position; sole_author; normalized source offset 6255; chunk 0; https://world.hey.com/dhh/the-framework-desktop-is-a-beast-636fb4ff
 - dhh-f024b74da3ea24-f6a2b3c5b781: framework; sole_author; normalized source offset 4879; chunk 0; https://world.hey.com/dhh/the-framework-desktop-is-a-beast-636fb4ff
 - dhh-f024b74da3ea24-8d407c62026b: story; sole_author; normalized source offset 5496; chunk 0; https://world.hey.com/dhh/the-framework-desktop-is-a-beast-636fb4ff
+## dhh-f1763603dd7aa2: Cookie banners show everything that's wrong with the EU
+
+https://world.hey.com/dhh/cookie-banners-show-everything-that-s-wrong-with-the-eu-3bfcf03d
+
+Independent work identity: https://world.hey.com/dhh/cookie-banners-show-everything-that-s-wrong-with-the-eu-3bfcf03d. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 339; full retrieved text: 339. Text SHA-256: 470705f66e191e6b7003c5ac8c16a22f796915edf972f2983d366b305eeb59cb
+
+Source dates reported in the collected material: not established
+
+> Companies have spent billions on cookie banner compliance only to endlessly annoy
+
+Short excerpt of dhh-f1763603dd7aa2-7733027a8940; sole_author. Full passage and context retained locally.
+
+- dhh-f1763603dd7aa2-7733027a8940: position; sole_author; normalized source offset 0; chunk 0; https://world.hey.com/dhh/cookie-banners-show-everything-that-s-wrong-with-the-eu-3bfcf03d
+## dhh-f51029e092c86c: Clankers with claws
+
+https://world.hey.com/dhh/clankers-with-claws-9f86fa71
+
+Independent work identity: https://world.hey.com/dhh/clankers-with-claws-9f86fa71. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 504; full retrieved text: 504. Text SHA-256: 08a75b4d483631037510e7a04cd73d89148b318f3627d2b44422e10debda44d7
+
+Source dates reported in the collected material: not established
+
+> I didn't install any skills, any MCPs, or give it access to
+
+Short excerpt of dhh-f51029e092c86c-e3b81db0c67c; sole_author. Full passage and context retained locally.
+
+- dhh-f51029e092c86c-e3b81db0c67c: framework; sole_author; normalized source offset 755; chunk 0; https://world.hey.com/dhh/clankers-with-claws-9f86fa71
+- dhh-f51029e092c86c-1aa3ebd5ce44: story; sole_author; normalized source offset 1098; chunk 0; https://world.hey.com/dhh/clankers-with-claws-9f86fa71
+- dhh-f51029e092c86c-f014ec273c63: position; sole_author; normalized source offset 2118; chunk 0; https://world.hey.com/dhh/clankers-with-claws-9f86fa71
 ## dhh-f67ffa285b5dc9: Ruby on Rails to Basecamp (Signal vs. Noise)
 
 https://signalvnoise.com/archives/000606
@@ -1666,6 +3808,23 @@ Short excerpt of dhh-f85670e0025fd9-eb49faec78f5; sole_author. Full passage and 
 - dhh-f85670e0025fd9-6fcfacac3af8: principle; sole_author; normalized source offset 1576; chunk 0; https://signalvnoise.com/archives/000766
 - dhh-f85670e0025fd9-06cdba6d1229: principle; sole_author; normalized source offset 1859; chunk 0; https://signalvnoise.com/archives/000766
 - dhh-f85670e0025fd9-318d9dc59ca8: position; sole_author; normalized source offset 4936; chunk 0; https://signalvnoise.com/archives/000766
+## dhh-f8bb0e5c9768a6: It's a Beelink, baby
+
+https://world.hey.com/dhh/it-s-a-beelink-baby-243fdaf1
+
+Independent work identity: https://world.hey.com/dhh/it-s-a-beelink-baby-243fdaf1. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 578; full retrieved text: 578. Text SHA-256: df46286157e50565ebe0b7cc1e0d11c8ebeda9f5bb6f66d7b5e4f0fa3ceca8a4
+
+Source dates reported in the collected material: not established
+
+> their class-leading cooling and silent operation, and their use of fully Linux-compatible
+
+Short excerpt of dhh-f8bb0e5c9768a6-d8dd64cdc791; sole_author. Full passage and context retained locally.
+
+- dhh-f8bb0e5c9768a6-d8dd64cdc791: framework; sole_author; normalized source offset 330; chunk 0; https://world.hey.com/dhh/it-s-a-beelink-baby-243fdaf1
+- dhh-f8bb0e5c9768a6-2db9a4251fbe: story; sole_author; normalized source offset 1194; chunk 0; https://world.hey.com/dhh/it-s-a-beelink-baby-243fdaf1
+- dhh-f8bb0e5c9768a6-7615c22c64db: position; sole_author; normalized source offset 2153; chunk 0; https://world.hey.com/dhh/it-s-a-beelink-baby-243fdaf1
 ## dhh-f8d16c22f88979: Cloud gaming is kinda amazing
 
 https://world.hey.com/dhh/cloud-gaming-is-kinda-amazing-b8a19c57
@@ -1685,6 +3844,24 @@ Short excerpt of dhh-f8d16c22f88979-1e2e039c924a; sole_author. Full passage and 
 - dhh-f8d16c22f88979-9115844b6fec: position; sole_author; normalized source offset 2188; chunk 0; https://world.hey.com/dhh/cloud-gaming-is-kinda-amazing-b8a19c57
 - dhh-f8d16c22f88979-d4f40416f611: framework; sole_author; normalized source offset 2512; chunk 0; https://world.hey.com/dhh/cloud-gaming-is-kinda-amazing-b8a19c57
 - dhh-f8d16c22f88979-efb072450655: story; sole_author; normalized source offset 3787; chunk 0; https://world.hey.com/dhh/cloud-gaming-is-kinda-amazing-b8a19c57
+## dhh-fc9d3799390062: No backup, no cry
+
+https://world.hey.com/dhh/no-backup-no-cry-274e0c31
+
+Independent work identity: https://world.hey.com/dhh/no-backup-no-cry-274e0c31. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 325; full retrieved text: 325. Text SHA-256: 6abf975e848f1da6672cccf8959519f0840978d9257a35192bdaa202171a8b13
+
+Source dates reported in the collected material: not established
+
+> The combination of full-disk encryption and distributed copies of all important data
+
+Short excerpt of dhh-fc9d3799390062-973e5c058502; sole_author. Full passage and context retained locally.
+
+- dhh-fc9d3799390062-973e5c058502: framework; sole_author; normalized source offset 217; chunk 0; https://world.hey.com/dhh/no-backup-no-cry-274e0c31
+- dhh-fc9d3799390062-f0216af58c8f: principle; sole_author; normalized source offset 981; chunk 0; https://world.hey.com/dhh/no-backup-no-cry-274e0c31
+- dhh-fc9d3799390062-03696e751bae: story; sole_author; normalized source offset 1344; chunk 0; https://world.hey.com/dhh/no-backup-no-cry-274e0c31
+- dhh-fc9d3799390062-ef7bfd69479f: position; sole_author; normalized source offset 1449; chunk 0; https://world.hey.com/dhh/no-backup-no-cry-274e0c31
 ## dhh-fe70e3dfb3b620: Multi-tenancy is what’s hard about scaling web services
 
 https://world.hey.com/dhh/multi-tenancy-is-what-s-hard-about-scaling-web-services-dd1e0e81
@@ -1745,3 +3922,20 @@ Short excerpt of dhh-fec877a93e0c6b-6eba23b4aca0; coauthored. Full passage and c
 - dhh-fec877a93e0c6b-d5bcdb7dc376: framework; coauthored; normalized source offset 9201; chunk 0; https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf
 - dhh-fec877a93e0c6b-c94a3a91b0e3: position; coauthored; normalized source offset 10215; chunk 0; https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf
 - dhh-fec877a93e0c6b-5cd4b4969e14: story; coauthored; normalized source offset 12167; chunk 0; https://37assets.37signals.com/svn/Rework-by-Jason-Fried-and-David-Heinemeier-Hansson-Excerpts.pdf
+## dhh-ff7abed638cb31: The gift of ambition
+
+https://world.hey.com/dhh/the-gift-of-ambition-e7b41ffc
+
+Independent work identity: https://world.hey.com/dhh/the-gift-of-ambition-e7b41ffc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 765; full retrieved text: 765. Text SHA-256: 25b1567488d1a8db6c30ba1ee21571ca6e730153b67ae6a5a2e36ff8e1f315ce
+
+Source dates reported in the collected material: not established
+
+> the calm company is a method for getting where we really want
+
+Short excerpt of dhh-ff7abed638cb31-a07784427fa4; sole_author. Full passage and context retained locally.
+
+- dhh-ff7abed638cb31-a07784427fa4: framework; sole_author; normalized source offset 1798; chunk 0; https://world.hey.com/dhh/the-gift-of-ambition-e7b41ffc
+- dhh-ff7abed638cb31-b5be7ba79a90: position; sole_author; normalized source offset 1917; chunk 0; https://world.hey.com/dhh/the-gift-of-ambition-e7b41ffc
+- dhh-ff7abed638cb31-1d51545a3280: principle; sole_author; normalized source offset 3189; chunk 0; https://world.hey.com/dhh/the-gift-of-ambition-e7b41ffc

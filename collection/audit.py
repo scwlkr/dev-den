@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 from .expand import Expansion,work_key
-from .pilot import read_json,normalize,digest,speaker_allowed,SECTIONS,caption_view,work_coverage
+from .pilot import read_json,normalize,digest,speaker_allowed,SECTIONS,caption_view,work_coverage,collection_fingerprint
 
 
 def audit(project,config):
@@ -40,6 +40,9 @@ def audit(project,config):
                 # Only evidence timestamp links may differ from the retrieved source URL.
                 if url not in allowed and url.split('&t=')[0] not in allowed:errors.append(ident+': foreign source URL')
         compiled=read_json(collector.root/dev['id']/'compiled.json',{})
+        if compiled.get('source_fingerprint'):
+            if compiled['source_fingerprint']!=collection_fingerprint(rows):errors.append(dev['id']+': compilation predates the current accepted evidence/work grouping')
+        elif config.get('require_compilation_fingerprint'):errors.append(dev['id']+': compilation snapshot is not established')
         sections=compiled.get('sections',[])
         if rows and sorted(s['name'] for s in sections)!=sorted(SECTIONS):errors.append(dev['id']+': missing knowledge sections')
         for section in sections:
@@ -47,10 +50,13 @@ def audit(project,config):
                 if not item['evidence_ids'] or any(i not in evidence for i in item['evidence_ids']):errors.append(dev['id']+': unknown compiled evidence')
             if not (Path(project)/'knowledge'/dev['id']/(section['name']+'.md')).exists():errors.append(dev['id']+': missing Markdown section')
         if rows and not (Path(project)/'knowledge'/dev['id']/'sources.md').exists():errors.append(dev['id']+': missing source index')
+        elif rows:
+            source_index=(Path(project)/'knowledge'/dev['id']/'sources.md').read_text()
+            if any(r['source_id'] not in source_index for r in rows):errors.append(dev['id']+': source index omits accepted material')
         advisors.append({'id':dev['id'],'works':work_coverage(rows)[0],'source_representations':len(rows),'passages':len(evidence),'compiled_sections':len(sections)})
     jobs=collector.ledger.data['jobs']
     if any(j['status']!='recorded' for j in jobs.values()):errors.append('Unresolved paid request reservation')
-    if collector.ledger.exposure()>25:errors.append('Cumulative budget exceeds $25')
+    if collector.ledger.exposure()>collector.ledger.cap:errors.append(f'Cumulative budget exceeds ${collector.ledger.cap:g}')
     return {'ok':not errors,'errors':errors,'advisors':advisors,'cumulative_estimated_usd':collector.ledger.exposure()}
 
 

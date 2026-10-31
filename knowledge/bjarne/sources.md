@@ -2,6 +2,34 @@
 
 Quotations were matched against retained normalized source text; attribution and context were assessed by Terra, not independently certified.
 
+## bjarne-011a23f6854d67: Bjarne Stroustrup's Closing Keynote at Code Europe 2022 in Warsaw - "How to evolve a language"
+
+https://www.youtube.com/watch?v=ixmDTTDiEDE
+
+Independent work identity: youtube-ixmDTTDiEDE. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 10,068; full retrieved text: 10,068. Text SHA-256: 6797d15b1e836c76cb5703944b0ee9a12dc302a3f840fd9b318241d7d4bcf89b
+
+Source dates reported in the collected material: 2022-06-02
+
+> no language at the time could do both
+
+Short excerpt of bjarne-011a23f6854d67-7bd0a6263f5a; speaker. Full passage and context retained locally.
+
+- bjarne-011a23f6854d67-7bd0a6263f5a: story; speaker; caption-prose-v1 offset 1977; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=171
+- bjarne-011a23f6854d67-6d51da9f77c5: framework; speaker; caption-prose-v1 offset 6248; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=522
+- bjarne-011a23f6854d67-8f81a24ff123: book; speaker; caption-prose-v1 offset 5613; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=465
+- bjarne-011a23f6854d67-60a37cebb09d: story; speaker; caption-prose-v1 offset 9450; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=766
+- bjarne-011a23f6854d67-3e79244e0098: principle; speaker; caption-prose-v1 offset 13676; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=1116
+- bjarne-011a23f6854d67-e3886707f779: framework; speaker; caption-prose-v1 offset 17946; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=1473
+- bjarne-011a23f6854d67-eedcf0b96966: position; speaker; caption-prose-v1 offset 18736; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=1555
+- bjarne-011a23f6854d67-d473f667eb6b: framework; speaker; caption-prose-v1 offset 27839; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=2271
+- bjarne-011a23f6854d67-de571821ca34: position; speaker; caption-prose-v1 offset 52472; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=4363
+- bjarne-011a23f6854d67-b0aae142e454: framework; speaker; caption-prose-v1 offset 29516; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=2417
+- bjarne-011a23f6854d67-96410bc4f10e: story; speaker; caption-prose-v1 offset 31617; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=2595
+- bjarne-011a23f6854d67-0501c79df5bb: position; speaker; caption-prose-v1 offset 34033; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=2777
+- bjarne-011a23f6854d67-18220f735321: story; speaker; caption-prose-v1 offset 44380; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=3681
+- bjarne-011a23f6854d67-90c19eb1d4b0: story; speaker; caption-prose-v1 offset 44629; chunk 0; https://www.youtube.com/watch?v=ixmDTTDiEDE&t=3704
 ## bjarne-032faa90b6e56c: Evolving a language in and for the real world: C++ 1991–2006
 
 https://www.stroustrup.com/hopl-almost-final.pdf
@@ -114,9 +142,7 @@ Source words in scope: 9,356; full retrieved text: 9,356. Text SHA-256: c29b352b
 
 Source dates reported in the collected material: 1991
 
-> it merely enables the technique to be used.
-
-Short excerpt of bjarne-12e9033e1f6671-4339c38db863; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - bjarne-12e9033e1f6671-4339c38db863: framework; sole_author; normalized source offset 3218; chunk 0; https://www.stroustrup.com/whatis.pdf
 - bjarne-12e9033e1f6671-6d79c411e9dc: framework; sole_author; normalized source offset 4922; chunk 0; https://www.stroustrup.com/whatis.pdf
@@ -131,6 +157,99 @@ Short excerpt of bjarne-12e9033e1f6671-4339c38db863; sole_author. Full passage a
 - bjarne-12e9033e1f6671-a88d3ab7cd95: position; sole_author; normalized source offset 44279; chunk 0; https://www.stroustrup.com/whatis.pdf
 - bjarne-12e9033e1f6671-0ba0fe8d8786: position; sole_author; normalized source offset 45455; chunk 0; https://www.stroustrup.com/whatis.pdf
 - bjarne-12e9033e1f6671-0815b034a9c7: framework; sole_author; normalized source offset 53209; chunk 0; https://www.stroustrup.com/whatis.pdf
+## bjarne-15c9eb40135f1c: An in-depth interview with Bjarne Stroustrup at Qt World Summit 2025
+
+https://www.youtube.com/watch?v=nQPumFkN-Ow
+
+Independent work identity: youtube-nQPumFkN-Ow. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 9,565; full retrieved text: 9,565. Text SHA-256: c69cfee569fe71fa43dbd6dc3f7a8a51e6cb44931d99884607799f26640b69ba
+
+Source dates reported in the collected material: 2025-06-04
+
+> you need the overview, you need the underlying philosophy
+
+Short excerpt of bjarne-15c9eb40135f1c-b4e5f6ef2776; speaker. Full passage and context retained locally.
+
+- bjarne-15c9eb40135f1c-b4e5f6ef2776: principle; speaker; caption-prose-v1 offset 2720; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=225
+- bjarne-15c9eb40135f1c-e70562d9ad34: book; speaker; caption-prose-v1 offset 4713; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=390
+- bjarne-15c9eb40135f1c-77677dc4d94b: framework; speaker; caption-prose-v1 offset 17363; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=1418
+- bjarne-15c9eb40135f1c-f2ceb64b4d6c: story; speaker; caption-prose-v1 offset 15405; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=1263
+- bjarne-15c9eb40135f1c-2fc3a365750d: principle; speaker; caption-prose-v1 offset 19826; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=1613
+- bjarne-15c9eb40135f1c-65e8369fe300: position; speaker; caption-prose-v1 offset 21845; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=1768
+- bjarne-15c9eb40135f1c-04b7a91d5fd0: framework; speaker; caption-prose-v1 offset 25497; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=2089
+- bjarne-15c9eb40135f1c-97a5561c5ca4: position; speaker; caption-prose-v1 offset 27693; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=2262
+- bjarne-15c9eb40135f1c-8dbfba7809ec: framework; speaker; caption-prose-v1 offset 31024; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=2561
+- bjarne-15c9eb40135f1c-2cec5620d9cc: story; speaker; caption-prose-v1 offset 34941; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=2892
+- bjarne-15c9eb40135f1c-5e6ac9e6cf54: position; speaker; caption-prose-v1 offset 38364; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=3201
+- bjarne-15c9eb40135f1c-9996b37234f0: position; speaker; caption-prose-v1 offset 38709; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=3227
+- bjarne-15c9eb40135f1c-4023fe2ba6da: position; speaker; caption-prose-v1 offset 41132; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=3426
+- bjarne-15c9eb40135f1c-d6c1b6fa2396: framework; speaker; caption-prose-v1 offset 44846; chunk 0; https://www.youtube.com/watch?v=nQPumFkN-Ow&t=3746
+## bjarne-189b97e60bf82d: Oral History of Bjarne Stroustrup
+
+https://www.youtube.com/watch?v=ZO0PXYMVGSU
+
+Independent work identity: youtube-ZO0PXYMVGSU. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 17,584; full retrieved text: 17,584. Text SHA-256: 6f34c627c5e9896f7e749db71f3dd3b5070829b1aedd97159a6283f9405abc2b
+
+Source dates reported in the collected material: 2015-02-05
+
+> you can't just uh take a language and start writing it as
+
+Short excerpt of bjarne-189b97e60bf82d-4533490be316; speaker. Full passage and context retained locally.
+
+- bjarne-189b97e60bf82d-4533490be316: story; speaker; caption-prose-v1 offset 8075; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=673
+- bjarne-189b97e60bf82d-1fd8bc984cc3: story; speaker; caption-prose-v1 offset 10650; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=872
+- bjarne-189b97e60bf82d-7e7ba737f09d: story; speaker; caption-prose-v1 offset 21864; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=1793
+- bjarne-189b97e60bf82d-353e4c1b74a3: framework; speaker; caption-prose-v1 offset 28578; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=2337
+- bjarne-189b97e60bf82d-a6dfa8688870: position; speaker; caption-prose-v1 offset 33828; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=2752
+- bjarne-189b97e60bf82d-a3bb41be69b3: principle; speaker; caption-prose-v1 offset 29821; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=2439
+- bjarne-189b97e60bf82d-969f1a7774ac: position; speaker; caption-prose-v1 offset 30245; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=2474
+- bjarne-189b97e60bf82d-792e565c73e5: position; speaker; caption-prose-v1 offset 32940; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=2686
+- bjarne-189b97e60bf82d-35702a6445d5: story; speaker; caption-prose-v1 offset 34581; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=2813
+- bjarne-189b97e60bf82d-530c34422eb3: framework; speaker; caption-prose-v1 offset 37211; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=3039
+- bjarne-189b97e60bf82d-7004f420e16a: position; speaker; caption-prose-v1 offset 40189; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=3273
+- bjarne-189b97e60bf82d-33da6c40efd8: story; speaker; caption-prose-v1 offset 41551; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=3384
+- bjarne-189b97e60bf82d-8158f18d7723: principle; speaker; caption-prose-v1 offset 42411; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=3454
+- bjarne-189b97e60bf82d-839c749e7a9f: position; speaker; caption-prose-v1 offset 42721; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=3483
+- bjarne-189b97e60bf82d-b89ea0685f1d: position; speaker; caption-prose-v1 offset 47153; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=3823
+- bjarne-189b97e60bf82d-4321c6ade625: story; speaker; caption-prose-v1 offset 50664; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=4100
+- bjarne-189b97e60bf82d-77bf8d39f571: principle; speaker; caption-prose-v1 offset 54659; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=4394
+- bjarne-189b97e60bf82d-524846069184: position; speaker; caption-prose-v1 offset 56288; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=4531
+- bjarne-189b97e60bf82d-4a9f6611e48d: story; speaker; caption-prose-v1 offset 59369; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=4783
+- bjarne-189b97e60bf82d-1f66c79fd92c: position; speaker; caption-prose-v1 offset 57552; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=4631
+- bjarne-189b97e60bf82d-ff6cd0511091: position; speaker; caption-prose-v1 offset 63479; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=5097
+- bjarne-189b97e60bf82d-835b7457dff2: framework; speaker; caption-prose-v1 offset 64388; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=5170
+- bjarne-189b97e60bf82d-861f799116dd: position; speaker; caption-prose-v1 offset 66468; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=5331
+- bjarne-189b97e60bf82d-3bf1183ddbfb: position; speaker; caption-prose-v1 offset 68837; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=5523
+- bjarne-189b97e60bf82d-7457a7db749a: framework; speaker; caption-prose-v1 offset 82495; chunk 0; https://www.youtube.com/watch?v=ZO0PXYMVGSU&t=6608
+## bjarne-1b8b2e20ba58f6: Profiles for Simplicity and Guarantees - Bjarne Stroustrup - CppCon 2026
+
+https://www.youtube.com/watch?v=41USGJaGsAo
+
+Independent work identity: youtube-41USGJaGsAo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,825; full retrieved text: 11,825. Text SHA-256: 5b39a85705bb71672c9a26b74022fbc37f48c90fe25dc5256a843bbc508cc1c7
+
+Source dates reported in the collected material: 2026-09-15
+
+> a profile is a set of coherent guarantees
+
+Short excerpt of bjarne-1b8b2e20ba58f6-5e7f1145ed17; speaker. Full passage and context retained locally.
+
+- bjarne-1b8b2e20ba58f6-5e7f1145ed17: framework; speaker; caption-prose-v1 offset 2630; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=243
+- bjarne-1b8b2e20ba58f6-114b3aebc1f9: framework; speaker; caption-prose-v1 offset 4993; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=448
+- bjarne-1b8b2e20ba58f6-2654cb7e9d2a: position; speaker; caption-prose-v1 offset 5981; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=536
+- bjarne-1b8b2e20ba58f6-d301f54f8fce: story; speaker; caption-prose-v1 offset 10480; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=903
+- bjarne-1b8b2e20ba58f6-c8448c7dfb61: position; speaker; caption-prose-v1 offset 11442; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=982
+- bjarne-1b8b2e20ba58f6-94ea94795c58: framework; speaker; caption-prose-v1 offset 17452; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=1497
+- bjarne-1b8b2e20ba58f6-5292ceffb019: story; speaker; caption-prose-v1 offset 18641; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=1601
+- bjarne-1b8b2e20ba58f6-d8ae6b3501c9: framework; speaker; caption-prose-v1 offset 27454; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=2371
+- bjarne-1b8b2e20ba58f6-faa75c523eac: story; speaker; caption-prose-v1 offset 29017; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=2511
+- bjarne-1b8b2e20ba58f6-b479d5491e6a: story; speaker; caption-prose-v1 offset 33028; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=2883
+- bjarne-1b8b2e20ba58f6-fddb9301c2ee: position; speaker; caption-prose-v1 offset 36157; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=3165
+- bjarne-1b8b2e20ba58f6-e5021d253962: position; speaker; caption-prose-v1 offset 55032; chunk 0; https://www.youtube.com/watch?v=41USGJaGsAo&t=4759
 ## bjarne-1f4befcec519a6: Open and Efficient Type Switch for C++
 
 https://www.stroustrup.com/OOPSLA-typeswitch-draft.pdf
@@ -233,7 +352,9 @@ Source words in scope: 1,699; full retrieved text: 1,699. Text SHA-256: 46579875
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> A library provides a vocabulary for saying things directly and simply, correctly
+
+Short excerpt of bjarne-2aab3ba4a97516-179e4df86ae7; sole_author. Full passage and context retained locally.
 
 - bjarne-2aab3ba4a97516-179e4df86ae7: principle; sole_author; normalized source offset 1934; chunk 0; https://www.stroustrup.com/abstraction.pdf
 - bjarne-2aab3ba4a97516-c476bcc50f50: framework; sole_author; normalized source offset 5285; chunk 0; https://www.stroustrup.com/abstraction.pdf
@@ -241,6 +362,42 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - bjarne-2aab3ba4a97516-5a73305aa5db: position; sole_author; normalized source offset 7325; chunk 0; https://www.stroustrup.com/abstraction.pdf
 - bjarne-2aab3ba4a97516-703c99f167a6: principle; sole_author; normalized source offset 8027; chunk 0; https://www.stroustrup.com/abstraction.pdf
 - bjarne-2aab3ba4a97516-bf410630a4f9: framework; sole_author; normalized source offset 9222; chunk 0; https://www.stroustrup.com/abstraction.pdf
+## bjarne-2ac5f49ea2025b: Creator of C++: Bell Labs, Negative Overhead Abstraction, Mistakes | Bjarne Stroustrup
+
+https://www.youtube.com/watch?v=U46fJ2bJ-co
+
+Independent work identity: youtube-U46fJ2bJ-co. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 15,676; full retrieved text: 15,676. Text SHA-256: 6d2633842e4f01738a9de82f1a44b0ead6c6ac0914f2211eb36396f332439fe5
+
+Source dates reported in the collected material: 2026-05-18
+
+> there's lots of languages that could do either. None that could do
+
+Short excerpt of bjarne-2ac5f49ea2025b-ebc2ceef18de; speaker. Full passage and context retained locally.
+
+- bjarne-2ac5f49ea2025b-ebc2ceef18de: story; speaker; caption-prose-v1 offset 2117; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=156
+- bjarne-2ac5f49ea2025b-86ba93139977: story; speaker; caption-prose-v1 offset 4656; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=378
+- bjarne-2ac5f49ea2025b-7e7e3f2537e0: story; speaker; caption-prose-v1 offset 22192; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=1885
+- bjarne-2ac5f49ea2025b-1efc67a5d617: position; speaker; caption-prose-v1 offset 25136; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=2158
+- bjarne-2ac5f49ea2025b-872127ab11b7: principle; speaker; caption-prose-v1 offset 28292; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=2434
+- bjarne-2ac5f49ea2025b-135807219a31: position; speaker; caption-prose-v1 offset 28920; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=2492
+- bjarne-2ac5f49ea2025b-f5c4b8e2b506: position; speaker; caption-prose-v1 offset 32901; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=2858
+- bjarne-2ac5f49ea2025b-15d6d9329dc6: story; speaker; caption-prose-v1 offset 15077; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=1274
+- bjarne-2ac5f49ea2025b-9e80f1726c24: framework; speaker; caption-prose-v1 offset 74319; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=6484
+- bjarne-2ac5f49ea2025b-4823350ac0d3: framework; speaker; caption-prose-v1 offset 40906; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=3601
+- bjarne-2ac5f49ea2025b-2bee231087d8: story; speaker; caption-prose-v1 offset 47424; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=4138
+- bjarne-2ac5f49ea2025b-6fe3a2b4806b: position; speaker; caption-prose-v1 offset 43700; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=3804
+- bjarne-2ac5f49ea2025b-759a98b0cbce: position; speaker; caption-prose-v1 offset 48335; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=4210
+- bjarne-2ac5f49ea2025b-fd42816fb0c0: story; speaker; caption-prose-v1 offset 52856; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=4621
+- bjarne-2ac5f49ea2025b-e6d8df4a0775: position; speaker; caption-prose-v1 offset 55856; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=4876
+- bjarne-2ac5f49ea2025b-fe0d88a018de: principle; speaker; caption-prose-v1 offset 57429; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=5007
+- bjarne-2ac5f49ea2025b-ec92dd7ba670: framework; speaker; caption-prose-v1 offset 60318; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=5278
+- bjarne-2ac5f49ea2025b-7a296167717d: story; speaker; caption-prose-v1 offset 59795; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=5228
+- bjarne-2ac5f49ea2025b-a412116c70ae: position; speaker; caption-prose-v1 offset 63771; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=5581
+- bjarne-2ac5f49ea2025b-2e722dfcd5d3: principle; speaker; caption-prose-v1 offset 70021; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=6105
+- bjarne-2ac5f49ea2025b-bd4044610566: position; speaker; caption-prose-v1 offset 77081; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=6732
+- bjarne-2ac5f49ea2025b-deb10ee19708: position; speaker; caption-prose-v1 offset 78497; chunk 0; https://www.youtube.com/watch?v=U46fJ2bJ-co&t=6868
 ## bjarne-2d03fce9b4e490: Wrapping C++ Member Function Calls
 
 https://www.stroustrup.com/wrapper.pdf
@@ -272,7 +429,9 @@ Source words in scope: 4,290; full retrieved text: 4,290. Text SHA-256: 64f38c45
 
 Source dates reported in the collected material: 2005
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> Work at the highest feasible level of abstraction
+
+Short excerpt of bjarne-36aa60d256697d-aa64722b2f11; sole_author. Full passage and context retained locally.
 
 - bjarne-36aa60d256697d-aa64722b2f11: framework; sole_author; normalized source offset 1840; chunk 0; https://www.stroustrup.com/abstraction-and-machine.pdf
 - bjarne-36aa60d256697d-eb7d83afc2b5: principle; sole_author; normalized source offset 8706; chunk 0; https://www.stroustrup.com/abstraction-and-machine.pdf
@@ -290,9 +449,7 @@ Source words in scope: 3,431; full retrieved text: 3,431. Text SHA-256: d76f1961
 
 Source dates reported in the collected material: 2006-01-02
 
-> The most effective styles of programming use a combination of these techniques.
-
-Short excerpt of bjarne-37bf63a3e7ed2b-551de01b8875; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - bjarne-37bf63a3e7ed2b-551de01b8875: principle; sole_author; normalized source offset 1890; chunk 0; https://www.artima.com/articles/a-brief-look-at-c0x
 - bjarne-37bf63a3e7ed2b-e13bd91722e7: framework; sole_author; normalized source offset 5477; chunk 0; https://www.artima.com/articles/a-brief-look-at-c0x
@@ -485,6 +642,38 @@ Short excerpt of bjarne-4a995c56f1ad83-d56d199faab1; sole_author. Full passage a
 - bjarne-4a995c56f1ad83-4a16eeafdb24: position; sole_author; normalized source offset 51080; chunk 0; https://www.stroustrup.com/what-is-2009.pdf
 - bjarne-4a995c56f1ad83-86c40f5ed93d: framework; sole_author; normalized source offset 53487; chunk 0; https://www.stroustrup.com/what-is-2009.pdf
 - bjarne-4a995c56f1ad83-ed0f9eb7548d: book; sole_author; normalized source offset 58860; chunk 0; https://www.stroustrup.com/what-is-2009.pdf
+## bjarne-4e11090450bc3d: C++ in Constrained Environments - Bjarne Stroustrup - CppCon 2022
+
+https://www.youtube.com/watch?v=2BuJjaGuInI
+
+Independent work identity: youtube-2BuJjaGuInI. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,070; full retrieved text: 12,070. Text SHA-256: 6d27fc13a51b2b2e2b5c1137ee75ade55734db93a9e4ffdab9b0cba6358c2b25
+
+Source dates reported in the collected material: 2022-10-14
+
+> the constraints is relative to the load
+
+Short excerpt of bjarne-4e11090450bc3d-d7c7828c67bf; speaker. Full passage and context retained locally.
+
+- bjarne-4e11090450bc3d-d7c7828c67bf: framework; speaker; caption-prose-v1 offset 2368; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=210
+- bjarne-4e11090450bc3d-9b5ee6e62708: principle; speaker; caption-prose-v1 offset 5598; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=470
+- bjarne-4e11090450bc3d-9d455a30a294: framework; speaker; caption-prose-v1 offset 10449; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=853
+- bjarne-4e11090450bc3d-a5f2f647c475: principle; speaker; caption-prose-v1 offset 12008; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=975
+- bjarne-4e11090450bc3d-178d5ebf980e: position; speaker; caption-prose-v1 offset 16594; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=1336
+- bjarne-4e11090450bc3d-249f1dbefd3f: principle; speaker; caption-prose-v1 offset 20899; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=1701
+- bjarne-4e11090450bc3d-49df41321e2e: position; speaker; caption-prose-v1 offset 19032; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=1541
+- bjarne-4e11090450bc3d-3035ac3208f4: framework; speaker; caption-prose-v1 offset 22556; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=1842
+- bjarne-4e11090450bc3d-53a42cacba35: story; speaker; caption-prose-v1 offset 25065; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=2052
+- bjarne-4e11090450bc3d-8a85e783fb49: position; speaker; caption-prose-v1 offset 27039; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=2208
+- bjarne-4e11090450bc3d-2a65386d60d3: story; speaker; caption-prose-v1 offset 29410; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=2414
+- bjarne-4e11090450bc3d-702ad4a3c966: framework; speaker; caption-prose-v1 offset 31883; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=2612
+- bjarne-4e11090450bc3d-c7ead4532ddc: framework; speaker; caption-prose-v1 offset 39050; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=3231
+- bjarne-4e11090450bc3d-af44e3bfecae: position; speaker; caption-prose-v1 offset 36388; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=2998
+- bjarne-4e11090450bc3d-768de67ffec4: framework; speaker; caption-prose-v1 offset 42332; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=3493
+- bjarne-4e11090450bc3d-d241cee9570c: position; speaker; caption-prose-v1 offset 44558; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=3679
+- bjarne-4e11090450bc3d-efce9593b479: position; speaker; caption-prose-v1 offset 58202; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=4867
+- bjarne-4e11090450bc3d-0acba8e6a636: position; speaker; caption-prose-v1 offset 63802; chunk 0; https://www.youtube.com/watch?v=2BuJjaGuInI&t=5383
 ## bjarne-50dd598556cb0b: C++ – an Invisible Foundation of Everything
 
 https://accu.org/journals/overload/29/161/stroustrup/
@@ -555,6 +744,26 @@ Short excerpt of bjarne-59a14a7ea57344-bca52cf77376; speaker. Full passage and c
 - bjarne-59a14a7ea57344-9ee84319e3c0: story; speaker; normalized source offset 1113; chunk 0; https://isocpp.org/blog/2020/02/bjarne-stroustrup-on-cpp20s-significance
 - bjarne-59a14a7ea57344-b9ca36687980: story; speaker; normalized source offset 1515; chunk 0; https://isocpp.org/blog/2020/02/bjarne-stroustrup-on-cpp20s-significance
 - bjarne-59a14a7ea57344-914835b8e9a3: principle; speaker; normalized source offset 1974; chunk 0; https://isocpp.org/blog/2020/02/bjarne-stroustrup-on-cpp20s-significance
+## bjarne-5bb9fffa04ec44: TechRepublic interview: raw text
+
+https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
+
+Independent work identity: stroustrup-hughes-techrepublic-interview-2020. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,786; full retrieved text: 2,786. Text SHA-256: cfb1d34ee3170b025395d2756b4798b8f24f55c3b2823458540c76dccd99bb97
+
+Source dates reported in the collected material: 2020-11
+
+> If you don’t have both needs either a low-level efficient language or
+
+Short excerpt of bjarne-5bb9fffa04ec44-74ecce7d4750; speaker. Full passage and context retained locally.
+
+- bjarne-5bb9fffa04ec44-74ecce7d4750: position; speaker; normalized source offset 3677; chunk 0; https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
+- bjarne-5bb9fffa04ec44-cfc7603fb3f1: framework; speaker; normalized source offset 6206; chunk 0; https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
+- bjarne-5bb9fffa04ec44-c190bc9351dd: story; speaker; normalized source offset 7764; chunk 0; https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
+- bjarne-5bb9fffa04ec44-69d81568a906: framework; speaker; normalized source offset 9021; chunk 0; https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
+- bjarne-5bb9fffa04ec44-e67def4be88a: position; speaker; normalized source offset 4350; chunk 0; https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
+- bjarne-5bb9fffa04ec44-9dd3309254d5: position; speaker; normalized source offset 1723; chunk 0; https://stroustrup.com/TechRepublic-interview-Bjarne-Stroustrup.pdf
 ## bjarne-5ea0b8dce97913: A Principled, Complete, and Efficient Representation of C++
 
 https://www.stroustrup.com/gdr-bs-macis09.pdf
@@ -619,13 +828,15 @@ Short excerpt of bjarne-6cbe2324c0f816-c256a15ad0f0; coauthored. Full passage an
 
 https://www.stroustrup.com/bs_faq.html
 
-Independent work identity: stroustrup-general-faq. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: stroustrup-2014-are-lists-evil. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 16,058; full retrieved text: 16,058. Text SHA-256: 75bd0c790ac9b49befab64e8eddab14ecdd49bdfaea8cfb01f42518aae62397c
 
 Source dates reported in the collected material: Modified May 26, 2024
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> It is the job of every constructor to establish the class invariant,
+
+Short excerpt of bjarne-6d78140a0c291c-b57156585e80; sole_author. Full passage and context retained locally.
 
 - bjarne-6d78140a0c291c-b57156585e80: framework; sole_author; normalized source offset 10131; chunk 0; https://www.stroustrup.com/bs_faq.html
 - bjarne-6d78140a0c291c-e288ba7c247d: position; sole_author; normalized source offset 14921; chunk 0; https://www.stroustrup.com/bs_faq.html
@@ -650,6 +861,34 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - bjarne-6d78140a0c291c-a04b5d9aba37: framework; sole_author; normalized source offset 24205; chunk 0; https://www.stroustrup.com/bs_faq.html
 - bjarne-6d78140a0c291c-65c016c797d4: book; sole_author; normalized source offset 18786; chunk 0; https://www.stroustrup.com/bs_faq.html
 - bjarne-6d78140a0c291c-d0ee21fac0f3: position; sole_author; normalized source offset 81311; chunk 0; https://www.stroustrup.com/bs_faq.html
+## bjarne-6e6122eb817e70: Bjarne Stroustrup :: Approaching C++ Safety
+
+https://www.youtube.com/watch?v=eo-4ZSLn3jc
+
+Independent work identity: youtube-eo-4ZSLn3jc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 10,799; full retrieved text: 10,799. Text SHA-256: 145121b626e15185e399b3bc9fa91b0a8cc9654ef4115557ddfb5bccda3e555f
+
+Source dates reported in the collected material: 20230808
+
+> being careful isn't good enough
+
+Short excerpt of bjarne-6e6122eb817e70-dde6b115f471; speaker. Full passage and context retained locally.
+
+- bjarne-6e6122eb817e70-dde6b115f471: position; speaker; caption-prose-v1 offset 5834; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=480
+- bjarne-6e6122eb817e70-555b814b5e56: principle; speaker; caption-prose-v1 offset 8749; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=723
+- bjarne-6e6122eb817e70-0cac912716cd: story; speaker; caption-prose-v1 offset 11749; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=956
+- bjarne-6e6122eb817e70-1d3d5500d319: position; speaker; caption-prose-v1 offset 14522; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=1157
+- bjarne-6e6122eb817e70-b6c6dae0572f: story; speaker; caption-prose-v1 offset 15672; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=1241
+- bjarne-6e6122eb817e70-e5ebc89fac6e: story; speaker; caption-prose-v1 offset 17853; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=1417
+- bjarne-6e6122eb817e70-d324b0d4c006: framework; speaker; caption-prose-v1 offset 19952; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=1585
+- bjarne-6e6122eb817e70-418b19f21c44: framework; speaker; caption-prose-v1 offset 23658; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=1872
+- bjarne-6e6122eb817e70-c56f4750f794: framework; speaker; caption-prose-v1 offset 25962; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=2054
+- bjarne-6e6122eb817e70-586f346fe2e2: framework; speaker; caption-prose-v1 offset 36339; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=2882
+- bjarne-6e6122eb817e70-e2804d848fee: story; speaker; caption-prose-v1 offset 42519; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=3396
+- bjarne-6e6122eb817e70-36c3b119e74b: position; speaker; caption-prose-v1 offset 46072; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=3689
+- bjarne-6e6122eb817e70-c9323615b7ba: position; speaker; caption-prose-v1 offset 49047; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=3937
+- bjarne-6e6122eb817e70-9702d57f159b: position; speaker; caption-prose-v1 offset 50264; chunk 0; https://www.youtube.com/watch?v=eo-4ZSLn3jc&t=4044
 ## bjarne-72241b845beaaf: Design of Concept Libraries for C++
 
 https://www.stroustrup.com/sle2011-concepts.pdf
@@ -730,6 +969,26 @@ Short excerpt of bjarne-7880001d4cc284-b854d5e0ab45; coauthored. Full passage an
 
 - bjarne-7880001d4cc284-b854d5e0ab45: position; coauthored; normalized source offset 70034; chunk 0; https://www.stroustrup.com/SCARY.pdf
 - bjarne-7880001d4cc284-ef2edbea6bd3: position; coauthored; normalized source offset 93806; chunk 1; https://www.stroustrup.com/SCARY.pdf
+## bjarne-7b73634a1c2169: Answers from Bjarne: iX Developer interview
+
+https://stroustrup.com/iXdeveloper_2020.pdf
+
+Independent work identity: stroustrup-hahn-ix-interview-2020. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,056; full retrieved text: 3,056. Text SHA-256: 826bbde6887a44e61710531966c287e50124c3f7be03676b8cf4f846ccdc8da4
+
+Source dates reported in the collected material: 2020
+
+> Concentrate on the fundamentals, on the concepts, principles, and techniques.
+
+Short excerpt of bjarne-7b73634a1c2169-0a0d15d2a6e6; speaker. Full passage and context retained locally.
+
+- bjarne-7b73634a1c2169-0a0d15d2a6e6: book; speaker; normalized source offset 1857; chunk 0; https://stroustrup.com/iXdeveloper_2020.pdf
+- bjarne-7b73634a1c2169-ded3feb207b6: position; speaker; normalized source offset 6473; chunk 0; https://stroustrup.com/iXdeveloper_2020.pdf
+- bjarne-7b73634a1c2169-2cad95117823: framework; speaker; normalized source offset 10295; chunk 0; https://stroustrup.com/iXdeveloper_2020.pdf
+- bjarne-7b73634a1c2169-25310b06c43b: story; speaker; normalized source offset 11334; chunk 0; https://stroustrup.com/iXdeveloper_2020.pdf
+- bjarne-7b73634a1c2169-4588061e58d5: framework; speaker; normalized source offset 14213; chunk 0; https://stroustrup.com/iXdeveloper_2020.pdf
+- bjarne-7b73634a1c2169-e077a16be6b0: framework; speaker; normalized source offset 17822; chunk 0; https://stroustrup.com/iXdeveloper_2020.pdf
 ## bjarne-7cfc6df3edd752: What Should We Teach New Software Developers? Why? – Communications of the ACM
 
 https://cacm.acm.org/opinion/what-should-we-teach-new-software-developers-why/
@@ -839,7 +1098,9 @@ Source words in scope: 11,528; full retrieved text: 11,528. Text SHA-256: a2803a
 
 Source dates reported in the collected material: November 2025
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> Generic code must not impose run-time overheads compared to roughly equivalent lower-level
+
+Short excerpt of bjarne-8499a11781ef93-fc821e9062f6; sole_author. Full passage and context retained locally.
 
 - bjarne-8499a11781ef93-fc821e9062f6: framework; sole_author; normalized source offset 2697; chunk 0; https://www.stroustrup.com/Concept-based-GP.pdf
 - bjarne-8499a11781ef93-9ce6f254b18d: framework; sole_author; normalized source offset 9270; chunk 0; https://www.stroustrup.com/Concept-based-GP.pdf
@@ -876,6 +1137,26 @@ Short excerpt of bjarne-8de1c8be96ac53-13a52cd672da; sole_author. Full passage a
 - bjarne-8de1c8be96ac53-7e5527cadcee: position; sole_author; normalized source offset 26401; chunk 0; https://www.stroustrup.com/ETAPS12-corrected.pdf
 - bjarne-8de1c8be96ac53-755c746d4240: position; sole_author; normalized source offset 30079; chunk 0; https://www.stroustrup.com/ETAPS12-corrected.pdf
 - bjarne-8de1c8be96ac53-15240cc616d9: position; sole_author; normalized source offset 35111; chunk 0; https://www.stroustrup.com/ETAPS12-corrected.pdf
+## bjarne-932ad8b20d3133: An Invalidation Profile
+
+https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
+
+Independent work identity: stroustrup-invalidation-profile-p4418. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,386; full retrieved text: 3,386. Text SHA-256: b6297df49304afda3aae4e16bf4bc2a791ac94b08a7631ad9497cfed97281803
+
+Source dates reported in the collected material: 2026-10-22
+
+> Zero run-time overhead for code obeying the profile
+
+Short excerpt of bjarne-932ad8b20d3133-7c737f18e1cb; sole_author. Full passage and context retained locally.
+
+- bjarne-932ad8b20d3133-7c737f18e1cb: framework; sole_author; normalized source offset 18425; chunk 0; https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
+- bjarne-932ad8b20d3133-058cd72e0d49: framework; sole_author; normalized source offset 4994; chunk 0; https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
+- bjarne-932ad8b20d3133-5160944aacd6: position; sole_author; normalized source offset 7600; chunk 0; https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
+- bjarne-932ad8b20d3133-dd3a52431314: framework; sole_author; normalized source offset 15180; chunk 0; https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
+- bjarne-932ad8b20d3133-27841b9dbf2e: story; sole_author; normalized source offset 11789; chunk 0; https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
+- bjarne-932ad8b20d3133-7c4dc78e2a1d: position; sole_author; normalized source offset 17283; chunk 0; https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2026/p4418r0.pdf
 ## bjarne-94f225ac3002e4: Exception Safety: Concepts and Techniques
 
 https://www.stroustrup.com/except.pdf
@@ -886,7 +1167,9 @@ Source words in scope: 6,789; full retrieved text: 6,789. Text SHA-256: 56b5d540
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> both answers are too simple for real use
+
+Short excerpt of bjarne-94f225ac3002e4-594bd7d2787b; sole_author. Full passage and context retained locally.
 
 - bjarne-94f225ac3002e4-594bd7d2787b: framework; sole_author; normalized source offset 3404; chunk 0; https://www.stroustrup.com/except.pdf
 - bjarne-94f225ac3002e4-104ff8665678: principle; sole_author; normalized source offset 4688; chunk 0; https://www.stroustrup.com/except.pdf
@@ -897,6 +1180,48 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - bjarne-94f225ac3002e4-c92ae199a18e: principle; sole_author; normalized source offset 26655; chunk 0; https://www.stroustrup.com/except.pdf
 - bjarne-94f225ac3002e4-8bef9f38c632: framework; sole_author; normalized source offset 39011; chunk 0; https://www.stroustrup.com/except.pdf
 - bjarne-94f225ac3002e4-31e52cf9448c: position; sole_author; normalized source offset 42920; chunk 0; https://www.stroustrup.com/except.pdf
+## bjarne-96fe6f0ab0798f: Stroustrup: C++ Style and Technique FAQ
+
+https://www.stroustrup.com/bs_faq2.html
+
+Independent work identity: stroustrup-technical-faq. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 18,872; full retrieved text: 18,872. Text SHA-256: b0fec81faa955ee5fdcd99ff95ca2fbb795b74be1d1b38d2ad380f22bf54994b
+
+Source dates reported in the collected material: 2022-02-26
+
+> there cannot be one coding standard for all uses and all users
+
+Short excerpt of bjarne-96fe6f0ab0798f-495e3f36126c; sole_author. Full passage and context retained locally.
+
+- bjarne-96fe6f0ab0798f-495e3f36126c: position; sole_author; normalized source offset 8638; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-d35b23809ff1: story; sole_author; normalized source offset 5666; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-afb520b49d78: framework; sole_author; normalized source offset 12336; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-28b4d346ea03: position; sole_author; normalized source offset 15653; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-160f0b40e63a: position; sole_author; normalized source offset 15855; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-042cabec6dba: position; sole_author; normalized source offset 26381; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-0fff093f91cd: position; sole_author; normalized source offset 22529; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-3635ac7e8744: principle; sole_author; normalized source offset 35870; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-0a91515732d2: framework; sole_author; normalized source offset 39275; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-d3204fc48582: position; sole_author; normalized source offset 22266; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-84fa1d666ebd: framework; sole_author; normalized source offset 58581; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-3cc9ba07d685: position; sole_author; normalized source offset 64750; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-42dad7737f05: position; sole_author; normalized source offset 69176; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-11b98aa0e1b7: position; sole_author; normalized source offset 68092; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-3ccfe6a64c42: position; sole_author; normalized source offset 62621; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-ee03ee68722e: position; sole_author; normalized source offset 76368; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-ed3cc82c7d2c: position; sole_author; normalized source offset 78795; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-ae8b5f026537: position; sole_author; normalized source offset 41069; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-445d2c7e2b5a: story; sole_author; normalized source offset 70785; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-e3b567846114: position; sole_author; normalized source offset 29406; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-272a3d15e5bb: framework; sole_author; normalized source offset 30280; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-5fc0afc5132f: story; sole_author; normalized source offset 34101; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-f13a63d9ca57: position; sole_author; normalized source offset 56826; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-5f406e93c548: position; sole_author; normalized source offset 57182; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-a951b61bb5cf: framework; sole_author; normalized source offset 51986; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-1d46a2a91c0f: position; sole_author; normalized source offset 74460; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-8aace313be6f: position; sole_author; normalized source offset 71214; chunk 0; https://www.stroustrup.com/bs_faq2.html
+- bjarne-96fe6f0ab0798f-2c7e19d8ef2d: position; sole_author; normalized source offset 50486; chunk 0; https://www.stroustrup.com/bs_faq2.html
 ## bjarne-975f3ec440d433: C and C++: Siblings
 
 https://www.stroustrup.com/siblings_short.pdf
@@ -951,6 +1276,93 @@ Short excerpt of bjarne-9cbfcb4b60daea-b5e9c451ef1e; coauthored. Full passage an
 - bjarne-9cbfcb4b60daea-b5e9c451ef1e: framework; coauthored; normalized source offset 6267; chunk 0; https://www.stroustrup.com/icsm-2012-demacro.pdf
 - bjarne-9cbfcb4b60daea-0a6071bee2e7: framework; coauthored; normalized source offset 13685; chunk 0; https://www.stroustrup.com/icsm-2012-demacro.pdf
 - bjarne-9cbfcb4b60daea-91c5a38c55cf: position; coauthored; normalized source offset 25619; chunk 0; https://www.stroustrup.com/icsm-2012-demacro.pdf
+## bjarne-9e25d165bdd09b: C++20: Reaching for the Aims of C++ - Bjarne Stroustrup - CppCon 2021
+
+https://www.youtube.com/watch?v=15QF2q66NhU
+
+Independent work identity: youtube-15QF2q66NhU. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,143; full retrieved text: 13,143. Text SHA-256: 5ba3af8abb51d84f98445b215b3e07a0bbb75115c26a6bcea7ca207fdbe3d0f3
+
+Source dates reported in the collected material: 2021-12-16
+
+> i needed to use hardware efficiently and i need to manage complexity
+
+Short excerpt of bjarne-9e25d165bdd09b-a47ac4d22de3; speaker. Full passage and context retained locally.
+
+- bjarne-9e25d165bdd09b-a47ac4d22de3: story; speaker; caption-prose-v1 offset 3346; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=286
+- bjarne-9e25d165bdd09b-0ab90e309514: principle; speaker; caption-prose-v1 offset 5539; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=460
+- bjarne-9e25d165bdd09b-ea4f11f2dc34: position; speaker; caption-prose-v1 offset 9197; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=728
+- bjarne-9e25d165bdd09b-cd024f456a79: framework; speaker; caption-prose-v1 offset 10504; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=825
+- bjarne-9e25d165bdd09b-083f73fcb2d9: story; speaker; caption-prose-v1 offset 14483; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=1149
+- bjarne-9e25d165bdd09b-72caec096bb4: book; speaker; caption-prose-v1 offset 16438; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=1300
+- bjarne-9e25d165bdd09b-893e5e54ea5d: framework; speaker; caption-prose-v1 offset 27745; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=2223
+- bjarne-9e25d165bdd09b-b4862cc9cfa0: principle; speaker; caption-prose-v1 offset 28420; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=2280
+- bjarne-9e25d165bdd09b-30ea0e31218d: position; speaker; caption-prose-v1 offset 31553; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=2562
+- bjarne-9e25d165bdd09b-e66972b75a6d: story; speaker; caption-prose-v1 offset 34627; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=2818
+- bjarne-9e25d165bdd09b-a8b7df67f0f6: position; speaker; caption-prose-v1 offset 40881; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=3326
+- bjarne-9e25d165bdd09b-bd4a1ce26281: position; speaker; caption-prose-v1 offset 43529; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=3541
+- bjarne-9e25d165bdd09b-6e56667d62f6: position; speaker; caption-prose-v1 offset 45791; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=3724
+- bjarne-9e25d165bdd09b-289d2f8748cb: position; speaker; caption-prose-v1 offset 49581; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=4035
+- bjarne-9e25d165bdd09b-8a36936d71aa: framework; speaker; caption-prose-v1 offset 52322; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=4258
+- bjarne-9e25d165bdd09b-abe5548d2b41: position; speaker; caption-prose-v1 offset 60118; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=4983
+- bjarne-9e25d165bdd09b-2e16400db298: framework; speaker; caption-prose-v1 offset 67696; chunk 0; https://www.youtube.com/watch?v=15QF2q66NhU&t=5692
+## bjarne-a6e6b66c93ddae: Generic Programming in C++ - Bjarne Stroustrup
+
+https://www.youtube.com/watch?v=hVoJgOwLNbE
+
+Independent work identity: youtube-hVoJgOwLNbE. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 16,032; full retrieved text: 16,032. Text SHA-256: 981901d3f22e562bc9aad355aa10375eb66905b31c0537319a4709889832ab65
+
+Source dates reported in the collected material: 20240214
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- bjarne-a6e6b66c93ddae-869754e54d34: position; speaker; caption-prose-v1 offset 2219; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=1067
+- bjarne-a6e6b66c93ddae-3e3fdecc9ea1: framework; speaker; caption-prose-v1 offset 5923; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=1347
+- bjarne-a6e6b66c93ddae-ee590194a1a5: framework; speaker; caption-prose-v1 offset 7881; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=1504
+- bjarne-a6e6b66c93ddae-30d44362845e: position; speaker; caption-prose-v1 offset 9839; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=1661
+- bjarne-a6e6b66c93ddae-56dbb51a7c67: position; speaker; caption-prose-v1 offset 11828; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=1818
+- bjarne-a6e6b66c93ddae-a0003a0a4756: principle; speaker; caption-prose-v1 offset 12083; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=1836
+- bjarne-a6e6b66c93ddae-66718b9293a8: story; speaker; caption-prose-v1 offset 16545; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=2206
+- bjarne-a6e6b66c93ddae-df5a15d9c198: story; speaker; caption-prose-v1 offset 17578; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=2289
+- bjarne-a6e6b66c93ddae-b69690f2a522: framework; speaker; caption-prose-v1 offset 18232; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=2340
+- bjarne-a6e6b66c93ddae-ba9e72057711: framework; speaker; caption-prose-v1 offset 21864; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=2633
+- bjarne-a6e6b66c93ddae-08455fb727cb: principle; speaker; caption-prose-v1 offset 21417; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=2598
+- bjarne-a6e6b66c93ddae-a422440f685f: position; speaker; caption-prose-v1 offset 26462; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=3017
+- bjarne-a6e6b66c93ddae-b0e235a494b6: framework; speaker; caption-prose-v1 offset 31139; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=3400
+- bjarne-a6e6b66c93ddae-3cea7b950f1a: principle; speaker; caption-prose-v1 offset 48367; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=4831
+- bjarne-a6e6b66c93ddae-d55fbe24b471: position; speaker; caption-prose-v1 offset 37269; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=3921
+- bjarne-a6e6b66c93ddae-d8e73bab7717: position; speaker; caption-prose-v1 offset 43362; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=4420
+- bjarne-a6e6b66c93ddae-bd88a92680fc: position; speaker; caption-prose-v1 offset 44132; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=4486
+- bjarne-a6e6b66c93ddae-c0661bb406a7: story; speaker; caption-prose-v1 offset 52129; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=5153
+- bjarne-a6e6b66c93ddae-ac72a153ae55: framework; speaker; caption-prose-v1 offset 54767; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=5365
+- bjarne-a6e6b66c93ddae-bfcd5e66a7cd: position; speaker; caption-prose-v1 offset 60187; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=5843
+- bjarne-a6e6b66c93ddae-e479b95d70f8: framework; speaker; caption-prose-v1 offset 67785; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=6546
+- bjarne-a6e6b66c93ddae-010b980295d1: position; speaker; caption-prose-v1 offset 69185; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=6655
+- bjarne-a6e6b66c93ddae-784d976a04ce: position; speaker; caption-prose-v1 offset 73775; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=7068
+- bjarne-a6e6b66c93ddae-538f75a24573: position; speaker; caption-prose-v1 offset 80833; chunk 0; https://www.youtube.com/watch?v=hVoJgOwLNbE&t=7670
+## bjarne-aab71f86d2f6d3: Bjarne Stroustrup Discusses the Development of the C++ Programming Language
+
+https://www.youtube.com/watch?v=5m6c1DYy8uA
+
+Independent work identity: youtube-5m6c1DYy8uA. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,032; full retrieved text: 2,032. Text SHA-256: 2e471232b2143762004040a74bb2ff02e9c9e7e440a44a7477126546e73eec0f
+
+Source dates reported in the collected material: 2025-09-03
+
+> generic programming moved from subparagraph of data abstraction to a primary topic
+
+Short excerpt of bjarne-aab71f86d2f6d3-2a93d7990fe3; speaker. Full passage and context retained locally.
+
+- bjarne-aab71f86d2f6d3-2a93d7990fe3: position; speaker; caption-prose-v1 offset 233; chunk 0; https://www.youtube.com/watch?v=5m6c1DYy8uA&t=17
+- bjarne-aab71f86d2f6d3-40b84f54632b: story; speaker; caption-prose-v1 offset 1472; chunk 0; https://www.youtube.com/watch?v=5m6c1DYy8uA&t=111
+- bjarne-aab71f86d2f6d3-faac7e35f8b9: position; speaker; caption-prose-v1 offset 2277; chunk 0; https://www.youtube.com/watch?v=5m6c1DYy8uA&t=171
+- bjarne-aab71f86d2f6d3-3c8585aadeb7: framework; speaker; caption-prose-v1 offset 5257; chunk 0; https://www.youtube.com/watch?v=5m6c1DYy8uA&t=406
+- bjarne-aab71f86d2f6d3-f01d97a4f41a: book; speaker; caption-prose-v1 offset 4228; chunk 0; https://www.youtube.com/watch?v=5m6c1DYy8uA&t=317
+- bjarne-aab71f86d2f6d3-e78cd65eb803: position; speaker; caption-prose-v1 offset 9940; chunk 0; https://www.youtube.com/watch?v=5m6c1DYy8uA&t=742
 ## bjarne-b1a888823a69fd: Parameterized Types for C++
 
 https://www.stroustrup.com/parameterized_types_1988.pdf
@@ -1068,6 +1480,22 @@ Short excerpt of bjarne-ba632b19dc672a-a1741d8c0780; coauthored. Full passage an
 - bjarne-ba632b19dc672a-08ca8c716d9c: framework; coauthored; normalized source offset 14468; chunk 0; https://www.stroustrup.com/sofsem10.pdf
 - bjarne-ba632b19dc672a-fd498fec0b1f: framework; coauthored; normalized source offset 23034; chunk 0; https://www.stroustrup.com/sofsem10.pdf
 - bjarne-ba632b19dc672a-1b81cd2917c9: position; coauthored; normalized source offset 7880; chunk 0; https://www.stroustrup.com/sofsem10.pdf
+## bjarne-bc3e7a454063b4: Dr Bjarne Stroustrup: An Interview
+
+https://stroustrup.com/CVu263interview.pdf
+
+Independent work identity: stroustrup-cvu263-interview. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,007; full retrieved text: 2,007. Text SHA-256: a399858d2140ce594ebf1d27a38c8947c54ab854dc20b551447557adb8f2b63a
+
+Source dates reported in the collected material: 2014-07
+
+> the complexity and compile-time overheads are minimal so I could have implemented
+
+Short excerpt of bjarne-bc3e7a454063b4-39fd698ffb43; speaker. Full passage and context retained locally.
+
+- bjarne-bc3e7a454063b4-39fd698ffb43: story; speaker; normalized source offset 11279; chunk 0; https://stroustrup.com/CVu263interview.pdf
+- bjarne-bc3e7a454063b4-9a7ac21d7adb: position; speaker; normalized source offset 7888; chunk 0; https://stroustrup.com/CVu263interview.pdf
 ## bjarne-be42606566c159: Practical and Verifiable C++ Dynamic Cast for Hard Real-Time Systems
 
 https://www.stroustrup.com/fdc_jcse.pdf
@@ -1092,6 +1520,26 @@ Short excerpt of bjarne-be42606566c159-5d29332359e4; coauthored. Full passage an
 - bjarne-be42606566c159-964a6aa2b271: story; coauthored; normalized source offset 29093; chunk 0; https://www.stroustrup.com/fdc_jcse.pdf
 - bjarne-be42606566c159-799ebbc94729: framework; coauthored; normalized source offset 36486; chunk 0; https://www.stroustrup.com/fdc_jcse.pdf
 - bjarne-be42606566c159-0b4dd0def971: position; coauthored; normalized source offset 40859; chunk 0; https://www.stroustrup.com/fdc_jcse.pdf
+## bjarne-bfe3fa970f3ba6: Interview with Bjarne Stroustrup
+
+https://stroustrup.com/Programmez239English.pdf
+
+Independent work identity: stroustrup-pichaud-programmez-interview-2020. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,413; full retrieved text: 3,413. Text SHA-256: f7c363143c44f103e6416f47b15d8b378f507c50bee21ee08aafc225485c4a41
+
+Source dates reported in the collected material: 2020-02-24
+
+> I conjectured that macros could be used to meet that need, but
+
+Short excerpt of bjarne-bfe3fa970f3ba6-da199c95bbdf; speaker. Full passage and context retained locally.
+
+- bjarne-bfe3fa970f3ba6-da199c95bbdf: story; speaker; normalized source offset 3231; chunk 0; https://stroustrup.com/Programmez239English.pdf
+- bjarne-bfe3fa970f3ba6-503b501f7b20: position; speaker; normalized source offset 7132; chunk 0; https://stroustrup.com/Programmez239English.pdf
+- bjarne-bfe3fa970f3ba6-b0cd5a0add3e: position; speaker; normalized source offset 9785; chunk 0; https://stroustrup.com/Programmez239English.pdf
+- bjarne-bfe3fa970f3ba6-be298a40206d: position; speaker; normalized source offset 3769; chunk 0; https://stroustrup.com/Programmez239English.pdf
+- bjarne-bfe3fa970f3ba6-6c62eda5fb00: story; speaker; normalized source offset 16102; chunk 0; https://stroustrup.com/Programmez239English.pdf
+- bjarne-bfe3fa970f3ba6-6f00c49ac136: position; speaker; normalized source offset 17352; chunk 0; https://stroustrup.com/Programmez239English.pdf
 ## bjarne-c3b4841d752e22: Speaking C++ as a Native
 
 https://www.stroustrup.com/Speaking_2000.pdf
@@ -1108,6 +1556,26 @@ Short excerpt of bjarne-c3b4841d752e22-6b082b5a9ada; speaker. Full passage and c
 
 - bjarne-c3b4841d752e22-6b082b5a9ada: story; speaker; normalized source offset 17970; chunk 0; https://www.stroustrup.com/Speaking_2000.pdf
 - bjarne-c3b4841d752e22-1798074bdce2: position; speaker; normalized source offset 20536; chunk 0; https://www.stroustrup.com/Speaking_2000.pdf
+## bjarne-c470066f9f7b12: C++ safety interview: unedited answers
+
+https://stroustrup.com/Krill_safety_interview_2023.pdf
+
+Independent work identity: stroustrup-krill-safety-interview-2023. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,101; full retrieved text: 1,101. Text SHA-256: b171747ea30c2f5dffa3c37177d3da8cd07306c00a4dcf536521f621437c9b27
+
+Source dates reported in the collected material: January 2023
+
+> every object is used according to its type and no resource is
+
+Short excerpt of bjarne-c470066f9f7b12-c319eb6e1fe2; speaker. Full passage and context retained locally.
+
+- bjarne-c470066f9f7b12-c319eb6e1fe2: framework; speaker; normalized source offset 898; chunk 0; https://stroustrup.com/Krill_safety_interview_2023.pdf
+- bjarne-c470066f9f7b12-7187eb627001: principle; speaker; normalized source offset 1655; chunk 0; https://stroustrup.com/Krill_safety_interview_2023.pdf
+- bjarne-c470066f9f7b12-b1e133b328f3: framework; speaker; normalized source offset 3218; chunk 0; https://stroustrup.com/Krill_safety_interview_2023.pdf
+- bjarne-c470066f9f7b12-173e8d4b4759: position; speaker; normalized source offset 2778; chunk 0; https://stroustrup.com/Krill_safety_interview_2023.pdf
+- bjarne-c470066f9f7b12-1c3da5935649: position; speaker; normalized source offset 4697; chunk 0; https://stroustrup.com/Krill_safety_interview_2023.pdf
+- bjarne-c470066f9f7b12-5b4e24eb7f8b: position; speaker; normalized source offset 6498; chunk 0; https://stroustrup.com/Krill_safety_interview_2023.pdf
 ## bjarne-c9839d4ff3a827: Are lists evil? -- Bjarne Stroustrup : Standard C++
 
 https://isocpp.org/blog/2014/06/stroustrup-lists
@@ -1117,10 +1585,6 @@ Independent work identity: stroustrup-2014-are-lists-evil. Alternate representat
 Source words in scope: 696; full retrieved text: 696. Text SHA-256: daf40907062e2e5ab4a6b88cdf9bba7f44c07210fa30eb9265c24542b910a896
 
 Source dates reported in the collected material: not established
-
-> don't store data unnecessarily,
-
-Short excerpt of bjarne-c9839d4ff3a827-3e4ae01dd162; sole_author. Full passage and context retained locally.
 
 - bjarne-c9839d4ff3a827-3e4ae01dd162: principle; sole_author; normalized source offset 880; chunk 0; https://isocpp.org/blog/2014/06/stroustrup-lists
 - bjarne-c9839d4ff3a827-fc50f5b4249b: position; sole_author; normalized source offset 3832; chunk 0; https://isocpp.org/blog/2014/06/stroustrup-lists
@@ -1138,7 +1602,9 @@ Source words in scope: 10,491; full retrieved text: 10,491. Text SHA-256: 5ff205
 
 Source dates reported in the collected material: 1999
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> Support for generic programming emerged late as an explicit goal.
+
+Short excerpt of bjarne-ce86a57fb55247-04b791b8096b; sole_author. Full passage and context retained locally.
 
 - bjarne-ce86a57fb55247-04b791b8096b: story; sole_author; normalized source offset 5540; chunk 0; https://www.stroustrup.com/crc.pdf
 - bjarne-ce86a57fb55247-7c8d20e6e4c4: framework; sole_author; normalized source offset 7093; chunk 0; https://www.stroustrup.com/crc.pdf
@@ -1153,6 +1619,55 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - bjarne-ce86a57fb55247-ceca7aca5402: position; sole_author; normalized source offset 51484; chunk 0; https://www.stroustrup.com/crc.pdf
 - bjarne-ce86a57fb55247-def61195abc1: position; sole_author; normalized source offset 40587; chunk 0; https://www.stroustrup.com/crc.pdf
 - bjarne-ce86a57fb55247-15c29cc1f0e4: position; sole_author; normalized source offset 60741; chunk 0; https://www.stroustrup.com/crc.pdf
+## bjarne-d1ed959b783a46: Bjarne Stroustrup Ramapo
+
+https://www.youtube.com/watch?v=iCw_Wg835bg
+
+Independent work identity: youtube-iCw_Wg835bg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,217; full retrieved text: 11,217. Text SHA-256: a06ede063f6f2c4d476da4da270a00365fbd71ec0b997fb93c93e1c5c8100775
+
+Source dates reported in the collected material: 2024-04-23
+
+> you measure the value by how quality of its applications
+
+Short excerpt of bjarne-d1ed959b783a46-96e01a9888f0; speaker. Full passage and context retained locally.
+
+- bjarne-d1ed959b783a46-96e01a9888f0: principle; speaker; caption-prose-v1 offset 2376; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=219
+- bjarne-d1ed959b783a46-9cfc37c9e3b4: story; speaker; caption-prose-v1 offset 4885; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=419
+- bjarne-d1ed959b783a46-1e9a33efb5dd: principle; speaker; caption-prose-v1 offset 6279; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=525
+- bjarne-d1ed959b783a46-da1d22d6f521: framework; speaker; caption-prose-v1 offset 12714; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=1037
+- bjarne-d1ed959b783a46-fad078ce668c: framework; speaker; caption-prose-v1 offset 14760; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=1192
+- bjarne-d1ed959b783a46-c233e96d9e54: framework; speaker; caption-prose-v1 offset 15447; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=1240
+- bjarne-d1ed959b783a46-f16d0675e894: position; speaker; caption-prose-v1 offset 18262; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=1465
+- bjarne-d1ed959b783a46-c78a2ce970b2: story; speaker; caption-prose-v1 offset 20677; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=1657
+- bjarne-d1ed959b783a46-88cca5468cd5: position; speaker; caption-prose-v1 offset 35660; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=2934
+- bjarne-d1ed959b783a46-9d55dc438971: framework; speaker; caption-prose-v1 offset 39765; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=3260
+- bjarne-d1ed959b783a46-c4385b61ee8b: position; speaker; caption-prose-v1 offset 53469; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=4480
+- bjarne-d1ed959b783a46-209426b9f7d8: principle; speaker; caption-prose-v1 offset 42627; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=3528
+- bjarne-d1ed959b783a46-7e2b520537e5: story; speaker; caption-prose-v1 offset 46079; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=3826
+- bjarne-d1ed959b783a46-0a1036647ee2: framework; speaker; caption-prose-v1 offset 48254; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=4041
+- bjarne-d1ed959b783a46-a6efd3f15764: story; speaker; caption-prose-v1 offset 50300; chunk 0; https://www.youtube.com/watch?v=iCw_Wg835bg&t=4230
+## bjarne-d85e3e25027cfd: Interview with Lucio Bragagnolo for Apogeonline
+
+https://stroustrup.com/Italian-Interview-2023.pdf
+
+Independent work identity: stroustrup-bragagnolo-interview-2023. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,020; full retrieved text: 2,020. Text SHA-256: babb57c8714b83a61c333a93734657fc126c775b5975f6e070ae1d29e4c2d74f
+
+Source dates reported in the collected material: May 2023
+
+> grow C++ based on a few fundamental ideas and a lot of
+
+Short excerpt of bjarne-d85e3e25027cfd-96e36a52c43f; speaker. Full passage and context retained locally.
+
+- bjarne-d85e3e25027cfd-96e36a52c43f: principle; speaker; normalized source offset 1092; chunk 0; https://stroustrup.com/Italian-Interview-2023.pdf
+- bjarne-d85e3e25027cfd-a86897d4ede5: position; speaker; normalized source offset 2067; chunk 0; https://stroustrup.com/Italian-Interview-2023.pdf
+- bjarne-d85e3e25027cfd-ba4b834897bc: position; speaker; normalized source offset 2520; chunk 0; https://stroustrup.com/Italian-Interview-2023.pdf
+- bjarne-d85e3e25027cfd-ae567cdf0f35: principle; speaker; normalized source offset 6102; chunk 0; https://stroustrup.com/Italian-Interview-2023.pdf
+- bjarne-d85e3e25027cfd-31060e568cc2: position; speaker; normalized source offset 8536; chunk 0; https://stroustrup.com/Italian-Interview-2023.pdf
+- bjarne-d85e3e25027cfd-9e911e32896f: book; speaker; normalized source offset 10084; chunk 0; https://stroustrup.com/Italian-Interview-2023.pdf
 ## bjarne-d9374d64161a3e: General Constant Expressions for System Programming Languages
 
 https://www.stroustrup.com/sac10-constexpr.pdf
@@ -1171,6 +1686,68 @@ Short excerpt of bjarne-d9374d64161a3e-de74a76bf7e3; coauthored. Full passage an
 - bjarne-d9374d64161a3e-693533414421: framework; coauthored; normalized source offset 15202; chunk 0; https://www.stroustrup.com/sac10-constexpr.pdf
 - bjarne-d9374d64161a3e-f3241451f32e: story; coauthored; normalized source offset 23079; chunk 0; https://www.stroustrup.com/sac10-constexpr.pdf
 - bjarne-d9374d64161a3e-55c105ca652f: framework; coauthored; normalized source offset 27149; chunk 0; https://www.stroustrup.com/sac10-constexpr.pdf
+## bjarne-d9ee56a3b73903: Prog.hu interview: English source
+
+https://stroustrup.com/Prog_hu_interview_29_04_19.pdf
+
+Independent work identity: stroustrup-proghu-interview-2019. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,498; full retrieved text: 2,498. Text SHA-256: eb2fb0d136f54d7d042fc60f60ee5a6b25e8492cbbc5e5a4f43f8727522f28b3
+
+Source dates reported in the collected material: 2019
+
+> If you can afford to devote 90% or more of your hardware
+
+Short excerpt of bjarne-d9ee56a3b73903-571abdbe2ce2; speaker. Full passage and context retained locally.
+
+- bjarne-d9ee56a3b73903-571abdbe2ce2: position; speaker; normalized source offset 5355; chunk 0; https://stroustrup.com/Prog_hu_interview_29_04_19.pdf
+- bjarne-d9ee56a3b73903-4a2f391872bf: framework; speaker; normalized source offset 6698; chunk 0; https://stroustrup.com/Prog_hu_interview_29_04_19.pdf
+- bjarne-d9ee56a3b73903-4dfbbce3b7b1: book; speaker; normalized source offset 9490; chunk 0; https://stroustrup.com/Prog_hu_interview_29_04_19.pdf
+- bjarne-d9ee56a3b73903-07e771012b41: position; speaker; normalized source offset 10894; chunk 0; https://stroustrup.com/Prog_hu_interview_29_04_19.pdf
+- bjarne-d9ee56a3b73903-449cf297b970: position; speaker; normalized source offset 11871; chunk 0; https://stroustrup.com/Prog_hu_interview_29_04_19.pdf
+## bjarne-e6ea9034480210: Italian C++ Meetup with Bjarne Stroustrup
+
+https://www.youtube.com/watch?v=iu2A3qVkLQY
+
+Independent work identity: youtube-iu2A3qVkLQY. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 21,860; full retrieved text: 21,860. Text SHA-256: 4f5d0dc91f27a37e7da9df61ba77bb4f9d60b7e32f9e71c0e360acda1290f09b
+
+Source dates reported in the collected material: 2026-05-09
+
+> always abstract from something that works.
+
+Short excerpt of bjarne-e6ea9034480210-3bcd9f275e71; speaker. Full passage and context retained locally.
+
+- bjarne-e6ea9034480210-3bcd9f275e71: framework; speaker; caption-prose-v1 offset 8240; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=689
+- bjarne-e6ea9034480210-0b8d26f4c8de: principle; speaker; caption-prose-v1 offset 10385; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=934
+- bjarne-e6ea9034480210-4d40df6d96f4: framework; speaker; caption-prose-v1 offset 12629; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=1122
+- bjarne-e6ea9034480210-773754bee767: position; speaker; caption-prose-v1 offset 13529; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=1201
+- bjarne-e6ea9034480210-83264cadca98: framework; speaker; caption-prose-v1 offset 16994; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=1528
+- bjarne-e6ea9034480210-4b5db66003aa: framework; speaker; caption-prose-v1 offset 18952; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=1710
+- bjarne-e6ea9034480210-8a99ef1ac1b7: position; speaker; caption-prose-v1 offset 19668; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=1776
+- bjarne-e6ea9034480210-38b5864e8ce1: position; speaker; caption-prose-v1 offset 21869; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=1969
+- bjarne-e6ea9034480210-43484886fffa: framework; speaker; caption-prose-v1 offset 29398; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=2638
+- bjarne-e6ea9034480210-e63bba6290e9: position; speaker; caption-prose-v1 offset 31978; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=2875
+- bjarne-e6ea9034480210-37fb791a03fd: framework; speaker; caption-prose-v1 offset 34068; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=3047
+- bjarne-e6ea9034480210-0f3579a5b82c: framework; speaker; caption-prose-v1 offset 36370; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=3246
+- bjarne-e6ea9034480210-ae8c17a288d0: position; speaker; caption-prose-v1 offset 38722; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=3455
+- bjarne-e6ea9034480210-d11ddb713a12: framework; speaker; caption-prose-v1 offset 41802; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=3711
+- bjarne-e6ea9034480210-51dc8e2129f7: position; speaker; caption-prose-v1 offset 44368; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=3934
+- bjarne-e6ea9034480210-8a716908e6eb: principle; speaker; caption-prose-v1 offset 47789; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=4235
+- bjarne-e6ea9034480210-928c6ae62ed7: position; speaker; caption-prose-v1 offset 48299; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=4289
+- bjarne-e6ea9034480210-d68f5685f679: framework; speaker; caption-prose-v1 offset 52208; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=4664
+- bjarne-e6ea9034480210-5e15f1061161: position; speaker; caption-prose-v1 offset 57137; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=5097
+- bjarne-e6ea9034480210-51c37bcfea83: framework; speaker; caption-prose-v1 offset 58465; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=5216
+- bjarne-e6ea9034480210-b909c060f325: position; speaker; caption-prose-v1 offset 61801; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=5498
+- bjarne-e6ea9034480210-bb8bf6fef6b7: position; speaker; caption-prose-v1 offset 78167; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=7071
+- bjarne-e6ea9034480210-1d77a2b8e932: position; speaker; caption-prose-v1 offset 85466; chunk 0; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=7760
+- bjarne-e6ea9034480210-2dbc17906903: position; speaker; caption-prose-v1 offset 88812; chunk 1; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=8076
+- bjarne-e6ea9034480210-43ecee9e91a0: position; speaker; caption-prose-v1 offset 90860; chunk 1; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=8274
+- bjarne-e6ea9034480210-c42724eb898e: position; speaker; caption-prose-v1 offset 97495; chunk 1; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=8903
+- bjarne-e6ea9034480210-930848056be5: position; speaker; caption-prose-v1 offset 101588; chunk 1; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=9292
+- bjarne-e6ea9034480210-0d605a9742a0: position; speaker; caption-prose-v1 offset 106656; chunk 1; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=9744
+- bjarne-e6ea9034480210-9e4cfc916cb4: framework; speaker; caption-prose-v1 offset 108761; chunk 1; https://www.youtube.com/watch?v=iu2A3qVkLQY&t=9949
 ## bjarne-eb36b1dc77cc88: Understanding and Effectively Preventing the ABA Problem in Descriptor-based Lock-free Designs
 
 https://www.stroustrup.com/isorc2010.pdf
@@ -1247,6 +1824,35 @@ Source dates reported in the collected material: May 2005
 Short excerpt of bjarne-f2914653b145e8-88065a1ed2ad; sole_author. Full passage and context retained locally.
 
 - bjarne-f2914653b145e8-88065a1ed2ad: principle; sole_author; normalized source offset 6891; chunk 0; https://www.stroustrup.com/rules.pdf
+## bjarne-f2da96885eb13a: Delivering Safe C++ - Bjarne Stroustrup - CppCon 2023
+
+https://www.youtube.com/watch?v=I8UvQKvOSSw
+
+Independent work identity: youtube-I8UvQKvOSSw. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,146; full retrieved text: 12,146. Text SHA-256: 7d044b69e90541caadd676acdb83d909480bfc458af65ea5333237653f97ce20
+
+Source dates reported in the collected material: 20231124
+
+> every object is access according to the type with which it was
+
+Short excerpt of bjarne-f2da96885eb13a-a630beb366bd; speaker. Full passage and context retained locally.
+
+- bjarne-f2da96885eb13a-a630beb366bd: framework; speaker; caption-prose-v1 offset 3491; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=308
+- bjarne-f2da96885eb13a-f4b1fd01373d: position; speaker; caption-prose-v1 offset 12654; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=1050
+- bjarne-f2da96885eb13a-cc0a6adfeecf: story; speaker; caption-prose-v1 offset 14751; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=1216
+- bjarne-f2da96885eb13a-21bc9d079ee1: framework; speaker; caption-prose-v1 offset 16880; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=1380
+- bjarne-f2da96885eb13a-c56b170bb742: position; speaker; caption-prose-v1 offset 19967; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=1640
+- bjarne-f2da96885eb13a-8672901d1b90: framework; speaker; caption-prose-v1 offset 25347; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=2076
+- bjarne-f2da96885eb13a-0d9a35bbbb15: principle; speaker; caption-prose-v1 offset 26616; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=2185
+- bjarne-f2da96885eb13a-b7a27e37f55a: position; speaker; caption-prose-v1 offset 29638; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=2433
+- bjarne-f2da96885eb13a-ee2b6ba5a97d: position; speaker; caption-prose-v1 offset 32794; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=2686
+- bjarne-f2da96885eb13a-8dc05f4814de: framework; speaker; caption-prose-v1 offset 34760; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=2858
+- bjarne-f2da96885eb13a-226b8a255ea6: framework; speaker; caption-prose-v1 offset 37585; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=3104
+- bjarne-f2da96885eb13a-be5e290dfa2f: framework; speaker; caption-prose-v1 offset 48980; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=4066
+- bjarne-f2da96885eb13a-f721973da1ca: position; speaker; caption-prose-v1 offset 45376; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=3775
+- bjarne-f2da96885eb13a-335d85127972: position; speaker; caption-prose-v1 offset 54502; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=4561
+- bjarne-f2da96885eb13a-843b522c1a28: framework; speaker; caption-prose-v1 offset 62291; chunk 0; https://www.youtube.com/watch?v=I8UvQKvOSSw&t=5246
 ## bjarne-f8c2555fc934a2: Learning Standard C++ as a New Language
 
 https://www.stroustrup.com/new_learning.pdf
@@ -1257,15 +1863,41 @@ Source words in scope: 5,553; full retrieved text: 5,553. Text SHA-256: 4ca6c0f7
 
 Source dates reported in the collected material: May 1999
 
-> The key to major improvements is a reduction of the size and
-
-Short excerpt of bjarne-f8c2555fc934a2-91b676989267; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - bjarne-f8c2555fc934a2-91b676989267: principle; sole_author; normalized source offset 1425; chunk 0; https://www.stroustrup.com/new_learning.pdf
 - bjarne-f8c2555fc934a2-451d52d59dd9: story; sole_author; normalized source offset 4515; chunk 0; https://www.stroustrup.com/new_learning.pdf
 - bjarne-f8c2555fc934a2-c07deddb68ea: framework; sole_author; normalized source offset 29286; chunk 0; https://www.stroustrup.com/new_learning.pdf
 - bjarne-f8c2555fc934a2-71b0bf92e762: framework; sole_author; normalized source offset 31799; chunk 0; https://www.stroustrup.com/new_learning.pdf
 - bjarne-f8c2555fc934a2-46ac5383a37e: position; sole_author; normalized source offset 31260; chunk 0; https://www.stroustrup.com/new_learning.pdf
+## bjarne-f98c247fbbb5c2: Roku Engineering Symposium - Bjarne Stroustrup
+
+https://www.youtube.com/watch?v=BMtLOKMUHsY
+
+Independent work identity: youtube-BMtLOKMUHsY. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,939; full retrieved text: 11,939. Text SHA-256: f65a3d41c0afb7386880ac8e7ee8ca9a6c23133201b5d783a4cb96ff04e176b6
+
+Source dates reported in the collected material: 2022-10-11
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- bjarne-f98c247fbbb5c2-6c9ed07a22c3: principle; speaker; caption-prose-v1 offset 3769; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=334
+- bjarne-f98c247fbbb5c2-ad3b8cbc96c8: framework; speaker; caption-prose-v1 offset 8557; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=735
+- bjarne-f98c247fbbb5c2-eedf325d07b5: position; speaker; caption-prose-v1 offset 11086; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=939
+- bjarne-f98c247fbbb5c2-e30eaa1784f4: story; speaker; caption-prose-v1 offset 13747; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=1154
+- bjarne-f98c247fbbb5c2-344fae20d434: position; speaker; caption-prose-v1 offset 18483; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=1556
+- bjarne-f98c247fbbb5c2-a17cf4ba3d85: position; speaker; caption-prose-v1 offset 19450; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=1631
+- bjarne-f98c247fbbb5c2-98e5c258fb4a: position; speaker; caption-prose-v1 offset 23433; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=1971
+- bjarne-f98c247fbbb5c2-efc7ad86a463: story; speaker; caption-prose-v1 offset 22698; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=1913
+- bjarne-f98c247fbbb5c2-0bfe0cc025e5: framework; speaker; caption-prose-v1 offset 30714; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=2587
+- bjarne-f98c247fbbb5c2-a8740585e6f7: position; speaker; caption-prose-v1 offset 34324; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=2875
+- bjarne-f98c247fbbb5c2-753c144644e9: framework; speaker; caption-prose-v1 offset 39807; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=3358
+- bjarne-f98c247fbbb5c2-25fbe211e3d6: position; speaker; caption-prose-v1 offset 45716; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=3851
+- bjarne-f98c247fbbb5c2-1a4cb646b458: position; speaker; caption-prose-v1 offset 49219; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=4170
+- bjarne-f98c247fbbb5c2-f25b4b0a6d26: position; speaker; caption-prose-v1 offset 52695; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=4483
+- bjarne-f98c247fbbb5c2-c7e6cfe4c3e0: story; speaker; caption-prose-v1 offset 57430; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=4931
+- bjarne-f98c247fbbb5c2-0c6b752c1fa1: position; speaker; caption-prose-v1 offset 56423; chunk 0; https://www.youtube.com/watch?v=BMtLOKMUHsY&t=4843
 ## bjarne-faf11ea2080fa8: A History of C++: 1979–1991
 
 https://www.stroustrup.com/hopl2.pdf
@@ -1276,9 +1908,7 @@ Source words in scope: 31,931; full retrieved text: 31,931. Text SHA-256: dcebfc
 
 Source dates reported in the collected material: 1995 (author's note; paper first completed four years earlier)
 
-> more than 80% of the time was spent in the garbage collector
-
-Short excerpt of bjarne-faf11ea2080fa8-1ed6932379dc; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - bjarne-faf11ea2080fa8-1ed6932379dc: story; sole_author; normalized source offset 8782; chunk 0; https://www.stroustrup.com/hopl2.pdf
 - bjarne-faf11ea2080fa8-fdb3ddda308e: framework; sole_author; normalized source offset 12146; chunk 0; https://www.stroustrup.com/hopl2.pdf

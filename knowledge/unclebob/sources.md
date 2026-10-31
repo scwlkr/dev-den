@@ -22,6 +22,63 @@ Short excerpt of unclebob-0161c8fa1edb3a-9a738301ac6a; speaker. Full passage and
 - unclebob-0161c8fa1edb3a-21082d86c193: position; speaker; caption-prose-v1 offset 10363; chunk 0; https://www.youtube.com/watch?v=d9WtSgaqi9Y&t=841
 - unclebob-0161c8fa1edb3a-3d27fc614d8f: position; speaker; caption-prose-v1 offset 17288; chunk 0; https://www.youtube.com/watch?v=d9WtSgaqi9Y&t=1380
 - unclebob-0161c8fa1edb3a-34ecc4faa120: principle; speaker; caption-prose-v1 offset 21210; chunk 0; https://www.youtube.com/watch?v=d9WtSgaqi9Y&t=1676
+## unclebob-0168ed72fbc916: I Interviewed Uncle Bob
+
+https://www.youtube.com/watch?v=UBXXw2JSloo
+
+Independent work identity: youtube-UBXXw2JSloo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,586; full retrieved text: 13,586. Text SHA-256: e1a2cd948ff584c192e4cd2fa85b11d15b4f23642c29d47a1c65272bc84e7029
+
+Source dates reported in the collected material: 2024-04-29
+
+> I had for 30 years thought I'm never going to learn Lisp.
+
+Short excerpt of unclebob-0168ed72fbc916-2307a3abe97e; speaker. Full passage and context retained locally.
+
+- unclebob-0168ed72fbc916-2307a3abe97e: story; speaker; caption-prose-v1 offset 2292; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=157
+- unclebob-0168ed72fbc916-e4e7076a5852: position; speaker; caption-prose-v1 offset 4415; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=292
+- unclebob-0168ed72fbc916-d65f6a20b765: position; speaker; caption-prose-v1 offset 7443; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=496
+- unclebob-0168ed72fbc916-911088c9f83d: framework; speaker; caption-prose-v1 offset 13543; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=881
+- unclebob-0168ed72fbc916-156fe36f8b95: framework; speaker; caption-prose-v1 offset 17386; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=1101
+- unclebob-0168ed72fbc916-8bcc66c01133: position; speaker; caption-prose-v1 offset 18786; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=1185
+- unclebob-0168ed72fbc916-f797eea088e8: story; speaker; caption-prose-v1 offset 19693; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=1241
+- unclebob-0168ed72fbc916-7fd9cddeb358: position; speaker; caption-prose-v1 offset 22870; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=1419
+- unclebob-0168ed72fbc916-3410b85274aa: framework; speaker; caption-prose-v1 offset 27043; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=1690
+- unclebob-0168ed72fbc916-952cc64b4f3a: position; speaker; caption-prose-v1 offset 26503; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=1651
+- unclebob-0168ed72fbc916-2f35e38474ed: framework; speaker; caption-prose-v1 offset 34211; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=2113
+- unclebob-0168ed72fbc916-d29e72abf2eb: framework; speaker; caption-prose-v1 offset 36228; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=2225
+- unclebob-0168ed72fbc916-99dc28fa4634: principle; speaker; caption-prose-v1 offset 41394; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=2522
+- unclebob-0168ed72fbc916-0996b80c8832: framework; speaker; caption-prose-v1 offset 44611; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=2717
+- unclebob-0168ed72fbc916-5074914ff2e5: position; speaker; caption-prose-v1 offset 49747; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=3010
+- unclebob-0168ed72fbc916-cf5aa76616b0: framework; speaker; caption-prose-v1 offset 51982; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=3143
+- unclebob-0168ed72fbc916-3fc08699170a: principle; speaker; caption-prose-v1 offset 53993; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=3268
+- unclebob-0168ed72fbc916-35b9b70e4a75: framework; speaker; caption-prose-v1 offset 61628; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=3730
+- unclebob-0168ed72fbc916-76ec9681f735: position; speaker; caption-prose-v1 offset 64055; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=3887
+- unclebob-0168ed72fbc916-b66b1f3f95ea: position; speaker; caption-prose-v1 offset 59558; chunk 0; https://www.youtube.com/watch?v=UBXXw2JSloo&t=3605
+## unclebob-0240b5f303f74e: John Ousterhout and Robert "Uncle Bob" Martin Discuss Their Software Philosophies
+
+https://www.youtube.com/watch?v=3Vlk6hCWBw0
+
+Independent work identity: youtube-3Vlk6hCWBw0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 9,976; full retrieved text: 9,976. Text SHA-256: 73cb2e4a485878e8da32d522698fceea40298ffcc19da5b6cdfd69274159adf2
+
+Source dates reported in the collected material: 2025-03-30
+
+> I like really short methods, other people don't. Uh comments, you know,
+
+Short excerpt of unclebob-0240b5f303f74e-d87248ce7fc9; speaker. Full passage and context retained locally.
+
+- unclebob-0240b5f303f74e-d87248ce7fc9: position; speaker; caption-prose-v1 offset 13111; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=797
+- unclebob-0240b5f303f74e-48ccfd0d1cfa: framework; speaker; caption-prose-v1 offset 34819; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=2198
+- unclebob-0240b5f303f74e-e7840254e8bb: principle; speaker; caption-prose-v1 offset 35790; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=2275
+- unclebob-0240b5f303f74e-b3b13c17f61d: position; speaker; caption-prose-v1 offset 36832; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=2339
+- unclebob-0240b5f303f74e-b90c3cd0ba6d: position; speaker; caption-prose-v1 offset 39806; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=2520
+- unclebob-0240b5f303f74e-f654eaf07151: story; speaker; caption-prose-v1 offset 22437; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=1384
+- unclebob-0240b5f303f74e-e2cd55a5a0fe: story; speaker; caption-prose-v1 offset 23895; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=1484
+- unclebob-0240b5f303f74e-3cb8ee1229ba: book; speaker; caption-prose-v1 offset 25995; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=1629
+- unclebob-0240b5f303f74e-9c3ea9e6fd68: position; speaker; caption-prose-v1 offset 29607; chunk 0; https://www.youtube.com/watch?v=3Vlk6hCWBw0&t=1893
 ## unclebob-03d3d19f32dae3: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html
@@ -41,6 +98,26 @@ Short excerpt of unclebob-03d3d19f32dae3-24c599623843; sole_author. Full passage
 - unclebob-03d3d19f32dae3-69426b09403d: principle; sole_author; normalized source offset 3672; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html
 - unclebob-03d3d19f32dae3-8b5273110044: position; sole_author; normalized source offset 4338; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html
 - unclebob-03d3d19f32dae3-fc308f4fc10d: principle; sole_author; normalized source offset 5176; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html
+## unclebob-053b976aaa24fa: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
+
+Independent work identity: martin-2021-pairing-guidelines. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 414; full retrieved text: 414. Text SHA-256: cbaab73a7c851dd1afe2e1526c73ada0db22e6f99793ba5a3ff59a8d21308776
+
+Source dates reported in the collected material: 2021-01-17
+
+> it is wise to start deep problems with a pair, or even
+
+Short excerpt of unclebob-053b976aaa24fa-3b6db4aa44ec; sole_author. Full passage and context retained locally.
+
+- unclebob-053b976aaa24fa-3b6db4aa44ec: framework; sole_author; normalized source offset 522; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
+- unclebob-053b976aaa24fa-0b5fa267c413: position; sole_author; normalized source offset 991; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
+- unclebob-053b976aaa24fa-9a2cee67cfd6: principle; sole_author; normalized source offset 1198; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
+- unclebob-053b976aaa24fa-84188e1c7d6f: framework; sole_author; normalized source offset 1666; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
+- unclebob-053b976aaa24fa-5c461ffa8f87: position; sole_author; normalized source offset 1844; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
+- unclebob-053b976aaa24fa-79145814f32d: principle; sole_author; normalized source offset 2286; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html
 ## unclebob-056cd5943a7408: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html
@@ -69,9 +146,7 @@ Source words in scope: 8,504; full retrieved text: 8,504. Text SHA-256: b8414ab9
 
 Source dates reported in the collected material: 2016-02-24
 
-> why isn't it telling me what it does why is it telling
-
-Short excerpt of unclebob-05b361c3a8ec5f-eee29a3b033a; speaker. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - unclebob-05b361c3a8ec5f-eee29a3b033a: principle; speaker; caption-prose-v1 offset 6263; chunk 0; https://www.youtube.com/watch?v=tI4TA8Vj56Y&t=475
 - unclebob-05b361c3a8ec5f-3e70e571ead8: framework; speaker; caption-prose-v1 offset 11008; chunk 0; https://www.youtube.com/watch?v=tI4TA8Vj56Y&t=862
@@ -113,6 +188,24 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - unclebob-09830b9aa30a68-cf55416fa6e8: position; speaker; caption-prose-v1 offset 56797; chunk 0; https://www.youtube.com/watch?v=2dKZ-dWaCiU&t=4201
 - unclebob-09830b9aa30a68-58deaff61639: position; speaker; caption-prose-v1 offset 58133; chunk 0; https://www.youtube.com/watch?v=2dKZ-dWaCiU&t=4293
 - unclebob-09830b9aa30a68-717277733ef3: book; speaker; caption-prose-v1 offset 19420; chunk 0; https://www.youtube.com/watch?v=2dKZ-dWaCiU&t=1568
+## unclebob-0aef9edaa66ff2: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
+
+Independent work identity: rcm-blog-2013-03-05-startup-trap. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,107; full retrieved text: 1,107. Text SHA-256: 98dcbbb306913be2cc44f31167da5bfbdee9ac3b0be686e558dbaf7cdec32c51
+
+Source dates reported in the collected material: 2013-03-05
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- unclebob-0aef9edaa66ff2-fd2522f0454c: framework; sole_author; normalized source offset 1077; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
+- unclebob-0aef9edaa66ff2-41ddf6f0f6e9: position; sole_author; normalized source offset 4167; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
+- unclebob-0aef9edaa66ff2-b0935b534da8: principle; sole_author; normalized source offset 4713; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
+- unclebob-0aef9edaa66ff2-96f7b9c96b17: story; sole_author; normalized source offset 4993; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
+- unclebob-0aef9edaa66ff2-80c2c513ff89: principle; sole_author; normalized source offset 3749; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
+- unclebob-0aef9edaa66ff2-23bae63a43be: position; sole_author; normalized source offset 5993; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html
 ## unclebob-0b312044bb5033: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
@@ -123,9 +216,7 @@ Source words in scope: 999; full retrieved text: 999. Text SHA-256: 1278b1a257d2
 
 Source dates reported in the collected material: 2017-05-05
 
-> These are plumbing tests. They are not business rule tests.
-
-Short excerpt of unclebob-0b312044bb5033-2607652e0f9d; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - unclebob-0b312044bb5033-2607652e0f9d: framework; sole_author; normalized source offset 1631; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
 - unclebob-0b312044bb5033-609c9d244074: framework; sole_author; normalized source offset 2247; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html
@@ -153,6 +244,57 @@ Short excerpt of unclebob-0b950dce03a78b-a6957fef67f6; sole_author. Full passage
 - unclebob-0b950dce03a78b-3efc240fc6e3: position; sole_author; normalized source offset 7966; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html
 - unclebob-0b950dce03a78b-96d577ac3867: position; sole_author; normalized source offset 9549; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html
 - unclebob-0b950dce03a78b-ea031478c078: position; sole_author; normalized source offset 10296; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html
+## unclebob-0bd7b7f8b504c5: Uncle Bob Martin - The Craftsman's Oath at SC London Conference 2018
+
+https://www.youtube.com/watch?v=17vTLSkXTOo
+
+Independent work identity: youtube-17vTLSkXTOo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 7,798; full retrieved text: 7,798. Text SHA-256: 4fab239ddec596ebdca758784fbe27d0f6645f210c28c244b3db1e44804dfef6
+
+Source dates reported in the collected material: 20181010
+
+> It's a bunch of promises that you make to yourself
+
+Short excerpt of unclebob-0bd7b7f8b504c5-6f2db9732418; speaker. Full passage and context retained locally.
+
+- unclebob-0bd7b7f8b504c5-6f2db9732418: framework; speaker; caption-prose-v1 offset 4133; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=381
+- unclebob-0bd7b7f8b504c5-327a0f330a1b: principle; speaker; caption-prose-v1 offset 16337; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=1378
+- unclebob-0bd7b7f8b504c5-f7cf0e243e82: position; speaker; caption-prose-v1 offset 17597; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=1471
+- unclebob-0bd7b7f8b504c5-4bf444f6f79c: framework; speaker; caption-prose-v1 offset 18129; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=1511
+- unclebob-0bd7b7f8b504c5-ac6cd5093f7e: principle; speaker; caption-prose-v1 offset 21929; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=1808
+- unclebob-0bd7b7f8b504c5-a3373cd7d842: framework; speaker; caption-prose-v1 offset 25881; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=2103
+- unclebob-0bd7b7f8b504c5-95ee2873c4c8: framework; speaker; caption-prose-v1 offset 29606; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=2385
+- unclebob-0bd7b7f8b504c5-f8052fe9e9f8: position; speaker; caption-prose-v1 offset 31096; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=2490
+- unclebob-0bd7b7f8b504c5-bb37ebdad598: framework; speaker; caption-prose-v1 offset 34751; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=2729
+- unclebob-0bd7b7f8b504c5-851f19363683: framework; speaker; caption-prose-v1 offset 36151; chunk 0; https://www.youtube.com/watch?v=17vTLSkXTOo&t=2861
+## unclebob-1080ae538e57fd: Frug'Agile - Robert Martin (Uncle Bob) - a lightweight talk about clean agile
+
+https://www.youtube.com/watch?v=Qp3h9ETZWUo
+
+Independent work identity: youtube-Qp3h9ETZWUo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 8,631; full retrieved text: 8,631. Text SHA-256: 563f2ac354bf50a97beeaec28712b4d86130ab3f6e3252cbbcf51c009be1bb23
+
+Source dates reported in the collected material: 2021-02-26
+
+> it was a small idea about the small problem of small programming
+
+Short excerpt of unclebob-1080ae538e57fd-9ba8289081b5; speaker. Full passage and context retained locally.
+
+- unclebob-1080ae538e57fd-9ba8289081b5: position; speaker; caption-prose-v1 offset 881; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=82
+- unclebob-1080ae538e57fd-ab1f0a335636: story; speaker; caption-prose-v1 offset 12487; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=1033
+- unclebob-1080ae538e57fd-cdc9ed18104a: story; speaker; caption-prose-v1 offset 15674; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=1298
+- unclebob-1080ae538e57fd-6d88ba99b5c4: framework; speaker; caption-prose-v1 offset 21807; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=1763
+- unclebob-1080ae538e57fd-d9dc23e3846d: framework; speaker; caption-prose-v1 offset 25587; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=2058
+- unclebob-1080ae538e57fd-6d51fc1ba386: framework; speaker; caption-prose-v1 offset 27935; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=2248
+- unclebob-1080ae538e57fd-ea4ce8b2160e: position; speaker; caption-prose-v1 offset 29821; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=2402
+- unclebob-1080ae538e57fd-599a758af2bf: framework; speaker; caption-prose-v1 offset 30545; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=2456
+- unclebob-1080ae538e57fd-6fb43f61e3a1: framework; speaker; caption-prose-v1 offset 31944; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=2559
+- unclebob-1080ae538e57fd-00557373585b: principle; speaker; caption-prose-v1 offset 42794; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=3410
+- unclebob-1080ae538e57fd-485f73053cd6: position; speaker; caption-prose-v1 offset 44436; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=3550
+- unclebob-1080ae538e57fd-3abe74d02341: position; speaker; caption-prose-v1 offset 38598; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=3106
+- unclebob-1080ae538e57fd-9500b9fbf9db: story; speaker; caption-prose-v1 offset 33261; chunk 0; https://www.youtube.com/watch?v=Qp3h9ETZWUo&t=2657
 ## unclebob-110b06aa627af3: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
@@ -163,9 +305,7 @@ Source words in scope: 1,582; full retrieved text: 1,582. Text SHA-256: 18fc526b
 
 Source dates reported in the collected material: 2017-10-03
 
-> Because refactoring is defined as a sequence of small changes that keep
-
-Short excerpt of unclebob-110b06aa627af3-4d71093a421f; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - unclebob-110b06aa627af3-4d71093a421f: principle; sole_author; normalized source offset 912; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
 - unclebob-110b06aa627af3-9a4fd071df41: principle; sole_author; normalized source offset 3091; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
@@ -173,6 +313,158 @@ Short excerpt of unclebob-110b06aa627af3-4d71093a421f; sole_author. Full passage
 - unclebob-110b06aa627af3-da5cbcb8d2fc: framework; sole_author; normalized source offset 5265; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
 - unclebob-110b06aa627af3-355900ea7933: position; sole_author; normalized source offset 7501; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
 - unclebob-110b06aa627af3-0e72c029dcf0: principle; sole_author; normalized source offset 8106; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html
+## unclebob-13d486e20761c7: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+
+Independent work identity: martin-2015-programmers-oath-essay. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 184; full retrieved text: 184. Text SHA-256: 19921e8b74bd01cd27df3d8fef012fd878cd42846e069da132e8dd182190a5a2
+
+Source dates reported in the collected material: 2015-11-18
+
+> I will not knowingly allow code that is defective either in behavior
+
+Short excerpt of unclebob-13d486e20761c7-3b9dc2c9b4bf; sole_author. Full passage and context retained locally.
+
+- unclebob-13d486e20761c7-3b9dc2c9b4bf: principle; sole_author; normalized source offset 228; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+- unclebob-13d486e20761c7-4a6d7a33ea27: principle; sole_author; normalized source offset 325; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+- unclebob-13d486e20761c7-c5d9ed99378e: principle; sole_author; normalized source offset 447; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+- unclebob-13d486e20761c7-4c8a1a0c6390: principle; sole_author; normalized source offset 533; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+- unclebob-13d486e20761c7-c787b00d9141: principle; sole_author; normalized source offset 784; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+- unclebob-13d486e20761c7-2f683f2d75de: principle; sole_author; normalized source offset 872; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
+## unclebob-19ae5120018825: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html
+
+Independent work identity: martin-2021-on-types. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,372; full retrieved text: 1,372. Text SHA-256: e8d35ce78ea8f544862093a556f7bb6841f9664b9c3982d6bda2b28bb5cd18b2
+
+Source dates reported in the collected material: 2021-06-25
+
+> I found the type system far too constraining, and didn't trust all
+
+Short excerpt of unclebob-19ae5120018825-eed973d5f417; sole_author. Full passage and context retained locally.
+
+- unclebob-19ae5120018825-eed973d5f417: story; sole_author; normalized source offset 3644; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html
+- unclebob-19ae5120018825-fb6ee90698d6: story; sole_author; normalized source offset 4230; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html
+- unclebob-19ae5120018825-755a03e288dd: story; sole_author; normalized source offset 5813; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html
+- unclebob-19ae5120018825-706837633294: position; sole_author; normalized source offset 7300; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/25/OnTypes.html
+## unclebob-1e2a51063c16e8: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html
+
+Independent work identity: martin-2014-professionalism-and-tdd-reprise. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 890; full retrieved text: 890. Text SHA-256: 0762a8472ad6c65a1f1baa185ef17d7a084602fc5b9ce28aa66b610bf12947d4
+
+Source dates reported in the collected material: 2014-05-02
+
+> I don’t believe that TDD is a prerequisite to professionalism.
+
+Short excerpt of unclebob-1e2a51063c16e8-a16a9d796ef7; sole_author. Full passage and context retained locally.
+
+- unclebob-1e2a51063c16e8-a16a9d796ef7: position; sole_author; normalized source offset 1798; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html
+- unclebob-1e2a51063c16e8-49a963e9bf87: framework; sole_author; normalized source offset 2821; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html
+- unclebob-1e2a51063c16e8-fec517b91c0b: position; sole_author; normalized source offset 3667; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html
+- unclebob-1e2a51063c16e8-7b2b7625e9a6: position; sole_author; normalized source offset 4369; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html
+- unclebob-1e2a51063c16e8-13421eda9113: position; sole_author; normalized source offset 4892; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html
+## unclebob-247d07a890a398: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+
+Independent work identity: martin-2018-tragedy-of-craftsmanship. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,753; full retrieved text: 1,753. Text SHA-256: d225a668c81f4de606f15d163f964a210bbc4775fc6698badd267412ef81ab58
+
+Source dates reported in the collected material: 2018-08-28
+
+> Craftsmanship is the Agile, that the Agile movement left behind.
+
+Short excerpt of unclebob-247d07a890a398-c3309005e66e; sole_author. Full passage and context retained locally.
+
+- unclebob-247d07a890a398-c3309005e66e: position; sole_author; normalized source offset 2376; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+- unclebob-247d07a890a398-71e8c18ee132: position; sole_author; normalized source offset 3201; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+- unclebob-247d07a890a398-6cab52b935ae: position; sole_author; normalized source offset 6240; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+- unclebob-247d07a890a398-bc8b564c0b54: framework; sole_author; normalized source offset 7357; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+- unclebob-247d07a890a398-1a7e31b33a3c: position; sole_author; normalized source offset 8750; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+- unclebob-247d07a890a398-fd90d351f340: position; sole_author; normalized source offset 9725; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html
+## unclebob-2793f00d5f87a6: Architecture, AI agents, and product empathy with Robert C. Martin
+
+https://www.youtube.com/watch?v=RxxxGkFIUJ0
+
+Independent work identity: youtube-RxxxGkFIUJ0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 7,750; full retrieved text: 7,750. Text SHA-256: d7895f3835723e0fdfe10908a88daea7325c2da7903d08819192ca2a098f4fe6
+
+Source dates reported in the collected material: 20260722
+
+> We want to control the dependencies between those modules
+
+Short excerpt of unclebob-2793f00d5f87a6-80390223207d; speaker. Full passage and context retained locally.
+
+- unclebob-2793f00d5f87a6-80390223207d: book; speaker; caption-prose-v1 offset 4020; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=251
+- unclebob-2793f00d5f87a6-f3997d4fba59: position; speaker; caption-prose-v1 offset 11511; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=728
+- unclebob-2793f00d5f87a6-9af27d1b6026: position; speaker; caption-prose-v1 offset 14168; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=904
+- unclebob-2793f00d5f87a6-72d87bb76465: position; speaker; caption-prose-v1 offset 15345; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=982
+- unclebob-2793f00d5f87a6-6625fd438ccd: position; speaker; caption-prose-v1 offset 19278; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=1245
+- unclebob-2793f00d5f87a6-141cd11c5966: position; speaker; caption-prose-v1 offset 32241; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=2093
+- unclebob-2793f00d5f87a6-adc85cf23662: position; speaker; caption-prose-v1 offset 34274; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=2232
+- unclebob-2793f00d5f87a6-a2bdb1abc96c: story; speaker; caption-prose-v1 offset 39272; chunk 0; https://www.youtube.com/watch?v=RxxxGkFIUJ0&t=2544
+## unclebob-2888f97fae2702: The Clean Code Legacy: A Conversation with Uncle Bob
+
+https://www.youtube.com/watch?v=kemGeJQzC94
+
+Independent work identity: youtube-kemGeJQzC94. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,848; full retrieved text: 12,848. Text SHA-256: ebad9a94939d810f1583cf63694d65152748f22c63d67ee12313d2e0eccb609a
+
+Source dates reported in the collected material: 2025-12-17
+
+> the only way to really combat that is with deep knowledge and
+
+Short excerpt of unclebob-2888f97fae2702-da31df5cc073; speaker. Full passage and context retained locally.
+
+- unclebob-2888f97fae2702-da31df5cc073: position; speaker; caption-prose-v1 offset 3136; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=231
+- unclebob-2888f97fae2702-5e125db9720d: framework; speaker; caption-prose-v1 offset 6109; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=433
+- unclebob-2888f97fae2702-efc5b0c0a812: position; speaker; caption-prose-v1 offset 9216; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=665
+- unclebob-2888f97fae2702-6e05c509ba17: framework; speaker; caption-prose-v1 offset 12891; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=928
+- unclebob-2888f97fae2702-00377f8e38a8: framework; speaker; caption-prose-v1 offset 16238; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=1130
+- unclebob-2888f97fae2702-1c3de0b1fb9b: position; speaker; caption-prose-v1 offset 21549; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=1519
+- unclebob-2888f97fae2702-940b2a3bca20: position; speaker; caption-prose-v1 offset 32909; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=2356
+- unclebob-2888f97fae2702-75b7afc4ec96: position; speaker; caption-prose-v1 offset 34426; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=2463
+- unclebob-2888f97fae2702-b1e3f3ea7606: position; speaker; caption-prose-v1 offset 36258; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=2618
+- unclebob-2888f97fae2702-75189fe27707: framework; speaker; caption-prose-v1 offset 39617; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=2845
+- unclebob-2888f97fae2702-6889d991c40c: position; speaker; caption-prose-v1 offset 38541; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=2767
+- unclebob-2888f97fae2702-f5bd45c022f3: framework; speaker; caption-prose-v1 offset 42627; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=3064
+- unclebob-2888f97fae2702-8f294a2d981c: framework; speaker; caption-prose-v1 offset 45951; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=3295
+- unclebob-2888f97fae2702-1812401966b6: position; speaker; caption-prose-v1 offset 50137; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=3619
+- unclebob-2888f97fae2702-efbadcef3b91: position; speaker; caption-prose-v1 offset 54068; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=3919
+- unclebob-2888f97fae2702-15ee2e0082b0: principle; speaker; caption-prose-v1 offset 57453; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=4170
+- unclebob-2888f97fae2702-a976f0282947: story; speaker; caption-prose-v1 offset 61554; chunk 0; https://www.youtube.com/watch?v=kemGeJQzC94&t=4468
+## unclebob-2a1ed4dc2c938c: Uncle Bob: Why I Stopped Reading Code and Building Harnesses
+
+https://www.youtube.com/watch?v=5kCISBJwoZo
+
+Independent work identity: youtube-5kCISBJwoZo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 6,204; full retrieved text: 6,204. Text SHA-256: cd24f6ff756e4f20fe03fa1d506e7450e84363148ea04a7e85e255c04f222bc5
+
+Source dates reported in the collected material: 2026-09-24
+
+> My working hypothesis is that human beings are too slow when dealing
+
+Short excerpt of unclebob-2a1ed4dc2c938c-c13ba336ce49; speaker. Full passage and context retained locally.
+
+- unclebob-2a1ed4dc2c938c-c13ba336ce49: story; speaker; caption-prose-v1 offset 2792; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=181
+- unclebob-2a1ed4dc2c938c-0149b9dbcb87: framework; speaker; caption-prose-v1 offset 6760; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=451
+- unclebob-2a1ed4dc2c938c-6fc75593e09a: framework; speaker; caption-prose-v1 offset 9930; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=669
+- unclebob-2a1ed4dc2c938c-fb62ca002d3d: position; speaker; caption-prose-v1 offset 31333; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=2001
+- unclebob-2a1ed4dc2c938c-586d4d91a1cf: framework; speaker; caption-prose-v1 offset 20733; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=1342
+- unclebob-2a1ed4dc2c938c-e4ab8245cbec: principle; speaker; caption-prose-v1 offset 22836; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=1468
+- unclebob-2a1ed4dc2c938c-7819708b88e5: position; speaker; caption-prose-v1 offset 29220; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=1866
+- unclebob-2a1ed4dc2c938c-6655df9afe19: position; speaker; caption-prose-v1 offset 15294; chunk 0; https://www.youtube.com/watch?v=5kCISBJwoZo&t=1012
 ## unclebob-2a851e848e2ce6: Agile Tour 2017 Sherbrooke - Keynote with Uncle Bob
 
 https://www.youtube.com/watch?v=VY4LYd2YfBk
@@ -284,6 +576,31 @@ Short excerpt of unclebob-335b3d6762d229-e9837c1b008d; speaker. Full passage and
 - unclebob-335b3d6762d229-20f4e6fb6149: framework; speaker; caption-prose-v1 offset 47555; chunk 0; https://www.youtube.com/watch?v=SNdzafT0wbs&t=3547
 - unclebob-335b3d6762d229-ac0897931cb7: position; speaker; caption-prose-v1 offset 61216; chunk 0; https://www.youtube.com/watch?v=SNdzafT0wbs&t=4598
 - unclebob-335b3d6762d229-b788d4c842b0: position; speaker; caption-prose-v1 offset 62079; chunk 0; https://www.youtube.com/watch?v=SNdzafT0wbs&t=4674
+## unclebob-39beead9ebd6f2: "Uncle" Bob Martin - "The Future of Programming"
+
+https://www.youtube.com/watch?v=ecIWPzGEbFc
+
+Independent work identity: youtube-ecIWPzGEbFc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,798; full retrieved text: 11,798. Text SHA-256: 447e962c344ea36427dc9dfc48d571368a4242a383fc4cc13e70408490830306
+
+Source dates reported in the collected material: 2016-05-18
+
+> we're always looking for the better language
+
+Short excerpt of unclebob-39beead9ebd6f2-6d0d2263eab6; speaker. Full passage and context retained locally.
+
+- unclebob-39beead9ebd6f2-6d0d2263eab6: position; speaker; caption-prose-v1 offset 5923; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=462
+- unclebob-39beead9ebd6f2-9fada62c6d5c: book; speaker; caption-prose-v1 offset 10272; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=790
+- unclebob-39beead9ebd6f2-c08561f9875f: story; speaker; caption-prose-v1 offset 27286; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=1980
+- unclebob-39beead9ebd6f2-63c65bba0bc9: position; speaker; caption-prose-v1 offset 41254; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3084
+- unclebob-39beead9ebd6f2-13b89aaf87f0: framework; speaker; caption-prose-v1 offset 46265; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3499
+- unclebob-39beead9ebd6f2-9f98f7039c1f: position; speaker; caption-prose-v1 offset 45494; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3431
+- unclebob-39beead9ebd6f2-4a4087e639fe: framework; speaker; caption-prose-v1 offset 49358; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3737
+- unclebob-39beead9ebd6f2-a7dab7f146b4: framework; speaker; caption-prose-v1 offset 49873; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3781
+- unclebob-39beead9ebd6f2-26ac924866b9: principle; speaker; caption-prose-v1 offset 52121; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3950
+- unclebob-39beead9ebd6f2-f92e744388c4: position; speaker; caption-prose-v1 offset 52659; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=3989
+- unclebob-39beead9ebd6f2-16c63324f5e6: principle; speaker; caption-prose-v1 offset 61229; chunk 0; https://www.youtube.com/watch?v=ecIWPzGEbFc&t=4621
 ## unclebob-3cab7d307d0128: Interview With Bob Martin (Uncle Bob)
 
 https://www.youtube.com/watch?v=Tp-Pku4Ikkc
@@ -317,12 +634,49 @@ Source words in scope: 681; full retrieved text: 681. Text SHA-256: 1c5e0be23346
 
 Source dates reported in the collected material: 2018-08-13
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> This is not something I had considered or expressed before; though it
+
+Short excerpt of unclebob-3cb44af8551198-d4c2ef23ebf3; sole_author. Full passage and context retained locally.
 
 - unclebob-3cb44af8551198-d4c2ef23ebf3: position; sole_author; normalized source offset 923; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/13/TooClean.html
 - unclebob-3cb44af8551198-fc2a76a25afa: framework; sole_author; normalized source offset 2638; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/13/TooClean.html
 - unclebob-3cb44af8551198-0b8136f271bd: story; sole_author; normalized source offset 3390; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/13/TooClean.html
 - unclebob-3cb44af8551198-a9c490e36d42: position; sole_author; normalized source offset 3733; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/08/13/TooClean.html
+## unclebob-3dea11bb47daf6: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html
+
+Independent work identity: rcm-blog-2015-04-27-language-layers. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 693; full retrieved text: 693. Text SHA-256: 09c2660f921a8ecdfb8479dd2253d3341c2ec686d55eaf1d074640c9edad72a7
+
+Source dates reported in the collected material: 2015-04-27
+
+> Five different mechanisms for telling a machine what to do; all stacked
+
+Short excerpt of unclebob-3dea11bb47daf6-9294e5a085b2; sole_author. Full passage and context retained locally.
+
+- unclebob-3dea11bb47daf6-9294e5a085b2: story; sole_author; normalized source offset 1391; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html
+- unclebob-3dea11bb47daf6-f5e4c26eeb29: position; sole_author; normalized source offset 3478; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html
+- unclebob-3dea11bb47daf6-aff304cdbd39: story; sole_author; normalized source offset 799; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html
+## unclebob-3fc9bb330b9f2d: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html
+
+Independent work identity: rcm-blog-2020-04-06-a-little-clojure. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,159; full retrieved text: 1,159. Text SHA-256: a19c8beb067732db919e19ff17bd6675a4ac2b6aa7db632ce442b042e3651443
+
+Source dates reported in the collected material: 2020-04-06
+
+> The function is the first element of the list, and the arguments
+
+Short excerpt of unclebob-3fc9bb330b9f2d-b601bc401f03; sole_author. Full passage and context retained locally.
+
+- unclebob-3fc9bb330b9f2d-b601bc401f03: framework; sole_author; normalized source offset 637; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html
+- unclebob-3fc9bb330b9f2d-7cada538318e: position; sole_author; normalized source offset 2873; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html
+- unclebob-3fc9bb330b9f2d-50e6e6e85094: story; sole_author; normalized source offset 5159; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html
+- unclebob-3fc9bb330b9f2d-e2c5a8d624a5: framework; sole_author; normalized source offset 8230; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html
 ## unclebob-42518cbd7c1471: Design Principles and Design Patterns
 
 https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf
@@ -348,6 +702,35 @@ Short excerpt of unclebob-42518cbd7c1471-b3451c0f7af9; sole_author. Full passage
 - unclebob-42518cbd7c1471-85e4502ba695: framework; sole_author; normalized source offset 47568; chunk 0; https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf
 - unclebob-42518cbd7c1471-e69b13e25695: framework; sole_author; normalized source offset 50751; chunk 0; https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf
 - unclebob-42518cbd7c1471-86b918454e58: framework; sole_author; normalized source offset 51581; chunk 0; https://objectmentor.com/resources/articles/Principles_and_Patterns.pdf
+## unclebob-442b482fa9e2bc: Expecting Professionalism by Uncle Bob (Robert C. Martin)
+
+https://www.youtube.com/watch?v=OYQTBEhlzMA
+
+Independent work identity: youtube-OYQTBEhlzMA. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,493; full retrieved text: 11,493. Text SHA-256: e49b05b474e5d9c184b392c3f35870246d714d8b23fa66ee07899347ea824fd2
+
+Source dates reported in the collected material: 2022-02-10
+
+> the way we do that is to become professionals to adopt a
+
+Short excerpt of unclebob-442b482fa9e2bc-51c51d61b3f0; speaker. Full passage and context retained locally.
+
+- unclebob-442b482fa9e2bc-51c51d61b3f0: position; speaker; caption-prose-v1 offset 12316; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=902
+- unclebob-442b482fa9e2bc-5b51d9fee560: story; speaker; caption-prose-v1 offset 13899; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=1036
+- unclebob-442b482fa9e2bc-15d7b06018e4: principle; speaker; caption-prose-v1 offset 15427; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=1154
+- unclebob-442b482fa9e2bc-acc98cd84180: position; speaker; caption-prose-v1 offset 21360; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=1606
+- unclebob-442b482fa9e2bc-b6090168e6f6: framework; speaker; caption-prose-v1 offset 28005; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=2136
+- unclebob-442b482fa9e2bc-11422a5d354c: position; speaker; caption-prose-v1 offset 30982; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=2358
+- unclebob-442b482fa9e2bc-dd32f428cce4: story; speaker; caption-prose-v1 offset 33365; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=2545
+- unclebob-442b482fa9e2bc-febcd47589f1: framework; speaker; caption-prose-v1 offset 59058; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=4429
+- unclebob-442b482fa9e2bc-5e61b83aeb4d: principle; speaker; caption-prose-v1 offset 36390; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=2760
+- unclebob-442b482fa9e2bc-8919c620575c: framework; speaker; caption-prose-v1 offset 39806; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=2996
+- unclebob-442b482fa9e2bc-54aeb2b9c29b: principle; speaker; caption-prose-v1 offset 45362; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=3430
+- unclebob-442b482fa9e2bc-b762c3bd5003: position; speaker; caption-prose-v1 offset 47517; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=3590
+- unclebob-442b482fa9e2bc-2724127f5a9a: principle; speaker; caption-prose-v1 offset 52542; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=3965
+- unclebob-442b482fa9e2bc-658c452553e9: book; speaker; caption-prose-v1 offset 50864; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=3841
+- unclebob-442b482fa9e2bc-689eadd3d9c8: position; speaker; caption-prose-v1 offset 53681; chunk 0; https://www.youtube.com/watch?v=OYQTBEhlzMA&t=4052
 ## unclebob-4697db4760e9c9: The Future of Programming with Uncle Bob
 
 https://www.youtube.com/watch?v=6lMU8e8KcRE
@@ -414,6 +797,46 @@ Short excerpt of unclebob-46e632eed0d049-ed4f726c6ee4; speaker. Full passage and
 - unclebob-46e632eed0d049-b7cf3606f49a: story; speaker; caption-prose-v1 offset 53148; chunk 0; https://www.youtube.com/watch?v=o_TH-Y78tt4&t=3907
 - unclebob-46e632eed0d049-6bedf3133a08: principle; speaker; caption-prose-v1 offset 54644; chunk 0; https://www.youtube.com/watch?v=o_TH-Y78tt4&t=4022
 - unclebob-46e632eed0d049-5e5b4f9b7293: position; speaker; caption-prose-v1 offset 56916; chunk 0; https://www.youtube.com/watch?v=o_TH-Y78tt4&t=4177
+## unclebob-49f5df4486d853: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+
+Independent work identity: martin-2021-functional-duplications. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,151; full retrieved text: 1,151. Text SHA-256: d4f1fa051be5c75b6791b7eac0983ef9b4255f1ffbf12a437e5ebec43b4dfa3f
+
+Source dates reported in the collected material: 2021-10-28
+
+> Now I wrote this with TDD, and I was very disciplined about
+
+Short excerpt of unclebob-49f5df4486d853-3084db4ddcb9; sole_author. Full passage and context retained locally.
+
+- unclebob-49f5df4486d853-3084db4ddcb9: story; sole_author; normalized source offset 476; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+- unclebob-49f5df4486d853-62c398bcfab1: framework; sole_author; normalized source offset 3357; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+- unclebob-49f5df4486d853-3b936d8cd568: story; sole_author; normalized source offset 4517; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+- unclebob-49f5df4486d853-20dfcd45d727: story; sole_author; normalized source offset 5091; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+- unclebob-49f5df4486d853-8bb3e8106f12: position; sole_author; normalized source offset 5546; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+- unclebob-49f5df4486d853-b7129e8d0da8: position; sole_author; normalized source offset 5993; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/10/28/functional-duplication.html
+## unclebob-4cf38fe238040a: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
+
+Independent work identity: rcm-blog-2017-12-09-dbtails. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,501; full retrieved text: 1,501. Text SHA-256: 60a4d6035723c18146b19d589e7a069f5444d7a36fce526d07b425a33931c6ec
+
+Source dates reported in the collected material: 2017-12-09
+
+> Much of the preparation work for a big batch job was done
+
+Short excerpt of unclebob-4cf38fe238040a-4f953a3fc2dc; sole_author. Full passage and context retained locally.
+
+- unclebob-4cf38fe238040a-4f953a3fc2dc: story; sole_author; normalized source offset 1633; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
+- unclebob-4cf38fe238040a-67e1c36e9209: position; sole_author; normalized source offset 2764; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
+- unclebob-4cf38fe238040a-92a76665e2d3: framework; sole_author; normalized source offset 4333; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
+- unclebob-4cf38fe238040a-3758a4bea3f4: principle; sole_author; normalized source offset 5741; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
+- unclebob-4cf38fe238040a-0642baac648c: position; sole_author; normalized source offset 6236; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
+- unclebob-4cf38fe238040a-6ccc700512fc: position; sole_author; normalized source offset 8135; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html
 ## unclebob-4f76a5b16635e3: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html
@@ -444,7 +867,9 @@ Source words in scope: 906; full retrieved text: 906. Text SHA-256: 8e3e90d6c5de
 
 Source dates reported in the collected material: 2015-05-28
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> And how much time is going to be spent by the operator,
+
+Short excerpt of unclebob-4fb5fe8db247fe-1a8cddbb0388; sole_author. Full passage and context retained locally.
 
 - unclebob-4fb5fe8db247fe-1a8cddbb0388: story; sole_author; normalized source offset 2230; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html
 - unclebob-4fb5fe8db247fe-0873d12b00ea: framework; sole_author; normalized source offset 3888; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html
@@ -467,6 +892,98 @@ Short excerpt of unclebob-4fce3c7ed1b89e-b59550d92d0a; sole_author. Full passage
 - unclebob-4fce3c7ed1b89e-847752a1517c: position; sole_author; normalized source offset 299; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html
 - unclebob-4fce3c7ed1b89e-dc217ee5f545: position; sole_author; normalized source offset 954; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html
 - unclebob-4fce3c7ed1b89e-d25e283a128e: position; sole_author; normalized source offset 1206; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html
+## unclebob-50f00f6de90b48: Clean Code - Uncle Bob / Lesson 1
+
+https://www.youtube.com/watch?v=7EmboKQH8lM
+
+Independent work identity: youtube-7EmboKQH8lM. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 15,654; full retrieved text: 15,654. Text SHA-256: e19d2176b2a607c713d41a6b8679844c5b19163f5aeff2c5b7f8d7dbd99126b9
+
+Source dates reported in the collected material: 20190809
+
+> we're going to have to learn to adopt a set of standards
+
+Short excerpt of unclebob-50f00f6de90b48-1010d0482af6; speaker. Full passage and context retained locally.
+
+- unclebob-50f00f6de90b48-1010d0482af6: principle; speaker; caption-prose-v1 offset 16873; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=1392
+- unclebob-50f00f6de90b48-6c7541307faf: framework; speaker; caption-prose-v1 offset 21448; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=1741
+- unclebob-50f00f6de90b48-ecf2588bfb3f: principle; speaker; caption-prose-v1 offset 23846; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=1907
+- unclebob-50f00f6de90b48-6efb7572d369: position; speaker; caption-prose-v1 offset 27685; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=2239
+- unclebob-50f00f6de90b48-4da46012ac87: story; speaker; caption-prose-v1 offset 36320; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=3063
+- unclebob-50f00f6de90b48-1198f928485f: framework; speaker; caption-prose-v1 offset 32525; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=2776
+- unclebob-50f00f6de90b48-aab456f8e4ff: principle; speaker; caption-prose-v1 offset 38338; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=3201
+- unclebob-50f00f6de90b48-fdb6ae346d2e: framework; speaker; caption-prose-v1 offset 42507; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=3518
+- unclebob-50f00f6de90b48-f04e07c2f66e: story; speaker; caption-prose-v1 offset 46907; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=3885
+- unclebob-50f00f6de90b48-5472346deebf: position; speaker; caption-prose-v1 offset 53103; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=4340
+- unclebob-50f00f6de90b48-628a70a25298: position; speaker; caption-prose-v1 offset 54665; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=4457
+- unclebob-50f00f6de90b48-48260e9edfd6: principle; speaker; caption-prose-v1 offset 56117; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=4543
+- unclebob-50f00f6de90b48-3e8911b42a22: framework; speaker; caption-prose-v1 offset 59309; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=4782
+- unclebob-50f00f6de90b48-445e961deac8: position; speaker; caption-prose-v1 offset 60914; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=4914
+- unclebob-50f00f6de90b48-da26f06c40fb: position; speaker; caption-prose-v1 offset 63828; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=5134
+- unclebob-50f00f6de90b48-ff25c3a37d91: framework; speaker; caption-prose-v1 offset 69695; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=5627
+- unclebob-50f00f6de90b48-fb66fcee5c16: position; speaker; caption-prose-v1 offset 66125; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=5361
+- unclebob-50f00f6de90b48-2528c4280302: framework; speaker; caption-prose-v1 offset 70372; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=5682
+- unclebob-50f00f6de90b48-3c590d340396: framework; speaker; caption-prose-v1 offset 74171; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=5945
+- unclebob-50f00f6de90b48-03c3ff1a90a8: position; speaker; caption-prose-v1 offset 79386; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=6336
+- unclebob-50f00f6de90b48-0e2e696d0b76: principle; speaker; caption-prose-v1 offset 81414; chunk 0; https://www.youtube.com/watch?v=7EmboKQH8lM&t=6493
+## unclebob-58bd9a768e045c: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html
+
+Independent work identity: rcm-blog-2017-02-23-necessary-comments. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 722; full retrieved text: 722. Text SHA-256: 3dea83c965e85e417511943c5eda1a934a2bc2891aac9bc8e16d5c6c70e08e91
+
+Source dates reported in the collected material: 2017-02-23
+
+> I have advised programmers to consider comments as a last resort.
+
+Short excerpt of unclebob-58bd9a768e045c-aa183102faa9; sole_author. Full passage and context retained locally.
+
+- unclebob-58bd9a768e045c-aa183102faa9: principle; sole_author; normalized source offset 236; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html
+- unclebob-58bd9a768e045c-2261b37e9139: story; sole_author; normalized source offset 1034; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html
+- unclebob-58bd9a768e045c-efcbbf37d31f: story; sole_author; normalized source offset 2330; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html
+- unclebob-58bd9a768e045c-88534dc704cb: position; sole_author; normalized source offset 3681; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html
+## unclebob-6404d403d1dda2: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+
+Independent work identity: rcm-blog-2013-09-26-at-fail. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,019; full retrieved text: 2,019. Text SHA-256: 004b9a94e902edba912b8167f355a480c922d83a17b042bc39a885781105f413
+
+Source dates reported in the collected material: 2013-09-26
+
+> Shorten the feedback loop between specification and execution.
+
+Short excerpt of unclebob-6404d403d1dda2-79e8d24bdf44; sole_author. Full passage and context retained locally.
+
+- unclebob-6404d403d1dda2-79e8d24bdf44: framework; sole_author; normalized source offset 1922; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+- unclebob-6404d403d1dda2-49f7ba8c02a1: position; sole_author; normalized source offset 2642; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+- unclebob-6404d403d1dda2-c6b40d33f3fb: story; sole_author; normalized source offset 3925; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+- unclebob-6404d403d1dda2-a69f9946478e: position; sole_author; normalized source offset 6209; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+- unclebob-6404d403d1dda2-bf0e8543ecd6: position; sole_author; normalized source offset 8307; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+- unclebob-6404d403d1dda2-30262f5689df: principle; sole_author; normalized source offset 10248; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html
+## unclebob-646df1008497f7: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html
+
+Independent work identity: rcm-blog-2015-01-08-interface-considered-harmful. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,112; full retrieved text: 1,112. Text SHA-256: 99952f982c51cc52ec1a194528827721de89ac47dfed2b62da6cfbc2b14541a8
+
+Source dates reported in the collected material: 2015-01-08
+
+> Because it uses the keyword class; and the language won’t allow you
+
+Short excerpt of unclebob-646df1008497f7-aba2b2e31aff; sole_author. Full passage and context retained locally.
+
+- unclebob-646df1008497f7-aba2b2e31aff: position; sole_author; normalized source offset 3203; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html
+- unclebob-646df1008497f7-c978ba003391: position; sole_author; normalized source offset 2913; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html
+- unclebob-646df1008497f7-0f7c43f8725a: position; sole_author; normalized source offset 4548; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html
+- unclebob-646df1008497f7-41e3778bd766: position; sole_author; normalized source offset 3573; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html
+- unclebob-646df1008497f7-3fa5ec13d568: framework; sole_author; normalized source offset 5445; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html
 ## unclebob-65ca06070f1683: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
@@ -497,7 +1014,9 @@ Source words in scope: 1,026; full retrieved text: 1,026. Text SHA-256: 1da8ca0c
 
 Source dates reported in the collected material: 2014-06-30
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> A Design Pattern is a named canonical form for a combination of
+
+Short excerpt of unclebob-662152bd5709c6-0b71ff39e5aa; sole_author. Full passage and context retained locally.
 
 - unclebob-662152bd5709c6-0b71ff39e5aa: framework; sole_author; normalized source offset 3068; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/06/30/ALittleAboutPatterns.html
 - unclebob-662152bd5709c6-abea91cac3bf: position; sole_author; normalized source offset 4924; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/06/30/ALittleAboutPatterns.html
@@ -550,6 +1069,26 @@ Short excerpt of unclebob-6887cdc81accdc-f2d8c33187ba; sole_author. Full passage
 - unclebob-6887cdc81accdc-a7df9b5f00e9: position; sole_author; normalized source offset 3212; chunk 0; https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
 - unclebob-6887cdc81accdc-e16ec3bfb68d: principle; sole_author; normalized source offset 4410; chunk 0; https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
 - unclebob-6887cdc81accdc-f10ff2fd07ea: position; sole_author; normalized source offset 5097; chunk 0; https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+## unclebob-6cebcb6075b83f: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
+
+Independent work identity: martin-2016-stabilization-phases. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,100; full retrieved text: 1,100. Text SHA-256: fdd7867998ff7b3fc189eacfa18bab6e549a5f5449a27f366a4280d8aff73621
+
+Source dates reported in the collected material: 2016-01-14
+
+> the data coming into the system in production is entirely new data.
+
+Short excerpt of unclebob-6cebcb6075b83f-059994af40e4; sole_author. Full passage and context retained locally.
+
+- unclebob-6cebcb6075b83f-059994af40e4: position; sole_author; normalized source offset 2391; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
+- unclebob-6cebcb6075b83f-0abab69d1790: framework; sole_author; normalized source offset 3487; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
+- unclebob-6cebcb6075b83f-983323fdea1e: framework; sole_author; normalized source offset 3390; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
+- unclebob-6cebcb6075b83f-e06a1786e2e3: framework; sole_author; normalized source offset 3895; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
+- unclebob-6cebcb6075b83f-36a70b939cbc: framework; sole_author; normalized source offset 4361; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
+- unclebob-6cebcb6075b83f-80ab5ccea18f: position; sole_author; normalized source offset 4975; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html
 ## unclebob-6de84d91408433: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html
@@ -587,6 +1126,26 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - unclebob-6f6f18be59b537-8e3245a72adb: position; sole_author; normalized source offset 4770; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html
 - unclebob-6f6f18be59b537-fb1fb2f229da: framework; sole_author; normalized source offset 5790; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html
 - unclebob-6f6f18be59b537-cc34d3a0fbc0: position; sole_author; normalized source offset 5601; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html
+## unclebob-70f91fc8a48e09: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
+
+Independent work identity: martin-2019-why-clojure. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,966; full retrieved text: 1,966. Text SHA-256: 4037c46f734b2fa8045150a9d296d2b4adf8500cd94c9f9ed52458c205ee128b
+
+Source dates reported in the collected material: 2019-08-22
+
+> In my mind, large systems equated to large syntax. Boy, was I
+
+Short excerpt of unclebob-70f91fc8a48e09-700172af542f; sole_author. Full passage and context retained locally.
+
+- unclebob-70f91fc8a48e09-700172af542f: story; sole_author; normalized source offset 5970; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
+- unclebob-70f91fc8a48e09-87ab4616c03e: principle; sole_author; normalized source offset 5286; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
+- unclebob-70f91fc8a48e09-03c939950e9d: framework; sole_author; normalized source offset 3855; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
+- unclebob-70f91fc8a48e09-3ac72fc0ee2c: position; sole_author; normalized source offset 7111; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
+- unclebob-70f91fc8a48e09-6915157cacc2: position; sole_author; normalized source offset 8130; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
+- unclebob-70f91fc8a48e09-c160d35a524a: position; sole_author; normalized source offset 9101; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html
 ## unclebob-7161c75e7fa66a: Ruby Midwest 2011 - Keynote: Architecture the Lost Years by Robert Martin
 
 https://www.youtube.com/watch?v=WpkDN78P884
@@ -615,6 +1174,62 @@ Short excerpt of unclebob-7161c75e7fa66a-7313e7207ebd; speaker. Full passage and
 - unclebob-7161c75e7fa66a-bbe5d5dcc23c: position; speaker; caption-prose-v1 offset 43794; chunk 0; https://www.youtube.com/watch?v=WpkDN78P884&t=3496
 - unclebob-7161c75e7fa66a-5fb805480482: principle; speaker; caption-prose-v1 offset 44892; chunk 0; https://www.youtube.com/watch?v=WpkDN78P884&t=3579
 - unclebob-7161c75e7fa66a-150a7b5b8a6b: position; speaker; caption-prose-v1 offset 46549; chunk 0; https://www.youtube.com/watch?v=WpkDN78P884&t=3702
+## unclebob-7a1e44088bf863: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html
+
+Independent work identity: martin-2012-fp-for-oo-programmer. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 472; full retrieved text: 472. Text SHA-256: c7484673180fe90d124719a8fc522f83b053f214e30eb6e411c5f2955b67a0d4
+
+Source dates reported in the collected material: 2012-08-24
+
+> What better way to explain and expose functional programming to an OO
+
+Short excerpt of unclebob-7a1e44088bf863-3d9ee23c87f5; sole_author. Full passage and context retained locally.
+
+- unclebob-7a1e44088bf863-3d9ee23c87f5: book; sole_author; normalized source offset 1075; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html
+- unclebob-7a1e44088bf863-dc2207d33b32: book; sole_author; normalized source offset 1694; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html
+- unclebob-7a1e44088bf863-2ff2478c8667: book; sole_author; normalized source offset 2217; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html
+## unclebob-7a7b0d52c8413a: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+
+Independent work identity: rcm-blog-2021-03-06-if-else-switch. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 988; full retrieved text: 988. Text SHA-256: 6bce1379dca05a58d02474f40cb97cf69644afcf02fce5c640cce5f52f4584b8
+
+Source dates reported in the collected material: 2021-03-06
+
+> then his refactoring #2 would be my preference.
+
+Short excerpt of unclebob-7a7b0d52c8413a-e5800eb7b94a; sole_author. Full passage and context retained locally.
+
+- unclebob-7a7b0d52c8413a-e5800eb7b94a: position; sole_author; normalized source offset 635; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+- unclebob-7a7b0d52c8413a-c34006c4e707: principle; sole_author; normalized source offset 1327; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+- unclebob-7a7b0d52c8413a-738fcf4d8414: framework; sole_author; normalized source offset 2825; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+- unclebob-7a7b0d52c8413a-b6a89a984827: framework; sole_author; normalized source offset 4562; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+- unclebob-7a7b0d52c8413a-8129d6520605: position; sole_author; normalized source offset 5072; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+- unclebob-7a7b0d52c8413a-60eca39e0048: position; sole_author; normalized source offset 5525; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/03/06/ifElseSwitch.html
+## unclebob-7b034dd35395a4: Between Two Wings with Robert Martin - "Uncle Bob"
+
+https://www.youtube.com/watch?v=gEDN5oGsPvs
+
+Independent work identity: youtube-gEDN5oGsPvs. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,131; full retrieved text: 2,131. Text SHA-256: 803a1c9814ab50ace5fc72f865f5a194bfe6b1800e49ac6f54cb69933b793c54
+
+Source dates reported in the collected material: 20211001
+
+> if you want to program safely you learn to be disciplined
+
+Short excerpt of unclebob-7b034dd35395a4-66b5c5341d0b; speaker. Full passage and context retained locally.
+
+- unclebob-7b034dd35395a4-66b5c5341d0b: principle; speaker; caption-prose-v1 offset 2553; chunk 0; https://www.youtube.com/watch?v=gEDN5oGsPvs&t=176
+- unclebob-7b034dd35395a4-cd5796c12c65: position; speaker; caption-prose-v1 offset 3461; chunk 0; https://www.youtube.com/watch?v=gEDN5oGsPvs&t=238
+- unclebob-7b034dd35395a4-fc21d2908389: framework; speaker; caption-prose-v1 offset 5239; chunk 0; https://www.youtube.com/watch?v=gEDN5oGsPvs&t=366
+- unclebob-7b034dd35395a4-7a816375104b: framework; speaker; caption-prose-v1 offset 9852; chunk 0; https://www.youtube.com/watch?v=gEDN5oGsPvs&t=678
+- unclebob-7b034dd35395a4-162a32715d58: position; speaker; caption-prose-v1 offset 7763; chunk 0; https://www.youtube.com/watch?v=gEDN5oGsPvs&t=534
 ## unclebob-7fdb240a791f32: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2016/10/26/DijkstrasAlg.html
@@ -625,7 +1240,9 @@ Source words in scope: 3,816; full retrieved text: 3,816. Text SHA-256: bbc407c9
 
 Source dates reported in the collected material: 2016-10-26
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> I like to compose my assertions into statements that are easy to
+
+Short excerpt of unclebob-7fdb240a791f32-49c75137fb2b; sole_author. Full passage and context retained locally.
 
 - unclebob-7fdb240a791f32-49c75137fb2b: framework; sole_author; normalized source offset 1339; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/10/26/DijkstrasAlg.html
 - unclebob-7fdb240a791f32-96196610caa1: story; sole_author; normalized source offset 12436; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/10/26/DijkstrasAlg.html
@@ -658,6 +1275,82 @@ Short excerpt of unclebob-81c2cbf3ed75c1-f94431f5d9c0; speaker. Full passage and
 - unclebob-81c2cbf3ed75c1-0033c5ab55cf: position; speaker; caption-prose-v1 offset 30556; chunk 0; https://www.youtube.com/watch?v=DTk0DBpQveM&t=2501
 - unclebob-81c2cbf3ed75c1-b41a50ad3beb: framework; speaker; caption-prose-v1 offset 33426; chunk 0; https://www.youtube.com/watch?v=DTk0DBpQveM&t=2719
 - unclebob-81c2cbf3ed75c1-bf9ec5d59bfd: principle; speaker; caption-prose-v1 offset 41075; chunk 0; https://www.youtube.com/watch?v=DTk0DBpQveM&t=3299
+## unclebob-82264d90ca364d: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+
+Independent work identity: rcm-blog-2015-10-30-future-proof. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,507; full retrieved text: 1,507. Text SHA-256: cb9948547be80e47eba0f163c1f87936dbe82be154d1e5f4406325126966fbda
+
+Source dates reported in the collected material: 2015-10-30
+
+> The Open-Closed Principle cannot apply to every element of the system.
+
+Short excerpt of unclebob-82264d90ca364d-4a8094380607; sole_author. Full passage and context retained locally.
+
+- unclebob-82264d90ca364d-4a8094380607: position; sole_author; normalized source offset 506; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+- unclebob-82264d90ca364d-98e19de6740c: framework; sole_author; normalized source offset 2684; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+- unclebob-82264d90ca364d-3468dbc87fd5: framework; sole_author; normalized source offset 4150; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+- unclebob-82264d90ca364d-093cef72162a: position; sole_author; normalized source offset 5244; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+- unclebob-82264d90ca364d-beca78e8918d: framework; sole_author; normalized source offset 6329; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+- unclebob-82264d90ca364d-608d68da106b: position; sole_author; normalized source offset 7319; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html
+## unclebob-82fa152db8f579: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+
+Independent work identity: martin-2019-classes-vs-data-structures. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,984; full retrieved text: 1,984. Text SHA-256: 2eb471f7496d39c0b8ec84d472c451694a98f1de184353a8f30a400164334780
+
+Source dates reported in the collected material: 2019-06-16
+
+> An Object is a set of functions that operate upon implied data
+
+Short excerpt of unclebob-82fa152db8f579-75e6491713f9; sole_author. Full passage and context retained locally.
+
+- unclebob-82fa152db8f579-75e6491713f9: framework; sole_author; normalized source offset 1335; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+- unclebob-82fa152db8f579-0354eec0ab1b: position; sole_author; normalized source offset 2312; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+- unclebob-82fa152db8f579-851bf70c9fec: principle; sole_author; normalized source offset 2938; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+- unclebob-82fa152db8f579-768e91c32cb2: framework; sole_author; normalized source offset 7332; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+- unclebob-82fa152db8f579-81ce2bbcb806: framework; sole_author; normalized source offset 9093; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+- unclebob-82fa152db8f579-852926aa9588: principle; sole_author; normalized source offset 10171; chunk 0; https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html
+## unclebob-833c60756709cb: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html
+
+Independent work identity: martin-2017-pragmatic-functional-programming. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,449; full retrieved text: 1,449. Text SHA-256: e7efbfdbfbcef9f2cf0ee37a2d05486fad6692f631d9b8d17ed11dd4233524a7
+
+Source dates reported in the collected material: 2017-07-11
+
+> FP makes concurrency much safer.
+
+Short excerpt of unclebob-833c60756709cb-45c717b99c3d; sole_author. Full passage and context retained locally.
+
+- unclebob-833c60756709cb-45c717b99c3d: position; sole_author; normalized source offset 3318; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html
+- unclebob-833c60756709cb-a26c85bfd649: principle; sole_author; normalized source offset 4578; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html
+- unclebob-833c60756709cb-47df75eee7ff: position; sole_author; normalized source offset 5609; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html
+- unclebob-833c60756709cb-0c4c9495e7dd: framework; sole_author; normalized source offset 6298; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html
+- unclebob-833c60756709cb-0b1492b5bbd3: principle; sole_author; normalized source offset 7536; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html
+## unclebob-83c38c729222e9: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2018/06/21/IntegersAndEstimates.html
+
+Independent work identity: martin-2018-integers-and-estimates. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,056; full retrieved text: 1,056. Text SHA-256: 764e20ef9d965084b8e7fb68529d59f598a22a20b3f039501c2413ee97c495b4
+
+Source dates reported in the collected material: 2018-06-21
+
+> Actually, the specification of the program is the equation. The program finds
+
+Short excerpt of unclebob-83c38c729222e9-22dea825a142; sole_author. Full passage and context retained locally.
+
+- unclebob-83c38c729222e9-22dea825a142: framework; sole_author; normalized source offset 2534; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/21/IntegersAndEstimates.html
+- unclebob-83c38c729222e9-00adca163986: position; sole_author; normalized source offset 5708; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/21/IntegersAndEstimates.html
+- unclebob-83c38c729222e9-189040eba614: position; sole_author; normalized source offset 5903; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/21/IntegersAndEstimates.html
 ## unclebob-8400f4cb01599b: CorkJUG: Uncle Bob on architecture
 
 https://www.youtube.com/watch?v=3IA9WKVN53Q
@@ -701,7 +1394,9 @@ Source words in scope: 752; full retrieved text: 752. Text SHA-256: a9c30f2af654
 
 Source dates reported in the collected material: 2013-03-08
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> no significant program can be 100% closed.
+
+Short excerpt of unclebob-8449a8d4bfdbdd-24d13fc32bd8; sole_author. Full passage and context retained locally.
 
 - unclebob-8449a8d4bfdbdd-24d13fc32bd8: position; sole_author; normalized source offset 1421; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/08/AnOpenAndClosedCase.html
 - unclebob-8449a8d4bfdbdd-c4532b5337fc: principle; sole_author; normalized source offset 3444; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/03/08/AnOpenAndClosedCase.html
@@ -726,6 +1421,76 @@ Short excerpt of unclebob-860320a823aea1-d53e41ae72c3; sole_author. Full passage
 - unclebob-860320a823aea1-969c849a1d1a: framework; sole_author; normalized source offset 6179; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
 - unclebob-860320a823aea1-eac253a02194: framework; sole_author; normalized source offset 7827; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
 - unclebob-860320a823aea1-809b0763341f: position; sole_author; normalized source offset 8723; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
+## unclebob-871734303df07f: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html
+
+Independent work identity: martin-2023-functional-classes-clojure. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 804; full retrieved text: 804. Text SHA-256: 65a964963981f5c19d73b6e5e2d5385217bdcd9c69fec46081e8a2d32441e4c6
+
+Source dates reported in the collected material: 2023-01-19
+
+> A class is an intentionally named abstraction that consists of a set
+
+Short excerpt of unclebob-871734303df07f-2b3b3090b159; sole_author. Full passage and context retained locally.
+
+- unclebob-871734303df07f-2b3b3090b159: framework; sole_author; normalized source offset 795; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html
+- unclebob-871734303df07f-659342c478f4: story; sole_author; normalized source offset 3611; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html
+- unclebob-871734303df07f-e4aa5907f454: story; sole_author; normalized source offset 4170; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html
+- unclebob-871734303df07f-ea761d58e743: position; sole_author; normalized source offset 4849; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/19/functional-classes-clojure.html
+## unclebob-8c4c6d02179bd6: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html
+
+Independent work identity: rcm-blog-2015-08-06-make-the-magic-go-away. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,423; full retrieved text: 1,423. Text SHA-256: 43dd4a396676004e049772804fb158a760396affc9c5bbf17eef5e6b646a048a
+
+Source dates reported in the collected material: 2015-08-06
+
+> those designs were too indirect; making them too hard to trace and
+
+Short excerpt of unclebob-8c4c6d02179bd6-732eed6470d1; sole_author. Full passage and context retained locally.
+
+- unclebob-8c4c6d02179bd6-732eed6470d1: position; sole_author; normalized source offset 638; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html
+- unclebob-8c4c6d02179bd6-a842eec1562e: framework; sole_author; normalized source offset 5003; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html
+- unclebob-8c4c6d02179bd6-463007dbf19a: framework; sole_author; normalized source offset 6531; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html
+- unclebob-8c4c6d02179bd6-515844729871: framework; sole_author; normalized source offset 7612; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html
+## unclebob-906e502e9c921e: Interview with Robert C. Martin aka Uncle Bob
+
+https://www.youtube.com/watch?v=ksz0PCw6Aqs
+
+Independent work identity: youtube-ksz0PCw6Aqs. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,504; full retrieved text: 13,504. Text SHA-256: 0c1d763f46a89122eaeebb1212119bd498e7fee30be5eb547c34c87ffaa52015
+
+Source dates reported in the collected material: 2020-08-28
+
+> the vast majority of that code had to be thrown away a
+
+Short excerpt of unclebob-906e502e9c921e-f70a9a12f610; speaker. Full passage and context retained locally.
+
+- unclebob-906e502e9c921e-f70a9a12f610: story; speaker; caption-prose-v1 offset 10718; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=912
+- unclebob-906e502e9c921e-3b21ae55bc56: position; speaker; caption-prose-v1 offset 12337; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=1045
+- unclebob-906e502e9c921e-61b12e35a8f4: framework; speaker; caption-prose-v1 offset 13712; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=1146
+- unclebob-906e502e9c921e-d912babbc788: position; speaker; caption-prose-v1 offset 14906; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=1234
+- unclebob-906e502e9c921e-55d691dc6f24: framework; speaker; caption-prose-v1 offset 23293; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=1884
+- unclebob-906e502e9c921e-fbb0b77b34a0: principle; speaker; caption-prose-v1 offset 17821; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=1470
+- unclebob-906e502e9c921e-9bf98c1d9262: framework; speaker; caption-prose-v1 offset 25655; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=2046
+- unclebob-906e502e9c921e-f0a3e7537a68: principle; speaker; caption-prose-v1 offset 28287; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=2255
+- unclebob-906e502e9c921e-a1ba2d706b86: position; speaker; caption-prose-v1 offset 33069; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=2622
+- unclebob-906e502e9c921e-f2190d3d379e: framework; speaker; caption-prose-v1 offset 40993; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=3254
+- unclebob-906e502e9c921e-df212800ebb7: framework; speaker; caption-prose-v1 offset 42066; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=3330
+- unclebob-906e502e9c921e-0b17006561e9: framework; speaker; caption-prose-v1 offset 45440; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=3602
+- unclebob-906e502e9c921e-c671ca507e6b: position; speaker; caption-prose-v1 offset 52204; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=4146
+- unclebob-906e502e9c921e-eea1c5b9d241: framework; speaker; caption-prose-v1 offset 53748; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=4249
+- unclebob-906e502e9c921e-5c62f2787fbf: position; speaker; caption-prose-v1 offset 56148; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=4428
+- unclebob-906e502e9c921e-e3f13fafe580: position; speaker; caption-prose-v1 offset 58674; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=4608
+- unclebob-906e502e9c921e-afe37f1e4905: principle; speaker; caption-prose-v1 offset 59790; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=4704
+- unclebob-906e502e9c921e-6c76444ac567: framework; speaker; caption-prose-v1 offset 64295; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=5054
+- unclebob-906e502e9c921e-9a97ceab0d8b: book; speaker; caption-prose-v1 offset 9405; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=807
+- unclebob-906e502e9c921e-63f54b90a505: principle; speaker; caption-prose-v1 offset 66800; chunk 0; https://www.youtube.com/watch?v=ksz0PCw6Aqs&t=5258
 ## unclebob-9076b4768afefe: OOP 2015 Keynote - Robert C. Martin ("Uncle Bob"): Agility and Architecture
 
 https://www.youtube.com/watch?v=0oGpWmS0aYQ
@@ -758,15 +1523,91 @@ Source words in scope: 1,257; full retrieved text: 1,257. Text SHA-256: cace01e6
 
 Source dates reported in the collected material: 2014-05-08
 
-> Certainly the code is not responsible for bug fixes or refactoring. Those
-
-Short excerpt of unclebob-9155454a988921-0708f577b098; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - unclebob-9155454a988921-0708f577b098: principle; sole_author; normalized source offset 2195; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 - unclebob-9155454a988921-423c4b36d54f: framework; sole_author; normalized source offset 5021; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 - unclebob-9155454a988921-1fb0788b6a49: principle; sole_author; normalized source offset 5398; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 - unclebob-9155454a988921-1a396147725d: position; sole_author; normalized source offset 5803; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 - unclebob-9155454a988921-8038adb1deca: principle; sole_author; normalized source offset 6687; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+## unclebob-92fc9b7c6c8b7c: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+
+Independent work identity: martin-2023-functional-classes. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,218; full retrieved text: 1,218. Text SHA-256: d6726bbdad00b20fcff88cac94fe050a47dc17d99d1a5799192e839eefbe800a
+
+Source dates reported in the collected material: 2023-01-18
+
+> A class is a group of cohesive and narrowly defined functions that
+
+Short excerpt of unclebob-92fc9b7c6c8b7c-4a73797c9989; sole_author. Full passage and context retained locally.
+
+- unclebob-92fc9b7c6c8b7c-4a73797c9989: framework; sole_author; normalized source offset 437; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+- unclebob-92fc9b7c6c8b7c-754bb8a66624: position; sole_author; normalized source offset 2864; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+- unclebob-92fc9b7c6c8b7c-b23e17e992d5: principle; sole_author; normalized source offset 4116; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+- unclebob-92fc9b7c6c8b7c-86159a32d819: story; sole_author; normalized source offset 5462; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+- unclebob-92fc9b7c6c8b7c-a18fc07a9c49: principle; sole_author; normalized source offset 6459; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+- unclebob-92fc9b7c6c8b7c-e795ba31cfd3: story; sole_author; normalized source offset 6776; chunk 0; https://blog.cleancoder.com/uncle-bob/2023/01/18/functional-classes.html
+## unclebob-94cf44c0b3ecf5: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+
+Independent work identity: rcm-blog-2014-01-27-domain-discontinuity. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,916; full retrieved text: 1,916. Text SHA-256: 235b8488ab02fcdc3299f4c1c942734aa175df7da4eae8acb3eaafd9d7183e67
+
+Source dates reported in the collected material: 2014-01-27
+
+> You don’t learn to refactor by being told.
+
+Short excerpt of unclebob-94cf44c0b3ecf5-52763ddcfde7; sole_author. Full passage and context retained locally.
+
+- unclebob-94cf44c0b3ecf5-52763ddcfde7: framework; sole_author; normalized source offset 1980; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+- unclebob-94cf44c0b3ecf5-4833a9c5ff81: position; sole_author; normalized source offset 3045; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+- unclebob-94cf44c0b3ecf5-5ef94b6b2355: principle; sole_author; normalized source offset 3807; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+- unclebob-94cf44c0b3ecf5-20bb127f594e: position; sole_author; normalized source offset 5648; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+- unclebob-94cf44c0b3ecf5-dbf7f867de6c: framework; sole_author; normalized source offset 6236; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+- unclebob-94cf44c0b3ecf5-46b3b0500c38: framework; sole_author; normalized source offset 9663; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html
+## unclebob-95c3cd410eb249: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+
+Independent work identity: martin-2021-more-on-types. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,457; full retrieved text: 1,457. Text SHA-256: 92521cdbc7ebfe5b24a8fcbf4d1463d0b35e591bf0598b6912c489e173bcb8ba
+
+Source dates reported in the collected material: 2021-06-29
+
+> clojure/spec is a dynamic type definition language.
+
+Short excerpt of unclebob-95c3cd410eb249-c4e3d24be200; sole_author. Full passage and context retained locally.
+
+- unclebob-95c3cd410eb249-c4e3d24be200: framework; sole_author; normalized source offset 4836; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+- unclebob-95c3cd410eb249-57417a08b81a: principle; sole_author; normalized source offset 5456; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+- unclebob-95c3cd410eb249-7362369da999: position; sole_author; normalized source offset 7313; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+- unclebob-95c3cd410eb249-a60b721d4d7a: position; sole_author; normalized source offset 7644; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+- unclebob-95c3cd410eb249-f36527a50a05: principle; sole_author; normalized source offset 8066; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+- unclebob-95c3cd410eb249-f2f1904fb2be: position; sole_author; normalized source offset 8504; chunk 0; https://blog.cleancoder.com/uncle-bob/2021/06/29/MoreOnTypes.html
+## unclebob-9660da09f914d2: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html
+
+Independent work identity: martin-2015-prelude-to-a-profession. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,246; full retrieved text: 1,246. Text SHA-256: 41549a987982873eed3af59227f5f67bfd227f025613f29456fe27cefd57eaea
+
+Source dates reported in the collected material: 2015-11-27
+
+> A few year ago I would have been strongly against it as
+
+Short excerpt of unclebob-9660da09f914d2-ca045b1a674d; sole_author. Full passage and context retained locally.
+
+- unclebob-9660da09f914d2-ca045b1a674d: position; sole_author; normalized source offset 294; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html
+- unclebob-9660da09f914d2-c9eaf11b6d0c: position; sole_author; normalized source offset 5941; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html
+- unclebob-9660da09f914d2-06d8b958a1d7: position; sole_author; normalized source offset 6335; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html
+- unclebob-9660da09f914d2-1ecb4ae212c4: position; sole_author; normalized source offset 7107; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html
 ## unclebob-989669d8f0f513: KEYNOTE: Demanding Technical Excellence and Professionalism - UNCLE BOB
 
 https://www.youtube.com/watch?v=x90VHbG8FzY
@@ -812,6 +1653,44 @@ Short excerpt of unclebob-9d158b477bef4e-b4df391d77ea; sole_author. Full passage
 - unclebob-9d158b477bef4e-27518eeb868a: framework; sole_author; normalized source offset 3401; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - unclebob-9d158b477bef4e-0be363ed01cb: framework; sole_author; normalized source offset 5149; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - unclebob-9d158b477bef4e-d2f2f58e6ea7: framework; sole_author; normalized source offset 6377; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
+## unclebob-9d1f42a1e023a1: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+
+Independent work identity: rcm-blog-2016-09-01-the-lurn. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,083; full retrieved text: 1,083. Text SHA-256: cb69ca4f28bd17014b273721f674374b8b2deaf3d0bab38b8bfe40f2a1abb442
+
+Source dates reported in the collected material: 2016-09-01
+
+> You’ll begin to see the patterns behind all these languages
+
+Short excerpt of unclebob-9d1f42a1e023a1-178e414fb5ab; sole_author. Full passage and context retained locally.
+
+- unclebob-9d1f42a1e023a1-178e414fb5ab: position; sole_author; normalized source offset 1290; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- unclebob-9d1f42a1e023a1-37396cab91c2: position; sole_author; normalized source offset 1721; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- unclebob-9d1f42a1e023a1-ef76b928e85f: framework; sole_author; normalized source offset 2660; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- unclebob-9d1f42a1e023a1-94a8dc132d5b: framework; sole_author; normalized source offset 3772; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- unclebob-9d1f42a1e023a1-8794b0f51931: book; sole_author; normalized source offset 4120; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+- unclebob-9d1f42a1e023a1-ce83b9198007: position; sole_author; normalized source offset 6072; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html
+## unclebob-a0f9da9ce16d16: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html
+
+Independent work identity: rcm-blog-2015-04-15-does-organization-matter. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 852; full retrieved text: 852. Text SHA-256: 07aea66ee4bb187eebfc0fd5fd8021d76c866c7a6703775158fbec4a39b80ca3
+
+Source dates reported in the collected material: 2015-04-15
+
+> As programs grow, parts start to depend on other parts.
+
+Short excerpt of unclebob-a0f9da9ce16d16-b04b34ecccaf; sole_author. Full passage and context retained locally.
+
+- unclebob-a0f9da9ce16d16-b04b34ecccaf: position; sole_author; normalized source offset 1213; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html
+- unclebob-a0f9da9ce16d16-a5cfc25800ce: framework; sole_author; normalized source offset 2876; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html
+- unclebob-a0f9da9ce16d16-4c098191af0d: position; sole_author; normalized source offset 3887; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html
+- unclebob-a0f9da9ce16d16-1fcd50206fb1: position; sole_author; normalized source offset 4182; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html
 ## unclebob-a4089de04a8bac: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html
@@ -872,6 +1751,25 @@ Short excerpt of unclebob-ad8fbd7913827c-ef7286dd186a; speaker. Full passage and
 - unclebob-ad8fbd7913827c-e39529b43e07: framework; speaker; caption-prose-v1 offset 26546; chunk 0; https://www.youtube.com/watch?v=cFy00mMpdog&t=3039
 - unclebob-ad8fbd7913827c-95330f9844cb: position; speaker; caption-prose-v1 offset 27934; chunk 0; https://www.youtube.com/watch?v=cFy00mMpdog&t=3177
 - unclebob-ad8fbd7913827c-3bebeda53ccf: position; speaker; caption-prose-v1 offset 29691; chunk 0; https://www.youtube.com/watch?v=cFy00mMpdog&t=3356
+## unclebob-b0f8bd64cdf681: What is Clean Code? with "Uncle Bob" Robert C. Martin
+
+https://www.youtube.com/watch?v=RAr4-MD10pQ
+
+Independent work identity: youtube-RAr4-MD10pQ. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,509; full retrieved text: 2,509. Text SHA-256: 7b65e5f9f5cc5f5de0a2ad8af20dc006fec948ed63af8537010fbfdb742075f3
+
+Source dates reported in the collected material: 2022-11-27
+
+> it is much more important that your peers be able to understand
+
+Short excerpt of unclebob-b0f8bd64cdf681-54241e701ae1; speaker. Full passage and context retained locally.
+
+- unclebob-b0f8bd64cdf681-54241e701ae1: principle; speaker; caption-prose-v1 offset 3443; chunk 0; https://www.youtube.com/watch?v=RAr4-MD10pQ&t=195
+- unclebob-b0f8bd64cdf681-4c85a50524f0: principle; speaker; caption-prose-v1 offset 7022; chunk 0; https://www.youtube.com/watch?v=RAr4-MD10pQ&t=438
+- unclebob-b0f8bd64cdf681-65881fe287c3: framework; speaker; caption-prose-v1 offset 7880; chunk 0; https://www.youtube.com/watch?v=RAr4-MD10pQ&t=474
+- unclebob-b0f8bd64cdf681-213cccd1fbc4: story; speaker; caption-prose-v1 offset 10228; chunk 0; https://www.youtube.com/watch?v=RAr4-MD10pQ&t=595
+- unclebob-b0f8bd64cdf681-9a6939dc8d00: framework; speaker; caption-prose-v1 offset 11614; chunk 0; https://www.youtube.com/watch?v=RAr4-MD10pQ&t=671
 ## unclebob-b1de0760f9d739: Interview With Uncle Bob (Robert) C. Martin
 
 https://www.youtube.com/watch?v=T1pbVwISv_U
@@ -910,7 +1808,9 @@ Source words in scope: 1,740; full retrieved text: 1,740. Text SHA-256: 5ae3f225
 
 Source dates reported in the collected material: 2016-01-04
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> The business rules should not know what specific database you are using.
+
+Short excerpt of unclebob-b2ae2946e34748-2dff7f4c5132; sole_author. Full passage and context retained locally.
 
 - unclebob-b2ae2946e34748-2dff7f4c5132: position; sole_author; normalized source offset 1786; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html
 - unclebob-b2ae2946e34748-ef955a3148ec: principle; sole_author; normalized source offset 2563; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html
@@ -935,6 +1835,25 @@ Short excerpt of unclebob-b3d63da21d8aac-92205ee98eff; sole_author. Full passage
 - unclebob-b3d63da21d8aac-1cfd7d157541: principle; sole_author; normalized source offset 1946; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html
 - unclebob-b3d63da21d8aac-1785d8ed49a0: story; sole_author; normalized source offset 2424; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html
 - unclebob-b3d63da21d8aac-5d274bbcc630: framework; sole_author; normalized source offset 4164; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html
+## unclebob-b62eca800076f1: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html
+
+Independent work identity: rcm-blog-2020-04-09-a-little-more-clojure. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,223; full retrieved text: 1,223. Text SHA-256: c30b7e69a1125063279c38c10c176d4406bb87505093c26f9d0220dbc359c89e
+
+Source dates reported in the collected material: 2020-04-09
+
+> Our eyes will be the tests. The cycle will be the same
+
+Short excerpt of unclebob-b62eca800076f1-c03961480370; sole_author. Full passage and context retained locally.
+
+- unclebob-b62eca800076f1-c03961480370: framework; sole_author; normalized source offset 864; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html
+- unclebob-b62eca800076f1-e88cb780e03f: framework; sole_author; normalized source offset 2682; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html
+- unclebob-b62eca800076f1-07483085010b: position; sole_author; normalized source offset 2248; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html
+- unclebob-b62eca800076f1-b98142fe7380: principle; sole_author; normalized source offset 5061; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html
+- unclebob-b62eca800076f1-3ebdfef128d1: story; sole_author; normalized source offset 6027; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html
 ## unclebob-b93b1f3a344b28: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2014/09/03/TestTime.html
@@ -1033,6 +1952,62 @@ Short excerpt of unclebob-bd9a500f3fab2c-6053049cf1a1; speaker. Full passage and
 - unclebob-bd9a500f3fab2c-2abd54cf9ef5: principle; speaker; normalized source offset 15500; chunk 0; https://www.infoq.com/podcasts/uncle-bob-solid-ddd/
 - unclebob-bd9a500f3fab2c-8f3646d2b3db: position; speaker; normalized source offset 13831; chunk 0; https://www.infoq.com/podcasts/uncle-bob-solid-ddd/
 - unclebob-bd9a500f3fab2c-faa2cf5d7d38: position; speaker; normalized source offset 14760; chunk 0; https://www.infoq.com/podcasts/uncle-bob-solid-ddd/
+## unclebob-bf577debf1eb28: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html
+
+Independent work identity: rcm-blog-2012-04-20-why-is-estimating-so-hard. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 952; full retrieved text: 952. Text SHA-256: 329c8718247f13b22d218fc251697329b75c84803a7448f91faffcd3d9094827
+
+Source dates reported in the collected material: 2012-04-20
+
+> Most people need 30-45 minutes to get this working. I’ve seen it
+
+Short excerpt of unclebob-bf577debf1eb28-1240f2f775d5; sole_author. Full passage and context retained locally.
+
+- unclebob-bf577debf1eb28-1240f2f775d5: story; sole_author; normalized source offset 1898; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html
+- unclebob-bf577debf1eb28-7b822072fb39: story; sole_author; normalized source offset 2514; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html
+- unclebob-bf577debf1eb28-9b79f4a13be1: principle; sole_author; normalized source offset 3567; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html
+- unclebob-bf577debf1eb28-6e3b53ab2eba: framework; sole_author; normalized source offset 4509; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html
+- unclebob-bf577debf1eb28-822f1f2ec324: principle; sole_author; normalized source offset 4906; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html
+## unclebob-bfa37c984b9b45: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html
+
+Independent work identity: rcm-blog-2014-04-25-monogamous-tdd. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,110; full retrieved text: 1,110. Text SHA-256: 0f5f137a504ca5131a535d05dd028cab573ce05f8729358d872f81adc68c9c66
+
+Source dates reported in the collected material: 2014-04-25
+
+> Those are ancillary benefits of TDD; and they are debatable.
+
+Short excerpt of unclebob-bfa37c984b9b45-72220e93a7ac; sole_author. Full passage and context retained locally.
+
+- unclebob-bfa37c984b9b45-72220e93a7ac: position; sole_author; normalized source offset 3252; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html
+- unclebob-bfa37c984b9b45-07afadbf6ebc: framework; sole_author; normalized source offset 3658; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html
+- unclebob-bfa37c984b9b45-490d24bd2d8c: position; sole_author; normalized source offset 4925; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html
+- unclebob-bfa37c984b9b45-0b39e6517dbe: voice; sole_author; normalized source offset 2660; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html
+## unclebob-bfa8d240467e59: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
+
+Independent work identity: martin-2017-types-and-tests. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,660; full retrieved text: 1,660. Text SHA-256: 9d0fe56a3c82d3c8b0cfd393760be137db298c933c6e45a237d08e500228610a
+
+Source dates reported in the collected material: 2017-01-13
+
+> Behavior and self-consistency are orthogonal concepts.
+
+Short excerpt of unclebob-bfa8d240467e59-0dcc73e96566; sole_author. Full passage and context retained locally.
+
+- unclebob-bfa8d240467e59-0dcc73e96566: position; sole_author; normalized source offset 3090; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
+- unclebob-bfa8d240467e59-4054c869cea4: framework; sole_author; normalized source offset 4749; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
+- unclebob-bfa8d240467e59-197fcf292d89: story; sole_author; normalized source offset 6415; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
+- unclebob-bfa8d240467e59-c07dc27d4cbf: position; sole_author; normalized source offset 8087; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
+- unclebob-bfa8d240467e59-0f4ceea92e6a: position; sole_author; normalized source offset 9492; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html
 ## unclebob-c07e65f55865a8: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2012/05/15/NODB.html
@@ -1111,6 +2086,221 @@ Short excerpt of unclebob-c1f727c372c0d3-6158351636d3; sole_author. Full passage
 - unclebob-c1f727c372c0d3-065943c48251: position; sole_author; normalized source offset 6035; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html
 - unclebob-c1f727c372c0d3-499aab3065a1: position; sole_author; normalized source offset 6784; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html
 - unclebob-c1f727c372c0d3-d4a766c69623: principle; sole_author; normalized source offset 8007; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html
+## unclebob-c5c3648f804c59: Uncle Bob SOLID principles
+
+https://www.youtube.com/watch?v=zHiWqnTWsn4
+
+Independent work identity: youtube-zHiWqnTWsn4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,756; full retrieved text: 11,756. Text SHA-256: 5b83cd9bdf793d281e775b3f0a6f679a659718dda313be4740f8ff265d3aa087
+
+Source dates reported in the collected material: 2018-08-02
+
+> you want to go fast you do a good job
+
+Short excerpt of unclebob-c5c3648f804c59-aefc162f8913; speaker. Full passage and context retained locally.
+
+- unclebob-c5c3648f804c59-aefc162f8913: position; speaker; caption-prose-v1 offset 13387; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=1019
+- unclebob-c5c3648f804c59-c5f728d13917: position; speaker; caption-prose-v1 offset 15113; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=1190
+- unclebob-c5c3648f804c59-d37f4ba79384: framework; speaker; caption-prose-v1 offset 21184; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=1657
+- unclebob-c5c3648f804c59-2c0b0fa156a7: position; speaker; caption-prose-v1 offset 21274; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=1670
+- unclebob-c5c3648f804c59-759d403bece7: story; speaker; caption-prose-v1 offset 11668; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=892
+- unclebob-c5c3648f804c59-719fa9b0d3da: framework; speaker; caption-prose-v1 offset 24659; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=2021
+- unclebob-c5c3648f804c59-d6a3781439f0: position; speaker; caption-prose-v1 offset 28537; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=2332
+- unclebob-c5c3648f804c59-7266538b9e17: position; speaker; caption-prose-v1 offset 32674; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=2625
+- unclebob-c5c3648f804c59-897726893ae1: story; speaker; caption-prose-v1 offset 36403; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=2942
+- unclebob-c5c3648f804c59-306d79a880fb: framework; speaker; caption-prose-v1 offset 37230; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=3026
+- unclebob-c5c3648f804c59-a9cbf8c6b732: framework; speaker; caption-prose-v1 offset 39124; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=3174
+- unclebob-c5c3648f804c59-407858db7d6b: framework; speaker; caption-prose-v1 offset 44504; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=3587
+- unclebob-c5c3648f804c59-0dd51afe1b48: framework; speaker; caption-prose-v1 offset 45076; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=3625
+- unclebob-c5c3648f804c59-fe7803a676f6: story; speaker; caption-prose-v1 offset 48463; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=3891
+- unclebob-c5c3648f804c59-af2ce7f98e97: position; speaker; caption-prose-v1 offset 53482; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=4280
+- unclebob-c5c3648f804c59-f4301f21abd9: framework; speaker; caption-prose-v1 offset 54941; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=4384
+- unclebob-c5c3648f804c59-cc281eaa6afb: framework; speaker; caption-prose-v1 offset 55915; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=4452
+- unclebob-c5c3648f804c59-8c9d6f6f6190: position; speaker; caption-prose-v1 offset 58627; chunk 0; https://www.youtube.com/watch?v=zHiWqnTWsn4&t=4685
+## unclebob-c7530f542ad685: Uncle Bob says AI is already conscious - We Programmers by Robert C. Martin
+
+https://www.youtube.com/watch?v=C4vwBtpsbZk
+
+Independent work identity: youtube-C4vwBtpsbZk. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,115; full retrieved text: 12,115. Text SHA-256: 786b4297f64525024103ac6a7e25dd9c6f92578d4b97e4bd8a2b3ed075a0f9d7
+
+Source dates reported in the collected material: 2026-09-15
+
+> I wanted current programmers to understand the technology that these guys were
+
+Short excerpt of unclebob-c7530f542ad685-283281dcc8e8; speaker. Full passage and context retained locally.
+
+- unclebob-c7530f542ad685-283281dcc8e8: book; speaker; caption-prose-v1 offset 7232; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=420
+- unclebob-c7530f542ad685-b5dd25023691: position; speaker; caption-prose-v1 offset 11181; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=653
+- unclebob-c7530f542ad685-c7bcf9e38741: story; speaker; caption-prose-v1 offset 22607; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=1387
+- unclebob-c7530f542ad685-500928423e02: framework; speaker; caption-prose-v1 offset 27470; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=1703
+- unclebob-c7530f542ad685-e42415556ce9: position; speaker; caption-prose-v1 offset 28092; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=1747
+- unclebob-c7530f542ad685-39f6635057ba: story; speaker; caption-prose-v1 offset 33315; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=2059
+- unclebob-c7530f542ad685-2c2e11ee2eb9: position; speaker; caption-prose-v1 offset 33987; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=2100
+- unclebob-c7530f542ad685-0003a8cf4326: position; speaker; caption-prose-v1 offset 37133; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=2266
+- unclebob-c7530f542ad685-7102c2052c6f: position; speaker; caption-prose-v1 offset 40414; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=2494
+- unclebob-c7530f542ad685-bc3a7464185a: position; speaker; caption-prose-v1 offset 42325; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=2609
+- unclebob-c7530f542ad685-6afcb530b814: framework; speaker; caption-prose-v1 offset 49460; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=3021
+- unclebob-c7530f542ad685-b49aa47289c6: framework; speaker; caption-prose-v1 offset 49743; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=3037
+- unclebob-c7530f542ad685-acc7e432a287: position; speaker; caption-prose-v1 offset 53506; chunk 0; https://www.youtube.com/watch?v=C4vwBtpsbZk&t=3264
+## unclebob-c7c7742c24a5ab: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html
+
+Independent work identity: rcm-blog-2013-09-23-test-first. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,013; full retrieved text: 2,013. Text SHA-256: 8ed15300badf6356ac15446698299b7c00ff7e1d016f33b94ce5c31dad1ee6f7
+
+Source dates reported in the collected material: 2013-09-23
+
+> They ought to read like specifications; because they are specifications.
+
+Short excerpt of unclebob-c7c7742c24a5ab-767256d5ea53; sole_author. Full passage and context retained locally.
+
+- unclebob-c7c7742c24a5ab-767256d5ea53: principle; sole_author; normalized source offset 1527; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html
+- unclebob-c7c7742c24a5ab-9591d7244325: framework; sole_author; normalized source offset 5089; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html
+- unclebob-c7c7742c24a5ab-fd1336617fab: position; sole_author; normalized source offset 7507; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html
+- unclebob-c7c7742c24a5ab-6f3484ae206d: framework; sole_author; normalized source offset 11499; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html
+- unclebob-c7c7742c24a5ab-0cbc87a20e24: framework; sole_author; normalized source offset 12049; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html
+## unclebob-cace611cf46931: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html
+
+Independent work identity: rcm-blog-2017-12-03-bobby-tables. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 723; full retrieved text: 723. Text SHA-256: e77d4cc887fd09bbb3cdf231d9e627a9f9c3f548086b0ffb3985a054a89c9b8f
+
+Source dates reported in the collected material: 2017-12-03
+
+> it is unreasonable to expect that every single user input of every
+
+Short excerpt of unclebob-cace611cf46931-5347c818be89; sole_author. Full passage and context retained locally.
+
+- unclebob-cace611cf46931-5347c818be89: position; sole_author; normalized source offset 740; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html
+- unclebob-cace611cf46931-224ab85530fc: framework; sole_author; normalized source offset 2859; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html
+- unclebob-cace611cf46931-81fcf829f4fc: position; sole_author; normalized source offset 1539; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html
+- unclebob-cace611cf46931-533fb92bbe2f: framework; sole_author; normalized source offset 3162; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html
+- unclebob-cace611cf46931-e0ed7d5043af: position; sole_author; normalized source offset 3955; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html
+## unclebob-d16294959884d7: LIVE: Uncle Bob on Software Fundamentals in the Age of AI
+
+https://www.youtube.com/watch?v=zcLPGC-tvgk
+
+Independent work identity: youtube-zcLPGC-tvgk. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 10,121; full retrieved text: 10,121. Text SHA-256: d5fd4d45208eb739fab56f824db87e56ef1eb27bff6a2b23a6b080039b6b0cff
+
+Source dates reported in the collected material: 2026-08-19
+
+> they are as subject as humans are to messy code
+
+Short excerpt of unclebob-d16294959884d7-99cc9f60c7b2; speaker. Full passage and context retained locally.
+
+- unclebob-d16294959884d7-99cc9f60c7b2: story; speaker; caption-prose-v1 offset 10465; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=695
+- unclebob-d16294959884d7-d75aca0daad6: framework; speaker; caption-prose-v1 offset 6592; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=441
+- unclebob-d16294959884d7-c18f2fd64340: position; speaker; caption-prose-v1 offset 8128; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=536
+- unclebob-d16294959884d7-7496a15fbc6b: principle; speaker; caption-prose-v1 offset 13566; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=900
+- unclebob-d16294959884d7-4e28eed3d26e: position; speaker; caption-prose-v1 offset 16117; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=1045
+- unclebob-d16294959884d7-c39cfdc8b9bf: framework; speaker; caption-prose-v1 offset 20110; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=1302
+- unclebob-d16294959884d7-02415591d8f0: framework; speaker; caption-prose-v1 offset 18282; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=1174
+- unclebob-d16294959884d7-65134b9cac4d: story; speaker; caption-prose-v1 offset 26281; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=1688
+- unclebob-d16294959884d7-cafde338db8d: principle; speaker; caption-prose-v1 offset 27536; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=1774
+- unclebob-d16294959884d7-3284d4ab0a2c: position; speaker; caption-prose-v1 offset 30871; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=1974
+- unclebob-d16294959884d7-c4703666eb03: position; speaker; caption-prose-v1 offset 33023; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=2101
+- unclebob-d16294959884d7-3e837e81f756: position; speaker; caption-prose-v1 offset 35599; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=2270
+- unclebob-d16294959884d7-a85556d1bf6d: position; speaker; caption-prose-v1 offset 40210; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=2558
+- unclebob-d16294959884d7-86b012ebccf7: framework; speaker; caption-prose-v1 offset 44458; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=2829
+- unclebob-d16294959884d7-c99809e27003: principle; speaker; caption-prose-v1 offset 50573; chunk 0; https://www.youtube.com/watch?v=zcLPGC-tvgk&t=3247
+## unclebob-d33835fc5b38fc: Robert C Martin(Uncle Bob) -Clean Architecture and Design-2012 COHAA The Path to Agility Conference
+
+https://www.youtube.com/watch?v=asLUTiJJqdE
+
+Independent work identity: youtube-asLUTiJJqdE. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,008; full retrieved text: 11,008. Text SHA-256: f980dbee500b4500e4eca19b4a1bf5cccc40257bd385beb19cd38f5018f42d93
+
+Source dates reported in the collected material: 2012-10-26
+
+> a good architecture reveals the intent of the software that it represents
+
+Short excerpt of unclebob-d33835fc5b38fc-9efb1bc950eb; speaker. Full passage and context retained locally.
+
+- unclebob-d33835fc5b38fc-9efb1bc950eb: principle; speaker; caption-prose-v1 offset 8108; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=689
+- unclebob-d33835fc5b38fc-c874cd79f691: position; speaker; caption-prose-v1 offset 14157; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=1134
+- unclebob-d33835fc5b38fc-820ac8498710: principle; speaker; caption-prose-v1 offset 20657; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=1661
+- unclebob-d33835fc5b38fc-ec239f48d924: position; speaker; caption-prose-v1 offset 21513; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=1739
+- unclebob-d33835fc5b38fc-9ccd853e99b4: story; speaker; caption-prose-v1 offset 26147; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=2059
+- unclebob-d33835fc5b38fc-649ef2b58056: story; speaker; caption-prose-v1 offset 26805; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=2119
+- unclebob-d33835fc5b38fc-49a274a401ef: principle; speaker; caption-prose-v1 offset 28322; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=2241
+- unclebob-d33835fc5b38fc-cd90c34aee97: framework; speaker; caption-prose-v1 offset 34462; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=2694
+- unclebob-d33835fc5b38fc-a8a962d0b22e: framework; speaker; caption-prose-v1 offset 32727; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=2557
+- unclebob-d33835fc5b38fc-7b67741d5e30: principle; speaker; caption-prose-v1 offset 40334; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=3141
+- unclebob-d33835fc5b38fc-3ac58a1c7f66: framework; speaker; caption-prose-v1 offset 38939; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=3032
+- unclebob-d33835fc5b38fc-6015cd2a1e81: framework; speaker; caption-prose-v1 offset 41160; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=3207
+- unclebob-d33835fc5b38fc-60360a620862: framework; speaker; caption-prose-v1 offset 44377; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=3440
+- unclebob-d33835fc5b38fc-fac611954a2f: position; speaker; caption-prose-v1 offset 46228; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=3565
+- unclebob-d33835fc5b38fc-94a96b3c887d: principle; speaker; caption-prose-v1 offset 50980; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=3919
+- unclebob-d33835fc5b38fc-2303fe29c2e1: position; speaker; caption-prose-v1 offset 56252; chunk 0; https://www.youtube.com/watch?v=asLUTiJJqdE&t=4312
+## unclebob-d4f70648679420: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+
+Independent work identity: rcm-blog-2020-09-30-loopy. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,660; full retrieved text: 1,660. Text SHA-256: 165a8e1509c5b94c19609c10690fb519173bfc57a3ab9ec3ec4a83a3a3bdffd8
+
+Source dates reported in the collected material: 2020-09-30
+
+> the code in Java is a doubly nested loop; but the code
+
+Short excerpt of unclebob-d4f70648679420-22ae12d0d154; sole_author. Full passage and context retained locally.
+
+- unclebob-d4f70648679420-22ae12d0d154: story; sole_author; normalized source offset 846; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+- unclebob-d4f70648679420-124d2e585839: framework; sole_author; normalized source offset 2039; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+- unclebob-d4f70648679420-40d3f8f83a6c: framework; sole_author; normalized source offset 6655; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+- unclebob-d4f70648679420-a8a324111a56: book; sole_author; normalized source offset 6491; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+- unclebob-d4f70648679420-a6afea8bd2b1: position; sole_author; normalized source offset 8387; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+- unclebob-d4f70648679420-c13384a94385: position; sole_author; normalized source offset 9262; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html
+## unclebob-d73a9f1344a96e: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html
+
+Independent work identity: rcm-blog-2016-07-27-the-churn. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 990; full retrieved text: 990. Text SHA-256: 4a34b346a3dd5fccaebcb87f06f2bf1abfeb3c257857d5472cb44f7007d137c9
+
+Source dates reported in the collected material: 2016-07-27
+
+> Functional Programming is a technique, and a good one, that can be
+
+Short excerpt of unclebob-d73a9f1344a96e-8c5547a0ac20; sole_author. Full passage and context retained locally.
+
+- unclebob-d73a9f1344a96e-8c5547a0ac20: position; sole_author; normalized source offset 1684; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html
+- unclebob-d73a9f1344a96e-5571c69e08bf: position; sole_author; normalized source offset 2931; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html
+- unclebob-d73a9f1344a96e-f7b6638532d5: position; sole_author; normalized source offset 4402; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html
+- unclebob-d73a9f1344a96e-c14239930224: position; sole_author; normalized source offset 4773; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html
+- unclebob-d73a9f1344a96e-1051bc4a4eb7: principle; sole_author; normalized source offset 5548; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html
+## unclebob-d8d5d61ca6918d: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
+
+Independent work identity: rcm-blog-2018-04-02-in-the-large. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,463; full retrieved text: 1,463. Text SHA-256: 6e40fa3a6fddafbb9d7b2934484ce08bfd8ba8dd2e9042b922a2301eebbf7567
+
+Source dates reported in the collected material: 2018-04-02
+
+> When it takes a full day to go around the edit/compile/test loop,
+
+Short excerpt of unclebob-d8d5d61ca6918d-1eb76d15156b; sole_author. Full passage and context retained locally.
+
+- unclebob-d8d5d61ca6918d-1eb76d15156b: story; sole_author; normalized source offset 2132; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
+- unclebob-d8d5d61ca6918d-23a7588d3971: position; sole_author; normalized source offset 3212; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
+- unclebob-d8d5d61ca6918d-00e97f504ec0: position; sole_author; normalized source offset 3587; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
+- unclebob-d8d5d61ca6918d-dc9a558463fd: principle; sole_author; normalized source offset 5584; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
+- unclebob-d8d5d61ca6918d-1dcf9ce23dae: position; sole_author; normalized source offset 6304; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
+- unclebob-d8d5d61ca6918d-69f22124e3ff: position; sole_author; normalized source offset 6838; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html
 ## unclebob-d8d717bc7e5d41: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2016/06/10/MutationTesting.html
@@ -1148,6 +2338,44 @@ Short excerpt of unclebob-de21b72cf23390-2ffe5f698ae5; sole_author. Full passage
 - unclebob-de21b72cf23390-ccbdddd27e42: position; sole_author; normalized source offset 2835; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html
 - unclebob-de21b72cf23390-db146d3f11f4: position; sole_author; normalized source offset 3559; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html
 - unclebob-de21b72cf23390-cee469aeedc1: framework; sole_author; normalized source offset 4322; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html
+## unclebob-de7e4868b26a0e: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html
+
+Independent work identity: martin-2018-fp-vs-oo-list-processing. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 935; full retrieved text: 935. Text SHA-256: 24abbec7e2935a34101245d453072f06baeedae220d432285f0a62a093b36b6a
+
+Source dates reported in the collected material: 2018-12-17
+
+> What it must do instead is create a new world, with new
+
+Short excerpt of unclebob-de7e4868b26a0e-12bdaa77950c; sole_author. Full passage and context retained locally.
+
+- unclebob-de7e4868b26a0e-12bdaa77950c: story; sole_author; normalized source offset 1405; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html
+- unclebob-de7e4868b26a0e-4b60e5e627a5: framework; sole_author; normalized source offset 1894; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html
+- unclebob-de7e4868b26a0e-46a812e5227f: framework; sole_author; normalized source offset 3031; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html
+- unclebob-de7e4868b26a0e-4366dc6c7d72: story; sole_author; normalized source offset 4421; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html
+- unclebob-de7e4868b26a0e-07b39644dc1c: principle; sole_author; normalized source offset 5074; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html
+## unclebob-df0e7c2c0284bc: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html
+
+Independent work identity: rcm-blog-2012-12-19-three-paradigms. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 692; full retrieved text: 692. Text SHA-256: cf1b280b0458becfcec4411de1837b96a3f10fd83be2db6f8236932aaef1cd7c
+
+Source dates reported in the collected material: 2012-12-19
+
+> Three paradigms. Three constraints.
+
+Short excerpt of unclebob-df0e7c2c0284bc-b62b8c9cd84b; sole_author. Full passage and context retained locally.
+
+- unclebob-df0e7c2c0284bc-b62b8c9cd84b: framework; sole_author; normalized source offset 2091; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html
+- unclebob-df0e7c2c0284bc-688f138b5977: position; sole_author; normalized source offset 1645; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html
+- unclebob-df0e7c2c0284bc-0e3bdd9050d6: position; sole_author; normalized source offset 3180; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html
+- unclebob-df0e7c2c0284bc-76b43273ebce: position; sole_author; normalized source offset 3837; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html
+- unclebob-df0e7c2c0284bc-2cefdb7342e9: position; sole_author; normalized source offset 2593; chunk 0; https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html
 ## unclebob-e047576494dd42: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html
@@ -1167,6 +2395,24 @@ Short excerpt of unclebob-e047576494dd42-97c2e1fd3119; sole_author. Full passage
 - unclebob-e047576494dd42-7ebde01fcd32: framework; sole_author; normalized source offset 3197; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html
 - unclebob-e047576494dd42-ac13ce0194a5: framework; sole_author; normalized source offset 4412; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html
 - unclebob-e047576494dd42-014a4ac4c82f: position; sole_author; normalized source offset 4989; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html
+## unclebob-e071af2087b800: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html
+
+Independent work identity: martin-2016-type-wars. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,971; full retrieved text: 1,971. Text SHA-256: c5d433263d3f556cf9d12f67f741f5a8e0ac2a45d51e6ae00c80062c1cc13a4d
+
+Source dates reported in the collected material: 2016-05-01
+
+> the problem of keeping your types straight began to get out of
+
+Short excerpt of unclebob-e071af2087b800-1e27b841a8aa; sole_author. Full passage and context retained locally.
+
+- unclebob-e071af2087b800-1e27b841a8aa: story; sole_author; normalized source offset 6366; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html
+- unclebob-e071af2087b800-6b08ad7ad235: position; sole_author; normalized source offset 7216; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html
+- unclebob-e071af2087b800-757e04ad9649: position; sole_author; normalized source offset 9467; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html
+- unclebob-e071af2087b800-463f360fbf31: position; sole_author; normalized source offset 11052; chunk 0; https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html
 ## unclebob-e89cc75a9cec9e: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html
@@ -1187,6 +2433,77 @@ Short excerpt of unclebob-e89cc75a9cec9e-37b533cd35b5; sole_author. Full passage
 - unclebob-e89cc75a9cec9e-2bfd6c56bffd: position; sole_author; normalized source offset 4491; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html
 - unclebob-e89cc75a9cec9e-85b3d035c390: position; sole_author; normalized source offset 5648; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html
 - unclebob-e89cc75a9cec9e-c7139fecc5a9: principle; sole_author; normalized source offset 6014; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html
+## unclebob-e91a4cd53ee0d0: Expecting Professionalism - Uncle Bob Martin - FLOW 2024
+
+https://www.youtube.com/watch?v=HD0L3lQ9cms
+
+Independent work identity: youtube-HD0L3lQ9cms. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 10,792; full retrieved text: 10,792. Text SHA-256: 169ebe0bb0079f95f10a019c8b162d4307691186b083ff5f29429a2e0ec39437
+
+Source dates reported in the collected material: 2025-03-25
+
+> do we have any standards do we have any ethics do we
+
+Short excerpt of unclebob-e91a4cd53ee0d0-91ce1970efe0; speaker. Full passage and context retained locally.
+
+- unclebob-e91a4cd53ee0d0-91ce1970efe0: principle; speaker; caption-prose-v1 offset 3402; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=281
+- unclebob-e91a4cd53ee0d0-759ce6d8f2a3: framework; speaker; caption-prose-v1 offset 14239; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=1095
+- unclebob-e91a4cd53ee0d0-77040fc9d93c: principle; speaker; caption-prose-v1 offset 17531; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=1326
+- unclebob-e91a4cd53ee0d0-de7ee638a270: position; speaker; caption-prose-v1 offset 18482; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=1406
+- unclebob-e91a4cd53ee0d0-316d1b9c53fc: principle; speaker; caption-prose-v1 offset 19194; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=1460
+- unclebob-e91a4cd53ee0d0-e3d66e0f6da1: framework; speaker; caption-prose-v1 offset 21490; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=1640
+- unclebob-e91a4cd53ee0d0-f84159ef6d7a: position; speaker; caption-prose-v1 offset 22902; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=1768
+- unclebob-e91a4cd53ee0d0-6c9d7d7b4f6e: story; speaker; caption-prose-v1 offset 25787; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=2004
+- unclebob-e91a4cd53ee0d0-a9e98e0cdbee: framework; speaker; caption-prose-v1 offset 28390; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=2186
+- unclebob-e91a4cd53ee0d0-8eb3e4c91ae2: principle; speaker; caption-prose-v1 offset 30497; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=2337
+- unclebob-e91a4cd53ee0d0-3a58154591ac: framework; speaker; caption-prose-v1 offset 31546; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=2427
+- unclebob-e91a4cd53ee0d0-b04739a9da63: principle; speaker; caption-prose-v1 offset 34623; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=2657
+- unclebob-e91a4cd53ee0d0-09dd6419a9c8: framework; speaker; caption-prose-v1 offset 38699; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=2985
+- unclebob-e91a4cd53ee0d0-e18224b7d973: position; speaker; caption-prose-v1 offset 42833; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=3280
+- unclebob-e91a4cd53ee0d0-112f4d506ba6: framework; speaker; caption-prose-v1 offset 47719; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=3602
+- unclebob-e91a4cd53ee0d0-a123838b3402: framework; speaker; caption-prose-v1 offset 52731; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=3955
+- unclebob-e91a4cd53ee0d0-1c7b0aa02d36: position; speaker; caption-prose-v1 offset 50300; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=3786
+- unclebob-e91a4cd53ee0d0-342d1c6828d4: framework; speaker; caption-prose-v1 offset 54133; chunk 0; https://www.youtube.com/watch?v=HD0L3lQ9cms&t=4054
+## unclebob-ea9ccd9b9de43c: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+
+Independent work identity: rcm-blog-2017-03-07-symmetry-breaking. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,282; full retrieved text: 2,282. Text SHA-256: 5228d377b44f705a4134595ce4518fa85ce5ac4ec7882d1b0b27bd38f3d52fe6
+
+Source dates reported in the collected material: 2017-03-07
+
+> Errors are detected at every granule.
+
+Short excerpt of unclebob-ea9ccd9b9de43c-d86a27999488; sole_author. Full passage and context retained locally.
+
+- unclebob-ea9ccd9b9de43c-d86a27999488: framework; sole_author; normalized source offset 2629; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+- unclebob-ea9ccd9b9de43c-3441597ee02d: framework; sole_author; normalized source offset 4757; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+- unclebob-ea9ccd9b9de43c-2449f5a4ab05: position; sole_author; normalized source offset 3828; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+- unclebob-ea9ccd9b9de43c-a745c188fcc9: framework; sole_author; normalized source offset 8264; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+- unclebob-ea9ccd9b9de43c-535c65193de0: position; sole_author; normalized source offset 10008; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+- unclebob-ea9ccd9b9de43c-45b9c50e547e: framework; sole_author; normalized source offset 11919; chunk 0; https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html
+## unclebob-ebec88218baf9a: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
+
+Independent work identity: martin-2018-fp-vs-oo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,564; full retrieved text: 1,564. Text SHA-256: f0d7e2c17f10ffbd80b4de5ec928b4c89ac7a3c2bd9b41b264a962257b8caec7
+
+Source dates reported in the collected material: 2018-04-13
+
+> The technique of using dynamic polymorphism to call functions without the source
+
+Short excerpt of unclebob-ebec88218baf9a-a3c265a8c09d; sole_author. Full passage and context retained locally.
+
+- unclebob-ebec88218baf9a-a3c265a8c09d: framework; sole_author; normalized source offset 4511; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
+- unclebob-ebec88218baf9a-90b3163da9bb: framework; sole_author; normalized source offset 6944; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
+- unclebob-ebec88218baf9a-478d1597e3d5: framework; sole_author; normalized source offset 6554; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
+- unclebob-ebec88218baf9a-bbda66c9220a: position; sole_author; normalized source offset 7554; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
+- unclebob-ebec88218baf9a-fcaa8bf89658: principle; sole_author; normalized source offset 7889; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
 ## unclebob-ed2c17ec423889: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
@@ -1288,6 +2605,73 @@ Short excerpt of unclebob-f0d2e1bd84dcaa-4939a144dfa8; speaker. Full passage and
 - unclebob-f0d2e1bd84dcaa-bdffee9182ff: position; speaker; caption-prose-v1 offset 74063; chunk 0; https://www.youtube.com/watch?v=HhNIttd87xs&t=5383
 - unclebob-f0d2e1bd84dcaa-c7e117f76701: position; speaker; caption-prose-v1 offset 74945; chunk 0; https://www.youtube.com/watch?v=HhNIttd87xs&t=5439
 - unclebob-f0d2e1bd84dcaa-df2e6a9255e8: position; speaker; caption-prose-v1 offset 79147; chunk 0; https://www.youtube.com/watch?v=HhNIttd87xs&t=5697
+## unclebob-f275d8a49c478a: Robert "Uncle Bob" Martin Reflects on "Clean Coder"
+
+https://www.youtube.com/watch?v=wf68VDObVX0
+
+Independent work identity: youtube-wf68VDObVX0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,262; full retrieved text: 11,262. Text SHA-256: d3d5e31c94baee4aa32c337fc7d166df0d2e409fe8c1fe408a0785245f653efd
+
+Source dates reported in the collected material: 2024-08-08
+
+> I could not write it in clean code because that book was
+
+Short excerpt of unclebob-f275d8a49c478a-f7a88a28e2cc; speaker. Full passage and context retained locally.
+
+- unclebob-f275d8a49c478a-f7a88a28e2cc: book; speaker; caption-prose-v1 offset 4033; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=240
+- unclebob-f275d8a49c478a-f3aa3a9277ec: principle; speaker; caption-prose-v1 offset 10654; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=739
+- unclebob-f275d8a49c478a-4f65f75e76a8: position; speaker; caption-prose-v1 offset 14152; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=1021
+- unclebob-f275d8a49c478a-148c0c14d1e3: framework; speaker; caption-prose-v1 offset 15675; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=1155
+- unclebob-f275d8a49c478a-622578c70d7e: story; speaker; caption-prose-v1 offset 15492; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=1136
+- unclebob-f275d8a49c478a-4577dc6ba9a1: principle; speaker; caption-prose-v1 offset 24635; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=1797
+- unclebob-f275d8a49c478a-7ed8f3c9e3a5: principle; speaker; caption-prose-v1 offset 27429; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=2030
+- unclebob-f275d8a49c478a-4d70079b95c0: framework; speaker; caption-prose-v1 offset 31776; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=2331
+- unclebob-f275d8a49c478a-11069ab2a70d: position; speaker; caption-prose-v1 offset 35372; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=2586
+- unclebob-f275d8a49c478a-a08b140b35f8: position; speaker; caption-prose-v1 offset 37437; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=2725
+- unclebob-f275d8a49c478a-bde50fe1ecb9: voice; speaker; caption-prose-v1 offset 43446; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=3140
+- unclebob-f275d8a49c478a-e2a6185fdbbb: framework; speaker; caption-prose-v1 offset 44749; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=3225
+- unclebob-f275d8a49c478a-3d07dc695e34: position; speaker; caption-prose-v1 offset 49412; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=3566
+- unclebob-f275d8a49c478a-e55f3abc98f6: book; speaker; caption-prose-v1 offset 51699; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=3747
+- unclebob-f275d8a49c478a-cd2cc731d9cf: book; speaker; caption-prose-v1 offset 53129; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=3851
+- unclebob-f275d8a49c478a-475e37e17990: book; speaker; caption-prose-v1 offset 25793; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=1897
+- unclebob-f275d8a49c478a-f47fabce962b: book; speaker; caption-prose-v1 offset 54307; chunk 0; https://www.youtube.com/watch?v=wf68VDObVX0&t=3947
+## unclebob-f29f7fb8a35406: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+
+Independent work identity: rcm-blog-2018-06-06-pickled-state. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,288; full retrieved text: 1,288. Text SHA-256: 0a61dfa6bffd76e64f6dd5f1e2be7100d38e04491cddbe6bc6bedde7d754e5aa
+
+Source dates reported in the collected material: 2018-06-06
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- unclebob-f29f7fb8a35406-60df4f8d1be4: framework; sole_author; normalized source offset 1257; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+- unclebob-f29f7fb8a35406-643c3e3bfc7a: framework; sole_author; normalized source offset 2394; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+- unclebob-f29f7fb8a35406-37a007dfe8fb: position; sole_author; normalized source offset 3655; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+- unclebob-f29f7fb8a35406-76de61012f4a: framework; sole_author; normalized source offset 6501; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+- unclebob-f29f7fb8a35406-245439476a99: position; sole_author; normalized source offset 4436; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+- unclebob-f29f7fb8a35406-58c94a36677a: voice; sole_author; normalized source offset 7115; chunk 0; https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html
+## unclebob-f31b8a406eb2dc: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html
+
+Independent work identity: martin-2020-repl-driven-design. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 583; full retrieved text: 583. Text SHA-256: 0c67b627f98c69f7cc202fc2816f8549c76705098be7b21efd528b39f82474a6
+
+Source dates reported in the collected material: 2020-05-27
+
+> try some experiments in the REPL to make sure you’ve got the
+
+Short excerpt of unclebob-f31b8a406eb2dc-8e2bae027665; sole_author. Full passage and context retained locally.
+
+- unclebob-f31b8a406eb2dc-8e2bae027665: framework; sole_author; normalized source offset 855; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html
+- unclebob-f31b8a406eb2dc-42636e5893ca: story; sole_author; normalized source offset 1419; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html
+- unclebob-f31b8a406eb2dc-ced2bdc8a8e3: story; sole_author; normalized source offset 1661; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html
+- unclebob-f31b8a406eb2dc-23e6b8a63e84: principle; sole_author; normalized source offset 2829; chunk 0; https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html
 ## unclebob-f5ef9effad4309: Clean Coder Blog
 
 https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html
@@ -1305,6 +2689,71 @@ Short excerpt of unclebob-f5ef9effad4309-1ff9a980b732; sole_author. Full passage
 - unclebob-f5ef9effad4309-1ff9a980b732: framework; sole_author; normalized source offset 3627; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html
 - unclebob-f5ef9effad4309-95e916a0af46: position; sole_author; normalized source offset 6077; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html
 - unclebob-f5ef9effad4309-ad1fcec37700: story; sole_author; normalized source offset 5057; chunk 0; https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html
+## unclebob-f79de865510f82: 157 - Clean Architecture with Robert Martin (a.k.a. Uncle Bob) | theWiseDev-chat
+
+https://www.youtube.com/watch?v=ekBWizEpyvo
+
+Independent work identity: youtube-ekBWizEpyvo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 8,944; full retrieved text: 8,944. Text SHA-256: 78f42d41ce8d226cd54c3af8761c81bdc115878bd0d00aa5dd858d3a28bfd212
+
+Source dates reported in the collected material: 2021-04-08
+
+> it is the story of an awful lot of mistakes
+
+Short excerpt of unclebob-f79de865510f82-d59fbf51d487; speaker. Full passage and context retained locally.
+
+- unclebob-f79de865510f82-d59fbf51d487: story; speaker; caption-prose-v1 offset 2184; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=173
+- unclebob-f79de865510f82-7bde479191e4: principle; speaker; caption-prose-v1 offset 5825; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=454
+- unclebob-f79de865510f82-bfb67c465efd: position; speaker; caption-prose-v1 offset 3981; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=323
+- unclebob-f79de865510f82-da7f99ff6b5b: position; speaker; caption-prose-v1 offset 7694; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=585
+- unclebob-f79de865510f82-19c9365c9690: framework; speaker; caption-prose-v1 offset 12507; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=942
+- unclebob-f79de865510f82-0694fe818ab4: framework; speaker; caption-prose-v1 offset 16551; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=1232
+- unclebob-f79de865510f82-f793895c9a57: position; speaker; caption-prose-v1 offset 20091; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=1478
+- unclebob-f79de865510f82-1935ff33ecfe: position; speaker; caption-prose-v1 offset 25327; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=1874
+- unclebob-f79de865510f82-b2b370bda970: framework; speaker; caption-prose-v1 offset 28682; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=2121
+- unclebob-f79de865510f82-cfe4228e8930: framework; speaker; caption-prose-v1 offset 31769; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=2332
+- unclebob-f79de865510f82-8770f5a8fca8: position; speaker; caption-prose-v1 offset 38508; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=2817
+- unclebob-f79de865510f82-0a200ff838fa: position; speaker; caption-prose-v1 offset 40473; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=2965
+- unclebob-f79de865510f82-ebae7f46e345: framework; speaker; caption-prose-v1 offset 41881; chunk 0; https://www.youtube.com/watch?v=ekBWizEpyvo&t=3072
+## unclebob-fb0299f34b404a: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html
+
+Independent work identity: rcm-blog-2014-03-11-when-should-you-think. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 618; full retrieved text: 618. Text SHA-256: 9d8d3c1e4c6b3ac10edd569238abaf15372245f5a8ad321df63d175756252ff9
+
+Source dates reported in the collected material: 2014-03-11
+
+> Forethought is in no way excluded by the rules of TDD.
+
+Short excerpt of unclebob-fb0299f34b404a-ed0f5aeed09d; sole_author. Full passage and context retained locally.
+
+- unclebob-fb0299f34b404a-ed0f5aeed09d: position; sole_author; normalized source offset 1025; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html
+- unclebob-fb0299f34b404a-637942842897: position; sole_author; normalized source offset 1548; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html
+- unclebob-fb0299f34b404a-de1953a9489a: framework; sole_author; normalized source offset 2188; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html
+- unclebob-fb0299f34b404a-866230ffa671: principle; sole_author; normalized source offset 3390; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html
+## unclebob-fc1be6a82dac24: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+
+Independent work identity: martin-2014-oo-vs-fp. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,522; full retrieved text: 1,522. Text SHA-256: ea73a48884caf52cc7f60931553d7ab4a9bf647373df0d10fca05e1c1cce25db
+
+Source dates reported in the collected material: 2014-11-24
+
+> Objects are bags of functions, not bags of data.
+
+Short excerpt of unclebob-fc1be6a82dac24-45b512f9d3d4; sole_author. Full passage and context retained locally.
+
+- unclebob-fc1be6a82dac24-45b512f9d3d4: position; sole_author; normalized source offset 1327; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+- unclebob-fc1be6a82dac24-9aa15995422e: framework; sole_author; normalized source offset 3309; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+- unclebob-fc1be6a82dac24-ac79dc98029c: framework; sole_author; normalized source offset 3767; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+- unclebob-fc1be6a82dac24-a5eaec3c0fb1: principle; sole_author; normalized source offset 6545; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+- unclebob-fc1be6a82dac24-f97c7ef901ab: principle; sole_author; normalized source offset 6891; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+- unclebob-fc1be6a82dac24-c25908f75695: position; sole_author; normalized source offset 8165; chunk 0; https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
 ## unclebob-fe75413f5e443e: Interview with Robert C. Martin (Uncle Bob)
 
 https://www.youtube.com/watch?v=OIHvp7WzuH0
@@ -1327,3 +2776,23 @@ Short excerpt of unclebob-fe75413f5e443e-279fecd24d8b; speaker. Full passage and
 - unclebob-fe75413f5e443e-c2ce3982a3eb: position; speaker; caption-prose-v1 offset 23453; chunk 0; https://www.youtube.com/watch?v=OIHvp7WzuH0&t=1726
 - unclebob-fe75413f5e443e-6bb896e58d72: principle; speaker; caption-prose-v1 offset 27914; chunk 0; https://www.youtube.com/watch?v=OIHvp7WzuH0&t=2056
 - unclebob-fe75413f5e443e-2642f47274c5: book; speaker; caption-prose-v1 offset 27592; chunk 0; https://www.youtube.com/watch?v=OIHvp7WzuH0&t=2030
+## unclebob-ff97e66220791c: Clean Coder Blog
+
+https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html
+
+Independent work identity: rcm-blog-2013-05-27-fib-tpp. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,116; full retrieved text: 1,116. Text SHA-256: 2249f670abb41d3976930db446a0f9898ca184f5a3e39b1c55529f6ab829b19d
+
+Source dates reported in the collected material: February 2 2011
+
+> I’ve added the (case) transformation to the very bottom of the list.
+
+Short excerpt of unclebob-ff97e66220791c-f55c47410937; sole_author. Full passage and context retained locally.
+
+- unclebob-ff97e66220791c-f55c47410937: framework; sole_author; normalized source offset 778; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html
+- unclebob-ff97e66220791c-c5ed2564a68d: framework; sole_author; normalized source offset 1165; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html
+- unclebob-ff97e66220791c-35328970ac78: position; sole_author; normalized source offset 2082; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html
+- unclebob-ff97e66220791c-02763c7259bc: framework; sole_author; normalized source offset 3387; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html
+- unclebob-ff97e66220791c-a200fa121043: framework; sole_author; normalized source offset 5021; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html
+- unclebob-ff97e66220791c-e7fe7ab036b3: position; sole_author; normalized source offset 5897; chunk 0; https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html

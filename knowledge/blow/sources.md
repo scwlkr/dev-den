@@ -2,6 +2,47 @@
 
 Quotations were matched against retained normalized source text; attribution and context were assessed by Terra, not independently certified.
 
+## blow-0634c3e6546b73: Super Stream Sunday: Q&A, Compiler Debugging
+
+https://www.youtube.com/watch?v=0qgpeeMnRJ4
+
+Independent work identity: youtube-0qgpeeMnRJ4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 18,695; full retrieved text: 18,695. Text SHA-256: 2b627095cf27c84da6cb00d030a1f69fc73fdacb85b2c9ef3440797e4f134e91
+
+Source dates reported in the collected material: 2018-02-05
+
+> the first-person view requires graphics to be much higher fidelity it requires
+
+Short excerpt of blow-0634c3e6546b73-8f0767aa8e22; speaker. Full passage and context retained locally.
+
+- blow-0634c3e6546b73-8f0767aa8e22: position; speaker; caption-prose-v1 offset 2125; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=175
+- blow-0634c3e6546b73-e27beeeab6de: story; speaker; caption-prose-v1 offset 5628; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=469
+- blow-0634c3e6546b73-41118681fa9e: principle; speaker; caption-prose-v1 offset 11900; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=1284
+- blow-0634c3e6546b73-5d8505528ada: framework; speaker; caption-prose-v1 offset 11259; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=1242
+- blow-0634c3e6546b73-851313c7b1af: principle; speaker; caption-prose-v1 offset 13660; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=1436
+- blow-0634c3e6546b73-864121519cad: story; speaker; caption-prose-v1 offset 18004; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=2230
+- blow-0634c3e6546b73-c2c949cd6853: framework; speaker; caption-prose-v1 offset 25083; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=3447
+- blow-0634c3e6546b73-723c6321ae1a: position; speaker; caption-prose-v1 offset 28300; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=3672
+- blow-0634c3e6546b73-4f6f52ab5569: position; speaker; caption-prose-v1 offset 30886; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=3878
+- blow-0634c3e6546b73-f47cd4be64a3: framework; speaker; caption-prose-v1 offset 32440; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=3994
+- blow-0634c3e6546b73-841e94430f6a: position; speaker; caption-prose-v1 offset 33219; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=4065
+- blow-0634c3e6546b73-4227a9a6c499: position; speaker; caption-prose-v1 offset 39308; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=4597
+- blow-0634c3e6546b73-b68a775cd86f: framework; speaker; caption-prose-v1 offset 42173; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=4814
+- blow-0634c3e6546b73-cc9a9f885ce2: story; speaker; caption-prose-v1 offset 49890; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=6078
+- blow-0634c3e6546b73-21c436fa6ac1: principle; speaker; caption-prose-v1 offset 55158; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=7060
+- blow-0634c3e6546b73-3e6c267b6e6b: framework; speaker; caption-prose-v1 offset 62865; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=7887
+- blow-0634c3e6546b73-56707755d9cd: position; speaker; caption-prose-v1 offset 62027; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=7792
+- blow-0634c3e6546b73-8e9ea280b4c6: story; speaker; caption-prose-v1 offset 76461; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=9671
+- blow-0634c3e6546b73-d3f0bd54e53e: position; speaker; caption-prose-v1 offset 78601; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=10007
+- blow-0634c3e6546b73-1941de69c300: position; speaker; caption-prose-v1 offset 81407; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=10230
+- blow-0634c3e6546b73-bc011bf32fc7: position; speaker; caption-prose-v1 offset 82506; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=10307
+- blow-0634c3e6546b73-c0b39f6af5d8: story; speaker; caption-prose-v1 offset 86408; chunk 0; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=10655
+- blow-0634c3e6546b73-6fc589b71211: story; speaker; caption-prose-v1 offset 88201; chunk 1; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=10904
+- blow-0634c3e6546b73-45301dc902c6: principle; speaker; caption-prose-v1 offset 91440; chunk 1; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=11519
+- blow-0634c3e6546b73-be2b4d447f02: story; speaker; caption-prose-v1 offset 93571; chunk 1; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=11895
+- blow-0634c3e6546b73-f921f5af44cc: story; speaker; caption-prose-v1 offset 94618; chunk 1; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=12116
+- blow-0634c3e6546b73-c72255218888: principle; speaker; caption-prose-v1 offset 95563; chunk 1; https://www.youtube.com/watch?v=0qgpeeMnRJ4&t=12309
 ## blow-078840cc5ef650: Braid Code Cleanup (part 3)
 
 https://number-none.com/blow/blog/programming/2016/07/18/braid-cleanup-part-3
@@ -23,6 +64,72 @@ Short excerpt of blow-078840cc5ef650-5ff67c77c812; sole_author. Full passage and
 - blow-078840cc5ef650-fa460e436ab3: principle; sole_author; normalized source offset 23527; chunk 0; https://number-none.com/blow/blog/programming/2016/07/18/braid-cleanup-part-3
 - blow-078840cc5ef650-2acb60348149: story; sole_author; normalized source offset 26016; chunk 0; https://number-none.com/blow/blog/programming/2016/07/18/braid-cleanup-part-3
 - blow-078840cc5ef650-1da3fcceb7b5: story; sole_author; normalized source offset 29516; chunk 0; https://number-none.com/blow/blog/programming/2016/07/18/braid-cleanup-part-3
+## blow-0849ec3148394f: Robustness of advanced polymorphism cases (recovering after the Wrong Turn)
+
+https://www.youtube.com/watch?v=g1vCmFx6Rpg
+
+Independent work identity: youtube-g1vCmFx6Rpg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,278; full retrieved text: 13,278. Text SHA-256: dbcaeb2d65757dc96a22fb836b2dd55f7d456c55264d330381f708e91766fee2
+
+Source dates reported in the collected material: 2018-05-29
+
+> put together some trouble cases for especially the Otto poly part of
+
+Short excerpt of blow-0849ec3148394f-44fbb8d91289; speaker. Full passage and context retained locally.
+
+- blow-0849ec3148394f-44fbb8d91289: framework; speaker; caption-prose-v1 offset 506; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=54
+- blow-0849ec3148394f-eeca6c6605f4: position; speaker; caption-prose-v1 offset 4763; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=524
+- blow-0849ec3148394f-b84e2d7437d5: framework; speaker; caption-prose-v1 offset 8310; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=839
+- blow-0849ec3148394f-e48381ff3d90: position; speaker; caption-prose-v1 offset 9277; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=932
+- blow-0849ec3148394f-e82fcf59dcfd: story; speaker; caption-prose-v1 offset 6397; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=700
+- blow-0849ec3148394f-7dc0ebbc5b95: position; speaker; caption-prose-v1 offset 12816; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=1283
+- blow-0849ec3148394f-1f740f85d034: position; speaker; caption-prose-v1 offset 16532; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=1760
+- blow-0849ec3148394f-b300bc364af0: framework; speaker; caption-prose-v1 offset 27542; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=3514
+- blow-0849ec3148394f-a37d94889edb: framework; speaker; caption-prose-v1 offset 29123; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=3771
+- blow-0849ec3148394f-2396bc38a308: position; speaker; caption-prose-v1 offset 32762; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=4321
+- blow-0849ec3148394f-723d7678565b: position; speaker; caption-prose-v1 offset 21722; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=2616
+- blow-0849ec3148394f-555e5e9a2a88: position; speaker; caption-prose-v1 offset 23556; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=2906
+- blow-0849ec3148394f-886dc00d5cf3: framework; speaker; caption-prose-v1 offset 45136; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=6335
+- blow-0849ec3148394f-17f0714a89b2: framework; speaker; caption-prose-v1 offset 61111; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=9403
+- blow-0849ec3148394f-c417bf30322e: framework; speaker; caption-prose-v1 offset 57211; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=8604
+- blow-0849ec3148394f-83dacb4303e3: position; speaker; caption-prose-v1 offset 35701; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=4716
+- blow-0849ec3148394f-ee0ab7782f7c: position; speaker; caption-prose-v1 offset 36200; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=4758
+- blow-0849ec3148394f-3bf97ccaf90a: framework; speaker; caption-prose-v1 offset 59106; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=8820
+- blow-0849ec3148394f-51f5276041c7: framework; speaker; caption-prose-v1 offset 65759; chunk 0; https://www.youtube.com/watch?v=g1vCmFx6Rpg&t=10304
+## blow-0aa665cc2a63aa: Legendary Game Dev Jonathan Blow | The Standup
+
+https://www.youtube.com/watch?v=vHfdUqLmPNU
+
+Independent work identity: youtube-vHfdUqLmPNU. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,105; full retrieved text: 13,105. Text SHA-256: 1036028f293f73539ef3f022d69ca0eff9ccf509390451f277018fa96c94f7e9
+
+Source dates reported in the collected material: 2025-12-20
+
+> it's built into the game. it's not like shoehorned on to to
+
+Short excerpt of blow-0aa665cc2a63aa-8037112df2f6; speaker. Full passage and context retained locally.
+
+- blow-0aa665cc2a63aa-8037112df2f6: story; speaker; caption-prose-v1 offset 7248; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=451
+- blow-0aa665cc2a63aa-9381f1b28476: framework; speaker; caption-prose-v1 offset 14807; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=874
+- blow-0aa665cc2a63aa-63c8415810cb: story; speaker; caption-prose-v1 offset 22354; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=1300
+- blow-0aa665cc2a63aa-15c19fbf822f: framework; speaker; caption-prose-v1 offset 23437; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=1365
+- blow-0aa665cc2a63aa-ea787269090e: position; speaker; caption-prose-v1 offset 25518; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=1482
+- blow-0aa665cc2a63aa-619d77c9a7d4: position; speaker; caption-prose-v1 offset 24841; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=1450
+- blow-0aa665cc2a63aa-1913af64d3f6: story; speaker; caption-prose-v1 offset 28736; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=1665
+- blow-0aa665cc2a63aa-b0cbac3fd646: position; speaker; caption-prose-v1 offset 32703; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=1887
+- blow-0aa665cc2a63aa-a1bc1012981d: principle; speaker; caption-prose-v1 offset 35843; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2049
+- blow-0aa665cc2a63aa-6ab7ee8a3a13: framework; speaker; caption-prose-v1 offset 40537; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2316
+- blow-0aa665cc2a63aa-7f247989e55f: principle; speaker; caption-prose-v1 offset 41399; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2360
+- blow-0aa665cc2a63aa-987ff49719e8: position; speaker; caption-prose-v1 offset 44104; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2493
+- blow-0aa665cc2a63aa-f1b00d4cdd9b: story; speaker; caption-prose-v1 offset 45817; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2593
+- blow-0aa665cc2a63aa-01aea6205d05: framework; speaker; caption-prose-v1 offset 50479; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2842
+- blow-0aa665cc2a63aa-e58bdd1abcd1: story; speaker; caption-prose-v1 offset 50132; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=2819
+- blow-0aa665cc2a63aa-46b189800593: position; speaker; caption-prose-v1 offset 63502; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=3601
+- blow-0aa665cc2a63aa-472f0ff64441: principle; speaker; caption-prose-v1 offset 63993; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=3635
+- blow-0aa665cc2a63aa-bb63c3367cc3: position; speaker; caption-prose-v1 offset 61986; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=3514
+- blow-0aa665cc2a63aa-9f32d539fd9a: story; speaker; caption-prose-v1 offset 65845; chunk 0; https://www.youtube.com/watch?v=vHfdUqLmPNU&t=3732
 ## blow-0aab0d16024a60: Interactive Profiling, Part 1 (from The Inner Product)
 
 https://number-none.com/product/Interactive%20Profiling%2C%20Part%201/
@@ -33,7 +140,9 @@ Source words in scope: 2,413; full retrieved text: 2,413. Text SHA-256: e87f9e5e
 
 Source dates reported in the collected material: December 2002
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> you're watching a live report that changes from frame to frame.
+
+Short excerpt of blow-0aab0d16024a60-64a729c9fde9; sole_author. Full passage and context retained locally.
 
 - blow-0aab0d16024a60-64a729c9fde9: framework; sole_author; normalized source offset 3282; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%201/
 - blow-0aab0d16024a60-16000a6f6aa5: principle; sole_author; normalized source offset 5551; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%201/
@@ -41,6 +150,64 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - blow-0aab0d16024a60-f579b0bdf3dc: position; sole_author; normalized source offset 9801; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%201/
 - blow-0aab0d16024a60-6ba2f3d42bf9: framework; sole_author; normalized source offset 12078; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%201/
 - blow-0aab0d16024a60-da335eef8607: framework; sole_author; normalized source offset 12950; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%201/
+## blow-0dda1eb930df1f: Jonathan Blow on upcoming game, jai programming, and more! - Wookash Podcast - Podcast Episode - Podscan.fm
+
+https://podscan.fm/podcasts/wookash-podcast/episodes/jonathan-blow-on-upcoming-game-jai-programming-and-more
+
+Independent work identity: wookash-jonathan-blow-2026. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 1,777; full retrieved text: 1,777. Text SHA-256: 5a9f7a8235605eb0100afe3d8eb3ddecbec8208077958fb990d56620c91cd854
+
+Source dates reported in the collected material: 2026-01-24
+
+> it rounds to zero the amount that because we built so much
+
+Short excerpt of blow-0dda1eb930df1f-c244c9b8ca36; speaker. Full passage and context retained locally.
+
+- blow-0dda1eb930df1f-c244c9b8ca36: story; speaker; normalized source offset 6141; chunk 0; https://podscan.fm/podcasts/wookash-podcast/episodes/jonathan-blow-on-upcoming-game-jai-programming-and-more
+- blow-0dda1eb930df1f-95ca782487e9: story; speaker; normalized source offset 6505; chunk 0; https://podscan.fm/podcasts/wookash-podcast/episodes/jonathan-blow-on-upcoming-game-jai-programming-and-more
+- blow-0dda1eb930df1f-5ce722e6ecd2: framework; speaker; normalized source offset 4828; chunk 0; https://podscan.fm/podcasts/wookash-podcast/episodes/jonathan-blow-on-upcoming-game-jai-programming-and-more
+- blow-0dda1eb930df1f-58c331a20f49: position; speaker; normalized source offset 8807; chunk 0; https://podscan.fm/podcasts/wookash-podcast/episodes/jonathan-blow-on-upcoming-game-jai-programming-and-more
+## blow-1b53ee548f6cd8: Libraries Discussion
+
+https://www.youtube.com/watch?v=3TwEaRZ4H3w
+
+Independent work identity: youtube-3TwEaRZ4H3w. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 17,163; full retrieved text: 17,163. Text SHA-256: 4c51da1cb49710884d5a0cc134854d47301cff601c4796d01da2f790f627ee46
+
+Source dates reported in the collected material: 2018-01-13
+
+> statically typed completely precompiled with no runtime magic
+
+Short excerpt of blow-1b53ee548f6cd8-b00f4ce9d55e; sole_author. Full passage and context retained locally.
+
+- blow-1b53ee548f6cd8-b00f4ce9d55e: position; sole_author; caption-prose-v1 offset 208; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=21
+- blow-1b53ee548f6cd8-1ec0421fb053: principle; sole_author; caption-prose-v1 offset 4828; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=361
+- blow-1b53ee548f6cd8-4dd528539d60: position; sole_author; caption-prose-v1 offset 6197; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=451
+- blow-1b53ee548f6cd8-ae9520da1668: framework; sole_author; caption-prose-v1 offset 9108; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=653
+- blow-1b53ee548f6cd8-014f48c1e8ef: principle; sole_author; caption-prose-v1 offset 45626; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=3593
+- blow-1b53ee548f6cd8-9dca118e8547: position; sole_author; caption-prose-v1 offset 13769; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=964
+- blow-1b53ee548f6cd8-7912f37ac8c2: principle; sole_author; caption-prose-v1 offset 11541; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=807
+- blow-1b53ee548f6cd8-893eb96c39b2: framework; sole_author; caption-prose-v1 offset 14436; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=1012
+- blow-1b53ee548f6cd8-eb4615afa7b5: principle; sole_author; caption-prose-v1 offset 60298; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=4784
+- blow-1b53ee548f6cd8-123c091f0de8: position; sole_author; caption-prose-v1 offset 16962; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=1195
+- blow-1b53ee548f6cd8-017fcb7a107e: framework; sole_author; caption-prose-v1 offset 19423; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=1356
+- blow-1b53ee548f6cd8-37d2050c5f5e: framework; sole_author; caption-prose-v1 offset 38359; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=3013
+- blow-1b53ee548f6cd8-17834cc74f7b: position; sole_author; caption-prose-v1 offset 58533; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=4631
+- blow-1b53ee548f6cd8-4f72f13cc155: framework; sole_author; caption-prose-v1 offset 26080; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=1879
+- blow-1b53ee548f6cd8-8d0900817643: position; sole_author; caption-prose-v1 offset 28433; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=2227
+- blow-1b53ee548f6cd8-25ba588c6edd: principle; sole_author; caption-prose-v1 offset 30227; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=2358
+- blow-1b53ee548f6cd8-b326c11fc7ad: position; sole_author; caption-prose-v1 offset 49711; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=3903
+- blow-1b53ee548f6cd8-835ce1178222: principle; sole_author; caption-prose-v1 offset 46622; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=3667
+- blow-1b53ee548f6cd8-75c05c762da2: principle; sole_author; caption-prose-v1 offset 72575; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=5718
+- blow-1b53ee548f6cd8-2a3b4b3ba9c9: story; sole_author; caption-prose-v1 offset 71301; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=5627
+- blow-1b53ee548f6cd8-7d26ee9ec9c3: principle; sole_author; caption-prose-v1 offset 76958; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=6049
+- blow-1b53ee548f6cd8-98b4f0f463ff: framework; sole_author; caption-prose-v1 offset 84721; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=6641
+- blow-1b53ee548f6cd8-3466e1d70089: principle; sole_author; caption-prose-v1 offset 79690; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=6273
+- blow-1b53ee548f6cd8-b248dd9e5a44: position; sole_author; caption-prose-v1 offset 82033; chunk 0; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=6447
+- blow-1b53ee548f6cd8-449d5d3d9cb6: principle; sole_author; caption-prose-v1 offset 89517; chunk 1; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=7028
+- blow-1b53ee548f6cd8-d067c0d7393c: position; sole_author; caption-prose-v1 offset 90058; chunk 1; https://www.youtube.com/watch?v=3TwEaRZ4H3w&t=7066
 ## blow-1fffae7814cf3b: The Inner Product
 
 https://number-none.com/product/Scalar%20Quantization/
@@ -70,13 +237,50 @@ Source words in scope: 3,275; full retrieved text: 3,275. Text SHA-256: eb09c119
 
 Source dates reported in the collected material: February 2002
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> that extra number buys convenience and software reliability.
+
+Short excerpt of blow-26778ee155e014-b59ff8e5d36d; sole_author. Full passage and context retained locally.
 
 - blow-26778ee155e014-b59ff8e5d36d: story; sole_author; normalized source offset 2848; chunk 0; https://number-none.com/product/Mathematical%20Growing%20Pains/
 - blow-26778ee155e014-6eb55d15901d: framework; sole_author; normalized source offset 5519; chunk 0; https://number-none.com/product/Mathematical%20Growing%20Pains/
 - blow-26778ee155e014-4aa6c8f834cb: position; sole_author; normalized source offset 9030; chunk 0; https://number-none.com/product/Mathematical%20Growing%20Pains/
 - blow-26778ee155e014-87aaefd11a26: position; sole_author; normalized source offset 11079; chunk 0; https://number-none.com/product/Mathematical%20Growing%20Pains/
 - blow-26778ee155e014-e762a53931de: framework; sole_author; normalized source offset 13708; chunk 0; https://number-none.com/product/Mathematical%20Growing%20Pains/
+## blow-28a4b024ea9a77: Compiler Debugging (February 3)
+
+https://www.youtube.com/watch?v=0wtU-3g6GX4
+
+Independent work identity: youtube-0wtU-3g6GX4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 16,890; full retrieved text: 16,890. Text SHA-256: 6de537d04f68e7ebeace9c21305f3d24ac13132b00a9faaffa005091a0158038
+
+Source dates reported in the collected material: 2018-02-05
+
+> it seems like a bad idea to encourage wanton modification of someone
+
+Short excerpt of blow-28a4b024ea9a77-d1fb3b8cc6cb; speaker. Full passage and context retained locally.
+
+- blow-28a4b024ea9a77-d1fb3b8cc6cb: position; speaker; caption-prose-v1 offset 1258; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=138
+- blow-28a4b024ea9a77-f0a7787d957c: principle; speaker; caption-prose-v1 offset 2383; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=352
+- blow-28a4b024ea9a77-792cf564595f: story; speaker; caption-prose-v1 offset 3762; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=592
+- blow-28a4b024ea9a77-946d6b99a1db: position; speaker; caption-prose-v1 offset 8859; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=1575
+- blow-28a4b024ea9a77-2609c417c8e3: story; speaker; caption-prose-v1 offset 12918; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=2161
+- blow-28a4b024ea9a77-bcf1c856ee96: story; speaker; caption-prose-v1 offset 18112; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=3468
+- blow-28a4b024ea9a77-286b8bf3ee8b: position; speaker; caption-prose-v1 offset 19884; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=3872
+- blow-28a4b024ea9a77-e1fd99552845: framework; speaker; caption-prose-v1 offset 21736; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=4458
+- blow-28a4b024ea9a77-60c003851f82: story; speaker; caption-prose-v1 offset 22965; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=4571
+- blow-28a4b024ea9a77-fba31058558b: position; speaker; caption-prose-v1 offset 23707; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=4714
+- blow-28a4b024ea9a77-641f2c8038a6: story; speaker; caption-prose-v1 offset 38172; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=6619
+- blow-28a4b024ea9a77-29a755a0a89c: principle; speaker; caption-prose-v1 offset 27690; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=5108
+- blow-28a4b024ea9a77-2f4ed1733659: position; speaker; caption-prose-v1 offset 32886; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=5902
+- blow-28a4b024ea9a77-1f91a711a6a0: position; speaker; caption-prose-v1 offset 36472; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=6423
+- blow-28a4b024ea9a77-18f7d530e12e: position; speaker; caption-prose-v1 offset 36961; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=6471
+- blow-28a4b024ea9a77-cee963f59c2e: story; speaker; caption-prose-v1 offset 54021; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=9047
+- blow-28a4b024ea9a77-2e96b9a6f356: principle; speaker; caption-prose-v1 offset 70611; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=12484
+- blow-28a4b024ea9a77-0cc9d60f1d7d: position; speaker; caption-prose-v1 offset 42313; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=7225
+- blow-28a4b024ea9a77-7400e0f0b16a: position; speaker; caption-prose-v1 offset 44169; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=7375
+- blow-28a4b024ea9a77-792e307345ac: position; speaker; caption-prose-v1 offset 84212; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=14109
+- blow-28a4b024ea9a77-d00dfb378ba2: principle; speaker; caption-prose-v1 offset 82588; chunk 0; https://www.youtube.com/watch?v=0wtU-3g6GX4&t=13989
 ## blow-28dfa456ec757d: Q&A with Programming Language Beta Users
 
 https://www.youtube.com/watch?v=Wp9XD5FKZ2c
@@ -229,6 +433,26 @@ Short excerpt of blow-31e6e9525cb986-ff7ea89b2e17; sole_author. Full passage and
 - blow-31e6e9525cb986-a71699fdaf4e: position; sole_author; normalized source offset 9403; chunk 0; https://number-none.com/product/Mipmapping%2C%20Part%201/
 - blow-31e6e9525cb986-ccf8888797cc: story; sole_author; normalized source offset 11994; chunk 0; https://number-none.com/product/Mipmapping%2C%20Part%201/
 - blow-31e6e9525cb986-5defb5348732: framework; sole_author; normalized source offset 13622; chunk 0; https://number-none.com/product/Mipmapping%2C%20Part%201/
+## blow-32bc72f81add21: Game Engine Programming: Editor UI Work
+
+https://www.youtube.com/watch?v=EKqYvxX-IQo
+
+Independent work identity: youtube-EKqYvxX-IQo. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 7,938; full retrieved text: 7,938. Text SHA-256: 1a8212f0090f026a844e4de7fd6ea334af725d732b89999b57e441b3c41348ba
+
+Source dates reported in the collected material: 2018-02-12
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- blow-32bc72f81add21-49ac5c50e150: position; speaker; caption-prose-v1 offset 209; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=16
+- blow-32bc72f81add21-b9e1e038d3b5: story; speaker; caption-prose-v1 offset 9647; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=1404
+- blow-32bc72f81add21-1b11f167fc4d: framework; speaker; caption-prose-v1 offset 12748; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=1839
+- blow-32bc72f81add21-4a47ff8a4f1a: framework; speaker; caption-prose-v1 offset 16595; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=2523
+- blow-32bc72f81add21-7acd788bd27d: position; speaker; caption-prose-v1 offset 26458; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=3925
+- blow-32bc72f81add21-35020605cd10: story; speaker; caption-prose-v1 offset 36309; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=6010
+- blow-32bc72f81add21-012ebcf64cbc: framework; speaker; caption-prose-v1 offset 37638; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=6200
+- blow-32bc72f81add21-94f166cd3dc2: voice; speaker; caption-prose-v1 offset 33190; chunk 0; https://www.youtube.com/watch?v=EKqYvxX-IQo&t=5401
 ## blow-333bde15d5d84e: IK with Quaternion Joint Limits (from The Inner Product)
 
 https://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/
@@ -239,9 +463,7 @@ Source words in scope: 2,842; full retrieved text: 2,842. Text SHA-256: 2bf4ae1b
 
 Source dates reported in the collected material: April 2002
 
-> when you impose joint limits, you stick invisible walls on the terrain
-
-Short excerpt of blow-333bde15d5d84e-f361eed89e54; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - blow-333bde15d5d84e-f361eed89e54: framework; sole_author; normalized source offset 2427; chunk 0; https://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/
 - blow-333bde15d5d84e-0cef2a8c06a6: framework; sole_author; normalized source offset 7514; chunk 0; https://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/
@@ -259,7 +481,9 @@ Source words in scope: 8,151; full retrieved text: 8,151. Text SHA-256: 1a881ca4
 
 Source dates reported in the collected material: 2026-10-13
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> Let’s force ourselves to go above that ceiling by starting with things
+
+Short excerpt of blow-3c4e7350a783f2-5f9f4328b505; speaker. Full passage and context retained locally.
 
 - blow-3c4e7350a783f2-5f9f4328b505: framework; speaker; normalized source offset 9836; chunk 0; https://gamesbeat.com/how-thekla-created-order-of-the-sinking-star-with-1500-puzzles-jonathan-blow-exclusive-intervie/
 - blow-3c4e7350a783f2-42e0507edf71: story; speaker; normalized source offset 7786; chunk 0; https://gamesbeat.com/how-thekla-created-order-of-the-sinking-star-with-1500-puzzles-jonathan-blow-exclusive-intervie/
@@ -283,9 +507,7 @@ Source words in scope: 2,721; full retrieved text: 2,721. Text SHA-256: 5f940571
 
 Source dates reported in the collected material: December 2003
 
-> we've been trying to take it too far
-
-Short excerpt of blow-3cfba93f987088-c221f83c8019; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - blow-3cfba93f987088-c221f83c8019: position; sole_author; normalized source offset 2778; chunk 0; https://number-none.com/product/Predicate%20Logic/
 - blow-3cfba93f987088-5d1f66394830: framework; sole_author; normalized source offset 5317; chunk 0; https://number-none.com/product/Predicate%20Logic/
@@ -351,6 +573,32 @@ Short excerpt of blow-45b0d81c30dafe-ba88529f64a9; sole_author. Full passage and
 - blow-45b0d81c30dafe-21b903f9ba1a: position; sole_author; normalized source offset 2831; chunk 0; https://number-none.com/blow/code/mo_file/
 - blow-45b0d81c30dafe-81eaf0af86dc: position; sole_author; normalized source offset 2991; chunk 0; https://number-none.com/blow/code/mo_file/
 - blow-45b0d81c30dafe-c22b6f8fbbee: framework; sole_author; normalized source offset 8312; chunk 0; https://number-none.com/blow/code/mo_file/
+## blow-469c8041500087: Compiler Livestream: Declaration Fast Track attempt
+
+https://www.youtube.com/watch?v=ukvRC2TJyWg
+
+Independent work identity: youtube-ukvRC2TJyWg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 9,591; full retrieved text: 9,591. Text SHA-256: e409aaad46fed9b15a32324bc181b1eb63a100d851d63732703b4022134ef5f6
+
+Source dates reported in the collected material: 2018-05-29
+
+> if you actually look at the time that this takes it's really
+
+Short excerpt of blow-469c8041500087-8e15ce265013; speaker. Full passage and context retained locally.
+
+- blow-469c8041500087-8e15ce265013: framework; speaker; caption-prose-v1 offset 2869; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=236
+- blow-469c8041500087-33ed31a3535c: framework; speaker; caption-prose-v1 offset 11515; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=1087
+- blow-469c8041500087-3d439d148e55: position; speaker; caption-prose-v1 offset 8883; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=862
+- blow-469c8041500087-f57ef7f70e84: framework; speaker; caption-prose-v1 offset 13647; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=1299
+- blow-469c8041500087-5a348e9bb1d8: position; speaker; caption-prose-v1 offset 9722; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=939
+- blow-469c8041500087-b24a27170a63: position; speaker; caption-prose-v1 offset 18073; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=1750
+- blow-469c8041500087-20006d03b3fc: position; speaker; caption-prose-v1 offset 16143; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=1555
+- blow-469c8041500087-ea6c3a5e7731: framework; speaker; caption-prose-v1 offset 18621; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=1809
+- blow-469c8041500087-c886f3877a94: story; speaker; caption-prose-v1 offset 36132; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=4791
+- blow-469c8041500087-c40e1f2d054c: story; speaker; caption-prose-v1 offset 37647; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=5036
+- blow-469c8041500087-24bb3dcc7fea: position; speaker; caption-prose-v1 offset 41346; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=5620
+- blow-469c8041500087-777cd209201d: position; speaker; caption-prose-v1 offset 48898; chunk 0; https://www.youtube.com/watch?v=ukvRC2TJyWg&t=6394
 ## blow-48682b553c59c6: Order of the Sinking Star: Jonathan Blow Talks Puzzle Design, Scope Creep, and Building a Game That Refuses to Be Small | Output Lag
 
 https://outputlag.com/feature/order-of-the-sinking-star-jonathan-blow-talks-puzzle-design-scope-creep-and-building-a-game-that-refuses-to-be-small/
@@ -390,6 +638,37 @@ Short excerpt of blow-49fde04ec17822-66910fefd3f5; sole_author. Full passage and
 - blow-49fde04ec17822-2c83e6e02b66: principle; sole_author; normalized source offset 7525; chunk 0; https://number-none.com/product/Miscellaneous%20Rants/
 - blow-49fde04ec17822-7b78cbc0f0fb: position; sole_author; normalized source offset 7076; chunk 0; https://number-none.com/product/Miscellaneous%20Rants/
 - blow-49fde04ec17822-5c9bc13a64db: principle; sole_author; normalized source offset 13071; chunk 0; https://number-none.com/product/Miscellaneous%20Rants/
+## blow-51b7d0cc4b4d23: How To Make Indie Games In 2025 w/ Jonathan Blow — Full Time Game Dev Podcast Ep. 024
+
+https://www.youtube.com/watch?v=XhfZ1QEl-2s
+
+Independent work identity: youtube-XhfZ1QEl-2s. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 17,234; full retrieved text: 17,234. Text SHA-256: 3d5e073fa81fc013c84db424103a20b21bf8525ffa75bb1e8729870e12e93273
+
+Source dates reported in the collected material: 2024-11-22
+
+> some things are easier some things are are harder actually
+
+Short excerpt of blow-51b7d0cc4b4d23-9bd602ee5501; speaker. Full passage and context retained locally.
+
+- blow-51b7d0cc4b4d23-9bd602ee5501: position; speaker; caption-prose-v1 offset 18768; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=1265
+- blow-51b7d0cc4b4d23-658212dfac43: position; speaker; caption-prose-v1 offset 20072; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=1358
+- blow-51b7d0cc4b4d23-57153a95fe2f: framework; speaker; caption-prose-v1 offset 22000; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=1493
+- blow-51b7d0cc4b4d23-b9348d9fadb3: position; speaker; caption-prose-v1 offset 24356; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=1650
+- blow-51b7d0cc4b4d23-e656968ae6a0: position; speaker; caption-prose-v1 offset 28405; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=1903
+- blow-51b7d0cc4b4d23-cb5ec4df129d: principle; speaker; caption-prose-v1 offset 30886; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2056
+- blow-51b7d0cc4b4d23-342f75e71e99: principle; speaker; caption-prose-v1 offset 34701; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2307
+- blow-51b7d0cc4b4d23-cbabb93ca00c: story; speaker; caption-prose-v1 offset 35614; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2368
+- blow-51b7d0cc4b4d23-0563a2f27178: position; speaker; caption-prose-v1 offset 37590; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2501
+- blow-51b7d0cc4b4d23-19da1a1e31ab: story; speaker; caption-prose-v1 offset 38555; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2569
+- blow-51b7d0cc4b4d23-319d8e317a5c: story; speaker; caption-prose-v1 offset 43532; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2926
+- blow-51b7d0cc4b4d23-95eb44cdc1bd: position; speaker; caption-prose-v1 offset 45059; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=3024
+- blow-51b7d0cc4b4d23-5a4ab0291928: principle; speaker; caption-prose-v1 offset 44529; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=2991
+- blow-51b7d0cc4b4d23-61b485b89a68: framework; speaker; caption-prose-v1 offset 61228; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=4130
+- blow-51b7d0cc4b4d23-2bcf55e8ee52: story; speaker; caption-prose-v1 offset 60203; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=4062
+- blow-51b7d0cc4b4d23-71616dae2a91: framework; speaker; caption-prose-v1 offset 56913; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=3843
+- blow-51b7d0cc4b4d23-87c08033679a: story; speaker; caption-prose-v1 offset 82302; chunk 0; https://www.youtube.com/watch?v=XhfZ1QEl-2s&t=5545
 ## blow-51d86ee78470b7: Interactive Profiling, Part 2 (from The Inner Product)
 
 https://number-none.com/product/Interactive%20Profiling%2C%20Part%202/
@@ -400,7 +679,9 @@ Source words in scope: 2,527; full retrieved text: 2,527. Text SHA-256: 768c40c0
 
 Source dates reported in the collected material: January 2003
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> that hysteresis can hide important events.
+
+Short excerpt of blow-51d86ee78470b7-d531cd112104; sole_author. Full passage and context retained locally.
 
 - blow-51d86ee78470b7-d531cd112104: position; sole_author; normalized source offset 2666; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%202/
 - blow-51d86ee78470b7-2cd741ea1bf7: framework; sole_author; normalized source offset 3786; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%202/
@@ -408,6 +689,27 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - blow-51d86ee78470b7-cdca5e029922: position; sole_author; normalized source offset 8542; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%202/
 - blow-51d86ee78470b7-62c51f258293: framework; sole_author; normalized source offset 8966; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%202/
 - blow-51d86ee78470b7-2b21136a86c5: framework; sole_author; normalized source offset 12815; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%202/
+## blow-53b148963bfc68: constexpr == fix, #assert fix, #if fix
+
+https://www.youtube.com/watch?v=kHmbabcL-is
+
+Independent work identity: youtube-kHmbabcL-is. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 5,859; full retrieved text: 5,859. Text SHA-256: 3a5807696c734a9af56129cd56b344b4a33d7676f59ef71c46892e6617cb7c11
+
+Source dates reported in the collected material: 2018-01-13
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- blow-53b148963bfc68-0fab0b8621a5: story; sole_author; caption-prose-v1 offset 14531; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=2460
+- blow-53b148963bfc68-ea294686ccd8: framework; sole_author; caption-prose-v1 offset 13435; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=2217
+- blow-53b148963bfc68-2acba61cead7: principle; sole_author; caption-prose-v1 offset 7633; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=1227
+- blow-53b148963bfc68-a26b3c9f9bc8: position; sole_author; caption-prose-v1 offset 9130; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=1353
+- blow-53b148963bfc68-5c46de860371: principle; sole_author; caption-prose-v1 offset 9748; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=1444
+- blow-53b148963bfc68-6f4a946e42fa: framework; sole_author; caption-prose-v1 offset 18259; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=3254
+- blow-53b148963bfc68-657aa973bc93: story; sole_author; caption-prose-v1 offset 22556; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=4222
+- blow-53b148963bfc68-4acbec1a51f1: principle; sole_author; caption-prose-v1 offset 26035; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=4904
+- blow-53b148963bfc68-32ff77b24644: position; sole_author; caption-prose-v1 offset 25164; chunk 0; https://www.youtube.com/watch?v=kHmbabcL-is&t=4709
 ## blow-53d5efe0594c4c: Ideas about a new programming language for games.
 
 https://www.youtube.com/watch?v=TH9VCN6UkyQ
@@ -418,7 +720,9 @@ Source words in scope: 21,799; full retrieved text: 21,799. Text SHA-256: f88c23
 
 Source dates reported in the collected material: 2014-09-17
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> it's not random that we're still using C++
+
+Short excerpt of blow-53d5efe0594c4c-295a93421287; speaker. Full passage and context retained locally.
 
 - blow-53d5efe0594c4c-295a93421287: position; speaker; caption-prose-v1 offset 1457; chunk 0; https://www.youtube.com/watch?v=TH9VCN6UkyQ&t=89
 - blow-53d5efe0594c4c-01db1ad9b428: framework; speaker; caption-prose-v1 offset 9536; chunk 0; https://www.youtube.com/watch?v=TH9VCN6UkyQ&t=579
@@ -476,9 +780,7 @@ Source words in scope: 12,994; full retrieved text: 12,994. Text SHA-256: 0a6e6a
 
 Source dates reported in the collected material: 2021-08-02
 
-> you can generate unintended consequences very easily and in fact, well, you
-
-Short excerpt of blow-549cb6d3a73f32-901dff34556f; speaker. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - blow-549cb6d3a73f32-901dff34556f: principle; speaker; normalized source offset 3705; chunk 0; https://www.notion.com/blog/jonathan-blow
 - blow-549cb6d3a73f32-329114cce86d: framework; speaker; normalized source offset 5673; chunk 0; https://www.notion.com/blog/jonathan-blow
@@ -498,11 +800,41 @@ Short excerpt of blow-549cb6d3a73f32-901dff34556f; speaker. Full passage and con
 - blow-549cb6d3a73f32-e7a61e3941d4: position; speaker; normalized source offset 55015; chunk 0; https://www.notion.com/blog/jonathan-blow
 - blow-549cb6d3a73f32-7a0c2208191f: framework; speaker; normalized source offset 57456; chunk 0; https://www.notion.com/blog/jonathan-blow
 - blow-549cb6d3a73f32-04e7ddf1d8a8: position; speaker; normalized source offset 64082; chunk 0; https://www.notion.com/blog/jonathan-blow
+## blow-58c744cde33a6c: Super Stream Sunday: Launcher Box 2
+
+https://www.youtube.com/watch?v=8WRXIveOQm4
+
+Independent work identity: youtube-8WRXIveOQm4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,576; full retrieved text: 11,576. Text SHA-256: 84747d3823d3761face54fbe7653de38d63c0bcd15edb7ad486f16f32ca1214f
+
+Source dates reported in the collected material: 2018-02-05
+
+> that should get something on the screen and then we'll deal with
+
+Short excerpt of blow-58c744cde33a6c-e43dd345e008; speaker. Full passage and context retained locally.
+
+- blow-58c744cde33a6c-e43dd345e008: framework; speaker; caption-prose-v1 offset 2395; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=529
+- blow-58c744cde33a6c-95b86772aa85: position; speaker; caption-prose-v1 offset 7228; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=1498
+- blow-58c744cde33a6c-406044c5f2ff: principle; speaker; caption-prose-v1 offset 9315; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=1780
+- blow-58c744cde33a6c-73f2bef1fa8d: principle; speaker; caption-prose-v1 offset 11273; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=2124
+- blow-58c744cde33a6c-5b9c6428d258: story; speaker; caption-prose-v1 offset 18797; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=3680
+- blow-58c744cde33a6c-95ef36500726: position; speaker; caption-prose-v1 offset 24883; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=4749
+- blow-58c744cde33a6c-6e1957a38d77: principle; speaker; caption-prose-v1 offset 19573; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=3819
+- blow-58c744cde33a6c-37f59c3f9120: framework; speaker; caption-prose-v1 offset 23521; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=4570
+- blow-58c744cde33a6c-ff7cf3ccd167: position; speaker; caption-prose-v1 offset 31805; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=6256
+- blow-58c744cde33a6c-325f41cc0d1c: position; speaker; caption-prose-v1 offset 32086; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=6286
+- blow-58c744cde33a6c-eeecb1e65acb: framework; speaker; caption-prose-v1 offset 42808; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=8375
+- blow-58c744cde33a6c-cabae2e29ead: principle; speaker; caption-prose-v1 offset 39105; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=7580
+- blow-58c744cde33a6c-a8b82babb7d2: framework; speaker; caption-prose-v1 offset 46354; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=9166
+- blow-58c744cde33a6c-fe44e3ee6d56: position; speaker; caption-prose-v1 offset 48957; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=9595
+- blow-58c744cde33a6c-d013e4fc6d57: principle; speaker; caption-prose-v1 offset 35165; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=6666
+- blow-58c744cde33a6c-aa1ec37aef19: position; speaker; caption-prose-v1 offset 21881; chunk 0; https://www.youtube.com/watch?v=8WRXIveOQm4&t=4196
 ## blow-5fdb63f803ebe8: Jonathan Blow - Jai Demo and Design Explanation (KEYNOTE) - Updated
 
 https://www.youtube.com/watch?v=IdpD5QIVOKQ
 
-Independent work identity: blow-lambdaconf-jai-demo-design-keynote. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-IdpD5QIVOKQ. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 12,876; full retrieved text: 12,876. Text SHA-256: 422ad02cbd28c61fb1fcb1dc74877d339a675c3e8efc9c785813355f91564fe7
 
@@ -531,6 +863,28 @@ Short excerpt of blow-5fdb63f803ebe8-de5e2c8b79cf; speaker. Full passage and con
 - blow-5fdb63f803ebe8-0b26a229d2f4: principle; speaker; caption-prose-v1 offset 55637; chunk 0; https://www.youtube.com/watch?v=IdpD5QIVOKQ&t=3601
 - blow-5fdb63f803ebe8-a66752a1f3c9: framework; speaker; caption-prose-v1 offset 62318; chunk 0; https://www.youtube.com/watch?v=IdpD5QIVOKQ&t=4017
 - blow-5fdb63f803ebe8-0549753b26e8: position; speaker; caption-prose-v1 offset 65963; chunk 0; https://www.youtube.com/watch?v=IdpD5QIVOKQ&t=4230
+## blow-61c3ebfed66782: Gameplay Debugging 2, Gameplay Code Simplification
+
+https://www.youtube.com/watch?v=Ihbj_gyfBR4
+
+Independent work identity: youtube-Ihbj_gyfBR4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 7,039; full retrieved text: 7,039. Text SHA-256: 48635b43cd9198376b66f2659b703e2b12ff8364eb9035a60b753b5edeebd7f7
+
+Source dates reported in the collected material: 2018-02-12
+
+> I'm going to mask off I'm just going to do one component
+
+Short excerpt of blow-61c3ebfed66782-64275ca22249; speaker. Full passage and context retained locally.
+
+- blow-61c3ebfed66782-64275ca22249: framework; speaker; caption-prose-v1 offset 5113; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=806
+- blow-61c3ebfed66782-b4586d250007: position; speaker; caption-prose-v1 offset 5792; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=873
+- blow-61c3ebfed66782-a59fba5ddc4c: framework; speaker; caption-prose-v1 offset 12670; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=2041
+- blow-61c3ebfed66782-eba54cbf17eb: story; speaker; caption-prose-v1 offset 14669; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=2352
+- blow-61c3ebfed66782-3fd629d2524b: story; speaker; caption-prose-v1 offset 17027; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=2896
+- blow-61c3ebfed66782-7916021d3dc6: framework; speaker; caption-prose-v1 offset 26459; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=5531
+- blow-61c3ebfed66782-728e97837755: story; speaker; caption-prose-v1 offset 27954; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=5748
+- blow-61c3ebfed66782-c3acfa7bf41e: framework; speaker; caption-prose-v1 offset 31034; chunk 0; https://www.youtube.com/watch?v=Ihbj_gyfBR4&t=6197
 ## blow-69494e9ef57237: Unified Rendering LOD, Part 1 (from The Inner Product)
 
 https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%201/
@@ -551,6 +905,84 @@ Short excerpt of blow-69494e9ef57237-9fd7acab88e6; sole_author. Full passage and
 - blow-69494e9ef57237-40e63df5324a: framework; sole_author; normalized source offset 7667; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%201/
 - blow-69494e9ef57237-7612e708f2b9: framework; sole_author; normalized source offset 9470; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%201/
 - blow-69494e9ef57237-9446c40ddf0e: framework; sole_author; normalized source offset 12024; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%201/
+## blow-698c97c0750f36: Game Engine Programming: Fog of War 1
+
+https://www.youtube.com/watch?v=1NId62Y6llQ
+
+Independent work identity: youtube-1NId62Y6llQ. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,430; full retrieved text: 13,430. Text SHA-256: 99b3cb5d06b743e729663116e6e1dd262d4ddd271dadca2cd21198d133678f0d
+
+Source dates reported in the collected material: 2018-01-15
+
+> when I step into the next square I'll still be able to
+
+Short excerpt of blow-698c97c0750f36-f8a24775b5cd; speaker. Full passage and context retained locally.
+
+- blow-698c97c0750f36-f8a24775b5cd: framework; speaker; caption-prose-v1 offset 1418; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=106
+- blow-698c97c0750f36-20eb9966e2a6: story; speaker; caption-prose-v1 offset 5099; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=770
+- blow-698c97c0750f36-97727a9982f1: principle; speaker; caption-prose-v1 offset 7151; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=1368
+- blow-698c97c0750f36-f28017523822: principle; speaker; caption-prose-v1 offset 11294; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=2208
+- blow-698c97c0750f36-43add61fda00: framework; speaker; caption-prose-v1 offset 14154; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=2635
+- blow-698c97c0750f36-0df1e75907d4: position; speaker; caption-prose-v1 offset 15482; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=2820
+- blow-698c97c0750f36-7962bba0c913: principle; speaker; caption-prose-v1 offset 17092; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=2949
+- blow-698c97c0750f36-30b6e4efd0d5: position; speaker; caption-prose-v1 offset 19344; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=3115
+- blow-698c97c0750f36-321a116b9df3: position; speaker; caption-prose-v1 offset 20093; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=3167
+- blow-698c97c0750f36-9ea943d92725: framework; speaker; caption-prose-v1 offset 27826; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=4396
+- blow-698c97c0750f36-5b392a931d02: principle; speaker; caption-prose-v1 offset 31131; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=4872
+- blow-698c97c0750f36-d979afc622af: story; speaker; caption-prose-v1 offset 38955; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=6083
+- blow-698c97c0750f36-aadbc95ce72c: framework; speaker; caption-prose-v1 offset 44704; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=7184
+- blow-698c97c0750f36-7bcd092d013a: position; speaker; caption-prose-v1 offset 48482; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=7853
+- blow-698c97c0750f36-cc312730416f: story; speaker; caption-prose-v1 offset 55007; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=9222
+- blow-698c97c0750f36-e146975165f8: story; speaker; caption-prose-v1 offset 63950; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=11030
+- blow-698c97c0750f36-f2346af577f4: principle; speaker; caption-prose-v1 offset 43951; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=7047
+- blow-698c97c0750f36-399ed737a25d: position; speaker; caption-prose-v1 offset 46479; chunk 0; https://www.youtube.com/watch?v=1NId62Y6llQ&t=7625
+## blow-7063988f7ef201: Compiler Debugging: Autopoly fix
+
+https://www.youtube.com/watch?v=sNwrtvgf1-8
+
+Independent work identity: youtube-sNwrtvgf1-8. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 5,985; full retrieved text: 5,985. Text SHA-256: a20778a951f187f8c196d037910bae1faef7818ca62b8e1802bfee3361a0c794
+
+Source dates reported in the collected material: 2018-05-27
+
+> it turns out to add a lot of complications
+
+Short excerpt of blow-7063988f7ef201-f52b98efa6d3; speaker. Full passage and context retained locally.
+
+- blow-7063988f7ef201-f52b98efa6d3: position; speaker; caption-prose-v1 offset 1905; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=151
+- blow-7063988f7ef201-9ce69f152df7: framework; speaker; caption-prose-v1 offset 4549; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=452
+- blow-7063988f7ef201-adc2b4f75e9d: position; speaker; caption-prose-v1 offset 3868; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=342
+- blow-7063988f7ef201-3f54744b32cf: framework; speaker; caption-prose-v1 offset 15727; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=2625
+- blow-7063988f7ef201-4c9415b2bbec: story; speaker; caption-prose-v1 offset 22398; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=3786
+- blow-7063988f7ef201-e11b75d1ee34: position; speaker; caption-prose-v1 offset 25395; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=4272
+- blow-7063988f7ef201-b8d473babb35: position; speaker; caption-prose-v1 offset 13849; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=2405
+- blow-7063988f7ef201-3fd92c82d1b4: position; speaker; caption-prose-v1 offset 30060; chunk 0; https://www.youtube.com/watch?v=sNwrtvgf1-8&t=4838
+## blow-71b27a95ccdbc4: Compiler Refactoring: Removing a bad thing about type matching.
+
+https://www.youtube.com/watch?v=8fl8Xo7AGG4
+
+Independent work identity: youtube-8fl8Xo7AGG4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 8,349; full retrieved text: 8,349. Text SHA-256: 7ad9f418ee18a3ba92966a6d8f6243a9ec259df6d40107497a0976fe26091086
+
+Source dates reported in the collected material: 2018-05-27
+
+> we don't do everything that those compilers do either
+
+Short excerpt of blow-71b27a95ccdbc4-7fdc50bebd74; speaker. Full passage and context retained locally.
+
+- blow-71b27a95ccdbc4-7fdc50bebd74: position; speaker; caption-prose-v1 offset 1635; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=153
+- blow-71b27a95ccdbc4-7896481aba9b: position; speaker; caption-prose-v1 offset 2977; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=263
+- blow-71b27a95ccdbc4-04b0c9beeb6e: framework; speaker; caption-prose-v1 offset 5358; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=474
+- blow-71b27a95ccdbc4-686a1bfa96d4: position; speaker; caption-prose-v1 offset 8990; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=760
+- blow-71b27a95ccdbc4-d0355c6f9a5f: framework; speaker; caption-prose-v1 offset 23916; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=3040
+- blow-71b27a95ccdbc4-b3775a4ccae7: story; speaker; caption-prose-v1 offset 22235; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=2811
+- blow-71b27a95ccdbc4-37c5729006e6: story; speaker; caption-prose-v1 offset 34154; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=5210
+- blow-71b27a95ccdbc4-dc7fe874fbd2: position; speaker; caption-prose-v1 offset 7448; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=624
+- blow-71b27a95ccdbc4-8338bf85b151: framework; speaker; caption-prose-v1 offset 28153; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=4123
+- blow-71b27a95ccdbc4-f02801cc59bf: position; speaker; caption-prose-v1 offset 37816; chunk 0; https://www.youtube.com/watch?v=8fl8Xo7AGG4&t=5557
 ## blow-7473ff8ffb63e6: New Page 1
 
 https://number-none.com/product/Lerp%2C%20Part%202/
@@ -561,9 +993,7 @@ Source words in scope: 2,417; full retrieved text: 2,417. Text SHA-256: a499a39e
 
 Source dates reported in the collected material: February 2004
 
-> the onus is upon me to show that the database features are
-
-Short excerpt of blow-7473ff8ffb63e6-2528216cdd64; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - blow-7473ff8ffb63e6-2528216cdd64: principle; sole_author; normalized source offset 1221; chunk 0; https://number-none.com/product/Lerp%2C%20Part%202/
 - blow-7473ff8ffb63e6-e0563333de68: position; sole_author; normalized source offset 4000; chunk 0; https://number-none.com/product/Lerp%2C%20Part%202/
@@ -574,7 +1004,7 @@ Short excerpt of blow-7473ff8ffb63e6-2528216cdd64; sole_author. Full passage and
 
 https://www.youtube.com/watch?v=uZgbKrDEzAs
 
-Independent work identity: blow-jai-design-decisions-uzgbkrdez_as. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-uZgbKrDEzAs. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 11,207; full retrieved text: 11,207. Text SHA-256: e53e9770b293f3a158311ba4e55d9a1d418c647edae44102095c92d56eaa5e96
 
@@ -659,6 +1089,36 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - blow-7cebe1eb0beb5e-f3795c1e1bb5: position; speaker; caption-prose-v1 offset 95909; chunk 1; https://www.youtube.com/watch?v=e6crOMC9WCE&t=5861
 - blow-7cebe1eb0beb5e-728790f7f12a: principle; speaker; caption-prose-v1 offset 98019; chunk 1; https://www.youtube.com/watch?v=e6crOMC9WCE&t=5980
 - blow-7cebe1eb0beb5e-531d4c895604: position; speaker; caption-prose-v1 offset 99477; chunk 1; https://www.youtube.com/watch?v=e6crOMC9WCE&t=6068
+## blow-82b763b871098e: Game Engine Programming: Room Highlighting
+
+https://www.youtube.com/watch?v=dX60gKsf7y0
+
+Independent work identity: youtube-dX60gKsf7y0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 11,463; full retrieved text: 11,463. Text SHA-256: d8afdd2545c8745b0f37d5910ae7173228cf7c9096037bb4b61caca33cbb05fc
+
+Source dates reported in the collected material: 2018-01-16
+
+> I can draw them into an off-screen render target and then do
+
+Short excerpt of blow-82b763b871098e-72b8aca2ec3b; speaker. Full passage and context retained locally.
+
+- blow-82b763b871098e-72b8aca2ec3b: framework; speaker; caption-prose-v1 offset 425; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=32
+- blow-82b763b871098e-ac7623f7129f: principle; speaker; caption-prose-v1 offset 3205; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=277
+- blow-82b763b871098e-cd68cb86f105: position; speaker; caption-prose-v1 offset 5030; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=500
+- blow-82b763b871098e-7aed3ab72345: position; speaker; caption-prose-v1 offset 9775; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=984
+- blow-82b763b871098e-3f41e28bf90b: framework; speaker; caption-prose-v1 offset 13984; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=1289
+- blow-82b763b871098e-001488bb98d6: position; speaker; caption-prose-v1 offset 11576; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=1121
+- blow-82b763b871098e-846877e1c508: story; speaker; caption-prose-v1 offset 14728; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=1368
+- blow-82b763b871098e-2dd38cf5441c: framework; speaker; caption-prose-v1 offset 18608; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=1760
+- blow-82b763b871098e-b407b2c3e786: principle; speaker; caption-prose-v1 offset 25932; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=3134
+- blow-82b763b871098e-49f2dcf5b584: framework; speaker; caption-prose-v1 offset 26218; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=3155
+- blow-82b763b871098e-c48cbb58d6bd: position; speaker; caption-prose-v1 offset 27421; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=3270
+- blow-82b763b871098e-709f11440186: story; speaker; caption-prose-v1 offset 36253; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=5006
+- blow-82b763b871098e-ed4ce98d3e26: framework; speaker; caption-prose-v1 offset 50469; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=8369
+- blow-82b763b871098e-cdd6f24c9221: position; speaker; caption-prose-v1 offset 50708; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=8406
+- blow-82b763b871098e-9087f511650e: story; speaker; caption-prose-v1 offset 39711; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=5654
+- blow-82b763b871098e-08677c4948c3: principle; speaker; caption-prose-v1 offset 51464; chunk 0; https://www.youtube.com/watch?v=dX60gKsf7y0&t=8467
 ## blow-839ecb97e07c19: Unified Rendering LOD, Part 5 (from The Inner Product)
 
 https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%205/
@@ -679,6 +1139,34 @@ Short excerpt of blow-839ecb97e07c19-80ba69fcbc6b; sole_author. Full passage and
 - blow-839ecb97e07c19-30e84dff97fa: framework; sole_author; normalized source offset 9621; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%205/
 - blow-839ecb97e07c19-0376463fe096: position; sole_author; normalized source offset 11579; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%205/
 - blow-839ecb97e07c19-5f36c66b8ad0: position; sole_author; normalized source offset 14385; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%205/
+## blow-84c7aadb96c086: Demo: Arguments after varargs, array-to-bool, C string ergonomics
+
+https://www.youtube.com/watch?v=mGe5d6dPHAU
+
+Independent work identity: youtube-mGe5d6dPHAU. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 9,710; full retrieved text: 9,710. Text SHA-256: ad8d9247e9aee49f505e5d48acf0c27570f9f4f5a3df2b3f76c25389262e539e
+
+Source dates reported in the collected material: 2018-02-13
+
+> testing more corner cases finding bugs fixing the bugs simplifying the code
+
+Short excerpt of blow-84c7aadb96c086-48ffbd6d29a2; speaker. Full passage and context retained locally.
+
+- blow-84c7aadb96c086-48ffbd6d29a2: position; speaker; caption-prose-v1 offset 264; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=20
+- blow-84c7aadb96c086-24e8526d5e4e: framework; speaker; caption-prose-v1 offset 2949; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=217
+- blow-84c7aadb96c086-4dc5d43cc1bd: position; speaker; caption-prose-v1 offset 3939; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=293
+- blow-84c7aadb96c086-4faf35747997: position; speaker; caption-prose-v1 offset 6388; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=476
+- blow-84c7aadb96c086-e0045f4a6d56: framework; speaker; caption-prose-v1 offset 8248; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=612
+- blow-84c7aadb96c086-691975bbe1d9: framework; speaker; caption-prose-v1 offset 12446; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=943
+- blow-84c7aadb96c086-bbe19b1f85fb: story; speaker; caption-prose-v1 offset 15767; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=1172
+- blow-84c7aadb96c086-aa8899f717b1: position; speaker; caption-prose-v1 offset 21086; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=1562
+- blow-84c7aadb96c086-3199b061aadf: position; speaker; caption-prose-v1 offset 19489; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=1451
+- blow-84c7aadb96c086-82e9bfcd0c53: framework; speaker; caption-prose-v1 offset 27488; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=2047
+- blow-84c7aadb96c086-73910b435f68: position; speaker; caption-prose-v1 offset 38607; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=3040
+- blow-84c7aadb96c086-33f55ac6368e: framework; speaker; caption-prose-v1 offset 36175; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=2865
+- blow-84c7aadb96c086-a96bd7fd8cd6: position; speaker; caption-prose-v1 offset 37147; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=2938
+- blow-84c7aadb96c086-0fde0a8ed898: position; speaker; caption-prose-v1 offset 32961; chunk 0; https://www.youtube.com/watch?v=mGe5d6dPHAU&t=2527
 ## blow-884a1e54fcf5e4: New Page 1
 
 https://number-none.com/product/Adaptive%20Compression%20Across%20Unreliable%20Networks/
@@ -699,6 +1187,37 @@ Short excerpt of blow-884a1e54fcf5e4-ddaa0d75ebdb; sole_author. Full passage and
 - blow-884a1e54fcf5e4-5df00952fc7f: framework; sole_author; normalized source offset 8775; chunk 0; https://number-none.com/product/Adaptive%20Compression%20Across%20Unreliable%20Networks/
 - blow-884a1e54fcf5e4-70adf9fb97bf: principle; sole_author; normalized source offset 10091; chunk 0; https://number-none.com/product/Adaptive%20Compression%20Across%20Unreliable%20Networks/
 - blow-884a1e54fcf5e4-d092de7d55fd: position; sole_author; normalized source offset 12454; chunk 0; https://number-none.com/product/Adaptive%20Compression%20Across%20Unreliable%20Networks/
+## blow-896c548e0c6a2f: Animation Fixes
+
+https://www.youtube.com/watch?v=suJ9qTdj44U
+
+Independent work identity: youtube-suJ9qTdj44U. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,033; full retrieved text: 12,033. Text SHA-256: 2d3ce1de4e893cb20c49ea593a1b3466855e9d25d6c93a73964a3c93c16fa82d
+
+Source dates reported in the collected material: 2018-02-13
+
+> his physical position which is the gameplay thing which is always in
+
+Short excerpt of blow-896c548e0c6a2f-4bd5aeabe7e9; speaker. Full passage and context retained locally.
+
+- blow-896c548e0c6a2f-4bd5aeabe7e9: story; speaker; caption-prose-v1 offset 2902; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=303
+- blow-896c548e0c6a2f-122b4b6fde3b: story; speaker; caption-prose-v1 offset 5490; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=748
+- blow-896c548e0c6a2f-be7a6dba9541: story; speaker; caption-prose-v1 offset 8458; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=1435
+- blow-896c548e0c6a2f-9eefc50df035: position; speaker; caption-prose-v1 offset 14552; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=2472
+- blow-896c548e0c6a2f-cbfb0283be82: position; speaker; caption-prose-v1 offset 15869; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=2567
+- blow-896c548e0c6a2f-56269c701782: story; speaker; caption-prose-v1 offset 16702; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=2633
+- blow-896c548e0c6a2f-40bd33fe9edd: story; speaker; caption-prose-v1 offset 26311; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=4650
+- blow-896c548e0c6a2f-d4c6aff1be61: story; speaker; caption-prose-v1 offset 29598; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=5416
+- blow-896c548e0c6a2f-10051b7b29c9: position; speaker; caption-prose-v1 offset 27633; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=4958
+- blow-896c548e0c6a2f-6833d88f4e43: principle; speaker; caption-prose-v1 offset 38835; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=6665
+- blow-896c548e0c6a2f-c55f1609fae2: position; speaker; caption-prose-v1 offset 49361; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=7667
+- blow-896c548e0c6a2f-b6373f72f1b5: position; speaker; caption-prose-v1 offset 58588; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=8568
+- blow-896c548e0c6a2f-e08fb4755de1: position; speaker; caption-prose-v1 offset 59613; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=8681
+- blow-896c548e0c6a2f-c61c25f9f0a3: position; speaker; caption-prose-v1 offset 56608; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=8369
+- blow-896c548e0c6a2f-39948e6805db: position; speaker; caption-prose-v1 offset 58048; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=8517
+- blow-896c548e0c6a2f-963a00f14025: position; speaker; caption-prose-v1 offset 58787; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=8597
+- blow-896c548e0c6a2f-ce92f4e63271: story; speaker; caption-prose-v1 offset 54630; chunk 0; https://www.youtube.com/watch?v=suJ9qTdj44U&t=8200
 ## blow-8b8efa503da07b: The Inner Product
 
 https://number-none.com/product/Understanding%20Slerp%2C%20Then%20Not%20Using%20It/
@@ -718,6 +1237,116 @@ Short excerpt of blow-8b8efa503da07b-bd0d54280413; sole_author. Full passage and
 - blow-8b8efa503da07b-16e37cb59751: framework; sole_author; normalized source offset 10214; chunk 0; https://number-none.com/product/Understanding%20Slerp%2C%20Then%20Not%20Using%20It/
 - blow-8b8efa503da07b-d77b6a8c52e1: position; sole_author; normalized source offset 14041; chunk 0; https://number-none.com/product/Understanding%20Slerp%2C%20Then%20Not%20Using%20It/
 - blow-8b8efa503da07b-2c5f630b8b46: position; sole_author; normalized source offset 14444; chunk 0; https://number-none.com/product/Understanding%20Slerp%2C%20Then%20Not%20Using%20It/
+## blow-8e160ce02d22c9: Compiler Debugging, and experimenting with an eye tracker.
+
+https://www.youtube.com/watch?v=d0spnJhes2E
+
+Independent work identity: youtube-d0spnJhes2E. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,162; full retrieved text: 4,162. Text SHA-256: 6c2a5ff0cf625d4d96e5e6091da1d2c4357aa87679713f4fb2a4184da6b1198e
+
+Source dates reported in the collected material: 2018-05-27
+
+> no jobs is a thing where we say you know don't compile
+
+Short excerpt of blow-8e160ce02d22c9-968ca62445fc; speaker. Full passage and context retained locally.
+
+- blow-8e160ce02d22c9-968ca62445fc: framework; speaker; caption-prose-v1 offset 1668; chunk 0; https://www.youtube.com/watch?v=d0spnJhes2E&t=254
+- blow-8e160ce02d22c9-b22ed5eda58f: position; speaker; caption-prose-v1 offset 7572; chunk 0; https://www.youtube.com/watch?v=d0spnJhes2E&t=886
+- blow-8e160ce02d22c9-c0e8e886350f: framework; speaker; caption-prose-v1 offset 9773; chunk 0; https://www.youtube.com/watch?v=d0spnJhes2E&t=1193
+- blow-8e160ce02d22c9-0291ea967853: story; speaker; caption-prose-v1 offset 17766; chunk 0; https://www.youtube.com/watch?v=d0spnJhes2E&t=2683
+- blow-8e160ce02d22c9-5c9cf96fa64e: position; speaker; caption-prose-v1 offset 18371; chunk 0; https://www.youtube.com/watch?v=d0spnJhes2E&t=2786
+## blow-91d72ad782f2f7: Better Procedure Calls 1
+
+https://www.youtube.com/watch?v=SBlnVlTCsB4
+
+Independent work identity: youtube-SBlnVlTCsB4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 12,106; full retrieved text: 12,106. Text SHA-256: c9188d717a0377990d488a618727213c5291e781c6221e633e4a68f058d048cf
+
+Source dates reported in the collected material: 20180209
+
+> the more clearly we admit where it's not perfect the the better
+
+Short excerpt of blow-91d72ad782f2f7-19f08486229e; speaker. Full passage and context retained locally.
+
+- blow-91d72ad782f2f7-19f08486229e: framework; speaker; caption-prose-v1 offset 1534; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=112
+- blow-91d72ad782f2f7-327f55eca78c: story; speaker; caption-prose-v1 offset 3729; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=303
+- blow-91d72ad782f2f7-1fbc3432ae8b: position; speaker; caption-prose-v1 offset 4740; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=375
+- blow-91d72ad782f2f7-2b424d732b74: framework; speaker; caption-prose-v1 offset 10412; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=1206
+- blow-91d72ad782f2f7-91e481f4a06b: framework; speaker; caption-prose-v1 offset 22578; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=4062
+- blow-91d72ad782f2f7-b8fb2b41f7df: story; speaker; caption-prose-v1 offset 43393; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=8174
+- blow-91d72ad782f2f7-d6db8c7b538a: story; speaker; caption-prose-v1 offset 50323; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=9829
+- blow-91d72ad782f2f7-d3f66d7fd0ad: framework; speaker; caption-prose-v1 offset 15563; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=2343
+- blow-91d72ad782f2f7-0d8f728e6080: position; speaker; caption-prose-v1 offset 36302; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=6648
+- blow-91d72ad782f2f7-8e802975f28f: framework; speaker; caption-prose-v1 offset 60824; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=12118
+- blow-91d72ad782f2f7-e4672819f968: story; speaker; caption-prose-v1 offset 58101; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=11822
+- blow-91d72ad782f2f7-aa7c43fdd28e: story; speaker; caption-prose-v1 offset 58271; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=11868
+- blow-91d72ad782f2f7-669f55fecca8: position; speaker; caption-prose-v1 offset 46963; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=8966
+- blow-91d72ad782f2f7-58af3cf03ddc: position; speaker; caption-prose-v1 offset 28680; chunk 0; https://www.youtube.com/watch?v=SBlnVlTCsB4&t=5268
+## blow-9ffe7d7aca20a5: Compiler livestream: Overhauling custom link commands
+
+https://www.youtube.com/watch?v=AdoShhhnsQA
+
+Independent work identity: youtube-AdoShhhnsQA. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,735; full retrieved text: 4,735. Text SHA-256: ac32daff765711c40239f348bc1fa43c4cd3808ebfa117b217562f63cb7ed044
+
+Source dates reported in the collected material: 2018-05-29
+
+> the compiler gives you a message like okay whatever link command you
+
+Short excerpt of blow-9ffe7d7aca20a5-53e684d35b73; speaker. Full passage and context retained locally.
+
+- blow-9ffe7d7aca20a5-53e684d35b73: framework; speaker; caption-prose-v1 offset 877; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=180
+- blow-9ffe7d7aca20a5-d48f7f2465fd: framework; speaker; caption-prose-v1 offset 1156; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=202
+- blow-9ffe7d7aca20a5-2fc0a350acc0: principle; speaker; caption-prose-v1 offset 4506; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=871
+- blow-9ffe7d7aca20a5-6745094fc4df: position; speaker; caption-prose-v1 offset 10840; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=2191
+- blow-9ffe7d7aca20a5-60010c4e73d0: principle; speaker; caption-prose-v1 offset 23730; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=5264
+- blow-9ffe7d7aca20a5-97d18990b8c9: position; speaker; caption-prose-v1 offset 22556; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=5119
+- blow-9ffe7d7aca20a5-a3e64802fe04: story; speaker; caption-prose-v1 offset 22082; chunk 0; https://www.youtube.com/watch?v=AdoShhhnsQA&t=5048
+## blow-a1c0c990cafbe2: Game Engine Programming: Gameplay Tests
+
+https://www.youtube.com/watch?v=TaS262fuT_o
+
+Independent work identity: youtube-TaS262fuT_o. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 6,079; full retrieved text: 6,079. Text SHA-256: 783345a8c4e2a1aa3448366211cd6445a3ea77287be9e0d70366e13ded9bcd95
+
+Source dates reported in the collected material: 2018-02-17
+
+> always conversion numbers in your file formats always always do that before
+
+Short excerpt of blow-a1c0c990cafbe2-abc69138528e; speaker. Full passage and context retained locally.
+
+- blow-a1c0c990cafbe2-abc69138528e: principle; speaker; caption-prose-v1 offset 3884; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=1118
+- blow-a1c0c990cafbe2-06f800ceb577: framework; speaker; caption-prose-v1 offset 5389; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=1420
+- blow-a1c0c990cafbe2-92613f4140ae: position; speaker; caption-prose-v1 offset 6701; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=1744
+- blow-a1c0c990cafbe2-a5009c63ce01: position; speaker; caption-prose-v1 offset 23179; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=4754
+- blow-a1c0c990cafbe2-1ff8599087fc: story; speaker; caption-prose-v1 offset 17835; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=3887
+- blow-a1c0c990cafbe2-1c9897cf7343: position; speaker; caption-prose-v1 offset 20556; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=4258
+- blow-a1c0c990cafbe2-7bcf3ee1e5fe: framework; speaker; caption-prose-v1 offset 25457; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=5017
+- blow-a1c0c990cafbe2-c71c13ba3c0a: position; speaker; caption-prose-v1 offset 29622; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=5729
+- blow-a1c0c990cafbe2-643652d7329e: position; speaker; caption-prose-v1 offset 30067; chunk 0; https://www.youtube.com/watch?v=TaS262fuT_o&t=5763
+## blow-a28e6168f29215: Developer Spotlight: Jonathan Blow | GameDev.net
+
+https://gamedev.net/tutorials/industry/interviews/developer-spotlight-jonathan-blow-r2359
+
+Independent work identity: blow-deloget-gamedev-developer-spotlight-2007. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,144; full retrieved text: 2,144. Text SHA-256: c97cc8208cc546eac5a51a901fd67a9f2f0937eccbf688e8b7ac01c45957fc37
+
+Source dates reported in the collected material: 2007-05-21
+
+> I'll mail that to friends to get comments on it, and also
+
+Short excerpt of blow-a28e6168f29215-776c19c65d27; speaker. Full passage and context retained locally.
+
+- blow-a28e6168f29215-776c19c65d27: framework; speaker; normalized source offset 8280; chunk 0; https://gamedev.net/tutorials/industry/interviews/developer-spotlight-jonathan-blow-r2359
+- blow-a28e6168f29215-617c692753a1: position; speaker; normalized source offset 3125; chunk 0; https://gamedev.net/tutorials/industry/interviews/developer-spotlight-jonathan-blow-r2359
+- blow-a28e6168f29215-72de91eb5a26: principle; speaker; normalized source offset 4809; chunk 0; https://gamedev.net/tutorials/industry/interviews/developer-spotlight-jonathan-blow-r2359
+- blow-a28e6168f29215-646af960c5b4: framework; speaker; normalized source offset 9990; chunk 0; https://gamedev.net/tutorials/industry/interviews/developer-spotlight-jonathan-blow-r2359
+- blow-a28e6168f29215-13f45976d3d8: position; speaker; normalized source offset 11663; chunk 0; https://gamedev.net/tutorials/industry/interviews/developer-spotlight-jonathan-blow-r2359
 ## blow-aaac76d08cc3a6: Hacking Quaternions (from The Inner Product)
 
 https://number-none.com/product/Hacking%20Quaternions/
@@ -758,6 +1387,26 @@ Short excerpt of blow-ab7e0037fb06fe-8cabc9f79400; sole_author. Full passage and
 - blow-ab7e0037fb06fe-3239eccaa374: framework; sole_author; normalized source offset 11754; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%203/
 - blow-ab7e0037fb06fe-f1c35d35fcc0: position; sole_author; normalized source offset 10644; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%203/
 - blow-ab7e0037fb06fe-46cedf7a9a0f: framework; sole_author; normalized source offset 13028; chunk 0; https://number-none.com/product/Interactive%20Profiling%2C%20Part%203/
+## blow-ad2f76b2f841d9: Livestream: Early-morning bug fixes, 30 May 2018
+
+https://www.youtube.com/watch?v=HG0pzy_PMiQ
+
+Independent work identity: youtube-HG0pzy_PMiQ. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,735; full retrieved text: 3,735. Text SHA-256: 6fb3f442914c620900046a300d09cf901f59ca0709013c4f97a496a008af7339
+
+Source dates reported in the collected material: 2018-06-01
+
+> or else the pipes will still exist and will be leaking operating
+
+Short excerpt of blow-ad2f76b2f841d9-cd287c1afb7f; speaker. Full passage and context retained locally.
+
+- blow-ad2f76b2f841d9-cd287c1afb7f: story; speaker; caption-prose-v1 offset 303; chunk 0; https://www.youtube.com/watch?v=HG0pzy_PMiQ&t=38
+- blow-ad2f76b2f841d9-313be7baaa95: framework; speaker; caption-prose-v1 offset 3730; chunk 0; https://www.youtube.com/watch?v=HG0pzy_PMiQ&t=621
+- blow-ad2f76b2f841d9-e74f7a0149bd: story; speaker; caption-prose-v1 offset 6536; chunk 0; https://www.youtube.com/watch?v=HG0pzy_PMiQ&t=1107
+- blow-ad2f76b2f841d9-37ff4b81700a: position; speaker; caption-prose-v1 offset 13802; chunk 0; https://www.youtube.com/watch?v=HG0pzy_PMiQ&t=2394
+- blow-ad2f76b2f841d9-181890802e8d: principle; speaker; caption-prose-v1 offset 11542; chunk 0; https://www.youtube.com/watch?v=HG0pzy_PMiQ&t=1921
+- blow-ad2f76b2f841d9-5fa96a6b6b93: position; speaker; caption-prose-v1 offset 15893; chunk 0; https://www.youtube.com/watch?v=HG0pzy_PMiQ&t=2597
 ## blow-af70a51e11b4c5: Toward Better Scripting, Part 2 (from The Inner Product)
 
 https://number-none.com/product/Toward%20Better%20Scripting%2C%20Part%202/
@@ -919,11 +1568,46 @@ Short excerpt of blow-bc740fffd5ff8e-7b81f6b137ef; sole_author. Full passage and
 - blow-bc740fffd5ff8e-041096fe7d5a: position; sole_author; normalized source offset 8588; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%202/
 - blow-bc740fffd5ff8e-b0c4d6a5241f: position; sole_author; normalized source offset 10547; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%202/
 - blow-bc740fffd5ff8e-22667f7737d4: position; sole_author; normalized source offset 13237; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%202/
+## blow-d2e62eb2765c40: Compiler Livestream: Fixing Bugs on the Bug List
+
+https://www.youtube.com/watch?v=S5rzg72ppnc
+
+Independent work identity: youtube-S5rzg72ppnc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,829; full retrieved text: 13,829. Text SHA-256: 7d5d6dd070defc748885dbcb22fb75052da6cc1ceeade352dc01883e93ead19f
+
+Source dates reported in the collected material: 2018-05-29
+
+> these are informing my decisions about how the core of the compiler
+
+Short excerpt of blow-d2e62eb2765c40-a2d9adde36bd; speaker. Full passage and context retained locally.
+
+- blow-d2e62eb2765c40-a2d9adde36bd: framework; speaker; caption-prose-v1 offset 11269; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=1860
+- blow-d2e62eb2765c40-36dc02ef50e7: story; speaker; caption-prose-v1 offset 5606; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=893
+- blow-d2e62eb2765c40-114efee61405: position; speaker; caption-prose-v1 offset 9530; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=1705
+- blow-d2e62eb2765c40-8341abb362bf: story; speaker; caption-prose-v1 offset 31211; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=5458
+- blow-d2e62eb2765c40-704371f639da: position; speaker; caption-prose-v1 offset 30666; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=5358
+- blow-d2e62eb2765c40-aa74f579ef76: position; speaker; caption-prose-v1 offset 14455; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=2240
+- blow-d2e62eb2765c40-ed70731c2880: position; speaker; caption-prose-v1 offset 15730; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=2363
+- blow-d2e62eb2765c40-35b8eddea96f: framework; speaker; caption-prose-v1 offset 19462; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=3399
+- blow-d2e62eb2765c40-16cac2d5d2b8: position; speaker; caption-prose-v1 offset 21325; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=3865
+- blow-d2e62eb2765c40-05607d10cd8f: framework; speaker; caption-prose-v1 offset 23862; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=4154
+- blow-d2e62eb2765c40-d885c5391072: position; speaker; caption-prose-v1 offset 20851; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=3815
+- blow-d2e62eb2765c40-fcd30ce4995b: position; speaker; caption-prose-v1 offset 51029; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=9311
+- blow-d2e62eb2765c40-7b2e3848b300: framework; speaker; caption-prose-v1 offset 53906; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=9562
+- blow-d2e62eb2765c40-3e65f6f9d8ed: position; speaker; caption-prose-v1 offset 44096; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=7793
+- blow-d2e62eb2765c40-e24bb4fc094c: position; speaker; caption-prose-v1 offset 41452; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=7544
+- blow-d2e62eb2765c40-f18e774c87e8: position; speaker; caption-prose-v1 offset 54462; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=9599
+- blow-d2e62eb2765c40-e00e3c1b6e7b: framework; speaker; caption-prose-v1 offset 60306; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=10026
+- blow-d2e62eb2765c40-13f5875869a8: position; speaker; caption-prose-v1 offset 61500; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=10100
+- blow-d2e62eb2765c40-dcb45c69dfbf: position; speaker; caption-prose-v1 offset 58965; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=9928
+- blow-d2e62eb2765c40-070924b3a53e: framework; speaker; caption-prose-v1 offset 70221; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=10866
+- blow-d2e62eb2765c40-b85f0b95b6ee: position; speaker; caption-prose-v1 offset 67975; chunk 0; https://www.youtube.com/watch?v=S5rzg72ppnc&t=10663
 ## blow-d52b26a5609b8e: Jonathan Blow on his programming language jai!
 
 https://www.youtube.com/watch?v=jamU6SQBtxk
 
-Independent work identity: blow-game-engineering-podcast-jai-2025. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-jamU6SQBtxk. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 31,097; full retrieved text: 31,097. Text SHA-256: 6d3aa9c1ddf4d55f91623ffaea7acf2ad4f2cf7f3afb2088b30e6ef063947438
 
@@ -990,6 +1674,49 @@ Short excerpt of blow-d82a1cadb5328f-0f0c1547ba4d; sole_author. Full passage and
 - blow-d82a1cadb5328f-fc150c773730: framework; sole_author; normalized source offset 9628; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%203/
 - blow-d82a1cadb5328f-9de228c2038d: framework; sole_author; normalized source offset 9840; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%203/
 - blow-d82a1cadb5328f-cf35789c0433: framework; sole_author; normalized source offset 11417; chunk 0; https://number-none.com/product/Unified%20Rendering%20LOD%2C%20Part%203/
+## blow-d94d868b9c7133: Game Engine Programming: Animation Gameplay Tweaks 2, Level Design
+
+https://www.youtube.com/watch?v=8mmAe54A364
+
+Independent work identity: youtube-8mmAe54A364. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 8,319; full retrieved text: 8,319. Text SHA-256: a5f7b2364f7b84f4cb8b1ac4a66a96a74e6a48b0bfa8041f6b83d61b3ba23471
+
+Source dates reported in the collected material: 2018-02-12
+
+> this may or may not be the actually causing the problem but
+
+Short excerpt of blow-d94d868b9c7133-226457810727; speaker. Full passage and context retained locally.
+
+- blow-d94d868b9c7133-226457810727: framework; speaker; caption-prose-v1 offset 6462; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=1139
+- blow-d94d868b9c7133-f431ed7a1b45: story; speaker; caption-prose-v1 offset 8614; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=1472
+- blow-d94d868b9c7133-32cdb6fa8cdd: story; speaker; caption-prose-v1 offset 9825; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=1644
+- blow-d94d868b9c7133-75dfad65f055: story; speaker; caption-prose-v1 offset 14664; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=2674
+- blow-d94d868b9c7133-ca27a96ccff8: framework; speaker; caption-prose-v1 offset 18346; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=3060
+- blow-d94d868b9c7133-b0f497351977: framework; speaker; caption-prose-v1 offset 16080; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=2824
+- blow-d94d868b9c7133-9549fb445ec3: story; speaker; caption-prose-v1 offset 23708; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=4091
+- blow-d94d868b9c7133-10bba59d7780: framework; speaker; caption-prose-v1 offset 30355; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=5492
+- blow-d94d868b9c7133-8075e5e8551a: framework; speaker; caption-prose-v1 offset 39816; chunk 0; https://www.youtube.com/watch?v=8mmAe54A364&t=7236
+## blow-da88aac4533a5d: Gameplay Debugging
+
+https://www.youtube.com/watch?v=M6ve9fJz7c0
+
+Independent work identity: youtube-M6ve9fJz7c0. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 4,010; full retrieved text: 4,010. Text SHA-256: cab20957a4e3ddaaa0a3f42198d80fa5dbc11cb8df609b6daf2b0a698b0b35be
+
+Source dates reported in the collected material: 2018-02-12
+
+> we just have to see if the effort is better spent making
+
+Short excerpt of blow-da88aac4533a5d-09771404836d; speaker. Full passage and context retained locally.
+
+- blow-da88aac4533a5d-09771404836d: position; speaker; caption-prose-v1 offset 505; chunk 0; https://www.youtube.com/watch?v=M6ve9fJz7c0&t=92
+- blow-da88aac4533a5d-9cca276e05d6: framework; speaker; caption-prose-v1 offset 5604; chunk 0; https://www.youtube.com/watch?v=M6ve9fJz7c0&t=1135
+- blow-da88aac4533a5d-5f0bc8b958e6: framework; speaker; caption-prose-v1 offset 6503; chunk 0; https://www.youtube.com/watch?v=M6ve9fJz7c0&t=1341
+- blow-da88aac4533a5d-ad02b44d0e7b: story; speaker; caption-prose-v1 offset 13437; chunk 0; https://www.youtube.com/watch?v=M6ve9fJz7c0&t=3070
+- blow-da88aac4533a5d-ed687f747839: framework; speaker; caption-prose-v1 offset 16560; chunk 0; https://www.youtube.com/watch?v=M6ve9fJz7c0&t=3665
+- blow-da88aac4533a5d-0e0941a52e9d: position; speaker; caption-prose-v1 offset 19974; chunk 0; https://www.youtube.com/watch?v=M6ve9fJz7c0&t=4049
 ## blow-dabbe9c69497d3: Arithmetic Coding, Part 2
 
 https://number-none.com/product/Arithmetic%20Coding%2C%20Part%202/
@@ -1056,7 +1783,9 @@ Source words in scope: 3,042; full retrieved text: 3,042. Text SHA-256: ce2f204f
 
 Source dates reported in the collected material: January 2002
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> But our output isn't perfect. The texture map still has horrible ripples
+
+Short excerpt of blow-e6c621af64556b-146fa3645646; sole_author. Full passage and context retained locally.
 
 - blow-e6c621af64556b-146fa3645646: story; sole_author; normalized source offset 2159; chunk 0; https://number-none.com/product/Mipmapping%2C%20Part%202/
 - blow-e6c621af64556b-5acf4b2c5cc4: framework; sole_author; normalized source offset 5085; chunk 0; https://number-none.com/product/Mipmapping%2C%20Part%202/
@@ -1109,11 +1838,36 @@ Short excerpt of blow-ec76840f27a1aa-078309e6d237; speaker. Full passage and con
 - blow-ec76840f27a1aa-327772d36040: position; speaker; normalized source offset 38413; chunk 0; https://www.jesperjuul.net/handmadepixels/interviews/blow.html
 - blow-ec76840f27a1aa-f7ee6d62e1f1: position; speaker; normalized source offset 39962; chunk 0; https://www.jesperjuul.net/handmadepixels/interviews/blow.html
 - blow-ec76840f27a1aa-487b8f3fe075: position; speaker; normalized source offset 42492; chunk 0; https://www.jesperjuul.net/handmadepixels/interviews/blow.html
+## blow-ee0aab1aabad15: Better Procedure Calls 2
+
+https://www.youtube.com/watch?v=8PUF7kPnpfI
+
+Independent work identity: youtube-8PUF7kPnpfI. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 7,747; full retrieved text: 7,747. Text SHA-256: ffd478530f332001b56b624021e3e7da0cbe02eec63c860c49b9551a00d80353
+
+Source dates reported in the collected material: 20180209
+
+> we weren't able to do this before because our barracks was not
+
+Short excerpt of blow-ee0aab1aabad15-9a96bec97102; speaker. Full passage and context retained locally.
+
+- blow-ee0aab1aabad15-9a96bec97102: story; speaker; caption-prose-v1 offset 9020; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=1218
+- blow-ee0aab1aabad15-375d2b3afea6: position; speaker; caption-prose-v1 offset 3186; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=308
+- blow-ee0aab1aabad15-12d15428e0cf: framework; speaker; caption-prose-v1 offset 12742; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=1680
+- blow-ee0aab1aabad15-e1c1a4ca3471: position; speaker; caption-prose-v1 offset 19562; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=2823
+- blow-ee0aab1aabad15-7799108657e8: framework; speaker; caption-prose-v1 offset 18439; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=2615
+- blow-ee0aab1aabad15-a9ef4774c097: story; speaker; caption-prose-v1 offset 21983; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=3158
+- blow-ee0aab1aabad15-25855647241e: story; speaker; caption-prose-v1 offset 24727; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=3833
+- blow-ee0aab1aabad15-d7d9800adc75: framework; speaker; caption-prose-v1 offset 25722; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=4032
+- blow-ee0aab1aabad15-1dff049b023d: position; speaker; caption-prose-v1 offset 32571; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=4852
+- blow-ee0aab1aabad15-38765dfd48d2: framework; speaker; caption-prose-v1 offset 30160; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=4600
+- blow-ee0aab1aabad15-88d70017e81c: position; speaker; caption-prose-v1 offset 29082; chunk 0; https://www.youtube.com/watch?v=8PUF7kPnpfI&t=4510
 ## blow-ef4be8edaef679: E009 - Jonathan Blow | On the Metal Podcast
 
 https://www.youtube.com/watch?v=ZkdpLSXUXHY
 
-Independent work identity: on-the-metal-009-jonathan-blow-2020. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-ZkdpLSXUXHY. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 35,014; full retrieved text: 35,014. Text SHA-256: 494c247cd0485b6b0f6cb707bc6a77742d6c5f686009891e97c5ee8db8553ff9
 
@@ -1206,3 +1960,25 @@ Short excerpt of blow-f736730f988b6e-e30164edec82; sole_author. Full passage and
 - blow-f736730f988b6e-45dbbd3fb174: position; sole_author; normalized source offset 14439; chunk 0; https://number-none.com/blow/blog/programming/2016/07/07/braid_particles_1
 - blow-f736730f988b6e-cb597de58b48: position; sole_author; normalized source offset 16807; chunk 0; https://number-none.com/blow/blog/programming/2016/07/07/braid_particles_1
 - blow-f736730f988b6e-09d820a1ed0b: principle; sole_author; normalized source offset 17117; chunk 0; https://number-none.com/blow/blog/programming/2016/07/07/braid_particles_1
+## blow-fb1ead03a639e4: Game Engine Programming: Gameplay Tests 2
+
+https://www.youtube.com/watch?v=pEi0R04UlXU
+
+Independent work identity: youtube-pEi0R04UlXU. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 5,464; full retrieved text: 5,464. Text SHA-256: 9d17d6d95770282b868806c4632e3e31c33138a645cd874df1e6dedbf2800680
+
+Source dates reported in the collected material: 2018-02-17
+
+> I decided to do the latter because it it stresses the game
+
+Short excerpt of blow-fb1ead03a639e4-9192fb76ba5e; speaker. Full passage and context retained locally.
+
+- blow-fb1ead03a639e4-9192fb76ba5e: position; speaker; caption-prose-v1 offset 795; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=64
+- blow-fb1ead03a639e4-a30144af210c: framework; speaker; caption-prose-v1 offset 1710; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=139
+- blow-fb1ead03a639e4-1784003a50b4: story; speaker; caption-prose-v1 offset 10456; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=1860
+- blow-fb1ead03a639e4-03247900ef0a: story; speaker; caption-prose-v1 offset 15787; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=2846
+- blow-fb1ead03a639e4-60fd136cc148: position; speaker; caption-prose-v1 offset 24281; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=4421
+- blow-fb1ead03a639e4-04967014a5c1: story; speaker; caption-prose-v1 offset 22570; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=4180
+- blow-fb1ead03a639e4-b5b8133c737e: position; speaker; caption-prose-v1 offset 25356; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=4570
+- blow-fb1ead03a639e4-ba542cd0b701: story; speaker; caption-prose-v1 offset 26916; chunk 0; https://www.youtube.com/watch?v=pEi0R04UlXU&t=5520

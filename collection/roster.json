@@ -1,8 +1,8 @@
 {
   "model": "gpt-6.1-terra",
-  "budget_usd": 25,
+  "budget_usd": 51.5,
   "target_sources": 80,
-  "max_candidates": 190,
+  "max_candidates": 500,
   "discovery_tool_calls": 3,
   "pricing": {
     "input_per_million": 1,
@@ -207,8 +207,10 @@
     }
   ],
   "target_words": 500000,
-  "compilation_margin_usd": 6,
+  "compilation_margin_usd": 9,
   "discovery_rounds": 2,
   "batch_chars": 230000,
-  "batch_sources": 8
+  "batch_sources": 8,
+  "authorization_note": "Owner authorized using existing API credits on 2026-10-30; current allocation includes the corrected $27.286261 initial run and leaves a billing buffer within the observed existing credit balance.",
+  "require_compilation_fingerprint": true
 }

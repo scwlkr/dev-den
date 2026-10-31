@@ -21,6 +21,39 @@ Short excerpt of primeagen-14d876dca32d0e-e4f091fa8c13; speaker. Full passage an
 - primeagen-14d876dca32d0e-9e1c89e29fd4: principle; speaker; caption-prose-v1 offset 9551; chunk 0; https://www.youtube.com/watch?v=JjHFubUPLV0&t=528
 - primeagen-14d876dca32d0e-c60830f41581: story; speaker; caption-prose-v1 offset 9303; chunk 0; https://www.youtube.com/watch?v=JjHFubUPLV0&t=512
 - primeagen-14d876dca32d0e-2c7700505c25: position; speaker; caption-prose-v1 offset 8631; chunk 0; https://www.youtube.com/watch?v=JjHFubUPLV0&t=475
+## primeagen-185c54aab3e36c: 🚨🚨 LEARNING EFFECTJS - Learning in the age of AI🚨🚨
+
+https://www.youtube.com/watch?v=O2__t8lceCg
+
+Independent work identity: youtube-O2__t8lceCg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 18,351; full retrieved text: 18,351. Text SHA-256: cb2d27ceff55a4b860fc215f7e1bb4c0ed3f28eb590260d8d0732a632ae961e4
+
+Source dates reported in the collected material: 2026-09-07
+
+> Sometimes you just read docs. Don't be a dummy because sometimes you
+
+Short excerpt of primeagen-185c54aab3e36c-39b0a51069be; speaker. Full passage and context retained locally.
+
+- primeagen-185c54aab3e36c-39b0a51069be: framework; speaker; caption-prose-v1 offset 5315; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=400
+- primeagen-185c54aab3e36c-2a6fdd49df14: framework; speaker; caption-prose-v1 offset 9807; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=726
+- primeagen-185c54aab3e36c-a151c6790b03: position; speaker; caption-prose-v1 offset 54157; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=4186
+- primeagen-185c54aab3e36c-e2a10581013c: framework; speaker; caption-prose-v1 offset 65316; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=5171
+- primeagen-185c54aab3e36c-f7d206012091: position; speaker; caption-prose-v1 offset 19539; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=1450
+- primeagen-185c54aab3e36c-fd014b648c9c: position; speaker; caption-prose-v1 offset 34823; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=2531
+- primeagen-185c54aab3e36c-a6f75c27a491: position; speaker; caption-prose-v1 offset 48897; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=3630
+- primeagen-185c54aab3e36c-689c8b6c9c5f: position; speaker; caption-prose-v1 offset 58066; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=4486
+- primeagen-185c54aab3e36c-1dfc579218a1: position; speaker; caption-prose-v1 offset 28440; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=2068
+- primeagen-185c54aab3e36c-5bcb15f9ea00: position; speaker; caption-prose-v1 offset 7421; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=530
+- primeagen-185c54aab3e36c-70b448b997cf: story; speaker; caption-prose-v1 offset 32727; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=2395
+- primeagen-185c54aab3e36c-32c6baf07e2c: position; speaker; caption-prose-v1 offset 50416; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=3772
+- primeagen-185c54aab3e36c-28ed778d584e: story; speaker; caption-prose-v1 offset 45526; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=3292
+- primeagen-185c54aab3e36c-e4cf217b4eb2: position; speaker; caption-prose-v1 offset 13087; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=940
+- primeagen-185c54aab3e36c-c616e6172c01: framework; speaker; caption-prose-v1 offset 64742; chunk 0; https://www.youtube.com/watch?v=O2__t8lceCg&t=5122
+- primeagen-185c54aab3e36c-b3b1ad093999: position; speaker; caption-prose-v1 offset 90908; chunk 1; https://www.youtube.com/watch?v=O2__t8lceCg&t=6755
+- primeagen-185c54aab3e36c-1d96a9fee9ee: framework; speaker; caption-prose-v1 offset 96422; chunk 1; https://www.youtube.com/watch?v=O2__t8lceCg&t=7086
+- primeagen-185c54aab3e36c-5a910ed3f6a9: position; speaker; caption-prose-v1 offset 94231; chunk 1; https://www.youtube.com/watch?v=O2__t8lceCg&t=6950
+- primeagen-185c54aab3e36c-3f298e649cc2: story; speaker; caption-prose-v1 offset 90198; chunk 1; https://www.youtube.com/watch?v=O2__t8lceCg&t=6720
 ## primeagen-1a584f5b3fa524: Go is faster than Rust??! Go vs Rust vs TypeScript Servers (as a scientist)
 
 https://www.youtube.com/watch?v=Z0GX2mTUtfo
@@ -108,6 +141,29 @@ Short excerpt of primeagen-225c6c36dea89d-0dfb625f9c14; speaker. Full passage an
 - primeagen-225c6c36dea89d-8a5ff475fabf: framework; speaker; caption-prose-v1 offset 7568; chunk 0; https://www.youtube.com/watch?v=MuCK81q1edU&t=434
 - primeagen-225c6c36dea89d-ecff01a2fd85: position; speaker; caption-prose-v1 offset 8753; chunk 0; https://www.youtube.com/watch?v=MuCK81q1edU&t=507
 - primeagen-225c6c36dea89d-71c70147728f: principle; speaker; caption-prose-v1 offset 9068; chunk 0; https://www.youtube.com/watch?v=MuCK81q1edU&t=526
+## primeagen-2e04c0d46381d6: 🚨🚨 TheStandup: DONT LEARN PYTHON LEARN C 🚨🚨
+
+https://www.youtube.com/watch?v=6JxajBbLceg
+
+Independent work identity: youtube-6JxajBbLceg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 17,131; full retrieved text: 17,131. Text SHA-256: 740d4e2a7c0301e5ce5b9cbf6e98bc33a2b261c5b38019a2ee6cc8c3f3047fec
+
+Source dates reported in the collected material: 2026-09-02
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- primeagen-2e04c0d46381d6-0b92f405a038: framework; speaker; caption-prose-v1 offset 3044; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=261
+- primeagen-2e04c0d46381d6-4da25c940864: position; speaker; caption-prose-v1 offset 8643; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=656
+- primeagen-2e04c0d46381d6-a861b8f8435e: voice; speaker; caption-prose-v1 offset 21363; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=1570
+- primeagen-2e04c0d46381d6-21c3d6c40434: position; speaker; caption-prose-v1 offset 24637; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=1763
+- primeagen-2e04c0d46381d6-a3d92f82e7d9: framework; speaker; caption-prose-v1 offset 37168; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=2444
+- primeagen-2e04c0d46381d6-1aba43f1a242: position; speaker; caption-prose-v1 offset 52225; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=3294
+- primeagen-2e04c0d46381d6-2fa4677deaca: position; speaker; caption-prose-v1 offset 52805; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=3321
+- primeagen-2e04c0d46381d6-2e6ec2b73efa: position; speaker; caption-prose-v1 offset 55340; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=3449
+- primeagen-2e04c0d46381d6-3e8085ad7a2b: story; speaker; caption-prose-v1 offset 74077; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=4530
+- primeagen-2e04c0d46381d6-fd58ef2b8688: position; speaker; caption-prose-v1 offset 75313; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=4597
+- primeagen-2e04c0d46381d6-f841aedb64ef: position; speaker; caption-prose-v1 offset 77701; chunk 0; https://www.youtube.com/watch?v=6JxajBbLceg&t=4718
 ## primeagen-30d31b5509c9eb: FULL Introduction To HTMX Using Golang
 
 https://www.youtube.com/watch?v=x7v6SNIgJpE
@@ -118,7 +174,9 @@ Source words in scope: 25,381; full retrieved text: 25,381. Text SHA-256: b4ac7d
 
 Source dates reported in the collected material: 2024-03-13
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> I do think that there's not like every single application should be
+
+Short excerpt of primeagen-30d31b5509c9eb-42df3f2355a5; speaker. Full passage and context retained locally.
 
 - primeagen-30d31b5509c9eb-42df3f2355a5: position; speaker; caption-prose-v1 offset 2643; chunk 0; https://www.youtube.com/watch?v=x7v6SNIgJpE&t=170
 - primeagen-30d31b5509c9eb-0e94a785a5a0: story; speaker; caption-prose-v1 offset 5755; chunk 0; https://www.youtube.com/watch?v=x7v6SNIgJpE&t=338
@@ -251,7 +309,7 @@ Short excerpt of primeagen-4017af302f91e0-b3b43df128c0; speaker. Full passage an
 
 https://www.youtube.com/watch?v=V-ZvAw_VNk4
 
-Independent work identity: theprimeagen-2026-i-suck-talk. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-V-ZvAw_VNk4. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 3,245; full retrieved text: 3,245. Text SHA-256: dae5e95967405b906bf4c8adaaf2d0e43ad9f7ff3ff5163105ca4d13f93ed5ed
 
@@ -297,9 +355,7 @@ Source words in scope: 2,140; full retrieved text: 2,140. Text SHA-256: e4c1b037
 
 Source dates reported in the collected material: 2022-10-17
 
-> all of these have to be held onto V8 and their life
-
-Short excerpt of primeagen-4c094879079d37-9727dfc0d294; speaker. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - primeagen-4c094879079d37-9727dfc0d294: principle; speaker; caption-prose-v1 offset 2491; chunk 0; https://www.youtube.com/watch?v=ip51Y5v3WLk&t=128
 - primeagen-4c094879079d37-2f2f9e348549: framework; speaker; caption-prose-v1 offset 4326; chunk 0; https://www.youtube.com/watch?v=ip51Y5v3WLk&t=231
@@ -373,7 +429,9 @@ Source words in scope: 2,301; full retrieved text: 2,301. Text SHA-256: 261fc5a0
 
 Source dates reported in the collected material: 2022-11-04
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> a big thing to start seeing here is that it always goes
+
+Short excerpt of primeagen-61878b7f1d9193-b92bf0a90596; speaker. Full passage and context retained locally.
 
 - primeagen-61878b7f1d9193-b92bf0a90596: framework; speaker; caption-prose-v1 offset 3276; chunk 0; https://www.youtube.com/watch?v=5JGVtttuDQA&t=178
 - primeagen-61878b7f1d9193-82c3c63d753a: position; speaker; caption-prose-v1 offset 7942; chunk 0; https://www.youtube.com/watch?v=5JGVtttuDQA&t=447
@@ -389,7 +447,9 @@ Source words in scope: 3,636; full retrieved text: 3,636. Text SHA-256: 50772b70
 
 Source dates reported in the collected material: 2021-11-02
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> i'm just constantly having to fuzzy find everything
+
+Short excerpt of primeagen-65ceeb7d0f3a11-c0f77cec603e; speaker. Full passage and context retained locally.
 
 - primeagen-65ceeb7d0f3a11-c0f77cec603e: story; speaker; caption-prose-v1 offset 4402; chunk 0; https://www.youtube.com/watch?v=Qnos8aApa9g&t=243
 - primeagen-65ceeb7d0f3a11-214b3bc01489: framework; speaker; caption-prose-v1 offset 7314; chunk 0; https://www.youtube.com/watch?v=Qnos8aApa9g&t=396
@@ -473,6 +533,46 @@ Short excerpt of primeagen-6f11e1a4c0a219-58f675ccb982; speaker. Full passage an
 - primeagen-6f11e1a4c0a219-d5fee957c6eb: story; speaker; caption-prose-v1 offset 5264; chunk 0; https://www.youtube.com/watch?v=RSY85SLXzwk&t=304
 - primeagen-6f11e1a4c0a219-2612d1814d37: position; speaker; caption-prose-v1 offset 7349; chunk 0; https://www.youtube.com/watch?v=RSY85SLXzwk&t=423
 - primeagen-6f11e1a4c0a219-cfb224a20348: framework; speaker; caption-prose-v1 offset 7826; chunk 0; https://www.youtube.com/watch?v=RSY85SLXzwk&t=455
+## primeagen-70d5eec30479a2: 🚨🚨 I am going to learn SQL on boot.dev. Yes, Sql, the whole dang thing. #ad 🚨🚨
+
+https://www.youtube.com/watch?v=-kaUOy29aPY
+
+Independent work identity: youtube--kaUOy29aPY. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 68,154; full retrieved text: 68,154. Text SHA-256: df94c27de5aa103a3ff4273928ef4f0b3b52576a3a8c53f85913a67c304fd263
+
+Source dates reported in the collected material: 2026-04-02
+
+> I hate working with elastic search when people build relationships, but it's
+
+Short excerpt of primeagen-70d5eec30479a2-a0bdac7271f2; speaker. Full passage and context retained locally.
+
+- primeagen-70d5eec30479a2-a0bdac7271f2: position; speaker; caption-prose-v1 offset 37306; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=2232
+- primeagen-70d5eec30479a2-4189a2d29882: position; speaker; caption-prose-v1 offset 48407; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=2873
+- primeagen-70d5eec30479a2-6c7c959107da: position; speaker; caption-prose-v1 offset 49156; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=2915
+- primeagen-70d5eec30479a2-d23240d5d25a: position; speaker; caption-prose-v1 offset 51927; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=3088
+- primeagen-70d5eec30479a2-3af90156ea2b: story; speaker; caption-prose-v1 offset 55213; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=3277
+- primeagen-70d5eec30479a2-f5be0f033ccb: story; speaker; caption-prose-v1 offset 65325; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=3880
+- primeagen-70d5eec30479a2-84f5d5663b28: story; speaker; caption-prose-v1 offset 5235; chunk 0; https://www.youtube.com/watch?v=-kaUOy29aPY&t=386
+- primeagen-70d5eec30479a2-ce99d59359fb: framework; speaker; caption-prose-v1 offset 125460; chunk 1; https://www.youtube.com/watch?v=-kaUOy29aPY&t=7551
+- primeagen-70d5eec30479a2-44ec21b12fd5: position; speaker; caption-prose-v1 offset 156082; chunk 1; https://www.youtube.com/watch?v=-kaUOy29aPY&t=9487
+- primeagen-70d5eec30479a2-8f9ef4836c99: position; speaker; caption-prose-v1 offset 158916; chunk 1; https://www.youtube.com/watch?v=-kaUOy29aPY&t=9636
+- primeagen-70d5eec30479a2-08c4f9b1b267: framework; speaker; caption-prose-v1 offset 157723; chunk 1; https://www.youtube.com/watch?v=-kaUOy29aPY&t=9573
+- primeagen-70d5eec30479a2-460f3fca4776: position; speaker; caption-prose-v1 offset 169954; chunk 1; https://www.youtube.com/watch?v=-kaUOy29aPY&t=10432
+- primeagen-70d5eec30479a2-0e7a61707243: position; speaker; caption-prose-v1 offset 165265; chunk 1; https://www.youtube.com/watch?v=-kaUOy29aPY&t=10116
+- primeagen-70d5eec30479a2-d4ae65b2985d: position; speaker; caption-prose-v1 offset 226359; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=14115
+- primeagen-70d5eec30479a2-c6a19f37bd3f: story; speaker; caption-prose-v1 offset 222533; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=13840
+- primeagen-70d5eec30479a2-a75a6d75590d: framework; speaker; caption-prose-v1 offset 224986; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=14035
+- primeagen-70d5eec30479a2-e35acdb1192d: framework; speaker; caption-prose-v1 offset 225305; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=14059
+- primeagen-70d5eec30479a2-5a310dbcbce6: story; speaker; caption-prose-v1 offset 246397; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=15400
+- primeagen-70d5eec30479a2-66a96806f4cc: story; speaker; caption-prose-v1 offset 247789; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=15477
+- primeagen-70d5eec30479a2-892f843a5e08: voice; speaker; caption-prose-v1 offset 221425; chunk 2; https://www.youtube.com/watch?v=-kaUOy29aPY&t=13770
+- primeagen-70d5eec30479a2-af879570cdce: story; speaker; caption-prose-v1 offset 260316; chunk 3; https://www.youtube.com/watch?v=-kaUOy29aPY&t=16221
+- primeagen-70d5eec30479a2-b603b02c6a13: principle; speaker; caption-prose-v1 offset 276089; chunk 3; https://www.youtube.com/watch?v=-kaUOy29aPY&t=17128
+- primeagen-70d5eec30479a2-c1159c524730: story; speaker; caption-prose-v1 offset 312434; chunk 3; https://www.youtube.com/watch?v=-kaUOy29aPY&t=19379
+- primeagen-70d5eec30479a2-989902f85e66: story; speaker; caption-prose-v1 offset 316907; chunk 3; https://www.youtube.com/watch?v=-kaUOy29aPY&t=19734
+- primeagen-70d5eec30479a2-1429781bd4ec: framework; speaker; caption-prose-v1 offset 323038; chunk 3; https://www.youtube.com/watch?v=-kaUOy29aPY&t=20150
+- primeagen-70d5eec30479a2-8a66cb20cbe6: principle; speaker; caption-prose-v1 offset 321481; chunk 3; https://www.youtube.com/watch?v=-kaUOy29aPY&t=20034
 ## primeagen-7444a0d803340d: I learned Odin
 
 https://www.youtube.com/watch?v=HwmqZTnb7Co
@@ -493,6 +593,26 @@ Short excerpt of primeagen-7444a0d803340d-c4f4911c11dc; speaker. Full passage an
 - primeagen-7444a0d803340d-7f828bf2fbc9: position; speaker; caption-prose-v1 offset 5368; chunk 0; https://www.youtube.com/watch?v=HwmqZTnb7Co&t=288
 - primeagen-7444a0d803340d-5b215d154a1f: story; speaker; caption-prose-v1 offset 7253; chunk 0; https://www.youtube.com/watch?v=HwmqZTnb7Co&t=395
 - primeagen-7444a0d803340d-05453fda6906: position; speaker; caption-prose-v1 offset 9462; chunk 0; https://www.youtube.com/watch?v=HwmqZTnb7Co&t=507
+## primeagen-7b559964c21d75: 🚨🚨 TheStandup: Casey Judges GUI GUI in TUI. Is this the future?🚨🚨
+
+https://www.youtube.com/watch?v=xEctWipNiJA
+
+Independent work identity: youtube-xEctWipNiJA. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 16,092; full retrieved text: 16,092. Text SHA-256: a4c7c5aba2e0d24ce8246f489d98eef1ca4c5aa8ce54ce623c954cbb917f49bb
+
+Source dates reported in the collected material: 2026-09-09
+
+> once it hits Needs Review, this agent loop should take over on
+
+Short excerpt of primeagen-7b559964c21d75-0a7838808e09; speaker. Full passage and context retained locally.
+
+- primeagen-7b559964c21d75-0a7838808e09: story; speaker; caption-prose-v1 offset 2473; chunk 0; https://www.youtube.com/watch?v=xEctWipNiJA&t=240
+- primeagen-7b559964c21d75-0626e95fcff6: position; speaker; caption-prose-v1 offset 6615; chunk 0; https://www.youtube.com/watch?v=xEctWipNiJA&t=535
+- primeagen-7b559964c21d75-bb6d3e2593d7: position; speaker; caption-prose-v1 offset 39144; chunk 0; https://www.youtube.com/watch?v=xEctWipNiJA&t=2465
+- primeagen-7b559964c21d75-6be08b906daf: voice; speaker; caption-prose-v1 offset 67950; chunk 0; https://www.youtube.com/watch?v=xEctWipNiJA&t=4072
+- primeagen-7b559964c21d75-9c90a7baa74a: story; speaker; caption-prose-v1 offset 75433; chunk 0; https://www.youtube.com/watch?v=xEctWipNiJA&t=4494
+- primeagen-7b559964c21d75-580df5489abc: principle; speaker; caption-prose-v1 offset 75968; chunk 0; https://www.youtube.com/watch?v=xEctWipNiJA&t=4528
 ## primeagen-7ca4894b5b09d6: The Last Algorithms Course You'll Need
 
 https://theprimeagen.github.io/fem-algos/
@@ -521,7 +641,7 @@ Short excerpt of primeagen-7ca4894b5b09d6-a4e608c35ff4; sole_author. Full passag
 
 https://www.youtube.com/watch?v=TtX3jDaZG8Y
 
-Independent work identity: https://www.youtube.com/watch?v=TtX3jDaZG8Y. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-TtX3jDaZG8Y. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 8,436; full retrieved text: 8,436. Text SHA-256: 41798af591e42443a0f25acf8c879c491b798ce4d59aaa39bceb95a336cacfc4
 
@@ -544,9 +664,7 @@ Source words in scope: 1,713; full retrieved text: 1,713. Text SHA-256: 2d18cd5b
 
 Source dates reported in the collected material: 2022-05-23
 
-> measure the amount of time it was ssr rendering plus we'll keep
-
-Short excerpt of primeagen-82df182a91e7ae-c316ae5872ab; speaker. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - primeagen-82df182a91e7ae-c316ae5872ab: framework; speaker; caption-prose-v1 offset 3078; chunk 0; https://www.youtube.com/watch?v=sYuFT-MJBFs&t=184
 - primeagen-82df182a91e7ae-f32d152df540: position; speaker; caption-prose-v1 offset 5391; chunk 0; https://www.youtube.com/watch?v=sYuFT-MJBFs&t=329
@@ -629,6 +747,26 @@ Short excerpt of primeagen-9a5aeb00be4b7e-36eba46804d2; speaker. Full passage an
 - primeagen-9a5aeb00be4b7e-c1a0b7640f48: position; speaker; caption-prose-v1 offset 6280; chunk 0; https://www.youtube.com/watch?v=SCPVDpyApgQ&t=380
 - primeagen-9a5aeb00be4b7e-063a66d20fd4: position; speaker; caption-prose-v1 offset 9055; chunk 0; https://www.youtube.com/watch?v=SCPVDpyApgQ&t=534
 - primeagen-9a5aeb00be4b7e-a00199674999: position; speaker; caption-prose-v1 offset 10521; chunk 0; https://www.youtube.com/watch?v=SCPVDpyApgQ&t=619
+## primeagen-9c91ab7fa89ed4: The biggest lie about programming? REACTING to tech twitter
+
+https://www.youtube.com/watch?v=Nusg5dUjR0A
+
+Independent work identity: youtube-Nusg5dUjR0A. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 3,226; full retrieved text: 3,226. Text SHA-256: aa069e3adf64a5357934854237ee7efb532682bb17c84f243728b96aa33ce2fb
+
+Source dates reported in the collected material: 2022-03-23
+
+> what i cares that you can test it
+
+Short excerpt of primeagen-9c91ab7fa89ed4-7949b8533f5d; speaker. Full passage and context retained locally.
+
+- primeagen-9c91ab7fa89ed4-7949b8533f5d: position; speaker; caption-prose-v1 offset 2849; chunk 0; https://www.youtube.com/watch?v=Nusg5dUjR0A&t=169
+- primeagen-9c91ab7fa89ed4-041219597c50: principle; speaker; caption-prose-v1 offset 8070; chunk 0; https://www.youtube.com/watch?v=Nusg5dUjR0A&t=468
+- primeagen-9c91ab7fa89ed4-61825e04a0d3: position; speaker; caption-prose-v1 offset 9141; chunk 0; https://www.youtube.com/watch?v=Nusg5dUjR0A&t=540
+- primeagen-9c91ab7fa89ed4-c8a1da85c4e8: framework; speaker; caption-prose-v1 offset 11451; chunk 0; https://www.youtube.com/watch?v=Nusg5dUjR0A&t=681
+- primeagen-9c91ab7fa89ed4-2b35a1793358: position; speaker; caption-prose-v1 offset 12951; chunk 0; https://www.youtube.com/watch?v=Nusg5dUjR0A&t=771
+- primeagen-9c91ab7fa89ed4-70a4b0764d41: position; speaker; caption-prose-v1 offset 14041; chunk 0; https://www.youtube.com/watch?v=Nusg5dUjR0A&t=843
 ## primeagen-9f061a4e95457f: Musician turned Programmer turned Musician
 
 https://www.youtube.com/watch?v=taoAAcS5PSw
@@ -665,6 +803,37 @@ Short excerpt of primeagen-a4a3d181ed329d-2c1a5d83c884; speaker. Full passage an
 - primeagen-a4a3d181ed329d-55993b0fa78d: position; speaker; caption-prose-v1 offset 4474; chunk 0; https://www.youtube.com/watch?v=Sqp5VSqbQOY&t=245
 - primeagen-a4a3d181ed329d-edc369c1f4bf: position; speaker; caption-prose-v1 offset 4126; chunk 0; https://www.youtube.com/watch?v=Sqp5VSqbQOY&t=225
 - primeagen-a4a3d181ed329d-5bf70754285f: position; speaker; caption-prose-v1 offset 7805; chunk 0; https://www.youtube.com/watch?v=Sqp5VSqbQOY&t=427
+## primeagen-a52b0a75d29a47: #204 Vim Is The Only REAL CODE EDITOR | ThePrimeagen
+
+https://www.youtube.com/watch?v=92d2hAwpzCk
+
+Independent work identity: youtube-92d2hAwpzCk. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 13,395; full retrieved text: 13,395. Text SHA-256: c48d2ef84263dd34e0836b825b0980aa0848c352df3caad3f6236dd95f5290d9
+
+Source dates reported in the collected material: 2024-01-26
+
+> what I don't like is configuring
+
+Short excerpt of primeagen-a52b0a75d29a47-9315e08dfa36; speaker. Full passage and context retained locally.
+
+- primeagen-a52b0a75d29a47-9315e08dfa36: position; speaker; caption-prose-v1 offset 2843; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=169
+- primeagen-a52b0a75d29a47-fe17ca96c233: story; speaker; caption-prose-v1 offset 4858; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=278
+- primeagen-a52b0a75d29a47-3f40c36eb7fc: story; speaker; caption-prose-v1 offset 7632; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=435
+- primeagen-a52b0a75d29a47-7ed4e63a4a40: position; speaker; caption-prose-v1 offset 11273; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=672
+- primeagen-a52b0a75d29a47-9caa9223e781: position; speaker; caption-prose-v1 offset 12229; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=728
+- primeagen-a52b0a75d29a47-216a801afa2b: framework; speaker; caption-prose-v1 offset 16295; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=955
+- primeagen-a52b0a75d29a47-07f7413c7724: position; speaker; caption-prose-v1 offset 18103; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1052
+- primeagen-a52b0a75d29a47-d35ba39592c1: position; speaker; caption-prose-v1 offset 20413; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1175
+- primeagen-a52b0a75d29a47-d8624a795a5a: position; speaker; caption-prose-v1 offset 20734; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1192
+- primeagen-a52b0a75d29a47-584fd2c86975: position; speaker; caption-prose-v1 offset 22632; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1312
+- primeagen-a52b0a75d29a47-7c86d3499d70: story; speaker; caption-prose-v1 offset 25972; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1509
+- primeagen-a52b0a75d29a47-649214b93487: position; speaker; caption-prose-v1 offset 30548; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1774
+- primeagen-a52b0a75d29a47-c3b37d0960a1: book; speaker; caption-prose-v1 offset 32366; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=1882
+- primeagen-a52b0a75d29a47-3be36efc09b2: position; speaker; caption-prose-v1 offset 38858; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=2260
+- primeagen-a52b0a75d29a47-3470140f7f5c: framework; speaker; caption-prose-v1 offset 46374; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=2679
+- primeagen-a52b0a75d29a47-235ce0fba672: position; speaker; caption-prose-v1 offset 40380; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=2343
+- primeagen-a52b0a75d29a47-c4bde5621e89: principle; speaker; caption-prose-v1 offset 59127; chunk 0; https://www.youtube.com/watch?v=92d2hAwpzCk&t=3418
 ## primeagen-a5ebfc028533d8: How To Learn A New Programming Language
 
 https://www.youtube.com/watch?v=E8cM12jRH7k
@@ -685,11 +854,77 @@ Short excerpt of primeagen-a5ebfc028533d8-bb20333523f4; speaker. Full passage an
 - primeagen-a5ebfc028533d8-11a30021bb18: framework; speaker; caption-prose-v1 offset 4475; chunk 0; https://www.youtube.com/watch?v=E8cM12jRH7k&t=231
 - primeagen-a5ebfc028533d8-f5ba37aa9526: principle; speaker; caption-prose-v1 offset 4893; chunk 0; https://www.youtube.com/watch?v=E8cM12jRH7k&t=254
 - primeagen-a5ebfc028533d8-a4ab58e7a927: position; speaker; caption-prose-v1 offset 6472; chunk 0; https://www.youtube.com/watch?v=E8cM12jRH7k&t=336
+## primeagen-a841e0b462a30a: I made the greatest tool ever! | tmux & cht.sh & fzf
+
+https://www.youtube.com/watch?v=hJzqEAf2U4I
+
+Independent work identity: youtube-hJzqEAf2U4I. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,173; full retrieved text: 2,173. Text SHA-256: 6f450504c1e34a260bb2e26d90723e85d7731127a1e3602b959f9faa2333c05e
+
+Source dates reported in the collected material: 2021-09-13
+
+> not because cheat sheets bad but because i just have a sucky
+
+Short excerpt of primeagen-a841e0b462a30a-f12139587a32; speaker. Full passage and context retained locally.
+
+- primeagen-a841e0b462a30a-f12139587a32: story; speaker; caption-prose-v1 offset 132; chunk 0; https://www.youtube.com/watch?v=hJzqEAf2U4I&t=7
+- primeagen-a841e0b462a30a-1593762431d2: framework; speaker; caption-prose-v1 offset 5504; chunk 0; https://www.youtube.com/watch?v=hJzqEAf2U4I&t=308
+- primeagen-a841e0b462a30a-da4d0c5b092f: story; speaker; caption-prose-v1 offset 7461; chunk 0; https://www.youtube.com/watch?v=hJzqEAf2U4I&t=426
+- primeagen-a841e0b462a30a-ef8ae9a4eafd: principle; speaker; caption-prose-v1 offset 9661; chunk 0; https://www.youtube.com/watch?v=hJzqEAf2U4I&t=568
+## primeagen-ac374a1d6d4abc: 🚨🚨 Omarchy Automation Investigation (Building Custom Harness) 🚨🚨
+
+https://www.youtube.com/watch?v=GOu_05J_fdc
+
+Independent work identity: youtube-GOu_05J_fdc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 23,111; full retrieved text: 23,111. Text SHA-256: a2c60a55a54e28662c79de6ddbd348d072442ff6454fb5abd506081edaaf0988
+
+Source dates reported in the collected material: 2026-09-01
+
+> every single time a release happens, it goes and it explores the
+
+Short excerpt of primeagen-ac374a1d6d4abc-f0af845b102b; speaker. Full passage and context retained locally.
+
+- primeagen-ac374a1d6d4abc-f0af845b102b: framework; speaker; caption-prose-v1 offset 37846; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2581
+- primeagen-ac374a1d6d4abc-0140e629ea41: framework; speaker; caption-prose-v1 offset 34332; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2371
+- primeagen-ac374a1d6d4abc-0e92c9ddc84f: framework; speaker; caption-prose-v1 offset 37141; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2534
+- primeagen-ac374a1d6d4abc-7ae3f50d6df4: framework; speaker; caption-prose-v1 offset 24273; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=1725
+- primeagen-ac374a1d6d4abc-0a395e59ec8a: position; speaker; caption-prose-v1 offset 24594; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=1744
+- primeagen-ac374a1d6d4abc-2fe160228228: framework; speaker; caption-prose-v1 offset 32589; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2268
+- primeagen-ac374a1d6d4abc-3fd0ebbc1b2a: position; speaker; caption-prose-v1 offset 21303; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=1502
+- primeagen-ac374a1d6d4abc-44e9a4b540d9: story; speaker; caption-prose-v1 offset 28535; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2009
+- primeagen-ac374a1d6d4abc-4bb95011dcf0: story; speaker; caption-prose-v1 offset 29689; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2085
+- primeagen-ac374a1d6d4abc-103e6a205eab: position; speaker; caption-prose-v1 offset 30622; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=2137
+- primeagen-ac374a1d6d4abc-d035777c991a: story; speaker; caption-prose-v1 offset 58653; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=4437
+- primeagen-ac374a1d6d4abc-3cac7c739eba: position; speaker; caption-prose-v1 offset 71654; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=5384
+- primeagen-ac374a1d6d4abc-ef09ffa6cd3e: position; speaker; caption-prose-v1 offset 80676; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=6088
+- primeagen-ac374a1d6d4abc-a85eff194b68: position; speaker; caption-prose-v1 offset 50228; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=3753
+- primeagen-ac374a1d6d4abc-e1767bbfa3b6: framework; speaker; caption-prose-v1 offset 11817; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=799
+- primeagen-ac374a1d6d4abc-df7c415f1a30: position; speaker; caption-prose-v1 offset 65213; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=4904
+- primeagen-ac374a1d6d4abc-f5e2c3aa4953: story; speaker; caption-prose-v1 offset 68288; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=5122
+- primeagen-ac374a1d6d4abc-ce33537fbe8b: story; speaker; caption-prose-v1 offset 55678; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=4228
+- primeagen-ac374a1d6d4abc-b33cea757774: framework; speaker; caption-prose-v1 offset 83702; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=6344
+- primeagen-ac374a1d6d4abc-c006a719edfa: position; speaker; caption-prose-v1 offset 63400; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=4787
+- primeagen-ac374a1d6d4abc-97dfd59305ae: position; speaker; caption-prose-v1 offset 64908; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=4880
+- primeagen-ac374a1d6d4abc-8e9ff6236566: position; speaker; caption-prose-v1 offset 50389; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=3762
+- primeagen-ac374a1d6d4abc-e302761c93aa: story; speaker; caption-prose-v1 offset 43379; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=3192
+- primeagen-ac374a1d6d4abc-650aa39af174: position; speaker; caption-prose-v1 offset 7245; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=500
+- primeagen-ac374a1d6d4abc-25f0fe57d0ec: position; speaker; caption-prose-v1 offset 19714; chunk 0; https://www.youtube.com/watch?v=GOu_05J_fdc&t=1398
+- primeagen-ac374a1d6d4abc-2fb0c5767903: framework; speaker; caption-prose-v1 offset 93578; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=7002
+- primeagen-ac374a1d6d4abc-e52cf6cd1a9f: framework; speaker; caption-prose-v1 offset 88447; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=6663
+- primeagen-ac374a1d6d4abc-e8af06d552a3: position; speaker; caption-prose-v1 offset 105160; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=8080
+- primeagen-ac374a1d6d4abc-c0838907eb9c: position; speaker; caption-prose-v1 offset 97478; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=7438
+- primeagen-ac374a1d6d4abc-c0cf457a333e: principle; speaker; caption-prose-v1 offset 100786; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=7675
+- primeagen-ac374a1d6d4abc-9811202b8bd3: story; speaker; caption-prose-v1 offset 109714; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=8559
+- primeagen-ac374a1d6d4abc-6291d10c4fa8: principle; speaker; caption-prose-v1 offset 87545; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=6598
+- primeagen-ac374a1d6d4abc-c249d2d61447: story; speaker; caption-prose-v1 offset 94343; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=7053
+- primeagen-ac374a1d6d4abc-b69e3375e4a6: position; speaker; caption-prose-v1 offset 113678; chunk 1; https://www.youtube.com/watch?v=GOu_05J_fdc&t=8897
 ## primeagen-acb45f94e527e2: Why Does Software Keep Breaking?
 
 https://www.youtube.com/watch?v=Aqj1Z1vgE6I
 
-Independent work identity: https://www.youtube.com/watch?v=Aqj1Z1vgE6I. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-Aqj1Z1vgE6I. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 7,812; full retrieved text: 7,812. Text SHA-256: 1ef84f6a42c1ad880ffb51245a8d6414f9d2dee7a9e4f928b54cdbbae4e17511
 
@@ -793,6 +1028,35 @@ Short excerpt of primeagen-b38d0f28c39c72-b3871797b0d9; speaker. Full passage an
 - primeagen-b38d0f28c39c72-00979dd1a4f6: framework; speaker; caption-prose-v1 offset 10449; chunk 0; https://www.youtube.com/watch?v=uL9oOZStezw&t=579
 - primeagen-b38d0f28c39c72-117fb212916f: story; speaker; caption-prose-v1 offset 11524; chunk 0; https://www.youtube.com/watch?v=uL9oOZStezw&t=632
 - primeagen-b38d0f28c39c72-bf84c8f74136: principle; speaker; caption-prose-v1 offset 11871; chunk 0; https://www.youtube.com/watch?v=uL9oOZStezw&t=649
+## primeagen-b40ea813ad2645: 🚨🚨 6 Hours Until ... oh - Building With Zephyr #ad 🚨🚨
+
+https://www.youtube.com/watch?v=v6Xgo9mriUQ
+
+Independent work identity: primeagen-zephyr-social-network-series. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 55,463; full retrieved text: 55,463. Text SHA-256: 53c04d2c4babe1491a563e84213f89610f6c382f0a1139049aad9661d185532d
+
+Source dates reported in the collected material: 2026-02-13
+
+A short verified excerpt from this work is in voice.md; complete passages remain local.
+
+- primeagen-b40ea813ad2645-6413546d5560: framework; speaker; caption-prose-v1 offset 9367; chunk 0; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=1149
+- primeagen-b40ea813ad2645-d0f97585df82: story; speaker; caption-prose-v1 offset 65446; chunk 0; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=4461
+- primeagen-b40ea813ad2645-ab55e32f37a6: position; speaker; caption-prose-v1 offset 75932; chunk 0; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=5083
+- primeagen-b40ea813ad2645-91ddab58d852: position; speaker; caption-prose-v1 offset 69793; chunk 0; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=4718
+- primeagen-b40ea813ad2645-dd404e02bf21: principle; speaker; caption-prose-v1 offset 137852; chunk 1; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=9425
+- primeagen-b40ea813ad2645-9465aac62ada: position; speaker; caption-prose-v1 offset 151685; chunk 1; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=10423
+- primeagen-b40ea813ad2645-aff97acd9d16: framework; speaker; caption-prose-v1 offset 174933; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=11999
+- primeagen-b40ea813ad2645-48614e99f0fc: position; speaker; caption-prose-v1 offset 197166; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=13404
+- primeagen-b40ea813ad2645-d457aa309643: position; speaker; caption-prose-v1 offset 197886; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=13469
+- primeagen-b40ea813ad2645-7fcfba791f09: framework; speaker; caption-prose-v1 offset 211363; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=14695
+- primeagen-b40ea813ad2645-348ffb510414: story; speaker; caption-prose-v1 offset 212639; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=14771
+- primeagen-b40ea813ad2645-943759995e98: position; speaker; caption-prose-v1 offset 188379; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=12851
+- primeagen-b40ea813ad2645-da60e5a554ac: position; speaker; caption-prose-v1 offset 206142; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=14415
+- primeagen-b40ea813ad2645-9ee31206c265: framework; speaker; caption-prose-v1 offset 214125; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=14865
+- primeagen-b40ea813ad2645-4ddc8a529797: story; speaker; caption-prose-v1 offset 243973; chunk 2; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=16703
+- primeagen-b40ea813ad2645-71e342368716: voice; speaker; caption-prose-v1 offset 264651; chunk 3; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=17924
+- primeagen-b40ea813ad2645-4b9176c7c492: story; speaker; caption-prose-v1 offset 272432; chunk 3; https://www.youtube.com/watch?v=v6Xgo9mriUQ&t=18495
 ## primeagen-c401ba25dc63fd: This Algorithm is 1,606,240% FASTER
 
 https://www.youtube.com/watch?v=U16RnpV48KQ
@@ -907,6 +1171,21 @@ Short excerpt of primeagen-ceab9f9b1c9d7f-b1fbf710af34; speaker. Full passage an
 - primeagen-ceab9f9b1c9d7f-dc14f81bd1c6: position; speaker; caption-prose-v1 offset 2417; chunk 0; https://www.youtube.com/watch?v=slL7AW9q8Fc&t=135
 - primeagen-ceab9f9b1c9d7f-f3d7b73616dc: story; speaker; caption-prose-v1 offset 3961; chunk 0; https://www.youtube.com/watch?v=slL7AW9q8Fc&t=224
 - primeagen-ceab9f9b1c9d7f-b73d4146ccb4: framework; speaker; caption-prose-v1 offset 6768; chunk 0; https://www.youtube.com/watch?v=slL7AW9q8Fc&t=374
+## primeagen-d00fd78d8d6843: Supper Club × The Primeagen - Vim, Streaming, Rust, all Around Interesting Guy - Syntax #508SyntaxSearchThe Primeagan on XThe Primeagan on GitHubWes Bos on XWes Bos on GitHubScott Tolinski on XScott Tolinski on GitHubPlayXXGithubDiscordTiktokSyntax
+
+https://syntax.fm/show/508/supper-club-the-primeagen-vim-streaming-rust-all-around-interesting-guy/transcript
+
+Independent work identity: syntax-508-the-primeagen. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 2,726; full retrieved text: 2,726. Text SHA-256: a383613e6dd13981d06ea98ed1b09ab06deafc0a039844b838e2757c70ee261f
+
+Source dates reported in the collected material: 2022-09-09
+
+> the 3rd category, which is I get up, I put my pants
+
+Short excerpt of primeagen-d00fd78d8d6843-654feb42c3f4; speaker. Full passage and context retained locally.
+
+- primeagen-d00fd78d8d6843-654feb42c3f4: framework; speaker; normalized source offset 10209; chunk 0; https://syntax.fm/show/508/supper-club-the-primeagen-vim-streaming-rust-all-around-interesting-guy/transcript
 ## primeagen-d1bb7c11136f86: Git's Best And Most Unknown Feature
 
 https://www.youtube.com/watch?v=2uEqYw-N8uE
@@ -1096,7 +1375,7 @@ Short excerpt of primeagen-ea16f89a30508a-e57266109d7e; speaker. Full passage an
 
 https://www.youtube.com/watch?v=w7i4amO_zaE
 
-Independent work identity: theprimeagen-2022-neovim-0-to-lsp. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-w7i4amO_zaE. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 6,256; full retrieved text: 6,256. Text SHA-256: dc8575ac5ff55c3698c446888451280eca7fb2ed39fbd12070b59ce70a000b2d
 
@@ -1141,6 +1420,40 @@ A short verified excerpt from this work is in voice.md; complete passages remain
 - primeagen-f02f98f92cf480-2a6715e04fc1: position; speaker; caption-prose-v1 offset 33202; chunk 0; https://www.youtube.com/watch?v=pvBHyip4peo&t=1828
 - primeagen-f02f98f92cf480-2411e4ec7210: position; speaker; caption-prose-v1 offset 40212; chunk 0; https://www.youtube.com/watch?v=pvBHyip4peo&t=2200
 - primeagen-f02f98f92cf480-272235dd626c: position; speaker; caption-prose-v1 offset 45807; chunk 0; https://www.youtube.com/watch?v=pvBHyip4peo&t=2517
+## primeagen-f108bb9bf739ce: 🚨🚨 TRYING JEV : The new STYLE of AI!!! 🚨🚨
+
+https://www.youtube.com/watch?v=FQNftquDDaI
+
+Independent work identity: youtube-FQNftquDDaI. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 20,422; full retrieved text: 20,422. Text SHA-256: 647833efac69492ba513252aa10946f6e97dc4a2e427342e1cb5e5db4b17007d
+
+Source dates reported in the collected material: 2026-09-18
+
+> you're doing biology, right? You'll probably do Python
+
+Short excerpt of primeagen-f108bb9bf739ce-0b7ea54e4827; speaker. Full passage and context retained locally.
+
+- primeagen-f108bb9bf739ce-0b7ea54e4827: position; speaker; caption-prose-v1 offset 2485; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=193
+- primeagen-f108bb9bf739ce-dd01ca05ed9a: framework; speaker; caption-prose-v1 offset 24878; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=1762
+- primeagen-f108bb9bf739ce-aaa0ea7141ea: position; speaker; caption-prose-v1 offset 67990; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=5443
+- primeagen-f108bb9bf739ce-816fcec0d03d: framework; speaker; caption-prose-v1 offset 37599; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=2675
+- primeagen-f108bb9bf739ce-5f0adf17b3eb: story; speaker; caption-prose-v1 offset 50072; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=3805
+- primeagen-f108bb9bf739ce-685c45b337cc: position; speaker; caption-prose-v1 offset 51405; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=3926
+- primeagen-f108bb9bf739ce-90261953e5ef: framework; speaker; caption-prose-v1 offset 47163; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=3526
+- primeagen-f108bb9bf739ce-cd6891dabf55: position; speaker; caption-prose-v1 offset 42991; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=3116
+- primeagen-f108bb9bf739ce-14b1678f8868: framework; speaker; caption-prose-v1 offset 52271; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=3989
+- primeagen-f108bb9bf739ce-ae1228926a2d: framework; speaker; caption-prose-v1 offset 72990; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=5900
+- primeagen-f108bb9bf739ce-cfd246ff0978: story; speaker; caption-prose-v1 offset 73450; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=5934
+- primeagen-f108bb9bf739ce-6347760de99a: framework; speaker; caption-prose-v1 offset 79621; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=6720
+- primeagen-f108bb9bf739ce-fe12941a5638: position; speaker; caption-prose-v1 offset 84089; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=7132
+- primeagen-f108bb9bf739ce-d8bf5df75ea4: position; speaker; caption-prose-v1 offset 11578; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=842
+- primeagen-f108bb9bf739ce-d86752097857: voice; speaker; caption-prose-v1 offset 42156; chunk 0; https://www.youtube.com/watch?v=FQNftquDDaI&t=3038
+- primeagen-f108bb9bf739ce-f5fcdb0986a6: position; speaker; caption-prose-v1 offset 87248; chunk 1; https://www.youtube.com/watch?v=FQNftquDDaI&t=7407
+- primeagen-f108bb9bf739ce-e335729ab7d1: framework; speaker; caption-prose-v1 offset 95566; chunk 1; https://www.youtube.com/watch?v=FQNftquDDaI&t=8172
+- primeagen-f108bb9bf739ce-8168edb8a2b7: framework; speaker; caption-prose-v1 offset 97373; chunk 1; https://www.youtube.com/watch?v=FQNftquDDaI&t=8302
+- primeagen-f108bb9bf739ce-53b5ec467b30: position; speaker; caption-prose-v1 offset 96300; chunk 1; https://www.youtube.com/watch?v=FQNftquDDaI&t=8224
+- primeagen-f108bb9bf739ce-c77f91236a72: position; speaker; caption-prose-v1 offset 94332; chunk 1; https://www.youtube.com/watch?v=FQNftquDDaI&t=8030
 ## primeagen-f35824e7d9fd98: If I could give advice to myself when starting as a software engineer
 
 https://www.youtube.com/watch?v=QIyc6NKS5J0
@@ -1163,7 +1476,7 @@ Short excerpt of primeagen-f35824e7d9fd98-8833e1059070; speaker. Full passage an
 
 https://www.youtube.com/watch?v=RDd71IUIgpg
 
-Independent work identity: https://www.youtube.com/watch?v=RDd71IUIgpg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+Independent work identity: youtube-RDd71IUIgpg. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
 
 Source words in scope: 1,893; full retrieved text: 1,893. Text SHA-256: f19fe9b1418b03639761eae74da0aa4cd653c85dddc51be431e4da09966c81bd
 
@@ -1196,6 +1509,58 @@ Short excerpt of primeagen-f4fb63c894138f-d67789c0ad8c; speaker. Full passage an
 - primeagen-f4fb63c894138f-d67789c0ad8c: story; speaker; caption-prose-v1 offset 2556; chunk 0; https://www.youtube.com/watch?v=bdNJgUYeYPk&t=143
 - primeagen-f4fb63c894138f-98465b6a3b6d: story; speaker; caption-prose-v1 offset 3046; chunk 0; https://www.youtube.com/watch?v=bdNJgUYeYPk&t=172
 - primeagen-f4fb63c894138f-5eb72024daeb: position; speaker; caption-prose-v1 offset 5529; chunk 0; https://www.youtube.com/watch?v=bdNJgUYeYPk&t=328
+## primeagen-f5e767aefe1943: 🚨🚨 Vibe Coding WoW Forever Mods With Esfand🚨🚨
+
+https://www.youtube.com/watch?v=dBCLS8myarc
+
+Independent work identity: youtube-dBCLS8myarc. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 30,234; full retrieved text: 30,234. Text SHA-256: 8e15d65b40d3f565de36cc56bdbe05a33df7bdc32ab51248ed7635000370b2c5
+
+Source dates reported in the collected material: 2026-10-20
+
+> you're just paying a lot of money, and it's going to be
+
+Short excerpt of primeagen-f5e767aefe1943-868b4b650de2; speaker. Full passage and context retained locally.
+
+- primeagen-f5e767aefe1943-868b4b650de2: position; speaker; caption-prose-v1 offset 6321; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=456
+- primeagen-f5e767aefe1943-2e7e957c0901: framework; speaker; caption-prose-v1 offset 7176; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=507
+- primeagen-f5e767aefe1943-eea67596374e: framework; speaker; caption-prose-v1 offset 11577; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=773
+- primeagen-f5e767aefe1943-7da84fbddda3: framework; speaker; caption-prose-v1 offset 16208; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=1050
+- primeagen-f5e767aefe1943-65a16ea3e715: story; speaker; caption-prose-v1 offset 18999; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=1223
+- primeagen-f5e767aefe1943-2b295be3b493: position; speaker; caption-prose-v1 offset 22996; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=1494
+- primeagen-f5e767aefe1943-bba9b9c31390: framework; speaker; caption-prose-v1 offset 28582; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=1855
+- primeagen-f5e767aefe1943-5a1e773063b4: position; speaker; caption-prose-v1 offset 35350; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=2230
+- primeagen-f5e767aefe1943-5c95174006e8: framework; speaker; caption-prose-v1 offset 42217; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=2696
+- primeagen-f5e767aefe1943-1fc5231fb4d6: position; speaker; caption-prose-v1 offset 30208; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=1947
+- primeagen-f5e767aefe1943-8eea6f645b6b: framework; speaker; caption-prose-v1 offset 43688; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=2780
+- primeagen-f5e767aefe1943-a3f3d1979b39: position; speaker; caption-prose-v1 offset 48972; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=3149
+- primeagen-f5e767aefe1943-9b8a44b32252: position; speaker; caption-prose-v1 offset 55766; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=3537
+- primeagen-f5e767aefe1943-91f9a2f93cf4: framework; speaker; caption-prose-v1 offset 72427; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=4535
+- primeagen-f5e767aefe1943-d2324560a30e: position; speaker; caption-prose-v1 offset 72873; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=4559
+- primeagen-f5e767aefe1943-55b2b349e8ef: position; speaker; caption-prose-v1 offset 73873; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=4619
+- primeagen-f5e767aefe1943-69ea41c57939: story; speaker; caption-prose-v1 offset 76022; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=4737
+- primeagen-f5e767aefe1943-da0c50a2ee86: story; speaker; caption-prose-v1 offset 57122; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=3615
+- primeagen-f5e767aefe1943-47d6cf013060: framework; speaker; caption-prose-v1 offset 57723; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=3648
+- primeagen-f5e767aefe1943-c68f7d4e37bb: position; speaker; caption-prose-v1 offset 58568; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=3693
+- primeagen-f5e767aefe1943-01ef80b20b54: voice; speaker; caption-prose-v1 offset 37024; chunk 0; https://www.youtube.com/watch?v=dBCLS8myarc&t=2346
+- primeagen-f5e767aefe1943-1438154cf80a: principle; speaker; caption-prose-v1 offset 84740; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=5481
+- primeagen-f5e767aefe1943-752e223880c3: framework; speaker; caption-prose-v1 offset 87359; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=5648
+- primeagen-f5e767aefe1943-1178a2a9a26d: position; speaker; caption-prose-v1 offset 92467; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=5953
+- primeagen-f5e767aefe1943-312d93b7ab39: framework; speaker; caption-prose-v1 offset 103426; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=6747
+- primeagen-f5e767aefe1943-7f5f420e5170: story; speaker; caption-prose-v1 offset 105241; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=6885
+- primeagen-f5e767aefe1943-365a91b2b2c8: framework; speaker; caption-prose-v1 offset 111411; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=7250
+- primeagen-f5e767aefe1943-80169c010919: story; speaker; caption-prose-v1 offset 111016; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=7214
+- primeagen-f5e767aefe1943-9db70062475e: position; speaker; caption-prose-v1 offset 114513; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=7432
+- primeagen-f5e767aefe1943-3f191d6bc55a: framework; speaker; caption-prose-v1 offset 116323; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=7526
+- primeagen-f5e767aefe1943-a1485fcca51a: position; speaker; caption-prose-v1 offset 126203; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=8046
+- primeagen-f5e767aefe1943-386701e5deb3: framework; speaker; caption-prose-v1 offset 128910; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=8214
+- primeagen-f5e767aefe1943-ccff0459fbb0: story; speaker; caption-prose-v1 offset 138978; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=8978
+- primeagen-f5e767aefe1943-a9d3eec42525: framework; speaker; caption-prose-v1 offset 143595; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=9307
+- primeagen-f5e767aefe1943-620ae6d1c4c1: story; speaker; caption-prose-v1 offset 145119; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=9408
+- primeagen-f5e767aefe1943-60509e2338bc: position; speaker; caption-prose-v1 offset 149894; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=9696
+- primeagen-f5e767aefe1943-d631bf171fe7: position; speaker; caption-prose-v1 offset 136620; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=8817
+- primeagen-f5e767aefe1943-251dfd7bd060: position; speaker; caption-prose-v1 offset 151545; chunk 1; https://www.youtube.com/watch?v=dBCLS8myarc&t=9790
 ## primeagen-fe32140036efe1: Why I use Vim in 2022
 
 https://www.youtube.com/watch?v=D4YTJ2W5q4Y
@@ -1206,7 +1571,9 @@ Source words in scope: 1,383; full retrieved text: 1,383. Text SHA-256: d07a3f9f
 
 Source dates reported in the collected material: 2022-05-27
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> why do i use vimotions and why do i use vim i
+
+Short excerpt of primeagen-fe32140036efe1-0e32942c1d6c; speaker. Full passage and context retained locally.
 
 - primeagen-fe32140036efe1-0e32942c1d6c: framework; speaker; caption-prose-v1 offset 618; chunk 0; https://www.youtube.com/watch?v=D4YTJ2W5q4Y&t=40
 - primeagen-fe32140036efe1-d96b7e3bf043: position; speaker; caption-prose-v1 offset 2202; chunk 0; https://www.youtube.com/watch?v=D4YTJ2W5q4Y&t=132

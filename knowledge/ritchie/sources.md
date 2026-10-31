@@ -143,7 +143,9 @@ Source words in scope: 1,687; full retrieved text: 1,687. Text SHA-256: 5d4ac3a8
 
 Source dates reported in the collected material: December 20, 2000
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> the namespace — the hierarchy — of files seen by a particular
+
+Short excerpt of ritchie-4cf698ce0647a8-f0e92c38f62e; speaker. Full passage and context retained locally.
 
 - ritchie-4cf698ce0647a8-f0e92c38f62e: framework; speaker; normalized source offset 1763; chunk 0; https://www.computerworld.com/article/1605643/the-future-according-to-dennis-ritchie-a-2000-interview.html
 - ritchie-4cf698ce0647a8-7928b40bcccb: position; speaker; normalized source offset 2275; chunk 0; https://www.computerworld.com/article/1605643/the-future-according-to-dennis-ritchie-a-2000-interview.html
@@ -205,9 +207,7 @@ Source words in scope: 12,283; full retrieved text: 12,283. Text SHA-256: fd8e16
 
 Source dates reported in the collected material: not established
 
-> C is a computer language based on the earlier language B [1].
-
-Short excerpt of ritchie-50a70b87adf27f-fadc69e00abc; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - ritchie-50a70b87adf27f-fadc69e00abc: position; sole_author; normalized source offset 113; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cman.pdf
 - ritchie-50a70b87adf27f-6b36bada191e: position; sole_author; normalized source offset 3685; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cman.pdf
@@ -347,7 +347,9 @@ Source words in scope: 1,341; full retrieved text: 1,341. Text SHA-256: c7c48930
 
 Source dates reported in the collected material: not established
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> I liked QED, and so set out to write a version of
+
+Short excerpt of ritchie-61c3ca31326df9-fcc9f3f75f12; sole_author. Full passage and context retained locally.
 
 - ritchie-61c3ca31326df9-fcc9f3f75f12: story; sole_author; normalized source offset 2435; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/qed.html
 - ritchie-61c3ca31326df9-46f43eb70436: position; sole_author; normalized source offset 2935; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/qed.html
@@ -432,7 +434,9 @@ Source words in scope: 7,130; full retrieved text: 7,130. Text SHA-256: 604b40b9
 
 Source dates reported in the collected material: 1979; 1979-09
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> Thompson, R. H. Canaday, and Ritchie developed, on blackboards and scribbled notes,
+
+Short excerpt of ritchie-7ca8eec9ac8af9-9e97afe4d556; sole_author. Full passage and context retained locally.
 
 - ritchie-7ca8eec9ac8af9-9e97afe4d556: story; sole_author; normalized source offset 5171; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html
 - ritchie-7ca8eec9ac8af9-020ab153bef5: story; sole_author; normalized source offset 13445; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/hist.html
@@ -479,9 +483,7 @@ Source words in scope: 9,711; full retrieved text: 9,711. Text SHA-256: db5e22de
 
 Source dates reported in the collected material: 1993; April 1993
 
-> PL/I, the implementation language of Multics, was not much to our tastes,
-
-Short excerpt of ritchie-91fa14fdc827e6-6b8c520d15e6; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - ritchie-91fa14fdc827e6-6b8c520d15e6: position; sole_author; normalized source offset 3609; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html
 - ritchie-91fa14fdc827e6-2128feb26b67: story; sole_author; normalized source offset 9900; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html
@@ -638,7 +640,9 @@ Source words in scope: 1,782; full retrieved text: 1,782. Text SHA-256: 02ae2558
 
 Source dates reported in the collected material: June 22, 2002
 
-A short verified excerpt from this work is in voice.md; complete passages remain local.
+> The savu/retu mechanism for doing process exchange was fundamentally broken
+
+Short excerpt of ritchie-c3458b73539dc9-bc85a8489992; sole_author. Full passage and context retained locally.
 
 - ritchie-c3458b73539dc9-bc85a8489992: story; sole_author; normalized source offset 4552; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/odd.html
 - ritchie-c3458b73539dc9-974c52771a50: voice; sole_author; normalized source offset 4480; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/odd.html
@@ -690,9 +694,7 @@ Source words in scope: 664; full retrieved text: 664. Text SHA-256: 211d64ddaa75
 
 Source dates reported in the collected material: September 2000
 
-> The first representation made arithmetic on character pointers just arithmetic; the second
-
-Short excerpt of ritchie-d3aa7cb3a735f0-bf7646018472; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - ritchie-d3aa7cb3a735f0-bf7646018472: story; sole_author; normalized source offset 3172; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cray.html
 ## ritchie-f9fdc2ceaea02e: Unix Notes from 1972
@@ -705,9 +707,7 @@ Source words in scope: 2,712; full retrieved text: 2,712. Text SHA-256: 3e225ef0
 
 Source dates reported in the collected material: 1972-03-15
 
-> Notice, however, that the system does in fact make rapid responses to
-
-Short excerpt of ritchie-f9fdc2ceaea02e-706f6f1f372d; sole_author. Full passage and context retained locally.
+A short verified excerpt from this work is in voice.md; complete passages remain local.
 
 - ritchie-f9fdc2ceaea02e-706f6f1f372d: position; sole_author; normalized source offset 3492; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/notes.html
 - ritchie-f9fdc2ceaea02e-6e7297270aa4: position; sole_author; normalized source offset 3977; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/notes.html
@@ -719,3 +719,31 @@ Short excerpt of ritchie-f9fdc2ceaea02e-706f6f1f372d; sole_author. Full passage 
 - ritchie-f9fdc2ceaea02e-039f94f65dcb: position; sole_author; normalized source offset 12404; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/notes.html
 - ritchie-f9fdc2ceaea02e-97316c9e7905: position; sole_author; normalized source offset 12863; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/notes.html
 - ritchie-f9fdc2ceaea02e-9e8f0f5fd09f: position; sole_author; normalized source offset 14451; chunk 0; https://www.nokia.com/bell-labs/about/dennis-m-ritchie/notes.html
+## ritchie-fb84bd56b432fc: UNIX Programming — Second Edition
+
+https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+
+Independent work identity: kernighan-ritchie-unix-programming-second-edition. Alternate representations share this identity and contribute only their largest scoped word count to coverage.
+
+Source words in scope: 9,839; full retrieved text: 9,839. Text SHA-256: 0914883b3498b52d3d98fb7af02fbc5b52f8e2b68e87dfcce9bcd09aa7de083d
+
+Source dates reported in the collected material: November 2, 1997
+
+> It must be simple to use, and also free of the magic
+
+Short excerpt of ritchie-fb84bd56b432fc-e273c87793e4; coauthored. Full passage and context retained locally.
+
+- ritchie-fb84bd56b432fc-e273c87793e4: framework; coauthored; normalized source offset 46287; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-b9da259f2ee9: principle; coauthored; normalized source offset 46525; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-65c681d27269: position; coauthored; normalized source offset 49130; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-6c9045d9f526: framework; coauthored; normalized source offset 10192; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-5fbde4419472: principle; coauthored; normalized source offset 12160; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-64db615f5bd4: position; coauthored; normalized source offset 14596; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-48aa6586abcb: story; coauthored; normalized source offset 24519; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-5633c614fd2b: framework; coauthored; normalized source offset 30978; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-83f8789d3915: framework; coauthored; normalized source offset 34195; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-d1e231a271ac: position; coauthored; normalized source offset 37277; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-0af0b86d5728: principle; coauthored; normalized source offset 40411; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-7354ec1e2711: position; coauthored; normalized source offset 42302; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-7c3f3725a104: position; coauthored; normalized source offset 44522; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
+- ritchie-fb84bd56b432fc-58827f7e104f: position; coauthored; normalized source offset 54337; chunk 0; https://wolfram.schneider.org/bsd/7thEdManVol2/uprog/uprog.pdf
