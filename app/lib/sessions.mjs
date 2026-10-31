@@ -25,10 +25,14 @@ export class Store {
     const s = JSON.parse(
       fs.readFileSync(path.join(this.folder(id), "session.json"), "utf8"),
     );
-    if (!s.reviewMode) s.reviewMode = "normal";
-    if (s.provider === undefined && typeof s.mode === "string" && s.mode.includes(":")) {
-      s.provider = s.mode;
-      s.reviewMode = "normal";
+    if (!s.reviewMode) {
+      if (s.mode === "quick" || s.mode === "consult" || s.mode === "selected" || s.mode === "all")
+        s.reviewMode = s.mode;
+      else s.reviewMode = "normal";
+    }
+    if (!s.provider && typeof s.mode === "string" && s.mode.includes(":")) s.provider = s.mode;
+    if (!s.mode || ["normal","quick","consult","selected","all"].includes(s.mode) === false) {
+      // keep execution provenance in provider, normalize mode label
     }
     return s;
   }

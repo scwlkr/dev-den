@@ -70,12 +70,16 @@ export function fixtureCard(s, step) {
   return {
     ...draft,
     next_steps: ["Build the slice.", "Test reload and restore."],
-    amendments: [
-      {
-        advisor: ids[1],
-        adopted: true,
-        reason: "Recovery is part of the acceptance experiment.",
-      },
-    ],
+    amendments:
+      s.board.length > 1 &&
+      Object.keys(s.cards).some((k) => k.startsWith("ratification:"))
+        ? [
+            {
+              advisor: ids[1],
+              adopted: true,
+              reason: "Recovery is part of the acceptance experiment.",
+            },
+          ]
+        : [],
   };
 }

@@ -7,6 +7,8 @@ export function report(s) {
     created: s.created,
     status: s.status,
     mode: s.mode,
+    reviewMode: s.reviewMode || "normal",
+    provider: s.provider || s.mode,
     notice:
       "Simulated advisors applying documented first-hand principles. These developers did not participate or endorse this review. Applied reasoning is not a historical quotation. Caption matches verify text, not audio or truth.",
     brief: s.brief,
@@ -16,7 +18,7 @@ export function report(s) {
       coverage: s.packets[a.id].coverage,
       gaps: s.packets[a.id].gaps,
     })),
-    scores: weightedScores(s),
+    scores: weightedScores(s, (s.reviewMode === "consult" ? "opening" : (s.reviewMode === "quick" ? "debate" : "ratification"))),
     verdict: verdict || null,
     dissent: s.board
       .filter((a) => s.cards["ratification:" + a.id]?.vote === "dissent")

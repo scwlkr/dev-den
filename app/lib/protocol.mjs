@@ -185,12 +185,19 @@ export function reviewMode(s) {
   return "normal";
 }
 export function needsRatification(s) {
-  const scores = weightedScores(s, "opening").map((x) => x.score).filter((x) => x !== null);
-  if (scores.length < 2) return true;
-  const sorted = [...scores].sort((a,b)=>b-a);
-  const spread = sorted[0]-sorted[1];
-  const likelyRisk = Object.values(s.cards||{}).some((c)=>c.risk==="likely");
-  return !(spread <= 3 && !likelyRisk);
+  const mode = reviewMode(s);
+  if (mode !== "quick") return true;
+  const debateCards = s.board.map((seat) => s.cards["debate:" + seat.id]).filter(Boolean);
+  if (debateCards.length !== s.board.length) return true;
+  const topOption = weightedScores(s, "debate").sort((a,b)=> (b.score||0)-(a.score||0))[0]?.option;
+  if (!topOption) return true;
+  const advisorScores = s.board.map((seat) => {
+    const c = s.cards["debate:" + seat.id];
+    return c.scores.find((x) => x.option === topOption)?.score ?? 0;
+  });
+  const spread = Math.max(...advisorScores) - Math.min(...advisorScores);
+  const likelyRisk = debateCards.some((c) => c.risk === "likely");
+  return spread > 3 || likelyRisk;
 }
 export function steps(session) {
   const mode = reviewMode(session);
@@ -291,7 +298,7 @@ export function validateCard(s, step, card) {
   }
   if (step.stage === "verdict") {
     const votes = s.board.filter((seat) =>
-      s.cards["ratification:" + seat.id].amendment.trim(),
+      s.cards["ratification:" + seat.id]?.amendment?.trim(),
     );
     if (
       card.amendments.length !== votes.length ||
