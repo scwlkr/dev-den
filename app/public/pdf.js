@@ -2,8 +2,6 @@ export function downloadPDF(text, id) {
   const { jsPDF } = window.jspdf,
     pdf = new jsPDF({ unit: "mm", format: "a4" });
   pdf.setFont("helvetica");
-  pdf.setFontSize(10);
-  let y = 18;
   const clean = text
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -13,16 +11,35 @@ export function downloadPDF(text, id) {
     .replace(/…/g, "...")
     .replace(/[^\x09\x0a\x0d\x20-\x7e]/g, " ")
     .replace(/\\([*_\[\]<>`])/g, "$1");
-  for (const line of clean.split("\n")) {
-    const wrapped = pdf.splitTextToSize(line, 174);
+  const lines = clean.split("\n");
+  let y = 20;
+  const pageHeight = 297;
+  const bottom = 282;
+  const drawHeader = () => {
+    pdf.setFontSize(12);
+    pdf.text("Den of Devs - decision report", 18, 12);
+    pdf.setFontSize(9);
+    pdf.text("Session " + id, 18, 16);
+    pdf.setFontSize(10);
+  };
+  drawHeader();
+  for (const line of lines) {
+    const wrapped = pdf.splitTextToSize(line || " ", 174);
     for (const part of wrapped) {
-      if (y > 279) {
+      if (y > bottom) {
         pdf.addPage();
-        y = 18;
+        y = 20;
+        drawHeader();
       }
       pdf.text(part, 18, y);
       y += 4.8;
     }
+  }
+  const total = pdf.getNumberOfPages();
+  for (let i = 1; i <= total; i++) {
+    pdf.setPage(i);
+    pdf.setFontSize(8);
+    pdf.text("Page " + i + " of " + total, 18, pageHeight - 8);
   }
   pdf.save(id + ".pdf");
 }

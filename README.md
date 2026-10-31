@@ -1,5 +1,7 @@
 # Den of Devs
 
+Modes: normal 5-7, quick 4, consult 1, selected 1-9, all rejects over-9 roster. Board settings validated. Evidence refinement uses prepared evidence only. Builder: `node app/cli.mjs advisor ...` delegates to `python3 -B -m collection.advisor --project ROOT ...`.
+
 A technical decision council grounded in developers' own published reasoning. Prepare advisor knowledge first, then convene five to seven relevant advisors to examine a shared decision brief and reach an opinionated, cited outcome.
 
 The product specification is [GitHub issue #2](https://github.com/scwlkr/dev-den/issues/2). The initial collection expansion is recorded in [#4](https://github.com/scwlkr/dev-den/issues/4), and continuation from existing credits in [#5](https://github.com/scwlkr/dev-den/issues/5).

@@ -34,6 +34,11 @@ const short = {
   dorsey: "Jack Dorsey",
   zuckerberg: "Mark Zuckerberg",
 };
+function fallbackLook(id) {
+  let h = 0;
+  for (const ch of String(id)) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return [h % 2, (h >> 1) % 2, (h >> 2) % 2, "#" + (0x300000 + (h % 0x8f8f8f)).toString(16).padStart(6, "0")];
+}
 export class Room {
   constructor(canvas) {
     this.canvas = canvas;
@@ -198,7 +203,7 @@ export class Room {
     seats.forEach((s, i) => {
       const [x, y] = points[i],
         a = s.id === this.active,
-        [hair, glasses, cap, tone] = looks[s.id] || looks.tobi;
+        [hair, glasses, cap, tone] = looks[s.id] || fallbackLook(s.id);
       r(x - 14, y - 5, 28, 29, "#16242e");
       r(x - 17, y - 2, 3, 25, "#0d1b26");
       r(x + 14, y - 2, 3, 25, "#0d1b26");
@@ -245,7 +250,7 @@ export class Room {
       r(x + 5, y + 4, 8, 4, "#c9a58b");
       r(x - 28, y + 15, 56, 10, a ? "#35576b" : "#172c38");
       if (a) r(x - 28, y + 24, 56, 1, colors.brass);
-      text(short[s.id] || s.id, x, y + 22, 5.1, a ? "#f0d8aa" : "#b5c6cd");
+      text((s.name || short[s.id] || s.id), x, y + 22, 5.1, a ? "#f0d8aa" : "#b5c6cd");
     });
     // Foreground plant, stacked books and ambient grain.
     r(8, 176, 16, 25, "#293c3b");
