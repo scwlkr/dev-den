@@ -5,13 +5,15 @@ export const DEFAULT_BOARD = ["dhh", "tobi", "primeagen", "carmack", "linus"];
 export function boardPrefPath(root = ROOT) {
   return path.join(root, ".den", "board.json");
 }
-export function defaultBoardPrefs() {
-  return { board: "default", default: [...DEFAULT_BOARD], seats: metadata().map((a) => a.id) };
+export function defaultBoardPrefs(root = ROOT) {
+  return { board: "default", default: [...DEFAULT_BOARD], seats: metadata(root).map((a) => a.id) };
 }
 export function loadBoardPrefs(root = ROOT) {
   const p = boardPrefPath(root);
-  if (!fs.existsSync(p)) return defaultBoardPrefs();
-  return JSON.parse(fs.readFileSync(p, "utf8"));
+  if (!fs.existsSync(p)) return defaultBoardPrefs(root);
+  const prefs = JSON.parse(fs.readFileSync(p, "utf8"));
+  validateBoardPrefs(prefs, root);
+  return prefs;
 }
 export function validateBoardPrefs(prefs, root = ROOT) {
   const ids = new Set(metadata(root).map((a) => a.id));
@@ -27,7 +29,9 @@ export function saveBoardPrefs(prefs, root = ROOT) {
   validateBoardPrefs(prefs, root);
   const p = boardPrefPath(root);
   fs.mkdirSync(path.dirname(p), { recursive: true });
-  fs.writeFileSync(p, JSON.stringify(prefs, null, 2));
+  const tmp = p + ".tmp";
+  fs.writeFileSync(tmp, JSON.stringify(prefs, null, 2));
+  fs.renameSync(tmp, p);
 }
 export function resolveBoard({ brief, prefs, explicit, mode = "normal", root = ROOT }) {
   const rosterIds = new Set(metadata(root).map((a) => a.id));

@@ -64,11 +64,13 @@ export function createServer({
       }
       if (url.pathname === "/api/recommend" && req.method === "POST")
         return send(recommend(body, store.root));
-      if (url.pathname === "/api/sessions" && req.method === "POST")
+      if (url.pathname === "/api/sessions" && req.method === "POST") {
+        const mode = body.reviewMode || body.mode || "normal";
         return send(
-          publicSession(store.create(body.brief, body.board, "agent")),
+          publicSession(store.create(body.brief, body.board, mode)),
           201,
         );
+      }
       if (parts[0] === "api" && parts[1] === "sessions" && parts[2]) {
         const id = parts[2],
           s = store.read(id),
