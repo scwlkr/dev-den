@@ -94,6 +94,11 @@ export function schema(stage, options, board) {
       },
       confidence: { type: "integer", minimum: 1, maximum: 5 },
       risk: { type: "string", enum: ["none", "possible", "likely"] },
+      risk_option: { type: "string" },
+      resolution_support: { type: "number", minimum: 0, maximum: 10 },
+      mitigation: { type: "string" },
+      mitigation_for_option: { type: "string" },
+      mitigation_endorsed: { type: "boolean" },
       concern: str,
       change_mind: str,
       next_action: str,
@@ -317,6 +322,95 @@ export function validateCard(s, step, card) {
       );
   }
   return card;
+}
+// Adapted from roast-room app/lib/council.mjs: scores are weighted fit to this brief, not probabilities.
+export function finalScoringStage(s) {
+  return Object.keys(s.cards || {}).some((k) => k.startsWith("ratification:"))
+    ? "ratification"
+    : s.reviewMode === "consult"
+      ? "opening"
+      : "debate";
+}
+export function decisionMetrics(s) {
+  const stage = finalScoringStage(s);
+  const scores = weightedScores(s, stage);
+  const top = [...scores].sort((a, b) => (b.score || 0) - (a.score || 0))[0];
+  const topOption = top?.option;
+  const advisorScores = s.board.map((seat) => {
+    const c = s.cards[stage + ":" + seat.id];
+    return c?.scores?.find((x) => x.option === topOption)?.score ?? 0;
+  });
+  const spread = advisorScores.length ? Math.max(...advisorScores) - Math.min(...advisorScores) : 0;
+  const cards = s.board.map((seat) => s.cards[stage + ":" + seat.id]).filter(Boolean);
+  const avgConf = cards.length ? cards.reduce((n, c) => n + (c.confidence || 0), 0) / cards.length : 0;
+  let confidence = Math.round(avgConf * 2);
+  if (spread >= 5) confidence -= 1;
+  confidence = Math.max(1, Math.min(10, confidence));
+  const resolutionCards = s.board.map((seat) => s.cards["ratification:" + seat.id]).filter(Boolean);
+  const resolutionSupport = resolutionCards.length
+    ? Math.round(
+        (resolutionCards.reduce((n, c) => n + (c.resolution_support || 0) * (s.board.find((x) => x.id === c?._id)?.weight || 1), 0) /
+          resolutionCards.reduce((n, c) => n + (s.board.find((x) => x.id === (c?._advisor))?.weight || 1), 0)) * 10,
+      ) / 10
+    : null;
+  // simpler weighted using seat weight
+  let num = 0, den = 0;
+  for (const seat of s.board) {
+    const c = s.cards["ratification:" + seat.id];
+    if (c && typeof c.resolution_support === "number") {
+      num += c.resolution_support * seat.weight;
+      den += seat.weight;
+    }
+  }
+  const resolution = den ? Math.round((num / den) * 10) / 10 : null;
+  // blocking risks
+  const blocking = [];
+  for (const seat of s.board) {
+    for (const st of ["opening", "debate"]) {
+      const c = s.cards[st + ":" + seat.id];
+      if (c && c.risk === "likely" && (c.risk_option === topOption || !c.risk_option || c.risk_option === "none")) {
+        // check mitigation endorsement by same advisor in ratification
+        const rat = s.cards["ratification:" + seat.id];
+        const mitigated = rat && rat.mitigation_endorsed === true && rat.mitigation && rat.mitigation_for_option === topOption;
+        if (!mitigated) blocking.push({ advisor: seat.id, option: topOption, stage: st });
+      }
+    }
+  }
+  // dedupe by advisor
+  const uniq = [];
+  const seen = new Set();
+  for (const b of blocking) if (!seen.has(b.advisor)) { seen.add(b.advisor); uniq.push(b); }
+  let disposition = "GO";
+  if (uniq.length) disposition = "RESHAPE";
+  const irreversible = s.brief?.constraints?.toLowerCase?.().includes("irreversible") || s.brief?.success?.toLowerCase?.().includes("one-way");
+  if (disposition === "GO" && irreversible && spread >= 4) disposition = "GO_WITH_CONDITIONS";
+  const lowDimensions = s.board
+    .map((seat) => {
+      const c = s.cards[stage + ":" + seat.id];
+      const sc = c?.scores?.find((x) => x.option === topOption)?.score;
+      return sc !== undefined && sc <= 4 ? { advisor: seat.id, score: sc, concern: c.concern } : null;
+    })
+    .filter(Boolean);
+  return {
+    version: 2,
+    recommendedOption: topOption,
+    fitScores: scores,
+    spread,
+    confidence,
+    resolutionSupport: resolution,
+    blockingRisks: uniq,
+    lowDimensions,
+    disposition,
+    irreversible,
+    precondition: disposition === "GO_WITH_CONDITIONS" ? "Run the stated experiment before committing." : null,
+  };
+}
+export function decisionChecks(s) {
+  const m = decisionMetrics(s);
+  const checks = [];
+  if (m.blockingRisks.length) checks.push("Unresolved material risk requires mitigation endorsement by the same advisor.");
+  if (m.irreversible && m.spread >= 4) checks.push("Irreversible decision with divided council requires test precondition.");
+  return checks;
 }
 // Adapted from roast-room app/lib/council.mjs: scores are weighted fit to this brief, not probabilities.
 export function weightedScores(s, stage = "ratification") {

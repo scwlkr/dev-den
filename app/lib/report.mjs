@@ -1,4 +1,4 @@
-import { weightedScores } from "./protocol.mjs";
+import { weightedScores, decisionMetrics, decisionChecks } from "./protocol.mjs";
 export function report(s) {
   const verdict = s.cards.verdict;
   return {
@@ -33,6 +33,8 @@ export function report(s) {
           : "debate",
     ),
     verdict: verdict || null,
+    decisionMetrics: decisionMetrics(s),
+    decisionChecks: decisionChecks(s),
     dissent: s.board
       .filter((a) => s.cards["ratification:" + a.id]?.vote === "dissent")
       .map((a) => ({ advisor: a.id, ...s.cards["ratification:" + a.id] })),

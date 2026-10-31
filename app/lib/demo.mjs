@@ -12,6 +12,11 @@ export function fixtureCard(s, step) {
     scores: options.map((option, i) => ({ option, score: 8 - i })),
     confidence: 3,
     risk: "possible",
+    risk_option: options[0],
+    resolution_support: 7,
+    mitigation: "",
+    mitigation_for_option: options[0],
+    mitigation_endorsed: false,
     concern: "Persistence and maintenance need a concrete test.",
     change_mind:
       "Measured implementation effort or data-loss risk changes the fit.",
