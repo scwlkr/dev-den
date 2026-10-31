@@ -10,7 +10,8 @@ import sys
 from pathlib import Path
 
 from .pilot import (read_json, write_json, digest, canonical, get_source, normalize,
-                    verify_evidence, SECTIONS, EXTRACTION, COMPILATION, now, Pilot)
+                    verify_evidence, SECTIONS, EXTRACTION, COMPILATION, now, Pilot,
+                    work_coverage, collection_fingerprint)
 
 SLUG_RE = re.compile(r"^[a-z][a-z0-9-]*$")
 SOURCE_ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
@@ -313,77 +314,197 @@ def export_markdown(root, aid):
     return outdir
 
 
+def depth_thresholds(depth):
+    return {"quick": (12, 80000), "standard": (30, 250000), "deep": (80, 500000)}[depth]
+
+def canonical_records(root, aid):
+    m = load_manifest(root, aid)
+    records = []
+    for src in m["sources"]:
+        folder = build_root(root, aid) / "sources" / src["source_id"]
+        if not (folder / "evidence.json").exists():
+            continue
+        r = read_json(folder / "evidence.json")
+        if r.get("status") == "accepted":
+            records.append(r)
+    return m, records
+
+def validate_build(root, aid, allow_gaps=False):
+    m, records = canonical_records(root, aid)
+    # full integrity checks
+    errors = []
+    cp = build_root(root, aid) / "compiled.json"
+    if not cp.exists():
+        errors.append("not compiled")
+        compiled = {}
+    else:
+        compiled = read_json(cp)
+    # hash/quote checks via audit? minimal: check compiled refs
+    all_ids = {e["id"] for r in records for e in r.get("evidence", [])}
+    if compiled:
+        names = [sec["name"] for sec in compiled.get("sections", [])]
+        if sorted(names) != sorted(SECTIONS) or len(names) != len(set(names)):
+            errors.append("bad sections")
+        total_items = sum(len(sec.get("items", [])) for sec in compiled.get("sections", []))
+        if total_items == 0:
+            errors.append("empty compilation")
+        for sec in compiled.get("sections", []):
+            for item in sec.get("items", []):
+                if not item.get("evidence_ids"):
+                    errors.append("missing refs")
+                for eid in item.get("evidence_ids", []):
+                    if eid not in all_ids:
+                        errors.append("unknown ref " + str(eid))
+        # fingerprint
+        if compiled.get("source_fingerprint") and compiled["source_fingerprint"] != collection_fingerprint(records):
+            errors.append("stale fingerprint")
+    works, words = work_coverage(records)
+    tw, ww = depth_thresholds(m.get("depth", "standard"))
+    depth_ok = works >= tw and words >= ww
+    gaps = list(compiled.get("gaps", [])) if compiled else []
+    if not depth_ok:
+        gapmsg = f"Depth shortfall: {works}/{tw} works, {words}/{ww} words"
+        if gapmsg not in gaps:
+            gaps.append(gapmsg)
+    if errors:
+        return False, errors, m, records, compiled, works, words, tw, ww, depth_ok, gaps
+    if not depth_ok and not allow_gaps:
+        return False, ["depth shortfall"], m, records, compiled, works, words, tw, ww, depth_ok, gaps
+    return True, [], m, records, compiled, works, words, tw, ww, depth_ok, gaps
+
 def cmd_validate(args):
     root = root_from_args(args)
     aid = args.id
     validate_id(aid)
-    m = load_manifest(root, aid)
-    gaps = []
-    if len(m["sources"]) < 1:
-        gaps.append("no sources")
-    # depth targets
-    targets = {"quick": (1, 0), "standard": (3, 0), "deep": (8, 0)}
-    # real counts: quick 12+ works/80k words etc per spec (approx)
-    # check compiled exists
-    cp = build_root(root, aid) / "compiled.json"
-    if not cp.exists():
-        gaps.append("not compiled")
-    if gaps and not args.allow_gaps:
-        print(json.dumps({"status": "invalid", "errors": gaps}))
+    ok, errors, m, records, compiled, works, words, tw, ww, depth_ok, gaps = validate_build(root, aid, args.allow_gaps)
+    if not ok:
+        print(json.dumps({"status": "invalid", "errors": errors, "gaps": gaps}))
         raise SystemExit(1)
-    print(json.dumps({"status": "valid", "gaps": gaps}))
-
+    print(json.dumps({"status": "valid", "gaps": gaps, "works": works, "words": words}))
 
 def cmd_register(args):
     root = root_from_args(args)
     aid = args.id
     validate_id(aid)
-    m = load_manifest(root, aid)
+    allow_gaps = getattr(args, "allow_gaps", False)
+    update = getattr(args, "update", False)
+    ok, errors, m, records, compiled, works, words, tw, ww, depth_ok, gaps = validate_build(root, aid, allow_gaps)
+    if not ok:
+        print(json.dumps({"status": "invalid", "errors": errors, "gaps": gaps}))
+        raise SystemExit(1)
+    # depth gaps persist
+    if not depth_ok:
+        compiled["gaps"] = gaps
+    # fingerprint
+    compiled["source_fingerprint"] = collection_fingerprint(records)
+    write_json(build_root(root, aid) / "compiled.json", compiled)
+
     roster_path = root / "collection" / "roster.json"
     roster = read_json(roster_path, {"developers": []})
-    if any(d["id"] == aid for d in roster.get("developers", [])):
-        if not args.update:
-            raise SystemExit("collision: advisor already registered")
-    # require compiled
-    cp = build_root(root, aid) / "compiled.json"
-    if not cp.exists():
-        raise SystemExit("not compiled")
-    compiled = read_json(cp)
-    total_items = sum(len(s.get("items", [])) for s in compiled.get("sections", []))
-    if total_items == 0:
-        raise SystemExit("empty compilation")
-    # export markdown to staging then publish
-    export_markdown(root, aid)
-    # register roster (atomic-ish)
-    dev = {"id": aid, "name": m["name"], "aliases": m["aliases"], "focus": m["focus"]}
-    if not any(d["id"] == aid for d in roster.get("developers", [])):
-        roster["developers"].append(dev)
-    else:
-        for i, d in enumerate(roster["developers"]):
-            if d["id"] == aid:
-                roster["developers"][i] = dev
-    write_json(roster_path, roster)
-    # copy build to .collection/pilot/<id> for Node loader (non-destructive: only if not exists or update)
-    src_base = build_root(root, aid)
-    dst_base = root / ".collection" / "pilot" / aid
-    if dst_base.exists() and not args.update:
-        # keep existing; but for new registration we need data there
-        pass
-    if not dst_base.exists():
-        dst_base.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(src_base, dst_base)
-    else:
-        # merge without deleting
-        for p in src_base.rglob("*"):
-            if p.is_file():
-                rel = p.relative_to(src_base)
-                target = dst_base / rel
-                target.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(p, target)
-    m["status"] = "registered"
-    save_manifest(root, m)
-    print(json.dumps({"status": "registered", "consult": f"node app/cli.mjs consult BRIEF.json {aid}"}))
+    existing_entry = any(d["id"] == aid for d in roster.get("developers", []))
+    if existing_entry and not update:
+        raise SystemExit("collision: advisor already registered")
+    # protect initial advisors without manifest? if update and no manifest? manifest exists by load.
 
+    # early collision of destination
+    dst_base = root / ".collection" / "pilot" / aid
+    knowledge_dir = root / "knowledge" / aid
+    if dst_base.exists() and not update:
+        if dst_base.is_file() or knowledge_dir.is_file():
+            raise SystemExit("destination exists")
+    if knowledge_dir.exists() and not update and not knowledge_dir.is_dir():
+        raise SystemExit("destination exists")
+
+    # staging
+    import tempfile, fcntl, os, shutil
+    stage = Path(tempfile.mkdtemp(prefix="adv-stage-", dir=str(root)))
+    try:
+        stage_corpus = stage / "corpus"
+        stage_knowledge = stage / "knowledge"
+        stage_corpus.mkdir()
+        stage_knowledge.mkdir()
+        # copy build to stage corpus
+        shutil.copytree(build_root(root, aid), stage_corpus / aid)
+        # export markdown into stage knowledge using Pilot.export
+        exporter = Pilot.__new__(Pilot)
+        exporter.project = root
+        exporter.root = stage_corpus
+        exporter.config = {"model": "none"}
+        out_k = stage_knowledge / aid
+        out_k.mkdir()
+        # temporarily point project knowledge? Pilot.export writes to self.project/knowledge. We'll instead call export then move.
+        # Use a temp project root for export
+        export_root = stage / "exportroot"
+        export_root.mkdir()
+        (export_root / "knowledge").mkdir()
+        exporter.project = export_root
+        exporter.export({"id": aid, "name": m["name"], "focus": m["focus"]}, records, compiled)
+        # move exported knowledge
+        for item in (export_root / "knowledge" / aid).iterdir():
+            shutil.move(str(item), str(stage_knowledge / aid / item.name))
+
+        # transactional publish under lock
+        lock_path = root / ".collection" / "advisor.lock"
+        lock_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(lock_path, "w") as lf:
+            fcntl.flock(lf, fcntl.LOCK_EX)
+            # backup roster
+            roster_bytes = roster_path.read_bytes() if roster_path.exists() else b""
+            # publish corpus
+            if dst_base.exists():
+                if update:
+                    # rename existing to backup
+                    backup = stage / "backup_corpus"
+                    if backup.exists():
+                        shutil.rmtree(backup)
+                    dst_base.rename(backup)
+                else:
+                    raise SystemExit("destination exists")
+            try:
+                shutil.move(str(stage_corpus / aid), str(dst_base))
+            except Exception:
+                # restore
+                if (stage / "backup_corpus").exists():
+                    (stage / "backup_corpus").rename(dst_base)
+                raise
+            # publish knowledge
+            if knowledge_dir.exists():
+                if update:
+                    backupk = stage / "backup_knowledge"
+                    if backupk.exists():
+                        shutil.rmtree(backupk)
+                    knowledge_dir.rename(backupk)
+                else:
+                    # remove newly created corpus? rollback
+                    if dst_base.exists() and not existing_entry:
+                        shutil.rmtree(dst_base)
+                    raise SystemExit("destination exists")
+            try:
+                shutil.move(str(stage_knowledge / aid), str(knowledge_dir))
+            except Exception:
+                if (stage / "backup_knowledge").exists():
+                    (stage / "backup_knowledge").rename(knowledge_dir)
+                raise
+            # roster last
+            dev = {"id": aid, "name": m["name"], "aliases": m["aliases"], "focus": m["focus"]}
+            if not existing_entry:
+                roster["developers"].append(dev)
+            else:
+                for i, d in enumerate(roster["developers"]):
+                    if d["id"] == aid:
+                        roster["developers"][i] = dev
+            write_json(roster_path, roster)
+            fcntl.flock(lf, fcntl.LOCK_UN)
+        m["status"] = "registered"
+        save_manifest(root, m)
+        print(json.dumps({"status": "registered", "consult": f"node app/cli.mjs consult BRIEF.json {aid}"}))
+    except SystemExit as e:
+        raise
+    except Exception as e:
+        print(json.dumps({"status": "error", "errors": [str(e)]}))
+        raise SystemExit(1)
+    finally:
+        shutil.rmtree(stage, ignore_errors=True)
 
 def cmd_update(args):
     root = root_from_args(args)
