@@ -141,12 +141,13 @@ export function searchEvidence(id, query, opts = {}, root = ROOT) {
   const chosen = [];
   const counts = new Map();
   for (const { e, score } of ranked) {
-    if (score <= 0 && chosen.length) continue;
+    if (score <= 0) continue;
     if ((counts.get(e.work) || 0) >= 2) continue;
     chosen.push({ ...e, score });
     counts.set(e.work, (counts.get(e.work) || 0) + 1);
     if (chosen.length >= limit) break;
   }
+  const no_match = chosen.length === 0;
   const result = {
     advisor: a.id,
     query: query || "",
@@ -155,6 +156,7 @@ export function searchEvidence(id, query, opts = {}, root = ROOT) {
     limitations: a.compiled.gaps,
     source_hash_checked: true,
     network: false,
+    no_match,
   };
   return result;
 }
@@ -163,50 +165,71 @@ export function packet(id, brief, root = ROOT) {
   const a = advisor(id, root);
   const briefText = JSON.stringify(brief || {});
   const query = briefText;
+  const BUDGET_CHARS = 12000;
 
-  // BM25 rank evidence passages.
-  const docs = a.evidence.map((e) => tokenize(e.claim + " " + e.context + " " + e.quote));
-  const scores = bm25(docs, query);
-  const ranked = a.evidence
-    .map((e, i) => ({ e, score: scores[i] }))
-    .sort((x, y) => y.score - x.score || x.e.id.localeCompare(y.e.id));
-  const chosen = [];
-  const counts = new Map();
-  for (const { e } of ranked) {
-    if ((counts.get(e.work) || 0) >= 2) continue;
-    chosen.push(e);
-    counts.set(e.work, (counts.get(e.work) || 0) + 1);
-    if (chosen.length >= 12) break;
+  // Rank compiled nodes by question and section.
+  const sections = a.compiled.sections || [];
+  const nodeDocs = [];
+  const nodeList = [];
+  for (const s of sections) {
+    for (const it of s.items) {
+      nodeList.push({ section: s.name, item: it });
+      nodeDocs.push(tokenize(it.text));
+    }
   }
-  // ensure at least some evidence if all scores zero
-  if (!chosen.length && a.evidence.length) {
-    chosen.push(a.evidence[0]);
+  const nodeScores = bm25(nodeDocs, query);
+  const rankedNodes = nodeList.map((n, i) => ({ ...n, score: nodeScores[i] }))
+    .sort((x, y) => y.score - x.score);
+
+  // Select nodes until char budget, ensuring _hot and voice included.
+  const selectedNodes = [];
+  let chars = 0;
+  const includeSection = (name) => {
+    for (const n of rankedNodes) {
+      if (n.section !== name) continue;
+      if (selectedNodes.includes(n)) continue;
+      const c = n.item.text.length;
+      if (chars + c > BUDGET_CHARS) continue;
+      selectedNodes.push(n);
+      chars += c;
+    }
+  };
+  includeSection("_hot");
+  includeSection("voice");
+  for (const n of rankedNodes) {
+    if (selectedNodes.includes(n)) continue;
+    const c = n.item.text.length;
+    if (chars + c > BUDGET_CHARS) continue;
+    selectedNodes.push(n);
+    chars += c;
   }
+
+  // Collect supporting evidence ids from selected nodes (full ids retained).
+  const neededIds = new Set();
+  for (const n of selectedNodes) for (const eid of (n.item.evidence_ids || [])) neededIds.add(eid);
+  // Bring passages into packet: all evidence referenced by selected nodes.
+  const chosen = a.evidence.filter((e) => neededIds.has(e.id));
   const chosenIds = new Set(chosen.map((e) => e.id));
 
-  // Select compiled knowledge items by section relevance, filtering evidence_ids to chosen.
-  const compiledSections = (a.compiled.sections || []).map((s) => {
-    const itemDocs = s.items.map((i) => tokenize(i.text));
-    const itemScores = bm25(itemDocs, query);
-    const items = s.items
-      .map((i, idx) => ({ i, score: itemScores[idx] }))
-      .sort((x, y) => y.score - x.score)
-      .slice(0, s.name === "voice" ? 7 : 6)
-      .map(({ i }) => {
-        const ids = (i.evidence_ids || []).filter((eid) => chosenIds.has(eid));
-        if (!ids.length) return null;
-        return { text: i.text, basis: i.basis, evidence_ids: ids };
-      })
-      .filter(Boolean);
-    return { name: s.name, items };
-  }).filter((s) => s.items.length);
+  // Build knowledge sections from selected nodes, keeping full evidence_ids if all present in chosen; else drop item with note.
+  const dropped = [];
+  const sectionMap = new Map();
+  for (const n of selectedNodes) {
+    const ids = n.item.evidence_ids || [];
+    const allPresent = ids.every((eid) => chosenIds.has(eid));
+    if (!allPresent) { dropped.push(n.item.text.slice(0, 60)); continue; }
+    if (!sectionMap.has(n.section)) sectionMap.set(n.section, []);
+    sectionMap.get(n.section).push({ text: n.item.text, basis: n.item.basis, evidence_ids: [...ids] });
+  }
 
-  const voice = compiledSections.find((s) => s.name === "voice") || { items: [] };
-  const working_context = {
-    works: a.works,
-    words: a.words,
-    sections: (a.compiled.sections || []).map((s) => s.name),
-  };
+  const compiledSections = [...sectionMap.entries()].map(([name, items]) => ({ name, items }));
+
+  const voiceItems = sectionMap.get("voice") || [];
+  const hotItems = sectionMap.get("_hot") || [];
+
+  const working_context = hotItems.length ? hotItems : (sectionMap.get("_hot") || []);
+
+  const omittedSections = sections.map((s) => s.name).filter((name) => !sectionMap.has(name));
 
   const result = {
     id: a.id,
@@ -215,10 +238,11 @@ export function packet(id, brief, root = ROOT) {
     coverage: { works: a.works, words: a.words },
     gaps: a.compiled.gaps,
     working_context,
-    voice_guidance: voice.items,
-    knowledge: compiledSections.filter((s) => s.name !== "voice"),
+    voice_guidance: voiceItems,
+    knowledge: compiledSections.filter((s) => s.name !== "_hot" && s.name !== "voice"),
     evidence: chosen,
-    limits: a.compiled.gaps,
+    limits: [...a.compiled.gaps, ...(dropped.length ? ["Dropped claims lacking full support: " + dropped.length] : []), ...(omittedSections.length ? ["Omitted sections due to budget: " + omittedSections.join(", ")] : [])],
+    omitted_sections: omittedSections,
   };
   result.fingerprint = hash(JSON.stringify(result));
   return result;

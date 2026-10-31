@@ -1,26 +1,26 @@
-// Retrieval helpers shared by knowledge packeting and evidence search.
 export function tokenize(text) {
-  const s = String(text || "").toLowerCase();
+  const raw = String(text || "");
   const words = [];
-  // technical identifiers: split camelCase and keep original
-  for (const chunk of s.match(/[a-z0-9][a-z0-9_\-./]*/g) || []) {
+  // Preserve camelCase before lowercasing.
+  const camelSplit = raw.replace(/([a-z0-9])([A-Z])/g, "$1 $2");
+  const lower = camelSplit.toLowerCase();
+  // technical identifiers
+  for (const chunk of lower.match(/[a-z0-9][a-z0-9_\-+#./]*/g) || []) {
     words.push(chunk);
-    for (const part of chunk.split(/[^a-z0-9]+/)) {
+    for (const part of chunk.split(/[^a-z0-9+#]+/)) {
       if (part) words.push(part);
     }
-    // camelCase split
-    for (const part of chunk.replace(/([a-z])([A-Z])/g, "$1 $2").split(/\s+/)) {
-      if (part && part !== chunk) words.push(part.toLowerCase());
-    }
   }
-  // multiword concepts as bigrams
+  // multiword concepts as bigrams from base tokens
   const base = words.filter((w) => w.length >= 2);
   const bigrams = [];
   for (let i = 0; i < base.length - 1; i++) bigrams.push(base[i] + " " + base[i + 1]);
-  return [...new Set([...base, ...bigrams])];
+  return [...base, ...bigrams];
+  // note: dedup happens in bm25 doc handling? We keep frequencies, so return all tokens including duplicates via array.
 }
 
 export function bm25(docs, query, { k1 = 1.5, b = 0.75 } = {}) {
+  // docs: array of token arrays (with duplicates for tf)
   const qTokens = tokenize(query);
   const N = docs.length;
   if (!N) return docs.map(() => 0);
