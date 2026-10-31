@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { tokenize, bm25 } from "./retrieval.mjs";
 export const ROOT = path.resolve(import.meta.dirname, "../..");
 export const normalize = (s) =>
   s
@@ -129,54 +130,95 @@ export function metadata(root = ROOT) {
     };
   });
 }
-export function packet(id, brief, root = ROOT) {
-  const a = advisor(id, root),
-    tokens = new Set(
-      (
-        JSON.stringify(brief)
-          .toLowerCase()
-          .match(/[a-z]{4,}/g) || []
-      ).filter(
-        (t) =>
-          ![
-            "with",
-            "this",
-            "that",
-            "from",
-            "have",
-            "should",
-            "would",
-            "language",
-          ].includes(t),
-      ),
-    );
-  const score = (text) =>
-    [...tokens].reduce(
-      (n, t) => n + (text.toLowerCase().includes(t) ? 1 : 0),
-      0,
-    );
-  // Inferred compilations are navigation aids only. Advisor claims must use located first-hand passages.
+export function searchEvidence(id, query, opts = {}, root = ROOT) {
+  const a = advisor(id, root);
+  const limit = Math.max(1, Math.min(opts.limit || 8, 40));
+  const docs = a.evidence.map((e) => tokenize(e.claim + " " + e.context + " " + e.quote));
+  const scores = bm25(docs, query || "");
   const ranked = a.evidence
-    .map((e) => ({
-      e,
-      score: score(e.claim + " " + e.context + " " + e.quote),
-    }))
-    .sort((x, y) => y.score - x.score);
-  const chosen = [],
-    counts = new Map();
+    .map((e, i) => ({ e, score: scores[i] }))
+    .sort((x, y) => y.score - x.score || x.e.id.localeCompare(y.e.id));
+  const chosen = [];
+  const counts = new Map();
+  for (const { e, score } of ranked) {
+    if (score <= 0 && chosen.length) continue;
+    if ((counts.get(e.work) || 0) >= 2) continue;
+    chosen.push({ ...e, score });
+    counts.set(e.work, (counts.get(e.work) || 0) + 1);
+    if (chosen.length >= limit) break;
+  }
+  const result = {
+    advisor: a.id,
+    query: query || "",
+    results: chosen,
+    coverage: { works: a.works, words: a.words, evidence_count: a.evidence.length },
+    limitations: a.compiled.gaps,
+    source_hash_checked: true,
+    network: false,
+  };
+  return result;
+}
+
+export function packet(id, brief, root = ROOT) {
+  const a = advisor(id, root);
+  const briefText = JSON.stringify(brief || {});
+  const query = briefText;
+
+  // BM25 rank evidence passages.
+  const docs = a.evidence.map((e) => tokenize(e.claim + " " + e.context + " " + e.quote));
+  const scores = bm25(docs, query);
+  const ranked = a.evidence
+    .map((e, i) => ({ e, score: scores[i] }))
+    .sort((x, y) => y.score - x.score || x.e.id.localeCompare(y.e.id));
+  const chosen = [];
+  const counts = new Map();
   for (const { e } of ranked) {
     if ((counts.get(e.work) || 0) >= 2) continue;
     chosen.push(e);
     counts.set(e.work, (counts.get(e.work) || 0) + 1);
-    if (chosen.length === 16) break;
+    if (chosen.length >= 12) break;
   }
+  // ensure at least some evidence if all scores zero
+  if (!chosen.length && a.evidence.length) {
+    chosen.push(a.evidence[0]);
+  }
+  const chosenIds = new Set(chosen.map((e) => e.id));
+
+  // Select compiled knowledge items by section relevance, filtering evidence_ids to chosen.
+  const compiledSections = (a.compiled.sections || []).map((s) => {
+    const itemDocs = s.items.map((i) => tokenize(i.text));
+    const itemScores = bm25(itemDocs, query);
+    const items = s.items
+      .map((i, idx) => ({ i, score: itemScores[idx] }))
+      .sort((x, y) => y.score - x.score)
+      .slice(0, s.name === "voice" ? 7 : 6)
+      .map(({ i }) => {
+        const ids = (i.evidence_ids || []).filter((eid) => chosenIds.has(eid));
+        if (!ids.length) return null;
+        return { text: i.text, basis: i.basis, evidence_ids: ids };
+      })
+      .filter(Boolean);
+    return { name: s.name, items };
+  }).filter((s) => s.items.length);
+
+  const voice = compiledSections.find((s) => s.name === "voice") || { items: [] };
+  const working_context = {
+    works: a.works,
+    words: a.words,
+    sections: (a.compiled.sections || []).map((s) => s.name),
+  };
+
   const result = {
     id: a.id,
     name: a.name,
     focus: a.focus,
     coverage: { works: a.works, words: a.words },
     gaps: a.compiled.gaps,
+    working_context,
+    voice_guidance: voice.items,
+    knowledge: compiledSections.filter((s) => s.name !== "voice"),
     evidence: chosen,
+    limits: a.compiled.gaps,
   };
   result.fingerprint = hash(JSON.stringify(result));
   return result;
