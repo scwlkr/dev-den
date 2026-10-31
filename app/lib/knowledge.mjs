@@ -130,6 +130,13 @@ export function metadata(root = ROOT) {
     };
   });
 }
+export function corpusFingerprint(id, root = ROOT) {
+  const base = path.join(root, ".collection/pilot", id);
+  const compiled = JSON.parse(fs.readFileSync(path.join(base, "compiled.json"), "utf8"));
+  if (compiled.source_fingerprint) return compiled.source_fingerprint;
+  return hash(JSON.stringify(compiled));
+}
+
 export function searchEvidence(id, query, opts = {}, root = ROOT) {
   const a = advisor(id, root);
   const limit = Math.max(1, Math.min(opts.limit || 8, 40));
@@ -166,6 +173,7 @@ export function packet(id, brief, root = ROOT, options = {}) {
   const briefText = JSON.stringify(brief || {});
   const query = briefText;
   const BUDGET_CHARS = options.budget || 56000;
+  if (typeof BUDGET_CHARS !== "number" || !Number.isFinite(BUDGET_CHARS) || BUDGET_CHARS < 1000) throw Error("Invalid budget");
 
   // Rank compiled nodes by question and section.
   const sections = a.compiled.sections || [];
@@ -183,78 +191,61 @@ export function packet(id, brief, root = ROOT, options = {}) {
 
   // Select nodes until char budget, ensuring _hot and voice included.
   const selectedNodes = [];
-  let chars = 0;
-  const includeSection = (name) => {
-    for (const n of rankedNodes) {
-      if (n.section !== name) continue;
-      if (selectedNodes.includes(n)) continue;
-      const supportCost = (n.item.evidence_ids || []).reduce((acc, eid) => {
-        const ev = a.evidence.find((e) => e.id === eid);
-        return acc + (ev ? ev.quote.length + ev.claim.length + 200 : 0);
-      }, 0);
-      const c = n.item.text.length + supportCost;
-      if (chars + c > BUDGET_CHARS) continue;
-      selectedNodes.push(n);
-      chars += c;
+  const buildResult = (nodes) => {
+    const neededIds = new Set();
+    for (const n of nodes) for (const eid of (n.item.evidence_ids || [])) neededIds.add(eid);
+    const chosen = a.evidence.filter((e) => neededIds.has(e.id));
+    const chosenIds = new Set(chosen.map((e) => e.id));
+    const sectionMap = new Map();
+    for (const n of nodes) {
+      const ids = n.item.evidence_ids || [];
+      if (!ids.every((eid) => chosenIds.has(eid))) continue;
+      if (!sectionMap.has(n.section)) sectionMap.set(n.section, []);
+      sectionMap.get(n.section).push({ text: n.item.text, basis: n.item.basis, evidence_ids: [...ids] });
     }
+    return {
+      id: a.id, name: a.name, focus: a.focus,
+      coverage: { works: a.works, words: a.words },
+      gaps: a.compiled.gaps,
+      working_context: sectionMap.get("_hot") || [],
+      voice_guidance: sectionMap.get("voice") || [],
+      knowledge: [...sectionMap.entries()].filter(([n])=>n!=="_hot"&&n!=="voice").map(([name,items])=>({name,items})),
+      evidence: chosen,
+      limits: a.compiled.gaps,
+      omitted_sections: [],
+      corpusFingerprint: corpusFingerprint(a.id, root),
+    };
   };
-  includeSection("_hot");
-  includeSection("voice");
+  const tryAdd = (n) => {
+    if (selectedNodes.includes(n)) return;
+    selectedNodes.push(n);
+    const r = buildResult(selectedNodes);
+    if (JSON.stringify(r).length <= BUDGET_CHARS - 256) return true;
+    selectedNodes.pop();
+    return false;
+  };
+  // Reserve: a few from each key section first
+  for (const sec of ["_hot","voice"]) {
+    let count=0;
+    for (const n of rankedNodes) {
+      if (n.section!==sec) continue;
+      if (count>=3) break;
+      if (tryAdd(n)) count++;
+    }
+  }
+  // then relevant nodes by score
   for (const n of rankedNodes) {
     if (selectedNodes.includes(n)) continue;
-    const sc = (n.item.evidence_ids || []).reduce((acc, eid) => {
-      const ev = a.evidence.find((e) => e.id === eid);
-      return acc + (ev ? ev.quote.length + ev.claim.length + 200 : 0);
-    }, 0);
-    const c = n.item.text.length + sc;
-    if (chars + c > BUDGET_CHARS) continue;
-    selectedNodes.push(n);
-    chars += c;
+    tryAdd(n);
   }
-
-  // Collect supporting evidence ids from selected nodes (full ids retained).
-  const neededIds = new Set();
-  for (const n of selectedNodes) for (const eid of (n.item.evidence_ids || [])) neededIds.add(eid);
-  // Bring passages into packet: all evidence referenced by selected nodes.
-  const chosen = a.evidence.filter((e) => neededIds.has(e.id));
-  const chosenIds = new Set(chosen.map((e) => e.id));
-
-  // Build knowledge sections from selected nodes, keeping full evidence_ids if all present in chosen; else drop item with note.
-  const dropped = [];
-  const sectionMap = new Map();
-  for (const n of selectedNodes) {
-    const ids = n.item.evidence_ids || [];
-    const allPresent = ids.every((eid) => chosenIds.has(eid));
-    if (!allPresent) { dropped.push(n.item.text.slice(0, 60)); continue; }
-    if (!sectionMap.has(n.section)) sectionMap.set(n.section, []);
-    sectionMap.get(n.section).push({ text: n.item.text, basis: n.item.basis, evidence_ids: [...ids] });
-  }
-
-  const compiledSections = [...sectionMap.entries()].map(([name, items]) => ({ name, items }));
-
-  const voiceItems = sectionMap.get("voice") || [];
-  const hotItems = sectionMap.get("_hot") || [];
-
-  const working_context = hotItems.length ? hotItems : (sectionMap.get("_hot") || []);
-
-  const omittedSections = sections.map((s) => s.name).filter((name) => !sectionMap.has(name));
-
-  const result = {
-    id: a.id,
-    name: a.name,
-    focus: a.focus,
-    coverage: { works: a.works, words: a.words },
-    gaps: a.compiled.gaps,
-    working_context,
-    voice_guidance: voiceItems,
-    knowledge: compiledSections.filter((s) => s.name !== "_hot" && s.name !== "voice"),
-    evidence: chosen,
-    limits: [...a.compiled.gaps, ...(dropped.length ? ["Dropped claims lacking full support: " + dropped.length] : []), ...(omittedSections.length ? ["Omitted sections due to budget: " + omittedSections.join(", ")] : [])],
-    omitted_sections: omittedSections,
-  };
+  const result = buildResult(selectedNodes);
+  const omittedSections = sections.map((s) => s.name).filter((name) => !(result.knowledge.some(k=>k.name===name) || (result.working_context.length && name==="_hot") || (result.voice_guidance.length && name==="voice")));
+  result.omitted_sections = omittedSections;
+  result.limits = [...a.compiled.gaps, ...(omittedSections.length ? ["Omitted sections: " + omittedSections.join(", ")] : [])];
   result.fingerprint = hash(JSON.stringify(result));
   return result;
 }
+
 export function recommend(brief, root = ROOT, mode = "normal") {
   const rosterList = roster(root);
   const q = JSON.stringify(brief || {}).toLowerCase();
