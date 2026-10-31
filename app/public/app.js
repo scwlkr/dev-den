@@ -408,6 +408,7 @@ form.onsubmit = async (e) => {
         contextFiles: files,
       },
       board,
+      reviewMode: document.getElementById("review-mode").value,
     });
     await refreshArchive();
     await open(s.id);

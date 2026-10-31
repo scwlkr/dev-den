@@ -121,6 +121,15 @@
             Try the to-do app question ↗
           </button>
           <form id="brief-form">
+            <label>Review mode
+              <select id="review-mode" name="reviewMode">
+                <option value="normal">Normal (5-7 advisors)</option>
+                <option value="quick">Quick (4 advisors)</option>
+                <option value="consult">Consult (1 advisor)</option>
+                <option value="selected">Selected (1-9 advisors)</option>
+                <option value="all">All (rejects roster over 9)</option>
+              </select>
+            </label>
             <label
               >The decision<textarea
                 name="question"
