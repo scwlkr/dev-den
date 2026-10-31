@@ -191,13 +191,23 @@ def cmd_extraction_submit(args):
     # generate canonical evidence ids already from verify_evidence
     existing.setdefault("parts_done", []).append(part)
     existing.setdefault("evidence", []).extend(valid)
+    existing.setdefault("extractions", []).append({"part": part, "chunk_index": part-1})
     existing["total_chunks"] = total
+    existing["source_id"] = sid
     existing["developer"] = aid
+    existing["url"] = src["url"]
+    existing["candidate"] = src.get("candidate", {"url": src["url"]})
     existing["metadata"] = src.get("metadata", {})
     existing["text_sha256"] = src["text_sha256"]
     existing["words"] = len(normalize(text).split())
     existing["work_key"] = src.get("work_key") or src["url"]
+    existing["rejected_evidence"] = existing.get("rejected_evidence", [])
+    existing["extractions"] = existing.get("extractions", [])
+    existing["issues"] = existing.get("issues", [])
     existing["status"] = "accepted" if len(set(existing["parts_done"])) == existing["total_chunks"] else "extracting"
+    # chunk tracking
+    for ev in existing.get("evidence", []):
+        ev["chunk_index"] = part - 1
     write_json(ext_path, existing)
     # canonical evidence.json for Node loader / Python audit
     write_json(folder / "evidence.json", existing)
