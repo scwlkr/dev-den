@@ -71,10 +71,10 @@ export function validateBoard(board, packets, mode = "normal") {
 }
 const str = { type: "string" },
   arr = { type: "array", items: str };
-const obj = (properties) => ({
+const obj = (properties, required = Object.keys(properties)) => ({
   type: "object",
   properties,
-  required: Object.keys(properties),
+  required,
   additionalProperties: false,
 });
 export function schema(stage, options, board) {
@@ -113,7 +113,15 @@ export function schema(stage, options, board) {
         enum: ["not_applicable", "accept", "amend", "dissent"],
       },
       amendment: str,
-    });
+      risk_option: { type: "string" },
+      resolution_support: { type: "number", minimum: 0, maximum: 10 },
+      mitigation: { type: "string" },
+      mitigation_for_option: { type: "string" },
+      mitigation_endorsed: { type: "boolean" },
+    }, [
+      "recommendation","argument","scores","confidence","risk","concern","change_mind","next_action","evidence_ids",
+      "challenge","concession","vote","amendment"
+    ]);
   if (stage === "cruxes")
     return obj({
       summary: str,
@@ -258,6 +266,13 @@ export function validateCard(s, step, card) {
           : false;
   if (narratives.some(([, v]) => hasQuotes(v)))
     throw Error("Use paraphrased reasoning; quotations belong in evidence");
+  const options = s.brief.options;
+  if (card.risk_option && card.risk_option !== "none" && !options.includes(card.risk_option))
+    throw Error("risk_option must be a brief option or none");
+  if (card.mitigation_for_option && !options.includes(card.mitigation_for_option))
+    throw Error("mitigation_for_option must be a brief option");
+  if (card.mitigation_endorsed && (!card.mitigation || !card.mitigation.trim()))
+    throw Error("Endorsed mitigation requires a named mitigation");
   if (card.scores) {
     if (
       card.scores.length !== s.brief.options.length ||
@@ -295,6 +310,8 @@ export function validateCard(s, step, card) {
       throw Error("Explain the requested amendment or dissent");
   }
   if (step.stage === "cruxes") {
+    if (!Array.isArray(card.cruxes) || !card.cruxes.length)
+      throw Error("Cruxes must evaluate the strongest alternative");
     const recommendations = s.board.map(
       (seat) => s.cards["opening:" + seat.id].recommendation,
     );
@@ -334,8 +351,9 @@ export function finalScoringStage(s) {
 export function decisionMetrics(s) {
   const stage = finalScoringStage(s);
   const scores = weightedScores(s, stage);
-  const top = [...scores].sort((a, b) => (b.score || 0) - (a.score || 0))[0];
-  const topOption = top?.option;
+  const verdictRec = s.cards?.verdict?.recommendation;
+  const draftRec = s.cards?.draft?.recommendation;
+  const topOption = verdictRec || draftRec || [...scores].sort((a,b)=>(b.score||0)-(a.score||0))[0]?.option;
   const advisorScores = s.board.map((seat) => {
     const c = s.cards[stage + ":" + seat.id];
     return c?.scores?.find((x) => x.option === topOption)?.score ?? 0;
@@ -347,13 +365,6 @@ export function decisionMetrics(s) {
   if (spread >= 5) confidence -= 1;
   confidence = Math.max(1, Math.min(10, confidence));
   const resolutionCards = s.board.map((seat) => s.cards["ratification:" + seat.id]).filter(Boolean);
-  const resolutionSupport = resolutionCards.length
-    ? Math.round(
-        (resolutionCards.reduce((n, c) => n + (c.resolution_support || 0) * (s.board.find((x) => x.id === c?._id)?.weight || 1), 0) /
-          resolutionCards.reduce((n, c) => n + (s.board.find((x) => x.id === (c?._advisor))?.weight || 1), 0)) * 10,
-      ) / 10
-    : null;
-  // simpler weighted using seat weight
   let num = 0, den = 0;
   for (const seat of s.board) {
     const c = s.cards["ratification:" + seat.id];
