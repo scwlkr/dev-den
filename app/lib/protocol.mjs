@@ -179,16 +179,42 @@ function shape(x, s, where = "card") {
   )
     throw Error(where + ": invalid number");
 }
+export function reviewMode(s) {
+  if (s.reviewMode && ["consult","quick","selected","all","normal"].includes(s.reviewMode)) return s.reviewMode;
+  if (s.mode && ["consult","quick","selected","all","normal"].includes(s.mode)) return s.mode;
+  return "normal";
+}
+export function needsRatification(s) {
+  const scores = weightedScores(s, "opening").map((x) => x.score).filter((x) => x !== null);
+  if (scores.length < 2) return true;
+  const sorted = [...scores].sort((a,b)=>b-a);
+  const spread = sorted[0]-sorted[1];
+  const likelyRisk = Object.values(s.cards||{}).some((c)=>c.risk==="likely");
+  return !(spread <= 3 && !likelyRisk);
+}
 export function steps(session) {
-  return STAGES.flatMap((stage) =>
-    ["opening", "debate", "ratification"].includes(stage)
-      ? session.board.map((s) => ({
-          key: stage + ":" + s.id,
-          stage,
-          advisor: s.id,
-        }))
-      : [{ key: stage, stage, advisor: "chair" }],
-  );
+  const mode = reviewMode(session);
+  const advisorSteps = (stage) =>
+    session.board.map((s) => ({ key: stage + ":" + s.id, stage, advisor: s.id }));
+  if (mode === "consult") {
+    return [
+      ...advisorSteps("opening"),
+      { key: "verdict", stage: "verdict", advisor: "chair" },
+    ];
+  }
+  const out = [
+    ...advisorSteps("opening"),
+    { key: "cruxes", stage: "cruxes", advisor: "chair" },
+    ...advisorSteps("debate"),
+    { key: "draft", stage: "draft", advisor: "chair" },
+  ];
+  // quick skips ratification when top spread <=3 and no likely risk
+  const skipRat =
+    mode === "quick" &&
+    !needsRatification(session);
+  if (!skipRat) out.push(...advisorSteps("ratification"));
+  out.push({ key: "verdict", stage: "verdict", advisor: "chair" });
+  return out;
 }
 export function nextStep(s) {
   return steps(s).find((step) => !s.cards[step.key]);

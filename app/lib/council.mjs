@@ -57,7 +57,8 @@ export class Council {
       this.store.mutate(id, (s) => {
         s.status = "running";
         s.pause_requested = false;
-        s.mode = config.kind + ":" + config.model;
+        s.provider = config.kind + ":" + config.model;
+        s.reviewMode = s.reviewMode || "normal";
         s.error = null;
         this.store.event(s, "running", {
           message:

@@ -22,9 +22,15 @@ export class Store {
     return path.join(this.dir, id);
   }
   read(id) {
-    return JSON.parse(
+    const s = JSON.parse(
       fs.readFileSync(path.join(this.folder(id), "session.json"), "utf8"),
     );
+    if (!s.reviewMode) s.reviewMode = "normal";
+    if (s.provider === undefined && typeof s.mode === "string" && s.mode.includes(":")) {
+      s.provider = s.mode;
+      s.reviewMode = "normal";
+    }
+    return s;
   }
   list() {
     return fs
@@ -73,6 +79,7 @@ export class Store {
       board,
       packets,
       mode,
+      reviewMode: mode,
       status: "prepared",
       cards: {},
       events: [],

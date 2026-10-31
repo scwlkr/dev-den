@@ -40,6 +40,7 @@ try {
       const s = store.create(
         brief,
         args[1] && args[1] !== "auto" ? json(args[1]) : undefined,
+        "normal",
       );
       result = {
         id: s.id,
@@ -69,6 +70,18 @@ try {
       const all = metadata().map((a) => ({ id: a.id, weight: 1, reason: "Included in all-advisors review." }));
       const s = store.create(brief, all, "all");
       result = { id: s.id, mode: "all", board: s.board, room: "http://127.0.0.1:4731/#" + s.id, next: nextStep(s) };
+      break;
+    }
+    case "board": {
+      const prefPath = path.join(ROOT, ".den", "board.json");
+      fs.mkdirSync(path.dirname(prefPath), { recursive: true });
+      let prefs = { board: "ask", default: ["dhh", "tobi", "primeagen", "carmack", "linus"] };
+      if (fs.existsSync(prefPath)) prefs = JSON.parse(fs.readFileSync(prefPath, "utf8"));
+      if (args[0] === "set" && args[1]) {
+        prefs = JSON.parse(args[1]);
+        fs.writeFileSync(prefPath, JSON.stringify(prefs, null, 2));
+      }
+      result = prefs;
       break;
     }
     case "list":
