@@ -1,0 +1,9 @@
+{
+  "question": "Which language should I use for a small personal to-do web app?",
+  "options": ["TypeScript", "Python", "Rust"],
+  "context": "A hypothetical demonstration, not a decision for an existing project. One developer building a browser interface with local storage. The developer knows basic web development; no existing language-specific codebase is assumed.",
+  "constraints": "One developer, personal use, browser interface, local storage, quick iteration. No accounts, server infrastructure or collaborative sync required for the first version.",
+  "success": "Build a usable add/edit/complete/filter workflow within a weekend and keep it easy to change.",
+  "lean": "No predetermined winner.",
+  "assumptions": ["This demonstration measures fit to the stated brief, not general language superiority."]
+}

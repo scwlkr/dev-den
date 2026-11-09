@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.collection/
+__pycache__/
+*.pyc
+.den/
+sessions/
+output/
+node_modules/
+
+.playwright-cli/

@@ -1,0 +1,62 @@
+{
+  "model": "gpt-6.1-terra",
+  "budget_usd": 25,
+  "target_sources": 30,
+  "max_candidates": 65,
+  "discovery_tool_calls": 3,
+  "pricing": {
+    "input_per_million": 1,
+    "output_per_million": 5,
+    "web_search_per_call": 0.01
+  },
+  "developers": [
+    {
+      "id": "dhh",
+      "name": "David Heinemeier Hansson (DHH)",
+      "seeds": [
+        "https://dhh.dk/",
+        "https://world.hey.com/dhh/"
+      ],
+      "focus": "Software architecture, Rails, simplicity, monoliths, databases, operations, developer productivity, teams and software product trade-offs.",
+      "aliases": [
+        "David Heinemeier Hansson",
+        "DHH",
+        "David Heinemeier Hansson (DHH)"
+      ]
+    },
+    {
+      "id": "ritchie",
+      "name": "Dennis M. Ritchie",
+      "seeds": [
+        "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/",
+        "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
+        "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cacm.html"
+      ],
+      "focus": "C, Unix, programming language design, portability, interfaces, implementation, operating systems, software history and design trade-offs. Distinguish sole authorship from coauthored papers and other authors' works. Original Nokia archive links often need their current Nokia URLs rather than obsolete Bell Labs hosts.",
+      "aliases": [
+        "Dennis Ritchie",
+        "Dennis M. Ritchie",
+        "D. M. Ritchie"
+      ]
+    },
+    {
+      "id": "primeagen",
+      "name": "ThePrimeagen (Michael Paulson)",
+      "seeds": [
+        "https://github.com/ThePrimeagen/ThePrimeagen",
+        "https://lexfridman.com/theprimeagen-transcript/",
+        "https://theprimeagen.github.io/fem-git/",
+        "https://theprimeagen.github.io/rust-for-typescript-devs/"
+      ],
+      "focus": "Programming languages, developer tools, performance, learning, software architecture, AI coding tools and engineering practice. Distinguish his speech from interviewers and authors whose material he reads or reacts to. Authored course notes are eligible; Boot.dev team contributions must remain identified. Preserve source license metadata (course notes may be CC-BY-NC-4.0).",
+      "aliases": [
+        "ThePrimeagen",
+        "The Primeagen",
+        "Michael Paulson",
+        "Mike Paulson",
+        "ThePrimeagen (Michael Paulson)",
+        "Michael Paulson (ThePrimeagen)"
+      ]
+    }
+  ]
+}
